@@ -1,0 +1,47 @@
+\begin{thebibliography}{1}
+
+\bibitem{ImagesGoogleGlassUI}
+Google (2013).
+\newblock \textit{Google Glass How-to: Getting Started} [online video].
+\newblock \url{http://youtu.be/4EvNxWhskf8} [2015-02-07].
+
+\bibitem{tedtalkWhyGlass}
+Sergey~Brin (2013).
+\newblock \textit{Why Google Glass?} {L}ong {B}each, {U}nited {S}tates of
+  {A}merica.
+\newblock \url{http://www.ted.com/talks/sergey_brin_why_google_glass}
+  [2015-02-02].
+
+\bibitem{frameProviders}
+Google (2014).
+\newblock \textit{Find a Preferred Provider}.
+\newblock \url{http://www.google.com/glass/help/frames/providers/}
+  [2015-02-02].
+
+\bibitem{framesGlass}
+Google (2014).
+\newblock \textit{Frames}.
+\newblock \url{http://www.google.com/glass/help/frames/} [2015-02-02].
+
+\bibitem{glassDesignPrinciples}
+Google (2015).
+\newblock \textit{Principles}.
+\newblock \url{https://developers.google.com/glass/design/principles}
+  [2015-02-02].
+
+\bibitem{ImagesOculusRift}
+Oculus (2015).
+\newblock \textit{Low Latency 360$\,^{\circ}$ Head Tracking}.
+\newblock \url{https://www.oculus.com/rift/} [2015-02-09].
+
+\bibitem{laramee02}
+Colin~Ware Robert S~Laramee.
+\newblock Rivalry and interference with a head-mounted display.
+\newblock {\em ACM Trans. Comput.-Hum. Interact.}, 9(3):238--251, sep 2002.
+
+\bibitem{6504855}
+Thad Starner.
+\newblock Project glass: An extension of the self.
+\newblock {\em Pervasive Computing, IEEE}, 12(2):14--16, 2013.
+
+\end{thebibliography}

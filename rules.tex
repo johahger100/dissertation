@@ -1,0 +1,297 @@
+%% Sample dissertation using the hks_report LaTeX class
+%%
+%% 950203  Michael Kelsey -- LaTeX2e format (cit_thesis)
+%% 990210  Anna Brunstrom -- Modified to KAU requirements
+
+\documentclass[12pt,twoside]{kau_report}
+
+%\usepackage{swedish}
+
+% Define the parameters in the preamble
+
+\title{Style Guidelines for Bachelor's Project Reports}
+
+\pubnum{1999:01}
+
+\author{Anna Brunstrom}
+
+\date{Januari 13, 1999}
+
+\advisor{NN}
+\examiner{NN}
+
+% The actual document starts here
+\begin{document}
+
+\makekautitle
+%\makeswekautitle
+
+\copyrightpage
+%\swecopyrightpage
+
+\begin{frontmatter}
+
+\approved
+%\approvedtwo{}{}
+%\approvedthree{}{}{}
+%\sweapproved
+%\sweapprovedtwo{}{}
+%\sweapprovedthree{}{}{}
+
+\begin{abstract}
+This document describes the formatting rules for Bachelor's project
+reports as
+specified by the Department of Computer Science at Karlstad University.
+The required outline of the document as well as specific
+formatting requirements such as page numbering and page layout are
+described. A section with specific requirements for documents written
+in Swedish is included. For documents produced in LaTeX a special
+class file, called {\tt kau\_report.cls} is provided by the
+department. Some information on how to use this class file is also
+given in the document.
+\end{abstract}
+
+%\begin{acknowledgements}
+%Lots of wonderful people helped me to produce this.  If I tried to thank
+%them all, I'd be here forever, so I won't thank any of them.
+%\end{acknowledgements}
+
+  \tableofcontents
+
+  \listoffigures
+
+  \listoftables
+\end{frontmatter}
+
+
+\section{Introduction}
+This document gives the style guidelines for Bachelor's project
+reports written at the Department of Computer Science, Karlstad
+University. It has been produced using the {\tt kau\_report} LaTeX
+class file. Hence, this document, in addition to listing the style
+guidelines, also work as a sample report with respect to the
+formatting guidelines it describes\footnote{The content and 
+length of the document are of course not representative of a report.}.
+If you use formatting files for LaTeX or Microsoft Word provided by
+the Department of Computer Science most of the formatting required
+will be handled automatically. It is strongly recommended that you use
+one of the provided formatting files.
+If you choose to use a different word processor you are still required
+to follow the described guidelines. Any deviations from the guidelines must
+be approved by the course examiner. 
+
+The reminder of the document is organized as follows. Section 2
+describes the general layout required for the report. Some parts of
+the report are described in more detail in section 3. Section 4
+provides additional information required for
+reports written in Swedish. Finally, section 5 provides some
+information on how to use the {\tt kau\_report.cls} class file.
+
+\section{General Layout}
+This section provides information on the general layout of the report,
+such as organization, page numbering etc. Again, this document serves
+as an example of the required layout.
+
+The outline of the report should follow the order specified in Figure \ref{outline}.
+\begin{figure}[ht]
+\begin{center}
+\begin{minipage}{8cm}
+\hrule
+%\framebox[10cm][c]{
+\begin{enumerate}
+\item Title page
+\item Copyright page
+\item Approval page 
+\item Abstract 
+\item Acknowledgements (optional)
+\item Contents 
+\item List of Figures 
+\item List of Tables 
+\item Main Body 
+\item References 
+\item Appendices (optional)
+\end{enumerate}
+\hrule
+\end{minipage}
+\end{center}
+\caption{Report outline}
+\label{outline}
+\end{figure}
+As indicated in Figure \ref{outline}, some portions of the report are
+optional. The ``List of Figures'' and/or the ``List of Tables'' may
+also be omitted due to the lack of figures and/or tables in the main
+body. All other parts are always required. The parts preceeding the
+main body are called front matters. The table of contents
+should list all parts following the front matters. Parts in the front
+matters should not be included in the table of contents. If a list of
+abbreviations is provided it should be placed as an appendix.
+
+The report should be bound, with the cover in sulfur-yellow. The
+color is available at the printing works at the University as
+``svavelgul''. % (Colorit 72). 
+We recommend that you bind your report
+at the University. Two-sided printing
+should be used. However, the approval page, the abstract and the main body
+should start on the right hand side. All parts in the front matter
+should start on a new page.
+The first section of the main body should be Section 1. Any appendices
+that are part of the report should be 
+numbered alphabetically. 
+
+The pages of the front matters should be
+numbered using Roman numerals. (However, no page numbers are used on the title
+page or the copyright page.)
+The pages of the remaining parts, starting with the main body, should
+be numbered 
+using Arabic numerals. The page numbering should take
+blank pages into account. For instance the page number for the approval
+page is {\tt iii}. (The title page is not counted in the numbering.)
+The page numbering for the main body should start
+over with page one. Figures and tables should be numbered using the
+section number followed by a running number. For instance, the first
+figure in Section 2 is numbered 2.1.
+
+The fonts size for regular text should be 12 point. The line-spacing
+should be 1.5 with the exception of the Reference section which should
+be single-spaced. The text should be in block format with even right and
+left hand margins. This includes the abstract and the acknowledgements
+(when present). The page style for the report should be plain with the page
+number centered at the bottom of the page.
+
+\section{Further Details}
+The general layout of the report was described in the previous
+section. This section provides some further details on some of the
+required parts of the report.
+
+\subsection{Title page}
+The title page should conform to the format illustrated by the
+cover page of this document. The logo of the university should be
+centered at the top of the page and can be obtained from the
+department in postscript format if needed.  The report number is to be
+placed at the bottom of the page.
+Ask your adviser for the report number to use. There
+should be no page number on the title page.
+
+\subsection{Approval page}
+The approval page must be signed by the student, the
+advisor, and the examiner. By signing the approval page the student
+certifies that the work presented in the report has indeed been carried out
+by the student. Material obtained from other sources must be properly
+cited. The date on the approval page refers to the date when the
+student successfully defended his or her work.
+
+\subsection{References}
+References to the literature should be done using a numbered
+reference list, where the reference in the text appears as the number
+of the reference in square brackets. For instance, Lamport's seminal
+paper on causality is referenced as \cite{Lamport78}. References should
+be ordered alphabetically in the reference lists. Only material
+referenced in the text may appear in the reference list. The parts of
+an individual reference in the reference list should be listed in
+the following order: author, title, source, and date. The font and
+punctuation used should be consistent for all entries in the reference
+list. Examples on how to reference a book \cite{Silberschatz94} and
+journal articles \cite{Lamport78,Dijkstra83} can be found in the
+reference list of this document. 
+
+When you want to mention the author(s) of a reference in running
+text the convention is to list the names if there are one or two
+author(s), but to use the first author followed by ``et. al.'' if there are
+more than two authors. For instance, when we reference Silberschatz
+and Galvins book on operating systems \cite{Silberschatz94} we mention
+both authors. In contrast, we use the abbreviated form when we refer
+to the paper on termination detection by Dijkstra
+et. al. \cite{Dijkstra83}. 
+
+\section{Reports Written in Swedish}
+Documents written in Swedish should still use the guidelines described
+in sections 2 and 3 of this document. The only exception is that two
+abstracts are now required. The first one written in Swedish and the
+second one written in English. The two abstracts should be placed on
+separate pages, with the abstract written in Swedish positioned
+first. Only the first abstract needs to be on a
+right-hand page. 
+The mapping from the English terms described in the outline of the
+report to their Swedish counterparts is given in Table \ref{map}.
+A document written in Swedish must use the Swedish names in the
+document. 
+ 
+\begin{table}[htb]
+\vspace{5mm}
+\begin{center}
+\begin{tabular}{|clclc|}
+\hline
+& & & & \\
+& Abstract & & Sammanfattning & \\
+& Acknowledgements & & Tack & \\
+& Contents & & Inneh{\aa}ll & \\
+& List of Figures & & Figurer & \\
+& List of Tables & & Tabeller & \\
+& Appendix & & Bilaga & \\
+& References & & Referenser & \\
+& & & & \\
+\hline
+\end{tabular}
+\end{center}
+\caption{Language mapping}
+\label{map}
+\end{table}
+
+\section{The Kau\_report Class}
+{\tt Kau\_report.cls} is a LaTeX class file which formats a report
+according to the rules specified by the Department of Computer Science
+at Karlstad University. It extends the LaTeX article class file
+and borrows heavily from the {\tt
+cit\_thesis.cls} developed at Caltech. The class file sets up the
+layout of the report and provides a number of helpful macro 
+commands for defining structural elements of the 
+document such as the title page and the approval page. 
+To use the class file you should put
+\begin{center}
+\verb|\documentclass[12pt,twoside]{kau_report}|
+\end{center}
+at the beginning of your document. The options specify the fontsize and
+the use of twosided printing.
+The easiest way to create your report is to start with
+the file {\tt skeleton.tex} which has a LaTeX skeleton containing all
+the required commands. The {\tt skeleton.tex} file also contains
+comments describing the changes needed for reports that are written in
+Swedish. Be aware that if you switch between English and Swedish you
+must remove all auxiliary files created by LaTeX before
+recompiling. The {\tt kau\_report.cls} and {\tt 
+skeleton.tex} files are contained in the compressed tar archive {\tt
+kau\_report.tgz} along with additional useful files. A {\tt README} as
+well as the LaTeX source for this document is also included in the
+archive. The archive can be obtained from {\tt
+<http://www.cs.kau.se/cs/docs/kau\_report.tgz>}. A complete listing of the files
+contained in the archive can be found in appendix A.
+
+
+\begin{singlespace}
+\bibliography{rules}
+\bibliographystyle{plain}
+\end{singlespace}
+
+\appendix
+\section{LaTeX Files}
+This appendix describes all the files contained in the compressed tar
+archive {\tt kau\_report.tgz}. The archive is available at {\tt
+<http://www.cs.kau.se/cs/report.tgz>}.
+\begin{description}
+\item{\bf README} README file for the kau\_report distribution
+\item{\bf kau\_report.cls} The main class file to generate a report
+according to the style guidelines described in this document.
+\item {\bf skeleton.tex} A skeleton LaTeX file that contains all the
+commands necessary to generate a correctly formatted report.
+\item{\bf kau.eps} The University logo in postscript
+format. Used on the Swedish title page.
+\item{\bf kaueng.eps} The English version of the University logo in
+postscript format. Used on the English title page.
+\item{\bf setspace.sty} A style file to provide better line spacing.
+Used in the main class file.
+\item{\bf rules.tex} The LaTeX source for this document.
+\item{\bf rules.bib} The bibtex file for this document.
+\item{\bf rules.ps} This document.
+\end{description}
+
+\end{document}

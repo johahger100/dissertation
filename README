@@ -1,0 +1,54 @@
+		  LaTeX Style Files for KAU Report Format
+		  ---------------------------------------
+
+This directory contains the LaTeX class file file kau_report.cls, which
+formats your report according to the regulations of the Department of Computer
+Science at the University of Karlstad. It also includes some LaTeX Secondary style
+files which are loaded automatically by kau_report.cls.
+
+Users access this thesis format with the command
+
+		\documentclass[12pt,twoside]{kau_report}
+
+A number of useful macros are defined for use in this style.  
+The usual LaTeX macros  ``\author,'' ``\title,'' and ``\date'' work as
+defined in the LaTeX manual.  The argument to \date should be the date
+on which the candidate's final examination (defense) is scheduled.
+
+The publication number will be typeset in the center position at the bottom
+of the title page and is set with the ``\pubnum'' macro.
+
+The command ``\makekautitle'' will generate a title page formatted according
+to the Kau instructions, and including all of the information defined
+by the macros above.  The ``\makekautitle'' command should be used
+in place of the standard version, ``\maketitle''.
+
+The initial portion of the report, typically the approval page,
+abstract, and tables of contents, figures, and tables, are numbered in
+roman numerals, while the body of the thesis is numbered in arabic.  The
+{frontmatter} environment handles these page numbering conventions.  The
+author should place
+
+	\begin{frontmatter}
+	...(abstract, contents, etc.)
+	\end{frontmatter}
+
+immediately following the \makekautitle command.  The first entry in the
+{frontmatter} environment should generally be ``\approved.''  This
+command generates a spearate approval page. (For reports that have multiple
+authors variations of the ``\approved'' command are used.)
+
+The abstract is produced with the {abstract} environment, which generates
+an unnumbered chapter without entry in the table of contents.  The author
+should use
+
+	\begin{abstract}
+	...(body of abstract goes here)
+	\end{abstract}
+
+within the {frontmatter} environment.
+
+An acknowledgements page is produced in the same way as the abstract, with
+the {acknowledgements} environment.
+
+Please see the document skeleton.tex for examples of how to use these macros.

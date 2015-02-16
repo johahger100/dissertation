@@ -1,0 +1,132 @@
+%% Sample dissertation using the kau_report LaTeX class
+%%
+%% 950203  Michael Kelsey -- LaTeX2e format (cit_thesis)
+%% 990210  Anna Brunstrom -- Modified to KAU requirements
+%% 990420  Anna Brunstrom -- Copyright page added + some minor updates
+
+%\documentclass{kaumasters}
+\documentclass[12pt,twoside]{kau_report}
+
+\usepackage{hyperref}
+\usepackage{url}
+
+% If you write in Swedish, uncomment line below
+%\usepackage{swedish}
+
+% Define the parameters in the preamble
+
+\title{Your Title}
+
+\pubnum{2015:xx}
+
+\author{Johan H\"{a}ger}
+
+\date{Date of defense}
+
+\advisor{Donald F. Ross}
+\examiner{NN}
+
+% The actual document starts here
+\begin{document}
+
+
+% Create the title page. If you write in swedish use the second
+% line below instead.
+\makekautitle
+%\makeswekautitle
+
+%% Create the copyright page. If you write in swedish use the second
+% line below instead.
+\copyrightpage
+%\swecopyrightpage
+
+ %Start roman numbering
+\begin{frontmatter}
+
+% Create approval page. select the appropriate command depending
+% on how many authors you have. If you write in swedish use 
+% one of the sweapproved lines below instead.
+%\approved
+\approved
+%\approvedthree{Author One}{Author Two}{Author Three}
+%\sweapproved
+%\sweapprovedtwo{Author One}{Author Two}
+%\sweapprovedthree{Author One}{Author Two}{Author Three}
+
+% Create abstract 
+\begin{abstract}
+Put the text of your abstract here
+\end{abstract}
+
+% If you write in swedish you need a second abstract in 
+% English. Uncomment lines below for the second absract.
+%\renewcommand{\abstractname}{Your English Title}
+%\begin{abstract}
+%Put the text of your second abstract here
+%\end{abstract}
+
+
+% Create acknowledgements (optional part)
+% \begin{acknowledgements}
+% If you want acknowledgements they go here 
+% \end{acknowledgements}
+
+
+% Set up contents, list of figures and list of tables
+  \tableofcontents
+
+  \listoffigures
+
+  \listoftables
+
+\end{frontmatter}
+% End of roman numbering
+
+% Here comes the main body, it's your job to fill this in...
+\section{Introduction}
+\label{sec:introduction}
+\input{Introduction.tex}
+\clearpage
+
+\section{Background}
+\label{sec:background}
+\input{Background.tex}
+\clearpage
+
+\section{Design}
+\label{sec:design}
+\input{Design.tex}
+\clearpage
+
+\section{Implementation}
+\label{sec:implementation}
+\input{Implementation.tex}
+\clearpage
+
+\section{Result / Evaluation}
+\label{sec:resultevaluation}
+\input{ResultEvaluation.tex}
+\clearpage
+
+\section{Conclusion}
+\label{sec:conclusion}
+\input{Conclusion.tex}
+\clearpage
+
+\section{Abbrevations}
+\label{sec:abbreviations}
+\input{abbreviations.tex}
+\clearpage
+
+% Start of reference section. 
+\begin{singlespace}
+\bibliography{myBibliography}
+\bibliographystyle{plain}
+\end{singlespace}
+
+
+% Appendix if present goes here (optional part)
+%\appendix
+%\section{First appendix}
+
+\end{document}

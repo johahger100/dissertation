@@ -1,0 +1,14 @@
+o   Implementation - Present your project implemetion in general
+o   Information - Give details here (possibly several sub-sections)
+o   Summary - for this chapter
+
+% Mobile phone application
+% Uses Zxing - library for QR code scanning [Link to gihub repository missing!!!]
+% can display both text and images 
+% 
+% Google Glass Application
+% Uses BarcodeEye - library for QR Code Scanning (port of Zxing for Google Glass) [Link to github repository missing!!!]
+% Can display text, images still todo
+% Much easier to add slides on Google Glass compared to Mobile Phone Application. Probably because Cards is standard interface for Google Glass (might also be because simple API, check CardPresenter!!!)
+% Very difficult to add images since cards can't be changed after .getView() has been called
+% Need to call .notifyViewChanged() but does not work anyway (yet) seems to only start the activity over which calls the execute method again if no check has been put in place
