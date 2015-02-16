@@ -5,6 +5,18 @@ Google (2012).
 \newblock \textit{Project Glass: One day...} [{O}nline video].
 \newblock \url{http://youtu.be/9c6W4CCU9M4} [2015-02-16].
 
+\bibitem{GoogleGlassFrameResponse}
+{Olsson, Isabelle} (2012).
+\newblock \textit{Google Glass Frames}.
+\newblock \url{https://plus.google.com/110625673290805573805/posts/Nmc8LuwFw5M}
+  [2015-02-16].
+
+\bibitem{GoogleGlassAnnouncement}
+{Parviz, Babak}. {Lee, Steve}.~{Thrun, Sebastian}. (2012).
+\newblock \textit{Google Glass}.
+\newblock \url{https://plus.google.com/u/0/wm/4/+GoogleGlass/posts/aKymsANgWBD}
+  [2015-02-16].
+
 \bibitem{ImagesGoogleGlassUI}
 Google (2013).
 \newblock \textit{Google Glass How-to: Getting Started} [{O}nline video].
@@ -28,6 +40,18 @@ Google (2014).
 \newblock \textit{Frames}.
 \newblock \url{http://www.google.com/glass/help/frames/} [2015-02-02].
 
+\bibitem{androidDesignPrinciples}
+Google (2015).
+\newblock \textit{Android Design Principles}.
+\newblock
+  \url{https://developer.android.com/design/get-started/principles.html}
+  [2015-02-16].
+
+\bibitem{glassDesignStyle}
+Google (2015).
+\newblock \textit{Card Regions}.
+\newblock \url{https://developers.google.com/glass/design/style} [2015-02-16].
+
 \bibitem{glassDesignPrinciples}
 Google (2015).
 \newblock \textit{Principles}.
@@ -39,20 +63,14 @@ Oculus (2015).
 \newblock \textit{Low Latency 360$\,^{\circ}$ Head Tracking}.
 \newblock \url{https://www.oculus.com/rift/} [2015-02-09].
 
-\bibitem{GoogleGlassAnnouncement}
-Sebastian Thrun~(2012) Babak~Parviz, Steve~Lee.
-\newblock \textit{Google Glass}.
-\newblock \url{https://plus.google.com/u/0/wm/4/+GoogleGlass/posts/aKymsANgWBD}
-  [2015-02-16].
-
-\bibitem{laramee02}
-Colin~Ware Robert S~Laramee.
-\newblock Rivalry and interference with a head-mounted display.
-\newblock {\em ACM Trans. Comput.-Hum. Interact.}, 9(3):238--251, sep 2002.
-
 \bibitem{6504855}
 Thad Starner.
 \newblock Project glass: An extension of the self.
 \newblock {\em Pervasive Computing, IEEE}, 12(2):14--16, 2013.
+
+\bibitem{laramee02}
+{Laramee, Robert S}. {Ware, Colin}.
+\newblock Rivalry and interference with a head-mounted display.
+\newblock {\em ACM Trans. Comput.-Hum. Interact.}, 9(3):238--251, sep 2002.
 
 \end{thebibliography}
