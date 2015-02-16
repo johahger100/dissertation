@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: skeleton.aux
 The style file: plain.bst
 Database file #1: myBibliography.bib
-You've used 8 entries,
+You've used 10 entries,
             2118 wiz_defined-function locations,
-            540 strings with 5111 characters,
-and the built_in function-call counts, 1812 in all, are:
-= -- 173
-> -- 56
+            550 strings with 5455 characters,
+and the built_in function-call counts, 2222 in all, are:
+= -- 211
+> -- 70
 < -- 0
-+ -- 24
-- -- 16
-* -- 75
-:= -- 308
-add.period$ -- 24
-call.type$ -- 8
-change.case$ -- 32
++ -- 30
+- -- 20
+* -- 85
+:= -- 378
+add.period$ -- 30
+call.type$ -- 10
+change.case$ -- 40
 chr.to.int$ -- 0
-cite$ -- 8
-duplicate$ -- 64
-empty$ -- 185
-format.name$ -- 16
-if$ -- 389
+cite$ -- 10
+duplicate$ -- 78
+empty$ -- 229
+format.name$ -- 20
+if$ -- 479
 int.to.chr$ -- 0
-int.to.str$ -- 8
+int.to.str$ -- 10
 missing$ -- 2
-newline$ -- 43
-num.names$ -- 16
-pop$ -- 52
+newline$ -- 53
+num.names$ -- 20
+pop$ -- 68
 preamble$ -- 1
-purify$ -- 24
+purify$ -- 30
 quote$ -- 0
-skip$ -- 62
+skip$ -- 77
 stack$ -- 0
-substring$ -- 80
-swap$ -- 8
+substring$ -- 90
+swap$ -- 10
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 32
+type$ -- 40
 warning$ -- 0
-while$ -- 19
-width$ -- 9
-write$ -- 78
+while$ -- 23
+width$ -- 12
+write$ -- 96

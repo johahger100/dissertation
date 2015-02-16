@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.12)  15 FEB 2015 00:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.12)  16 FEB 2015 11:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -177,7 +177,11 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip44
 )
-(./skeleton.aux)
+(./skeleton.aux
+
+LaTeX Warning: Label `GoogleGlassUI' multiply defined.
+
+)
 \openout1 = `skeleton.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
@@ -194,8 +198,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
 LaTeX Font Info:    ... okay on input line 30.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
 LaTeX Font Info:    ... okay on input line 30.
-
-(/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
+ (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count98
 \scratchdimen=\dimen109
@@ -298,7 +301,16 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 l.89 \clearpage
                 [1
 
-] (./Background.tex (./chap2/GlassDef.tex
+] (./Background.tex
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+(./chap2/GlassDef.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -308,60 +320,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--3
 
  []
 
+<images/GoogleGlassHardware.png, id=168, 854.19125pt x 468.75125pt>
+File: images/GoogleGlassHardware.png Graphic file (type png)
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+<use images/GoogleGlassHardware.png>
+Package pdftex.def Info: images/GoogleGlassHardware.png used on input line 6.
+(pdftex.def)             Requested size: 312.9803pt x 171.74724pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3 
-     [2
+l.12 
+      [2
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
+] <images/OculusRift.jpg, id=185, 481.8pt x 417.56pt>
+File: images/OculusRift.jpg Graphic file (type jpg)
 
- []
-
-<images/GoogleGlassUI.png, id=167, 850.17625pt x 465.74pt>
-File: images/GoogleGlassUI.png Graphic file (type png)
-
-<use images/GoogleGlassUI.png>
-Package pdftex.def Info: images/GoogleGlassUI.png used on input line 14.
-(pdftex.def)             Requested size: 312.9803pt x 171.45409pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-
- []
-
+<use images/OculusRift.jpg>
+Package pdftex.def Info: images/OculusRift.jpg used on input line 51.
+(pdftex.def)             Requested size: 312.9803pt x 271.25786pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.26 
-      [3 <./images/GoogleGlassUI.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
-
- []
-
-[4] <images/OculusRift.jpg, id=188, 481.8pt x 417.56pt>
-File: images/OculusRift.jpg Graphic file (type jpg)
-
-<use images/OculusRift.jpg>
-Package pdftex.def Info: images/OculusRift.jpg used on input line 47.
-(pdftex.def)             Requested size: 312.9803pt x 271.25786pt.
-) [5 <./images/OculusRift.jpg>] (./chap2/GlassUI.tex
+l.61 
+      [3 <./images/GoogleGlassHardware.png>]) (./chap2/GlassUI.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
-
+[4 <./images/OculusRift.jpg>]
+Overfull \hbox (4.0249pt too wide) in paragraph at lines 3--4
+[]\OT1/cmr/m/n/12 WRITE ABOUT HOME SCREEN (CLOCK; CAN BE STARTED WITH "OK GLASS
+" 
  []
 
+<images/GoogleGlassUI.png, id=197, 850.17625pt x 465.74pt>
+File: images/GoogleGlassUI.png Graphic file (type png)
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
+<use images/GoogleGlassUI.png>
+Package pdftex.def Info: images/GoogleGlassUI.png used on input line 7.
+(pdftex.def)             Requested size: 312.9803pt x 171.45409pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
@@ -370,12 +376,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-
+[5 <./images/GoogleGlassUI.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 4--6
 
  []
 
-[6]
+
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
@@ -394,7 +400,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
-[7]
+[6]
 Overfull \hbox (483.97903pt too wide) in paragraph at lines 14--15
 [][]$\OT1/cmtt/m/n/12 http : / / www . forbes . com / sites / eliseackerman / 2
 013 / 03 / 04 / could-[]google-[]glass-[]hurt-[]your-[]eyes-[]a-[]harvard-[]vis
@@ -412,11 +418,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--19
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 20--48
+Underfull \hbox (badness 10000) in paragraph at lines 20--46
 
  []
 
-(./chap2/SmallSpaceDesign.tex [8]) (./chap2/SimilarProducts.tex [9]
+(./chap2/SmallSpaceDesign.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
+[8]) (./chap2/SimilarProducts.tex
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¤ in font cmr12!
 Missing character: There is no Ã in font cmr12!
@@ -425,32 +435,26 @@ Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¤ in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¥ in font cmr12!
-)
-Overfull \hbox (54.51491pt too wide) in paragraph at lines 13--56
+ [9])
+Overfull \hbox (54.51491pt too wide) in paragraph at lines 13--54
 [][]$\OT1/cmtt/m/n/12 http : / / www . microsoft . com / microsoft-[]hololens /
  en-[]us$[] []$http : / / www . searchenginejournal .
  []
 
-(./chap2/Summary.tex)) [10] (./Design.tex
-Overfull \hbox (305.26572pt too wide) in paragraph at lines 1--3
-\OT1/cmr/m/n/12 android stu-dio vs eclipse with an-droid sdk []$\OT1/cmtt/m/n/1
-2 http : / / wahidgazzah . olympe . in / integrating-[]zxing-[]in-[]your-[]andr
-oid-[]app-[]as-[]standalone-[]scanner/$[] 
- []
-
-) [11
+(./chap2/Summary.tex)) [10] (./Design.tex) [11
 
 ] (./Implementation.tex) [12
 
-] (./ResultEvaluation.tex) [13
-
 ]
-(./Conclusion.tex) [14
+(./ResultEvaluation.tex) [13
 
-] (./abbreviations.tex) [15
+] (./Conclusion.tex) [14
+
+] (./abbreviations.tex)
+[15
 
 ] (./skeleton.bbl
-Underfull \hbox (badness 1910) in paragraph at lines 27--31
+Underfull \hbox (badness 1127) in paragraph at lines 32--36
 []\OT1/cmr/m/n/12 Google (2015).  \OT1/cmr/m/it/12 Prin-ci-ples\OT1/cmr/m/n/12 
 .  []$\OT1/cmtt/m/n/12 https : / / developers . google . com / glass / design /
 
@@ -466,17 +470,21 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 132.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 132.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 132.
 Package rerunfilecheck Info: File `skeleton.out' has not changed.
-(rerunfilecheck)             Checksum: 73FBFE4278600BA86F31B4415E22FB20;980.
+(rerunfilecheck)             Checksum: C57A75BE7EF01DD548FBDD0BC2975181;967.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 132.
  ) 
 Here is how much of TeX's memory you used:
- 5315 strings out of 493117
- 79227 string characters out of 6135432
- 165104 words of memory out of 5000000
- 8639 multiletter control sequences out of 15000+600000
+ 5325 strings out of 493117
+ 79493 string characters out of 6135432
+ 166216 words of memory out of 5000000
+ 8645 multiletter control sequences out of 15000+600000
  9016 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,8n,30p,823b,409s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,8n,30p,822b,409s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
 /usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
@@ -486,10 +494,10 @@ al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
 l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/
 texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/t
 exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on skeleton.pdf (26 pages, 666214 bytes).
+Output written on skeleton.pdf (26 pages, 1030394 bytes).
 PDF statistics:
- 318 PDF objects out of 1000 (max. 8388607)
- 271 compressed objects within 3 object streams
- 55 named destinations out of 1000 (max. 500000)
- 144 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 330 PDF objects out of 1000 (max. 8388607)
+ 281 compressed objects within 3 object streams
+ 58 named destinations out of 1000 (max. 500000)
+ 149 words of extra memory for PDF output out of 10000 (max. 10000000)
 

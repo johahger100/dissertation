@@ -1,8 +1,13 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{GoogleGlassConcept}
+Google (2012).
+\newblock \textit{Project Glass: One day...} [{O}nline video].
+\newblock \url{http://youtu.be/9c6W4CCU9M4} [2015-02-16].
 
 \bibitem{ImagesGoogleGlassUI}
 Google (2013).
-\newblock \textit{Google Glass How-to: Getting Started} [online video].
+\newblock \textit{Google Glass How-to: Getting Started} [{O}nline video].
 \newblock \url{http://youtu.be/4EvNxWhskf8} [2015-02-07].
 
 \bibitem{tedtalkWhyGlass}
@@ -33,6 +38,12 @@ Google (2015).
 Oculus (2015).
 \newblock \textit{Low Latency 360$\,^{\circ}$ Head Tracking}.
 \newblock \url{https://www.oculus.com/rift/} [2015-02-09].
+
+\bibitem{GoogleGlassAnnouncement}
+Sebastian Thrun~(2012) Babak~Parviz, Steve~Lee.
+\newblock \textit{Google Glass}.
+\newblock \url{https://plus.google.com/u/0/wm/4/+GoogleGlass/posts/aKymsANgWBD}
+  [2015-02-16].
 
 \bibitem{laramee02}
 Colin~Ware Robert S~Laramee.
