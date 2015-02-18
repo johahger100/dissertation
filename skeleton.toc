@@ -12,8 +12,8 @@
 \contentsline {subsection}{\numberline {2.6}Information (and Ways of Presenting Information)}{8}{subsection.2.6}
 \contentsline {subsubsection}{\numberline {2.6.1}Text}{9}{subsubsection.2.6.1}
 \contentsline {subsubsection}{\numberline {2.6.2}Images}{9}{subsubsection.2.6.2}
-\contentsline {subsubsection}{\numberline {2.6.3}Video}{9}{subsubsection.2.6.3}
-\contentsline {subsubsection}{\numberline {2.6.4}Audio}{9}{subsubsection.2.6.4}
+\contentsline {subsubsection}{\numberline {2.6.3}Audio}{9}{subsubsection.2.6.3}
+\contentsline {subsubsection}{\numberline {2.6.4}Video}{9}{subsubsection.2.6.4}
 \contentsline {subsection}{\numberline {2.7}Summary}{10}{subsection.2.7}
 \contentsline {section}{\numberline {3}Design}{11}{section.3}
 \contentsline {subsection}{\numberline {3.1}Presenting Information on Google Glass}{11}{subsection.3.1}
