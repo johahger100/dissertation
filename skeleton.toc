@@ -12,16 +12,16 @@
 \contentsline {subsection}{\numberline {2.6}Information (and Ways of Presenting Information)}{8}{subsection.2.6}
 \contentsline {subsubsection}{\numberline {2.6.1}Text}{9}{subsubsection.2.6.1}
 \contentsline {subsubsection}{\numberline {2.6.2}Images}{9}{subsubsection.2.6.2}
-\contentsline {subsubsection}{\numberline {2.6.3}Audio}{9}{subsubsection.2.6.3}
-\contentsline {subsubsection}{\numberline {2.6.4}Video}{9}{subsubsection.2.6.4}
-\contentsline {subsection}{\numberline {2.7}Summary}{10}{subsection.2.7}
-\contentsline {section}{\numberline {3}Design}{11}{section.3}
-\contentsline {subsection}{\numberline {3.1}Presenting Information on Google Glass}{11}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Summary}{11}{subsection.3.2}
-\contentsline {section}{\numberline {4}Implementation}{12}{section.4}
-\contentsline {subsection}{\numberline {4.1}Summary}{12}{subsection.4.1}
-\contentsline {section}{\numberline {5}Result / Evaluation}{13}{section.5}
-\contentsline {section}{\numberline {6}Conclusion}{14}{section.6}
-\contentsline {section}{\numberline {7}Future Work}{15}{section.7}
-\contentsline {section}{\numberline {8}Abbrevations}{16}{section.8}
-\contentsline {section}{References}{17}{section*.10}
+\contentsline {subsubsection}{\numberline {2.6.3}Audio}{10}{subsubsection.2.6.3}
+\contentsline {subsubsection}{\numberline {2.6.4}Video}{10}{subsubsection.2.6.4}
+\contentsline {subsection}{\numberline {2.7}Summary}{11}{subsection.2.7}
+\contentsline {section}{\numberline {3}Design}{12}{section.3}
+\contentsline {subsection}{\numberline {3.1}Presenting Information on Google Glass}{12}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Summary}{12}{subsection.3.2}
+\contentsline {section}{\numberline {4}Implementation}{13}{section.4}
+\contentsline {subsection}{\numberline {4.1}Summary}{13}{subsection.4.1}
+\contentsline {section}{\numberline {5}Result / Evaluation}{14}{section.5}
+\contentsline {section}{\numberline {6}Conclusion}{15}{section.6}
+\contentsline {section}{\numberline {7}Future Work}{16}{section.7}
+\contentsline {section}{\numberline {8}Abbrevations}{17}{section.8}
+\contentsline {section}{References}{18}{section*.10}
