@@ -1,5 +1,12 @@
 \begin{thebibliography}{10}
 
+\bibitem{sprakNe}
+Nationalencyklopedin (2010).
+\newblock \textit{V{\"a}rldens 100 st{\"o}rsta spr{\aa}k 2010}.
+\newblock
+  http://www.ne.se.bibproxy.kau.se:2048/uppslagsverk/figur/tabell/v{\"a}rldens-100-st{\"o}rsta-spr{\aa}k-2010
+  [2015-02-23] (In Swedish).
+
 \bibitem{GoogleGlassConcept}
 Google (2012).
 \newblock \textit{Project Glass: One day...} [{O}nline video].
@@ -16,6 +23,14 @@ Google (2012).
 \newblock \textit{Google Glass}.
 \newblock \url{https://plus.google.com/u/0/wm/4/+GoogleGlass/posts/aKymsANgWBD}
   [2015-02-16].
+
+\bibitem{ackerman13}
+Elise~Ackerman (2013).
+\newblock {Could Google Glass Hurt Your Eyes? A Harvard Vision Scientist And
+  Project Glass Advisor Responds}.
+\newblock
+  \url{http://www.forbes.com/sites/eliseackerman/2013/03/04/could-google-glass-hurt-your-eyes-a-harvard-vision-scientist-and-project-glass-advisor-responds/}
+  [2015-02-23].
 
 \bibitem{ImagesGoogleGlassUI}
 Google (2013).
@@ -40,6 +55,26 @@ Google (2014).
 \newblock \textit{Frames}.
 \newblock \url{http://www.google.com/glass/help/frames/} [2015-02-02].
 
+\bibitem{augmentedRealityDef}
+Augmented~Reality (2015).
+\newblock \textit{Encyclop{\ae}dia Britannica Online}.
+\newblock
+  \url{academic.eb.com.bibproxy.kau.se:2048/EBchecked/topic/1196641/augmented-reality}
+  [2015-02-19].
+
+\bibitem{glassUp}
+GlassUp (2015).
+\newblock \textit{GlassUp}.
+\newblock \url{http://www.glassup.net} [2015-02-23].
+
+\bibitem{glassUpIndiegogo}
+GlassUp (2015).
+\newblock \textit{GlassUp: Augmented Reality glasses that display messages from
+  your smartphone}.
+\newblock
+  \url{https://www.indiegogo.com/projects/glassup-augmented-reality-glasses-that-display-messages-from-your-smartphone}
+  [2015-02-23].
+
 \bibitem{androidDesignPrinciples}
 Google (2015).
 \newblock \textit{Android Design Principles}.
@@ -58,15 +93,65 @@ Google (2015).
 \newblock \url{https://developers.google.com/glass/design/principles}
   [2015-02-02].
 
+\bibitem{hololens}
+Microsoft (2015).
+\newblock \textit{Microsoft HoloLens}.
+\newblock \url{http://www.microsoft.com/microsoft-hololens/en-us} [2015-02-23].
+
+\bibitem{hololensConceptVideo}
+Microsoft (2015).
+\newblock \textit{Microsoft Hololens Concept Video}.
+\newblock
+  \url{http://compass.surface.com/assets/b2/15/b215c2a2-1c5b-4707-9a92-fffca6fb82fe.mp4?n=Microsoft_HoloLens_TransformYourWorld_816p23.mp4}
+  [2015-02-23].
+
 \bibitem{ImagesOculusRift}
 Oculus (2015).
 \newblock \textit{Low Latency 360$\,^{\circ}$ Head Tracking}.
 \newblock \url{https://www.oculus.com/rift/} [2015-02-09].
 
+\bibitem{penny}
+Penny (2015).
+\newblock \textit{Penny}.
+\newblock \url{http://www.penny.se/} [2015-02-23].
+
+\bibitem{virtualRealityDef}
+Virtual Reality~(VR) (2015).
+\newblock \textit{Encyclop{\ae}dia Britannica Online}.
+\newblock
+  \url{http://academic.eb.com.bibproxy.kau.se:2048/EBchecked/topic/630181/virtual-reality-VR/}
+  [2015-02-19].
+
+\bibitem{cuneiform}
+Wikipedia (2015).
+\newblock \textit{Cuneiform}.
+\newblock \url{http://en.wikipedia.org/wiki/Cuneiform} [2015-02-23].
+
+\bibitem{hmdWiki}
+Wikipedia (2015).
+\newblock \textit{Head-Mounted Display}.
+\newblock \url{http://en.wikipedia.org/wiki/Head-mounted_display} [2015-02-23].
+
+\bibitem{hudWiki}
+Wikipedia (2015).
+\newblock \textit{Head-Up Display}.
+\newblock \url{http://en.wikipedia.org/wiki/Head-up_display} [2015-02-23].
+
+\bibitem{ohmdWiki}
+Wikipedia (2015).
+\newblock \textit{Optical Head-Mounted Display}.
+\newblock \url{http://en.wikipedia.org/wiki/Optical_head-mounted_display}
+  [2015-02-23].
+
 \bibitem{6504855}
 Thad Starner.
 \newblock Project glass: An extension of the self.
 \newblock {\em Pervasive Computing, IEEE}, 12(2):14--16, 2013.
+
+\bibitem{informationDef1}
+Einar~Selander Sture~All{\'e}n.
+\newblock {\em [Information on Information]}.
+\newblock Studentlitteratur, Lund, 1985 (In Swedish).
 
 \bibitem{laramee02}
 {Laramee, Robert S}. {Ware, Colin}.

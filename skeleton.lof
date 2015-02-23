@@ -1,10 +1,11 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Google Glass is a small head mounted display equipped with a touchpad, a camera and a microphone.\cite {ImagesGoogleGlassUI}\relax }}{3}{figure.caption.5}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The user can control Google Glass with the touchpad.}}}{3}{subfigure.1.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The display sits slightly above the users line of sight, on the right hand side.}}}{3}{subfigure.1.2}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces The virtual reality device ``Oculus Rift'' is a HMD that completely covers the user's eyes.\cite {ImagesOculusRift}\relax }}{4}{figure.caption.6}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces A visual representation of the Google Glass GUI as the GUI is perceived by the user. In reality only one card can be displayed at a time.\cite {ImagesGoogleGlassUI}\relax }}{5}{figure.caption.7}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Cards can either display basic applications, such as a clock, or represent more in-depth applications (immersions), such as an application that lets the user look at a map of stars.\relax }}{6}{figure.caption.8}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The Google Glass home screen is a card that displays a clock.}}}{6}{subfigure.4.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The card ``Explore stars'' represents an immersion.}}}{6}{subfigure.4.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {The immersion ``Explore stars'' allows the user to look around at stars using the built-in head motion tracker.}}}{6}{subfigure.4.3}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Google provide developers with strict guidelines as to how they should use the limited space that Google Glass can present information on.\cite {glassDesignStyle}\relax }}{12}{figure.caption.9}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces The virtual reality device ``Oculus Rift'' is a HMD that completely covers the user's eyes.\cite {ImagesOculusRift}\relax }}{5}{figure.caption.6}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces One way of bringing useful information to the user is by displaying a shopping list while the user is out shopping.\cite {glassDesignPrinciples}\relax }}{6}{figure.caption.7}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces A visual representation of the Google Glass GUI as the GUI is perceived by the user. In reality only one card can be displayed at a time.\cite {ImagesGoogleGlassUI}\relax }}{8}{figure.caption.8}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Cards can either display basic applications, such as a clock, or represent more in-depth applications (immersions), such as an application that lets the user look at a map of stars.\relax }}{9}{figure.caption.9}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The Google Glass home screen is a card that displays a clock.}}}{9}{subfigure.5.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The card ``Explore stars'' represents an immersion.}}}{9}{subfigure.5.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {The immersion ``Explore stars'' allows the user to look around at stars using the built-in head motion tracker.}}}{9}{subfigure.5.3}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Google provide developers with strict guidelines as to how they should use the limited space that Google Glass can present information on.\cite {glassDesignStyle}\relax }}{15}{figure.caption.10}

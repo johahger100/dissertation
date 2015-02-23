@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.12)  19 FEB 2015 13:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.12)  23 FEB 2015 16:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -62,6 +62,14 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \approval=\skip43
 )
+(/usr/local/texlive/2014/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count88
+\float@exts=\toks15
+\float@box=\box26
+\@float@everytoks=\toks16
+\@floatcapt=\box27
+)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
@@ -120,13 +128,13 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen105
-\Hy@linkcounter=\count88
-\Hy@pagecounter=\count89
+\Hy@linkcounter=\count89
+\Hy@pagecounter=\count90
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count90
+\Hy@SavedSpaceFactor=\count91
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -138,7 +146,7 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count91
+\c@Hy@tempcnt=\count92
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
@@ -146,7 +154,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen106
-\Fld@menulength=\count92
+\Fld@menulength=\count93
 \Field@Width=\dimen107
 \Fld@charsize=\dimen108
 Package hyperref Info: Hyper figures OFF on input line 6295.
@@ -158,17 +166,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count93
-\c@Item=\count94
-\c@Hfootnote=\count95
+\Hy@abspage=\count94
+\c@Item=\count95
+\c@Hfootnote=\count96
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count96
-\c@bookmark@seq@number=\count97
+\Fld@listcount=\count97
+\c@bookmark@seq@number=\count98
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
@@ -194,20 +202,21 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 \caption@parindent=\dimen114
 \caption@hangindent=\dimen115
 )
-\c@ContinuedFloat=\count98
+\c@ContinuedFloat=\count99
+Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 )
-\c@KVtest=\count99
+\c@KVtest=\count100
 \sf@farskip=\skip45
 \sf@captopadj=\dimen116
 \sf@capskip=\skip46
 \sf@nearskip=\skip47
-\c@subfigure=\count100
-\c@subfigure@save=\count101
-\c@lofdepth=\count102
-\c@subtable=\count103
-\c@subtable@save=\count104
-\c@lotdepth=\count105
+\c@subfigure=\count101
+\c@subfigure@save=\count102
+\c@lofdepth=\count103
+\c@subtable=\count104
+\c@subtable@save=\count105
+\c@lotdepth=\count106
 \sf@top=\skip48
 \sf@bottom=\skip49
 )
@@ -221,33 +230,33 @@ LaTeX Warning: Label `subsec:summary' multiply defined.
 )
 \openout1 = `skeleton.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
  (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count106
+\scratchcounter=\count107
 \scratchdimen=\dimen117
-\scratchbox=\box26
-\nofMPsegments=\count107
-\nofMParguments=\count108
-\everyMPshowfont=\toks15
-\MPscratchCnt=\count109
+\scratchbox=\box28
+\nofMPsegments=\count108
+\nofMParguments=\count109
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count110
 \MPscratchDim=\dimen118
-\MPnumerator=\count110
-\makeMPintoPDFobject=\count111
-\everyMPtoPDFconversion=\toks16
+\MPnumerator=\count111
+\makeMPintoPDFobject=\count112
+\everyMPtoPDFconversion=\toks18
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -263,8 +272,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box27
-Package hyperref Info: Link coloring OFF on input line 31.
+\AtBeginShipoutBox=\box29
+Package hyperref Info: Link coloring OFF on input line 32.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -272,11 +281,11 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count112
+\c@section@level=\count113
 )
-LaTeX Info: Redefining \ref on input line 31.
-LaTeX Info: Redefining \pageref on input line 31.
-LaTeX Info: Redefining \nameref on input line 31.
+LaTeX Info: Redefining \ref on input line 32.
+LaTeX Info: Redefining \pageref on input line 32.
+LaTeX Info: Redefining \nameref on input line 32.
 
 (./skeleton.out) (./skeleton.out)
 \@outlinefile=\write3
@@ -289,7 +298,7 @@ Package caption Info: End \AtBeginDocument code.
 File: kaueng.pdf Graphic file (type pdf)
 
 <use kaueng.pdf>
-Package pdftex.def Info: kaueng.pdf used on input line 36.
+Package pdftex.def Info: kaueng.pdf used on input line 37.
 (pdftex.def)             Requested size: 85.35826pt x 85.52109pt.
  [1
 
@@ -297,19 +306,19 @@ Package pdftex.def Info: kaueng.pdf used on input line 36.
 g.pdf>] [2
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 41.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 42.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 41.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 41.
+(Font)              <12> on input line 42.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 41.
+(Font)              <8> on input line 42.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 41.
+(Font)              <6> on input line 42.
  [3] [2
 
 ] [3]
@@ -340,7 +349,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 er (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.90 \clearpage
+l.91 \clearpage
                 [1] (./Background.tex
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
@@ -368,7 +377,7 @@ l.3
      [2
 
 ]
-<images/GoogleGlassHardwareTouchpad.png, id=254, 851.18pt x 466.74374pt>
+<images/GoogleGlassHardwareTouchpad.png, id=258, 851.18pt x 466.74374pt>
 File: images/GoogleGlassHardwareTouchpad.png Graphic file (type png)
 
 <use images/GoogleGlassHardwareTouchpad.png>
@@ -376,49 +385,73 @@ Package pdftex.def Info: images/GoogleGlassHardwareTouchpad.png used on input l
 ine 6.
 (pdftex.def)             Requested size: 199.16928pt x 109.21474pt.
 
-<images/GoogleGlassHardware.png, id=255, 854.19125pt x 468.75125pt>
+<images/GoogleGlassHardware.png, id=259, 854.19125pt x 468.75125pt>
 File: images/GoogleGlassHardware.png Graphic file (type png)
 
 <use images/GoogleGlassHardware.png>
 Package pdftex.def Info: images/GoogleGlassHardware.png used on input line 8.
 (pdftex.def)             Requested size: 199.16928pt x 109.29109pt.
 
-<images/OculusRift.jpg, id=260, 481.8pt x 417.56pt>
+Underfull \vbox (badness 1158) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.52 
+      [3 <./images/GoogleGlassHardwareTouchpad.png> <./images/GoogleGlassHardwa
+re.png>] <images/OculusRift.jpg, id=276, 481.8pt x 417.56pt>
 File: images/OculusRift.jpg Graphic file (type jpg)
 
 <use images/OculusRift.jpg>
 Package pdftex.def Info: images/OculusRift.jpg used on input line 59.
 (pdftex.def)             Requested size: 312.9803pt x 271.25786pt.
 
-Underfull \vbox (badness 1184) has occurred while \output is active []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.62 	\end{figure}
-                   [3 <./images/GoogleGlassHardwareTouchpad.png> <./images/Goog
-leGlassHardware.png>]) (./chap2/SimilarProducts.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--6
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
 
-[4 <./images/OculusRift.jpg>]
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ¤ in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ¥ in font cmr12!
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--11
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
-) (./chap2/GlassUI.tex
+<images/GoogleGlassKeepRevelant.jpg, id=290, 722.7pt x 406.51875pt>
+File: images/GoogleGlassKeepRevelant.jpg Graphic file (type jpg)
+
+<use images/GoogleGlassKeepRevelant.jpg>
+Package pdftex.def Info: images/GoogleGlassKeepRevelant.jpg used on input line 
+76.
+(pdftex.def)             Requested size: 312.9803pt x 176.05264pt.
+) (./chap2/SimilarProducts.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5 <./images/OculusRift.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+[6 <./images/GoogleGlassKeepRevelant.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+
+ []
+
+[7]) (./chap2/GlassUI.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
 
-<images/GoogleGlassUI.png, id=276, 850.17625pt x 465.74pt>
+<images/GoogleGlassUI.png, id=322, 850.17625pt x 465.74pt>
 File: images/GoogleGlassUI.png Graphic file (type png)
 
 <use images/GoogleGlassUI.png>
@@ -429,8 +462,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
-[5 <./images/GoogleGlassUI.png>]
-<images/GoogleGlassHomescreen.png, id=284, 803.0pt x 481.8pt>
+[8 <./images/GoogleGlassUI.png>]
+<images/GoogleGlassHomescreen.png, id=330, 803.0pt x 481.8pt>
 File: images/GoogleGlassHomescreen.png Graphic file (type png)
 
 <use images/GoogleGlassHomescreen.png>
@@ -438,7 +471,7 @@ Package pdftex.def Info: images/GoogleGlassHomescreen.png used on input line 14
 .
 (pdftex.def)             Requested size: 199.16928pt x 119.50133pt.
 
-<images/GoogleGlassStarImmersion.png, id=285, 803.0pt x 481.8pt>
+<images/GoogleGlassStarImmersion.png, id=331, 803.0pt x 481.8pt>
 File: images/GoogleGlassStarImmersion.png Graphic file (type png)
 
 <use images/GoogleGlassStarImmersion.png>
@@ -446,7 +479,7 @@ Package pdftex.def Info: images/GoogleGlassStarImmersion.png used on input line
  16.
 (pdftex.def)             Requested size: 199.16928pt x 119.50133pt.
 
-<images/GoogleGlassStarImmersion2.png, id=286, 803.0pt x 481.8pt>
+<images/GoogleGlassStarImmersion2.png, id=332, 803.0pt x 481.8pt>
 File: images/GoogleGlassStarImmersion2.png Graphic file (type png)
 
 <use images/GoogleGlassStarImmersion2.png>
@@ -458,7 +491,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
 
-[6 <./images/GoogleGlassHomescreen.png> <./images/GoogleGlassStarImmersion.png>
+[9 <./images/GoogleGlassHomescreen.png> <./images/GoogleGlassStarImmersion.png>
  <./images/GoogleGlassStarImmersion2.png>]) (./chap2/vsphones.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
@@ -474,7 +507,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
-[7]) (./chap2/Limitations.tex
+[10]) (./chap2/Limitations.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
@@ -484,89 +517,125 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-) (./chap2/Information.tex
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+
+ []
+
+) (./chap2/Information.tex [11]
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
 
-Underfull \vbox (badness 2293) has occurred while \output is active []
-
- [8]
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
 
-) [10] (./chap2/Summary.tex)) [11] (./Design.tex (./chap3/SmallSpaceDesign.tex
-<images/standard-template.png, id=325, 735.74875pt x 366.36874pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13])
+(./chap2/Summary.tex)) [14] (./Design.tex (./chap3/SmallSpaceDesign.tex
+<images/standard-template.png, id=380, 735.74875pt x 366.36874pt>
 File: images/standard-template.png Graphic file (type png)
 
 <use images/standard-template.png>
 Package pdftex.def Info: images/standard-template.png used on input line 8.
 (pdftex.def)             Requested size: 312.9803pt x 155.8528pt.
-) (./chap3/summary.tex)) [12
+) (./chap3/summary.tex)) [15
 
  <./images/standard-template.png>] (./Implementation.tex (./chap4/Summary.tex))
- [13
+ [16
 
 ]
-(./ResultEvaluation.tex) [14
+(./ResultEvaluation.tex) [17
 
-] (./Conclusion.tex) [15
+] (./Conclusion.tex) [18
 
 ] (./FutureWork.tex)
-[16
+[19
 
-] (./abbreviations.tex) [17
+] (./abbreviations.tex) [20
 
 ] (./skeleton.bbl
-Underfull \hbox (badness 1478) in paragraph at lines 9--13
+Underfull \hbox (badness 10000) in paragraph at lines 4--9
+[]\OT1/cmr/m/n/12 Nationalencyklopedin (2010).  \OT1/cmr/m/it/12 V^^?arldens 10
+0 st^^?orsta spr^^Wak 2010\OT1/cmr/m/n/12 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 http://www.ne.se.bibproxy.kau.se:2048/uppslagsverk/figur/tabell
+/v^^?arldens-100-
+ []
+
+
+Underfull \hbox (badness 1478) in paragraph at lines 16--20
 []\OT1/cmr/m/n/12 Olsson, Is-abelle (2012).  \OT1/cmr/m/it/12 Google Glass Fram
 es\OT1/cmr/m/n/12 .  []$\OT1/cmtt/m/n/12 https : / / plus . google . com /
  []
 
 
-Underfull \hbox (badness 1127) in paragraph at lines 56--60
+Underfull \hbox (badness 10000) in paragraph at lines 28--34
+\OT1/cmtt/m/n/12 eliseackerman / 2013 / 03 / 04 / could -[] google -[] glass -[
+] hurt -[] your -[] eyes -[] a -[] harvard -[]
+ []
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 91--95
 []\OT1/cmr/m/n/12 Google (2015).  \OT1/cmr/m/it/12 Prin-ci-ples\OT1/cmr/m/n/12 
 .  []$\OT1/cmtt/m/n/12 https : / / developers . google . com / glass / design /
 
  []
 
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 138.
- [18
+[21
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 138.
+Underfull \hbox (badness 10000) in paragraph at lines 102--107
+\OT1/cmtt/m/n/12 com / assets / b2 / 15 / b215c2a2 -[] 1c5b -[] 4707 -[] 9a92 -
+[] fffca6fb82fe . mp4 ? n = Microsoft _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--124
+\OT1/cmtt/m/n/12 eb . com . bibproxy . kau . se : 2048 / EBchecked / topic / 63
+0181 / virtual -[] reality -[] VR/$[]
+ []
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 139.
+ [22]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 139.
  (./skeleton.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 138.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 138.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 139.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 139.
 Package rerunfilecheck Info: File `skeleton.out' has not changed.
-(rerunfilecheck)             Checksum: B12C1B89678DE19CA9A813A7A0712D6B;1717.
+(rerunfilecheck)             Checksum: 1A0A31EF05145511893244D22AF2A0AD;1717.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 138.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 139.
  ) 
 Here is how much of TeX's memory you used:
- 6571 strings out of 493117
- 102329 string characters out of 6135432
- 191634 words of memory out of 5000000
- 9838 multiletter control sequences out of 15000+600000
+ 6663 strings out of 493117
+ 103683 string characters out of 6135432
+ 195522 words of memory out of 5000000
+ 9905 multiletter control sequences out of 15000+600000
  9016 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,9n,47p,973b,409s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,9n,47p,1033b,468s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
 /usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
@@ -576,10 +645,10 @@ al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
 l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/
 texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/t
 exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on skeleton.pdf (30 pages, 1770158 bytes).
+Output written on skeleton.pdf (34 pages, 1897087 bytes).
 PDF statistics:
- 433 PDF objects out of 1000 (max. 8388607)
- 372 compressed objects within 4 object streams
- 83 named destinations out of 1000 (max. 500000)
- 262 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 519 PDF objects out of 1000 (max. 8388607)
+ 451 compressed objects within 5 object streams
+ 103 named destinations out of 1000 (max. 500000)
+ 267 words of extra memory for PDF output out of 10000 (max. 10000000)
 
