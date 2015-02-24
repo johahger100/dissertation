@@ -4,8 +4,13 @@
 Nationalencyklopedin (2010).
 \newblock \textit{V{\"a}rldens 100 st{\"o}rsta spr{\aa}k 2010}.
 \newblock
-  http://www.ne.se.bibproxy.kau.se:2048/uppslagsverk/figur/tabell/v{\"a}rldens-100-st{\"o}rsta-spr{\aa}k-2010
+  \url{http://www.ne.se/uppslagsverk/figur/tabell/v%C3%A4rldens-100-st%C3%B6rsta-spr%C3%A5k-2010}
   [2015-02-23] (In Swedish).
+
+\bibitem{glassLiveDemo}
+Google (2012).
+\newblock \textit{Project Glass: Live Demo At Google I/O} [{Online video}].
+\newblock \url{http://youtu.be/D7TB8b2t3QE} [2015-02-24].
 
 \bibitem{GoogleGlassConcept}
 Google (2012).
@@ -24,10 +29,15 @@ Google (2012).
 \newblock \url{https://plus.google.com/u/0/wm/4/+GoogleGlass/posts/aKymsANgWBD}
   [2015-02-16].
 
+\bibitem{qrCodeHistory}
+Denso~Wave (2013).
+\newblock \textit{History of QR Code}.
+\newblock \url{http://www.qrcode.com/en/history/} [2015-02-24].
+
 \bibitem{ackerman13}
 Elise~Ackerman (2013).
-\newblock {Could Google Glass Hurt Your Eyes? A Harvard Vision Scientist And
-  Project Glass Advisor Responds}.
+\newblock \textit{Could Google Glass Hurt Your Eyes? A Harvard Vision Scientist
+  And Project Glass Advisor Responds}.
 \newblock
   \url{http://www.forbes.com/sites/eliseackerman/2013/03/04/could-google-glass-hurt-your-eyes-a-harvard-vision-scientist-and-project-glass-advisor-responds/}
   [2015-02-23].
@@ -58,8 +68,7 @@ Google (2014).
 \bibitem{augmentedRealityDef}
 Augmented~Reality (2015).
 \newblock \textit{Encyclop{\ae}dia Britannica Online}.
-\newblock
-  \url{academic.eb.com.bibproxy.kau.se:2048/EBchecked/topic/1196641/augmented-reality}
+\newblock \url{academic.eb.com/EBchecked/topic/1196641/augmented-reality}
   [2015-02-19].
 
 \bibitem{glassUp}
@@ -93,6 +102,12 @@ Google (2015).
 \newblock \url{https://developers.google.com/glass/design/principles}
   [2015-02-02].
 
+\bibitem{GlassSpecs}
+Google (2015).
+\newblock \textit{Tech spechs}.
+\newblock \url{https://support.google.com/glass/answer/3064128?hl=en}
+  [2015-02-24].
+
 \bibitem{hololens}
 Microsoft (2015).
 \newblock \textit{Microsoft HoloLens}.
@@ -100,7 +115,7 @@ Microsoft (2015).
 
 \bibitem{hololensConceptVideo}
 Microsoft (2015).
-\newblock \textit{Microsoft Hololens Concept Video}.
+\newblock \textit{Microsoft Hololens Concept Video} [{O}nline video].
 \newblock
   \url{http://compass.surface.com/assets/b2/15/b215c2a2-1c5b-4707-9a92-fffca6fb82fe.mp4?n=Microsoft_HoloLens_TransformYourWorld_816p23.mp4}
   [2015-02-23].
@@ -119,8 +134,13 @@ Penny (2015).
 Virtual Reality~(VR) (2015).
 \newblock \textit{Encyclop{\ae}dia Britannica Online}.
 \newblock
-  \url{http://academic.eb.com.bibproxy.kau.se:2048/EBchecked/topic/630181/virtual-reality-VR/}
+  \url{http://academic.eb.com/EBchecked/topic/630181/virtual-reality-VR/}
   [2015-02-19].
+
+\bibitem{boneConductionWiki}
+Wikipedia (2015).
+\newblock \textit{Bone conduction}.
+\newblock \url{http://en.wikipedia.org/wiki/Bone_conduction} [2015-02-24].
 
 \bibitem{cuneiform}
 Wikipedia (2015).
@@ -142,6 +162,11 @@ Wikipedia (2015).
 \newblock \textit{Optical Head-Mounted Display}.
 \newblock \url{http://en.wikipedia.org/wiki/Optical_head-mounted_display}
   [2015-02-23].
+
+\bibitem{qrCodeWiki}
+Wikipedia (2015).
+\newblock \textit{QR Code}.
+\newblock \url{http://en.wikipedia.org/wiki/QR_code} [2015-02-24].
 
 \bibitem{6504855}
 Thad Starner.
