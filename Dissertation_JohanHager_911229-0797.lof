@@ -2,17 +2,18 @@
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The user can control Google Glass with the touchpad.}}}{3}{subfigure.1.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The display sits slightly above the users line of sight, on the right hand side.}}}{3}{subfigure.1.2}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces The virtual reality device ``Oculus Rift'' is a HMD that completely covers the user's eyes.\cite {ImagesOculusRift}\relax }}{5}{figure.caption.6}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces One way of bringing useful information to the user would be by displaying a shopping list while the user is out shopping.\cite {glassDesignPrinciples}\relax }}{6}{figure.caption.7}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Today there are many OHMD devices, either already on the market or under development. A more extensive list of devices can be found on wikipedia.\cite {ohmdWiki}\relax }}{9}{figure.caption.8}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Microsoft Hololens\cite {hololens}}}}{9}{subfigure.4.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Recon Jet\cite {reconJet}}}}{9}{subfigure.4.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {GlassUp\cite {glassUpFeatures}}}}{9}{subfigure.4.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {C Wear Interactive Glasses\cite {pennyProducts}}}}{9}{subfigure.4.4}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces One way of bringing useful information to the user would be by displaying a shopping list while the user is out shopping.\cite {glassDesignPrinciples}\relax }}{7}{figure.caption.7}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Today there are many OHMD devices, either already on the market or under development. A more extensive list of devices can be found on wikipedia.\cite {ohmdWiki}\relax }}{10}{figure.caption.8}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Microsoft Hololens\cite {hololens}}}}{10}{subfigure.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Recon Jet\cite {reconJet}}}}{10}{subfigure.4.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {GlassUp\cite {glassUpFeatures}}}}{10}{subfigure.4.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {C Wear Interactive Glasses\cite {pennyProducts}}}}{10}{subfigure.4.4}
 \contentsline {figure}{\numberline {2.5}{\ignorespaces A visual representation of the Google Glass GUI as the GUI is perceived by the user. In reality only one card can be displayed at a time.\cite {ImagesGoogleGlassUI}\relax }}{10}{figure.caption.9}
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Cards can either display basic applications, such as a clock, or represent more in-depth applications (immersions), such as an application that lets the user look at a map of stars.\relax }}{11}{figure.caption.10}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The Google Glass home screen is a card that displays a clock.}}}{11}{subfigure.6.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The card ``Explore stars'' represents an immersion.}}}{11}{subfigure.6.2}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {The immersion ``Explore stars'' allows the user to look around at stars using the built-in head motion tracker.}}}{11}{subfigure.6.3}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces \cite {smartphoneSizeChart}\relax }}{13}{figure.caption.11}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces The standardised fields in a QR Code.\cite {qrCodeWiki}\relax }}{15}{figure.caption.12}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Google provide developers with strict guidelines as to how they should use the limited space that Google Glass can present information on.\cite {glassDesignStyle}\relax }}{19}{figure.caption.13}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces TODO INSERT PICTURE OF VOICE COMMAND MENU\relax }}{13}{figure.caption.11}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Smartphone screens are becoming increasingly bigger in size.\cite {smartphoneSizeChart}\relax }}{14}{figure.caption.12}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces The standardised fields in a QR Code.\cite {qrCodeWiki}\relax }}{16}{figure.caption.13}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Google provide developers with strict guidelines as to how they should use the limited space that Google Glass can present information on.\cite {glassDesignStyle}\relax }}{20}{figure.caption.14}
