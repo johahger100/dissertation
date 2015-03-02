@@ -42,6 +42,11 @@ Dan~Farber (2013).
   \url{http://www.cnet.com/news/glassup-takes-on-google-glass-and-google-legal/}
   [2015-03-02].
 
+\bibitem{qrCodeVersion}
+Demo~Wave (2013).
+\newblock \textit{Information capacity and version of the QR Code}.
+\newblock \url{http://www.qrcode.com/en/about/version.html} [2015-03-02].
+
 \bibitem{qrCodeHistory}
 Denso~Wave (2013).
 \newblock \textit{History of QR Code}.
@@ -120,17 +125,10 @@ GlassUp (2015).
 \newblock \textit{GlassUp Features}.
 \newblock \url{http://www.glassup.net/features.html} [2015-02-26].
 
-\bibitem{androidDesignPrinciples}
+\bibitem{headWakeUp}
 Google (2015).
-\newblock \textit{Android Design Principles}.
-\newblock
-  \url{https://developer.android.com/design/get-started/principles.html}
-  [2015-02-16].
-
-\bibitem{glassDesignStyle}
-Google (2015).
-\newblock \textit{Card Regions}.
-\newblock \url{https://developers.google.com/glass/design/style} [2015-02-16].
+\newblock \textit{Head Wake Up}.
+\newblock \url{https://support.google.com/glass/answer/3079855} [2015-03-02].
 
 \bibitem{glassDesignPrinciples}
 Google (2015).
@@ -143,6 +141,12 @@ Google (2015).
 \newblock \textit{Tech spechs}.
 \newblock \url{https://support.google.com/glass/answer/3064128?hl=en}
   [2015-02-24].
+
+\bibitem{googleGlassVoiceCommand}
+Google (2015).
+\newblock \textit{Voice input}.
+\newblock \url{https://developers.google.com/glass/develop/gdk/voice}
+  [2015-03-02].
 
 \bibitem{hololens}
 Microsoft (2015).

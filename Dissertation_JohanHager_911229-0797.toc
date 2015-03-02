@@ -7,24 +7,24 @@
 \contentsline {subsubsection}{\numberline {2.1.4}Augmented Reality}{5}{subsubsection.2.1.4}
 \contentsline {subsection}{\numberline {2.2}Similar Products}{6}{subsection.2.2}
 \contentsline {subsection}{\numberline {2.3}User Interface}{10}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Compared to Smartphones}{12}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.4}Compared to Smartphones}{14}{subsection.2.4}
 \contentsline {subsection}{\numberline {2.5}Limitations with Google Glass}{15}{subsection.2.5}
-\contentsline {subsection}{\numberline {2.6}QR Code}{16}{subsection.2.6}
-\contentsline {subsection}{\numberline {2.7}Information (and Ways of Presenting Information)}{17}{subsection.2.7}
-\contentsline {subsubsection}{\numberline {2.7.1}Text}{17}{subsubsection.2.7.1}
-\contentsline {subsubsection}{\numberline {2.7.2}Images}{17}{subsubsection.2.7.2}
-\contentsline {subsubsection}{\numberline {2.7.3}Audio}{18}{subsubsection.2.7.3}
-\contentsline {subsubsection}{\numberline {2.7.4}Video}{19}{subsubsection.2.7.4}
-\contentsline {subsection}{\numberline {2.8}Summary}{19}{subsection.2.8}
-\contentsline {section}{\numberline {3}Design}{20}{section.3}
-\contentsline {subsection}{\numberline {3.1}The Application}{20}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Presenting Information on Google Glass}{20}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Presenting Information on Smartphones}{20}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Summary}{20}{subsection.3.4}
-\contentsline {section}{\numberline {4}Implementation}{21}{section.4}
-\contentsline {subsection}{\numberline {4.1}Summary}{21}{subsection.4.1}
-\contentsline {section}{\numberline {5}Result / Evaluation}{22}{section.5}
-\contentsline {section}{\numberline {6}Conclusion}{23}{section.6}
-\contentsline {subsection}{\numberline {6.1}Future Work}{23}{subsection.6.1}
-\contentsline {section}{\numberline {7}Abbrevations}{24}{section.7}
-\contentsline {section}{References}{25}{section*.15}
+\contentsline {subsection}{\numberline {2.6}QR Code}{17}{subsection.2.6}
+\contentsline {subsection}{\numberline {2.7}Information (and Ways of Presenting Information)}{18}{subsection.2.7}
+\contentsline {subsubsection}{\numberline {2.7.1}Text}{18}{subsubsection.2.7.1}
+\contentsline {subsubsection}{\numberline {2.7.2}Images}{18}{subsubsection.2.7.2}
+\contentsline {subsubsection}{\numberline {2.7.3}Audio}{19}{subsubsection.2.7.3}
+\contentsline {subsubsection}{\numberline {2.7.4}Video}{20}{subsubsection.2.7.4}
+\contentsline {subsection}{\numberline {2.8}Summary}{20}{subsection.2.8}
+\contentsline {section}{\numberline {3}Design}{21}{section.3}
+\contentsline {subsection}{\numberline {3.1}The Application}{21}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Presenting Information on Google Glass}{21}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Presenting Information on Smartphones}{21}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Summary}{21}{subsection.3.4}
+\contentsline {section}{\numberline {4}Implementation}{22}{section.4}
+\contentsline {subsection}{\numberline {4.1}Summary}{22}{subsection.4.1}
+\contentsline {section}{\numberline {5}Result / Evaluation}{23}{section.5}
+\contentsline {section}{\numberline {6}Conclusion}{24}{section.6}
+\contentsline {subsection}{\numberline {6.1}Future Work}{24}{subsection.6.1}
+\contentsline {section}{\numberline {7}Abbrevations}{25}{section.7}
+\contentsline {section}{References}{26}{section*.15}
