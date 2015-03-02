@@ -29,6 +29,19 @@ Google (2012).
 \newblock \url{https://plus.google.com/u/0/wm/4/+GoogleGlass/posts/aKymsANgWBD}
   [2015-02-16].
 
+\bibitem{smartphoneSizeChart2}
+Christina~Bonnington (2013).
+\newblock Smartphone screen sizes keep on growing---but not for much longer.
+\newblock \url{http://www.wired.com/2013/04/why-big-smartphone-screens/}
+  [2015-03-02].
+
+\bibitem{glassUpLegal}
+Dan~Farber (2013).
+\newblock \textit{GlassUp takes on Google Glass and Google legal}.
+\newblock
+  \url{http://www.cnet.com/news/glassup-takes-on-google-glass-and-google-legal/}
+  [2015-03-02].
+
 \bibitem{qrCodeHistory}
 Denso~Wave (2013).
 \newblock \textit{History of QR Code}.
@@ -64,6 +77,14 @@ Sergey~Brin (2013).
 \newblock \url{http://www.ted.com/talks/sergey_brin_why_google_glass}
   [2015-02-02].
 
+\bibitem{smartphoneSizeChart}
+Ben~Taylor (2014).
+\newblock \textit{Why smartphone screens are getting bigger: Specs reveal a
+  surprising story}.
+\newblock
+  \url{http://www.pcworld.com/article/2455169/why-smartphone-screens-are-getting-bigger-specs-reveal-a-surprising-story.html}
+  [2015-02-26].
+
 \bibitem{frameProviders}
 Google (2014).
 \newblock \textit{Find a Preferred Provider}.
@@ -80,11 +101,6 @@ Augmented~Reality (2015).
 \newblock \textit{Encyclop{\ae}dia Britannica Online}.
 \newblock \url{academic.eb.com/EBchecked/topic/1196641/augmented-reality}
   [2015-02-19].
-
-\bibitem{smartphoneSizeChart}
-Find The~Best (2015).
-\newblock \textit{Smartphone Screen Size Over Time}.
-\newblock \url{http://www.findthebest.com/w/51cZEmux2ex} [2015-02-26].
 
 \bibitem{glassUp}
 GlassUp (2015).
@@ -145,10 +161,15 @@ Oculus (2015).
 \newblock \textit{Low Latency 360$\,^{\circ}$ Head Tracking}.
 \newblock \url{https://www.oculus.com/rift/} [2015-02-09].
 
+\bibitem{pennyDisplay}
+Penny (2015).
+\newblock \textit{PDS Projecting Display System}.
+\newblock \url{http://www.penny.se/eng/products/pds.html} [2015-03-02].
+
 \bibitem{penny}
 Penny (2015).
 \newblock \textit{Penny}.
-\newblock \url{http://www.penny.se/} [2015-02-23].
+\newblock \url{http://www.penny.se/eng/index.html} [2015-02-23].
 
 \bibitem{pennyProducts}
 Penny (2015).
