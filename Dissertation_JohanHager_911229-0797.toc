@@ -7,10 +7,10 @@
 \contentsline {subsubsection}{\numberline {2.1.4}Augmented Reality}{5}{subsubsection.2.1.4}
 \contentsline {subsection}{\numberline {2.2}Similar Products}{6}{subsection.2.2}
 \contentsline {subsection}{\numberline {2.3}User Interface}{10}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Compared to Smartphones}{14}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}Limitations with Google Glass}{15}{subsection.2.5}
-\contentsline {subsection}{\numberline {2.6}QR Code}{17}{subsection.2.6}
-\contentsline {subsection}{\numberline {2.7}Information (and Ways of Presenting Information)}{18}{subsection.2.7}
+\contentsline {subsection}{\numberline {2.4}A Comparison with Smartphones}{13}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Limitations of Google Glass}{15}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}QR Code}{16}{subsection.2.6}
+\contentsline {subsection}{\numberline {2.7}Information (and Ways of Presenting Information)}{17}{subsection.2.7}
 \contentsline {subsubsection}{\numberline {2.7.1}Text}{18}{subsubsection.2.7.1}
 \contentsline {subsubsection}{\numberline {2.7.2}Images}{18}{subsubsection.2.7.2}
 \contentsline {subsubsection}{\numberline {2.7.3}Audio}{19}{subsubsection.2.7.3}

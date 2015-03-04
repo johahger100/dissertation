@@ -29,6 +29,11 @@ Google (2012).
 \newblock \url{https://plus.google.com/u/0/wm/4/+GoogleGlass/posts/aKymsANgWBD}
   [2015-02-16].
 
+\bibitem{pennyCompany}
+Penny (2012).
+\newblock \textit{Penny - Company}.
+\newblock \url{http://www.penny.se/eng/company/company.html} [2015-03-04].
+
 \bibitem{smartphoneSizeChart2}
 Christina~Bonnington (2013).
 \newblock Smartphone screen sizes keep on growing---but not for much longer.
@@ -74,6 +79,13 @@ Elise~Ackerman (2013).
 Google (2013).
 \newblock \textit{Google Glass How-to: Getting Started} [{O}nline video].
 \newblock \url{http://youtu.be/4EvNxWhskf8} [2015-02-07].
+
+\bibitem{techLeadManager}
+Matt~Welsh (2013).
+\newblock \textit{Running a software team at Google}.
+\newblock
+  \url{http://matt-welsh.blogspot.com/2013/04/running-software-team-at-google.html}
+  [2015-03-03].
 
 \bibitem{tedtalkWhyGlass}
 Sergey~Brin (2013).
@@ -148,6 +160,11 @@ Google (2015).
 \newblock \url{https://developers.google.com/glass/develop/gdk/voice}
   [2015-03-02].
 
+\bibitem{hololensDemo}
+IGN (2015).
+\newblock \textit{Microsoft's HoloLens Live Demonstration} [{O}nline video].
+\newblock \url{http://youtu.be/b6sL_5Wgvrg} [2015-03-04].
+
 \bibitem{hololens}
 Microsoft (2015).
 \newblock \textit{Microsoft HoloLens}.
@@ -217,6 +234,11 @@ Wikipedia (2015).
 Wikipedia (2015).
 \newblock \textit{Head-Up Display}.
 \newblock \url{http://en.wikipedia.org/wiki/Head-up_display} [2015-02-23].
+
+\bibitem{iphoneWiki}
+Wikipedia (2015).
+\newblock \textit{iPhone}.
+\newblock \url{http://en.wikipedia.org/wiki/IPhone} [2015-03-04].
 
 \bibitem{ohmdWiki}
 Wikipedia (2015).

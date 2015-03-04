@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Dissertation_JohanHager_911229-0797.aux
 The style file: plain.bst
 Database file #1: myBibliography.bib
-You've used 44 entries,
+You've used 48 entries,
             2118 wiz_defined-function locations,
-            700 strings with 10477 characters,
-and the built_in function-call counts, 9173 in all, are:
-= -- 858
-> -- 308
+            719 strings with 11017 characters,
+and the built_in function-call counts, 9989 in all, are:
+= -- 934
+> -- 336
 < -- 0
-+ -- 132
-- -- 88
-* -- 259
-:= -- 1539
-add.period$ -- 132
-call.type$ -- 44
-change.case$ -- 175
++ -- 144
+- -- 96
+* -- 279
+:= -- 1675
+add.period$ -- 144
+call.type$ -- 48
+change.case$ -- 191
 chr.to.int$ -- 0
-cite$ -- 44
-duplicate$ -- 321
-empty$ -- 977
-format.name$ -- 88
-if$ -- 2011
+cite$ -- 48
+duplicate$ -- 349
+empty$ -- 1065
+format.name$ -- 96
+if$ -- 2191
 int.to.chr$ -- 0
-int.to.str$ -- 44
+int.to.str$ -- 48
 missing$ -- 4
-newline$ -- 223
-num.names$ -- 88
-pop$ -- 339
+newline$ -- 243
+num.names$ -- 96
+pop$ -- 371
 preamble$ -- 1
-purify$ -- 132
+purify$ -- 144
 quote$ -- 0
-skip$ -- 347
+skip$ -- 379
 stack$ -- 0
-substring$ -- 260
-swap$ -- 44
+substring$ -- 280
+swap$ -- 48
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 174
+type$ -- 190
 warning$ -- 0
-while$ -- 91
-width$ -- 46
-write$ -- 404
+while$ -- 99
+width$ -- 50
+write$ -- 440
