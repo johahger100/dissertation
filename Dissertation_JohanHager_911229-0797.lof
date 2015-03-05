@@ -4,16 +4,16 @@
 \contentsline {figure}{\numberline {2.2}{\ignorespaces The HMD ``Oculus Rift'' is a virtual reality device\nobreakspace {}\cite {ImagesOculusRift}.\relax }}{5}{figure.caption.6}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces A shopping list while the user is out shopping is useful information\nobreakspace {}\cite {glassDesignPrinciples}.\relax }}{6}{figure.caption.7}
 \contentsline {figure}{\numberline {2.4}{\ignorespaces There are many OHMD devices similar to Google Glass\nobreakspace {}\cite {ohmdWiki}.\relax }}{7}{figure.caption.8}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Microsoft Hololens\cite {hololens}}}}{7}{subfigure.4.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Recon Jet\cite {reconJet}}}}{7}{subfigure.4.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {GlassUp\cite {glassUpFeatures}}}}{7}{subfigure.4.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {C Wear Interactive Glasses\cite {pennyProducts}}}}{7}{subfigure.4.4}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Microsoft Hololens\nobreakspace {}\cite {hololens}}}}{7}{subfigure.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Recon Jet\nobreakspace {}\cite {reconJet}}}}{7}{subfigure.4.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {GlassUp\nobreakspace {}\cite {glassUpFeatures}}}}{7}{subfigure.4.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {C Wear Interactive Glasses\nobreakspace {}\cite {pennyProducts}}}}{7}{subfigure.4.4}
 \contentsline {figure}{\numberline {2.5}{\ignorespaces A visualisation of the timeline as the timeline is perceived by the user\nobreakspace {}\cite {ImagesGoogleGlassUI}.\relax }}{10}{figure.caption.9}
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Cards can either display basic applications or represent immersions.\relax }}{11}{figure.caption.10}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The Google Glass home screen is a card that displays a clock.}}}{11}{subfigure.6.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The card ``Explore stars'' represents an immersion.}}}{11}{subfigure.6.2}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {The immersion ``Explore stars'' allows the user to look around at stars using the built-in head motion tracker.}}}{11}{subfigure.6.3}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Saying ``ok glass'' will bring up the voice vommand menu. \cite {googleGlassVoiceCommand}\relax }}{13}{figure.caption.11}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Smartphone screens have been increasing in size for several years.\nobreakspace {}\cite {smartphoneSizeChart2}.\relax }}{14}{figure.caption.12}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Saying ``ok glass'' will bring up the voice command menu\nobreakspace {}\cite {googleGlassVoiceCommand}.\relax }}{13}{figure.caption.11}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Smartphone screens have been increasing in size for several years\nobreakspace {}\cite {smartphoneSizeChart2}.\relax }}{14}{figure.caption.12}
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Screen sizes of the most popular, currently available smartphones\nobreakspace {}\cite {smartphoneSizeChart}.\relax }}{15}{figure.caption.13}
 \contentsline {figure}{\numberline {2.10}{\ignorespaces The standardised fields in a QR Code\nobreakspace {}\cite {qrCodeWiki}.\relax }}{17}{figure.caption.14}

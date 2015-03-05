@@ -1,11 +1,11 @@
 \begin{thebibliography}{10}
 
-\bibitem{sprakNe}
-Nationalencyklopedin (2010).
-\newblock \textit{V{\"a}rldens 100 st{\"o}rsta spr{\aa}k 2010}.
+\bibitem{spanishUS}
+United States Census~Bureau (2010).
+\newblock \textit{Language Spoken At Home}.
 \newblock
-  \url{http://www.ne.se/uppslagsverk/figur/tabell/v%C3%A4rldens-100-st%C3%B6rsta-spr%C3%A5k-2010}
-  [2015-02-23] (In Swedish).
+  \url{http://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=ACS_10_1YR_S1601&prodType=table}
+  [2015-03-06].
 
 \bibitem{glassLiveDemo}
 Google (2012).

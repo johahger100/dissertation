@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.12)  4 MAR 2015 16:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.12)  5 MAR 2015 16:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -440,14 +440,14 @@ Package pdftex.def Info: images/similarProducts/penny.png used on input line 11
  [6 <./images/GoogleGlassKeepRevelant.jpg>] [7 <./images/similarProducts/holole
 ns.png> <./images/similarProducts/reconJet.png> <./images/similarProducts/glass
 Up.png> <./images/similarProducts/penny.png>] [8] [9]) (./chap2/GlassUI.tex
-<images/GoogleGlassUI.png, id=409, 850.17625pt x 465.74pt>
+<images/GoogleGlassUI.png, id=410, 850.17625pt x 465.74pt>
 File: images/GoogleGlassUI.png Graphic file (type png)
 
 <use images/GoogleGlassUI.png>
 Package pdftex.def Info: images/GoogleGlassUI.png used on input line 5.
 (pdftex.def)             Requested size: 312.9803pt x 171.45409pt.
  [10 <./images/GoogleGlassUI.png>]
-<images/GoogleGlassHomescreen.png, id=417, 803.0pt x 481.8pt>
+<images/GoogleGlassHomescreen.png, id=418, 803.0pt x 481.8pt>
 File: images/GoogleGlassHomescreen.png Graphic file (type png)
 
 <use images/GoogleGlassHomescreen.png>
@@ -455,7 +455,7 @@ Package pdftex.def Info: images/GoogleGlassHomescreen.png used on input line 14
 .
 (pdftex.def)             Requested size: 199.16928pt x 119.50133pt.
 
-<images/GoogleGlassStarImmersion.png, id=418, 803.0pt x 481.8pt>
+<images/GoogleGlassStarImmersion.png, id=419, 803.0pt x 481.8pt>
 File: images/GoogleGlassStarImmersion.png Graphic file (type png)
 
 <use images/GoogleGlassStarImmersion.png>
@@ -463,7 +463,7 @@ Package pdftex.def Info: images/GoogleGlassStarImmersion.png used on input line
  16.
 (pdftex.def)             Requested size: 199.16928pt x 119.50133pt.
 
-<images/GoogleGlassStarImmersion2.png, id=419, 803.0pt x 481.8pt>
+<images/GoogleGlassStarImmersion2.png, id=420, 803.0pt x 481.8pt>
 File: images/GoogleGlassStarImmersion2.png Graphic file (type png)
 
 <use images/GoogleGlassStarImmersion2.png>
@@ -471,7 +471,7 @@ Package pdftex.def Info: images/GoogleGlassStarImmersion2.png used on input lin
 e 18.
 (pdftex.def)             Requested size: 199.16928pt x 119.50133pt.
  [11 <./images/GoogleGlassHomescreen.png> <./images/GoogleGlassStarImmersion.pn
-g> <./images/GoogleGlassStarImmersion2.png>] <images/glassVoiceMenu.png, id=436
+g> <./images/GoogleGlassStarImmersion2.png>] <images/glassVoiceMenu.png, id=438
 , 642.4pt x 361.35pt>
 File: images/glassVoiceMenu.png Graphic file (type png)
 
@@ -479,56 +479,60 @@ File: images/glassVoiceMenu.png Graphic file (type png)
 Package pdftex.def Info: images/glassVoiceMenu.png used on input line 36.
 (pdftex.def)             Requested size: 312.9803pt x 176.05403pt.
  [12]) (./chap2/vsphones.tex [13 <./images/glassVoiceMenu.png>] <images/smartph
-oneSize2.jpg, id=461, 662.475pt x 363.3575pt>
+oneSize2.jpg, id=463, 662.475pt x 363.3575pt>
 File: images/smartphoneSize2.jpg Graphic file (type jpg)
 
 <use images/smartphoneSize2.jpg>
 Package pdftex.def Info: images/smartphoneSize2.jpg used on input line 16.
 (pdftex.def)             Requested size: 312.9803pt x 171.66513pt.
 
-<images/smartphoneSize.png, id=464, 722.7pt x 429.605pt>
+<images/smartphoneSize.png, id=466, 722.7pt x 429.605pt>
 File: images/smartphoneSize.png Graphic file (type png)
 
 <use images/smartphoneSize.png>
 Package pdftex.def Info: images/smartphoneSize.png used on input line 28.
 (pdftex.def)             Requested size: 312.9803pt x 186.0507pt.
-) (./chap2/Limitations.tex [14 <./images/smartphoneSize2.jpg>]
-Underfull \vbox (badness 1675) has occurred while \output is active []
 
- [15 <./images/smartphoneSize.png>]) (./chap2/QRCode.tex [16]
-<images/qrcodestandard.png, id=497, 1284.8pt x 720.6925pt>
+Underfull \vbox (badness 3029) has occurred while \output is active []
+
+ [14 <./images/smartphoneSize2.jpg>]) (./chap2/Limitations.tex [15 <./images/sm
+artphoneSize.png>]) (./chap2/QRCode.tex [16]
+<images/qrcodestandard.png, id=499, 1284.8pt x 720.6925pt>
 File: images/qrcodestandard.png Graphic file (type png)
 
 <use images/qrcodestandard.png>
 Package pdftex.def Info: images/qrcodestandard.png used on input line 7.
 (pdftex.def)             Requested size: 312.9803pt x 175.554pt.
-) (./chap2/Information.tex [17 <./images/qrcodestandard.png>] [18]
+) (./chap2/Information.tex [17 <./images/qrcodestandard.png>] [18] [19]) (./cha
+p2/Summary.tex [20]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19])
-(./chap2/Summary.tex)) [20] (./Design.tex) [21
+ [21]
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no … in font cmr12!
+))
+[22] (./Design.tex) [23
 
-] (./Implementation.tex
-(./chap4/Summary.tex)) [22
-
-] (./ResultEvaluation.tex) [23
-
-] (./Conclusion.tex
-(./chap6/FutureWork.tex)) [24
-
-] (./abbreviations.tex) [25
+] (./Implementation.tex (./chap4/Summary.tex)) [24
 
 ]
-(./Dissertation_JohanHager_911229-0797.bbl
-Underfull \hbox (badness 4739) in paragraph at lines 4--9
-[]\OT1/cmr/m/n/12 Nationalencyklopedin (2010).  \OT1/cmr/m/it/12 V^^?arldens 10
-0 st^^?orsta spr^^Wak 2010\OT1/cmr/m/n/12 .  []$\OT1/cmtt/m/n/12 http :
+(./ResultEvaluation.tex) [25
+
+] (./Conclusion.tex (./chap6/FutureWork.tex))
+[26
+
+] (./abbreviations.tex) [27
+
+] (./Dissertation_JohanHager_911229-0797.bbl
+Underfull \hbox (badness 1629) in paragraph at lines 4--9
+[]\OT1/cmr/m/n/12 United States Cen-sus Bu-reau (2010).  \OT1/cmr/m/it/12 Lan-g
+uage Spo-ken At Home\OT1/cmr/m/n/12 .  []$\OT1/cmtt/m/n/12 http :
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 4--9
-\OT1/cmtt/m/n/12 / / www . ne . se / uppslagsverk / figur / tabell / v % C3 % A
-4rldens -[] 100 -[] st % C3 % B6rsta -[]
+\OT1/cmtt/m/n/12 / / factfinder . census . gov / faces / tableservices / jsf / 
+pages / productview .
  []
 
 
@@ -549,7 +553,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--77
 ] hurt -[] your -[] eyes -[] a -[] harvard -[]
  []
 
-[26
+[28
 
 ]
 Underfull \hbox (badness 1127) in paragraph at lines 146--150
@@ -582,7 +586,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 174--179
 orld _ 816p23 . mp4$[]
  []
 
-[27]
+[29]
 Underfull \hbox (badness 1028) in paragraph at lines 186--189
 []\OT1/cmr/m/n/12 Penny (2015).  \OT1/cmr/m/it/12 PDS Pro-ject-ing Dis-play Sys
 -tem\OT1/cmr/m/n/12 .  []$\OT1/cmtt/m/n/12 http : / / www . penny . se / eng /
@@ -600,9 +604,9 @@ Underfull \hbox (badness 1152) in paragraph at lines 219--222
 /m/n/12 .  []$\OT1/cmtt/m/n/12 http : / / en . wikipedia . org / wiki / Bone _
  []
 
-[28])
+[30])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 137.
- [29]
+ [31]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 137.
  (./Dissertation_JohanHager_911229-0797.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 137.
@@ -617,13 +621,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 137.
  ) 
 Here is how much of TeX's memory you used:
- 6769 strings out of 493117
- 106412 string characters out of 6135432
- 199444 words of memory out of 5000000
- 9964 multiletter control sequences out of 15000+600000
+ 6770 strings out of 493117
+ 106422 string characters out of 6135432
+ 199445 words of memory out of 5000000
+ 9963 multiletter control sequences out of 15000+600000
  9016 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,9n,50p,1110b,468s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,9n,50p,1126b,468s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
 /usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
@@ -633,11 +637,11 @@ al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
 l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/
 texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/t
 exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Dissertation_JohanHager_911229-0797.pdf (41 pages, 2531075 by
+Output written on Dissertation_JohanHager_911229-0797.pdf (43 pages, 2535980 by
 tes).
 PDF statistics:
- 714 PDF objects out of 1000 (max. 8388607)
- 620 compressed objects within 7 object streams
- 145 named destinations out of 1000 (max. 500000)
+ 740 PDF objects out of 1000 (max. 8388607)
+ 644 compressed objects within 7 object streams
+ 147 named destinations out of 1000 (max. 500000)
  326 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -16,15 +16,15 @@
 \contentsline {subsubsection}{\numberline {2.7.3}Audio}{19}{subsubsection.2.7.3}
 \contentsline {subsubsection}{\numberline {2.7.4}Video}{20}{subsubsection.2.7.4}
 \contentsline {subsection}{\numberline {2.8}Summary}{20}{subsection.2.8}
-\contentsline {section}{\numberline {3}Design}{21}{section.3}
-\contentsline {subsection}{\numberline {3.1}The Application}{21}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Presenting Information on Google Glass}{21}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Presenting Information on Smartphones}{21}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Summary}{21}{subsection.3.4}
-\contentsline {section}{\numberline {4}Implementation}{22}{section.4}
-\contentsline {subsection}{\numberline {4.1}Summary}{22}{subsection.4.1}
-\contentsline {section}{\numberline {5}Result / Evaluation}{23}{section.5}
-\contentsline {section}{\numberline {6}Conclusion}{24}{section.6}
-\contentsline {subsection}{\numberline {6.1}Future Work}{24}{subsection.6.1}
-\contentsline {section}{\numberline {7}Abbrevations}{25}{section.7}
-\contentsline {section}{References}{26}{section*.15}
+\contentsline {section}{\numberline {3}Design}{23}{section.3}
+\contentsline {subsection}{\numberline {3.1}The Application}{23}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Presenting Information on Google Glass}{23}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Presenting Information on Smartphones}{23}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Summary}{23}{subsection.3.4}
+\contentsline {section}{\numberline {4}Implementation}{24}{section.4}
+\contentsline {subsection}{\numberline {4.1}Summary}{24}{subsection.4.1}
+\contentsline {section}{\numberline {5}Result / Evaluation}{25}{section.5}
+\contentsline {section}{\numberline {6}Conclusion}{26}{section.6}
+\contentsline {subsection}{\numberline {6.1}Future Work}{26}{subsection.6.1}
+\contentsline {section}{\numberline {7}Abbrevations}{27}{section.7}
+\contentsline {section}{References}{28}{section*.15}
