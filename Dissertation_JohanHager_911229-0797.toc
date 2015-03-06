@@ -26,5 +26,5 @@
 \contentsline {section}{\numberline {5}Result / Evaluation}{25}{section.5}
 \contentsline {section}{\numberline {6}Conclusion}{26}{section.6}
 \contentsline {subsection}{\numberline {6.1}Future Work}{26}{subsection.6.1}
-\contentsline {section}{\numberline {7}Abbrevations}{27}{section.7}
+\contentsline {section}{\numberline {7}Abbreviations}{27}{section.7}
 \contentsline {section}{References}{28}{section*.15}
