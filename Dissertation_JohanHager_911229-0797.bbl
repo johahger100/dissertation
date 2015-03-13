@@ -144,6 +144,13 @@ Google (2015).
   \url{https://developer.android.com/design/get-started/principles.html}
   [2015-02-16].
 
+\bibitem{cardLayout}
+Google (2015).
+\newblock \textit{Card Design - Layout}.
+\newblock
+  \url{https://developers.google.com/glass/develop/gdk/card-design#layouts}
+  [2015-03-13].
+
 \bibitem{glassDesignStyle}
 Google (2015).
 \newblock \textit{Card Regions}.

@@ -1,3 +1,30 @@
+As part of the design guidelines for Google Glass, Google provides developers with a card layout template, seen in Figure~\ref{GlassDesignStyle}. The different coloured regions are intended for different use. The red area is the main area intended for presenting information in text form with the green squares representing the preferred margins. The thick blue stripe almost at the bottom marks the footer. In the footer supplementary information, such as a user name or a timestamp. The blue,  slightly transparent, area to the left is mainly intended for images with associated text being presented to the right. The grey area, seemingly appearing behind all the other coloured areas, represent the entire card, with a size of 640 pixels wide and 360 pixels high~\cite{glassDesignStyle}.
+
+	\begin{figure}[ht!]
+		\centering
+		\includegraphics[width=110mm]{images/standard-template}
+		\caption{Google's design guidelines include a card layout template~\cite{glassDesignStyle}.}
+		\label{GlassDesignStyle}
+	\end{figure}
+
+TODO REWRITE
+Google goes even further in providing developers with guidelines for design of cards. Google provides developers with a set API to use which sets up the necessary margins and everything. All the developers need to do is to input the desiered information and its ready to go. Four examples of this can be seen in Figure~\ref{cardLayouts}.
+
+	\begin{figure}[ht!]
+		\centering
+   		\subfloat[Text layout.]{{\includegraphics[width=70mm]{images/card_text} }}
+  	 \qquad
+   		\subfloat[Fixed text layout.]{{\includegraphics[width=70mm]{images/card_text_fixed} }}
+	\qquad
+		\subfloat[Column layout.]{{\includegraphics[width=70mm]{images/card_columns} }}
+   	\qquad
+		\subfloat[Title layout.]{{\includegraphics[width=70mm]{images/card_title} }}
+   	\qquad
+		\caption{TODO~\cite{cardLayout}.}
+		\label{cardLayouts}
+	\end{figure}
+
+
 [TODO Design guidelines Google Glass]
 
 Margins layout templates
@@ -8,20 +35,17 @@ Google Glass Design tool
 
 Keep it relevant  - shopping list
 
+\begin{itemize}
+\item{1}
+\end{itemize}
+
 The principles behind designing for glass is to keep the information relevant. Google ranks different computational devices and services in terms of time periods. Google talks about how the cloud stores information ``forever'', a computer keeps about a years worth of information, a mobile phone is keeping track of the last month and Glass are for the present.
 
 Therefore Google asks developers to keep the information relevant and simple. Glass is designed not to get in the way of the user and, as stated previously, be usable when the users wants to~\cite{glassDesignPrinciples}.
 
-As part of the design guidelines for Google Glass, Google provides developers with a card layout template, seen in Figure~\ref{CardDesignStyle}.TODO The thick blue stripe almost at the bottom marks the footer. In the footer supplementary information, such as a user name or a timestamp.
 
-	\begin{figure}[ht!]
-		\centering
-		\includegraphics[width=110mm]{images/standard-template}
-		\caption{Google's design guidelines include a card layout template~\cite{glassDesignStyle}.}
-		\label{GlassDesignStyle}
-	\end{figure}
 
-Google Glass is placed very close to the user's eye which makes the small projection seem Despite the fact that the display for Google Glass is placed very close to the user's eye the amount of information that can be displayed is still very limited. Google have therefore provided developers with a few guidelines when writing text which will be presented on Glass~\cite{glassDesignStyle}. These guidelines, five in total, reads...
+Despite the fact that the display for Google Glass is placed close to the user's eye the amount of information that can be displayed is still very limited. Google have as a result provided developers with a few guidelines when writing text which will be presented on Glass~\cite{glassDesignStyle}. These guidelines, five in total, reads...
 
 \begin{itemize}
 	\item \textbf{Keep it brief.} Be concise, simple and precise. Look for alternatives to long text such as reading the content aloud, showing images or video, or removing features.
