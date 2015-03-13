@@ -1,34 +1,35 @@
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}
-\contentsline {section}{\numberline {2}Background}{2}{section.2}
-\contentsline {subsection}{\numberline {2.1}What is Google Glass?}{3}{subsection.2.1}
-\contentsline {subsubsection}{\numberline {2.1.1}Head-Mounted Display (HMD)}{4}{subsubsection.2.1.1}
-\contentsline {subsubsection}{\numberline {2.1.2}Heads-Up Display (HUD)}{4}{subsubsection.2.1.2}
-\contentsline {subsubsection}{\numberline {2.1.3}Virtual Reality}{4}{subsubsection.2.1.3}
-\contentsline {subsubsection}{\numberline {2.1.4}Augmented Reality}{5}{subsubsection.2.1.4}
-\contentsline {subsection}{\numberline {2.2}Similar Products}{6}{subsection.2.2}
-\contentsline {subsubsection}{\numberline {2.2.1}Microsoft Hololens\nobreakspace {}\cite {hololens}}{7}{subsubsection.2.2.1}
-\contentsline {subsubsection}{\numberline {2.2.2}Recon Jet\nobreakspace {}\cite {reconJet}}{8}{subsubsection.2.2.2}
-\contentsline {subsubsection}{\numberline {2.2.3}GlassUp\nobreakspace {}\cite {glassUp}}{8}{subsubsection.2.2.3}
-\contentsline {subsubsection}{\numberline {2.2.4}C Wear Interactive Glasses\nobreakspace {}\cite {penny}}{9}{subsubsection.2.2.4}
-\contentsline {subsection}{\numberline {2.3}User Interface}{10}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}A Comparison with Smartphones}{13}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}Limitations of Google Glass}{14}{subsection.2.5}
-\contentsline {subsection}{\numberline {2.6}QR Code}{16}{subsection.2.6}
-\contentsline {subsection}{\numberline {2.7}Information (and Ways of Presenting Information)}{17}{subsection.2.7}
-\contentsline {subsubsection}{\numberline {2.7.1}Text}{17}{subsubsection.2.7.1}
-\contentsline {subsubsection}{\numberline {2.7.2}Images}{18}{subsubsection.2.7.2}
-\contentsline {subsubsection}{\numberline {2.7.3}Audio}{19}{subsubsection.2.7.3}
-\contentsline {subsubsection}{\numberline {2.7.4}Video}{19}{subsubsection.2.7.4}
-\contentsline {subsection}{\numberline {2.8}Summary}{20}{subsection.2.8}
-\contentsline {section}{\numberline {3}Design}{23}{section.3}
-\contentsline {subsection}{\numberline {3.1}The Application}{23}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Presenting Information on Google Glass}{23}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Presenting Information on Smartphones}{23}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Summary}{23}{subsection.3.4}
-\contentsline {section}{\numberline {4}Implementation}{24}{section.4}
-\contentsline {subsection}{\numberline {4.1}Summary}{24}{subsection.4.1}
-\contentsline {section}{\numberline {5}Result / Evaluation}{25}{section.5}
-\contentsline {section}{\numberline {6}Conclusion}{26}{section.6}
-\contentsline {subsection}{\numberline {6.1}Future Work}{26}{subsection.6.1}
-\contentsline {section}{\numberline {7}Abbreviations}{27}{section.7}
-\contentsline {section}{References}{28}{section*.15}
+\contentsline {section}{\numberline {2}Background}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}What is Google Glass?}{4}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Head-Mounted Display (HMD)}{5}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Heads-Up Display (HUD)}{5}{subsubsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.3}Virtual Reality}{5}{subsubsection.2.1.3}
+\contentsline {subsubsection}{\numberline {2.1.4}Augmented Reality}{6}{subsubsection.2.1.4}
+\contentsline {subsection}{\numberline {2.2}Similar Products}{7}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Microsoft Hololens\nobreakspace {}\cite {hololens}}{8}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}Recon Jet\nobreakspace {}\cite {reconJet}}{9}{subsubsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.3}GlassUp\nobreakspace {}\cite {glassUp}}{9}{subsubsection.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.4}C Wear Interactive Glasses\nobreakspace {}\cite {penny}}{10}{subsubsection.2.2.4}
+\contentsline {subsection}{\numberline {2.3}User Interface}{11}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}A Comparison with Smartphones}{14}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Limitations of Google Glass}{16}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}QR Code}{17}{subsection.2.6}
+\contentsline {subsection}{\numberline {2.7}Information (and Ways of Presenting Information)}{18}{subsection.2.7}
+\contentsline {subsubsection}{\numberline {2.7.1}Text}{19}{subsubsection.2.7.1}
+\contentsline {subsubsection}{\numberline {2.7.2}Images}{19}{subsubsection.2.7.2}
+\contentsline {subsubsection}{\numberline {2.7.3}Audio}{20}{subsubsection.2.7.3}
+\contentsline {subsubsection}{\numberline {2.7.4}Video}{21}{subsubsection.2.7.4}
+\contentsline {subsection}{\numberline {2.8}Summary}{21}{subsection.2.8}
+\contentsline {section}{\numberline {3}Design}{25}{section.3}
+\contentsline {subsection}{\numberline {3.1}The Application}{25}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Presenting Information on Google Glass}{25}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Glassware Flow Designer}{27}{subsubsection.3.2.1}
+\contentsline {subsection}{\numberline {3.3}Presenting Information on Smartphones}{28}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Summary}{28}{subsection.3.4}
+\contentsline {section}{\numberline {4}Implementation}{29}{section.4}
+\contentsline {subsection}{\numberline {4.1}Summary}{29}{subsection.4.1}
+\contentsline {section}{\numberline {5}Result / Evaluation}{31}{section.5}
+\contentsline {section}{\numberline {6}Conclusion}{33}{section.6}
+\contentsline {subsection}{\numberline {6.1}Future Work}{33}{subsection.6.1}
+\contentsline {section}{\numberline {7}Abbreviations}{35}{section.7}
+\contentsline {section}{References}{37}{section*.17}
