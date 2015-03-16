@@ -23,7 +23,7 @@
 \contentsline {section}{\numberline {3}Design}{25}{section.3}
 \contentsline {subsection}{\numberline {3.1}The Application}{25}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Presenting Information on Google Glass}{26}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}Glassware Flow Designer}{28}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.1}Glassware Flow Designer}{29}{subsubsection.3.2.1}
 \contentsline {subsection}{\numberline {3.3}Presenting Information on Smartphones}{29}{subsection.3.3}
 \contentsline {subsection}{\numberline {3.4}Summary}{30}{subsection.3.4}
 \contentsline {section}{\numberline {4}Implementation}{31}{section.4}
