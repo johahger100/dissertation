@@ -113,6 +113,11 @@ Google (2014).
 \newblock \textit{Frames}.
 \newblock \url{http://www.google.com/glass/help/frames/} [2015-02-02].
 
+\bibitem{myGlass}
+Google (2014).
+\newblock \textit{MyGlass}.
+\newblock \url{https://www.google.com/glass/help/myglass/} [2015-03-17].
+
 \bibitem{augmentedRealityDef}
 Augmented~Reality (2015).
 \newblock \textit{Encyclop{\ae}dia Britannica Online}.
@@ -196,6 +201,13 @@ Google (2015).
 \newblock \textit{Voice input}.
 \newblock \url{https://developers.google.com/glass/develop/gdk/voice}
   [2015-03-02].
+
+\bibitem{existingVoiceCommands}
+Google (2015).
+\newblock \textit{VoiceTriggers.Command}.
+\newblock
+  \url{https://developers.google.com/glass/develop/gdk/reference/com/google/android/glass/app/VoiceTriggers.Command}
+  [2015-03-17].
 
 \bibitem{hololensDemo}
 IGN (2015).
