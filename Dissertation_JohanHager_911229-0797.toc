@@ -33,36 +33,36 @@
 \contentsline {subsection}{\numberline {5.2}Image Size}{35}{subsection.5.2}
 \contentsline {subsection}{\numberline {5.3}Comparing Text and Images}{35}{subsection.5.3}
 \contentsline {subsection}{\numberline {5.4}Download Speed}{35}{subsection.5.4}
-\contentsline {subsection}{\numberline {5.5}Interaction Delay}{35}{subsection.5.5}
-\contentsline {subsection}{\numberline {5.6}Background Noise}{35}{subsection.5.6}
-\contentsline {subsection}{\numberline {5.7}Size of QR Code}{35}{subsection.5.7}
-\contentsline {subsection}{\numberline {5.8}Complexity of QR Code}{35}{subsection.5.8}
-\contentsline {subsection}{\numberline {5.9}``Tap Counter''}{35}{subsection.5.9}
-\contentsline {subsection}{\numberline {5.10}User Experience}{35}{subsection.5.10}
-\contentsline {subsection}{\numberline {5.11}Multitasking}{35}{subsection.5.11}
-\contentsline {subsection}{\numberline {5.12}Battery}{35}{subsection.5.12}
-\contentsline {subsection}{\numberline {5.13}Connected to Mobile Device}{35}{subsection.5.13}
-\contentsline {subsection}{\numberline {5.14}Overall Conclusions}{35}{subsection.5.14}
-\contentsline {section}{\numberline {6}Results}{37}{section.6}
-\contentsline {subsection}{\numberline {6.1}The Application}{37}{subsection.6.1}
-\contentsline {subsubsection}{\numberline {6.1.1}Google Glass}{37}{subsubsection.6.1.1}
-\contentsline {subsubsection}{\numberline {6.1.2}Smartphone}{37}{subsubsection.6.1.2}
-\contentsline {subsection}{\numberline {6.2}Test Cases}{37}{subsection.6.2}
-\contentsline {subsubsection}{\numberline {6.2.1}Text Length}{37}{subsubsection.6.2.1}
-\contentsline {subsubsection}{\numberline {6.2.2}Image Size}{37}{subsubsection.6.2.2}
-\contentsline {subsubsection}{\numberline {6.2.3}Comparing Text and Images}{37}{subsubsection.6.2.3}
-\contentsline {subsubsection}{\numberline {6.2.4}Download Speed}{37}{subsubsection.6.2.4}
-\contentsline {subsubsection}{\numberline {6.2.5}Interaction Delay}{37}{subsubsection.6.2.5}
-\contentsline {subsubsection}{\numberline {6.2.6}Background Noise}{37}{subsubsection.6.2.6}
-\contentsline {subsubsection}{\numberline {6.2.7}Size of QR Code}{37}{subsubsection.6.2.7}
-\contentsline {subsubsection}{\numberline {6.2.8}Complexity of QR Code}{37}{subsubsection.6.2.8}
-\contentsline {subsubsection}{\numberline {6.2.9}``Tap Counter''}{37}{subsubsection.6.2.9}
-\contentsline {subsubsection}{\numberline {6.2.10}User Experience}{37}{subsubsection.6.2.10}
-\contentsline {subsubsection}{\numberline {6.2.11}Multitasking}{37}{subsubsection.6.2.11}
-\contentsline {subsubsection}{\numberline {6.2.12}Battery}{37}{subsubsection.6.2.12}
-\contentsline {subsubsection}{\numberline {6.2.13}Connected to Mobile Device}{37}{subsubsection.6.2.13}
-\contentsline {subsubsection}{\numberline {6.2.14}Overall Conclusions}{37}{subsubsection.6.2.14}
-\contentsline {section}{\numberline {7}Conclusion}{39}{section.7}
-\contentsline {subsection}{\numberline {7.1}Future Work}{39}{subsection.7.1}
-\contentsline {section}{\numberline {8}Abbreviations}{41}{section.8}
-\contentsline {section}{References}{43}{section*.19}
+\contentsline {subsection}{\numberline {5.5}Interaction Delay}{36}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.6}Background Noise}{36}{subsection.5.6}
+\contentsline {subsection}{\numberline {5.7}Size of QR Code}{36}{subsection.5.7}
+\contentsline {subsection}{\numberline {5.8}Complexity of QR Code}{36}{subsection.5.8}
+\contentsline {subsection}{\numberline {5.9}``Tap Counter''}{36}{subsection.5.9}
+\contentsline {subsection}{\numberline {5.10}User Experience}{36}{subsection.5.10}
+\contentsline {subsection}{\numberline {5.11}Multitasking}{36}{subsection.5.11}
+\contentsline {subsection}{\numberline {5.12}Battery}{36}{subsection.5.12}
+\contentsline {subsection}{\numberline {5.13}Connected to Mobile Device}{37}{subsection.5.13}
+\contentsline {subsection}{\numberline {5.14}Overall Personal Opinions}{37}{subsection.5.14}
+\contentsline {section}{\numberline {6}Results}{39}{section.6}
+\contentsline {subsection}{\numberline {6.1}The Application}{39}{subsection.6.1}
+\contentsline {subsubsection}{\numberline {6.1.1}Google Glass}{39}{subsubsection.6.1.1}
+\contentsline {subsubsection}{\numberline {6.1.2}Smartphone}{39}{subsubsection.6.1.2}
+\contentsline {subsection}{\numberline {6.2}Test Cases}{39}{subsection.6.2}
+\contentsline {subsubsection}{\numberline {6.2.1}Text Length}{39}{subsubsection.6.2.1}
+\contentsline {subsubsection}{\numberline {6.2.2}Image Size}{39}{subsubsection.6.2.2}
+\contentsline {subsubsection}{\numberline {6.2.3}Comparing Text and Images}{39}{subsubsection.6.2.3}
+\contentsline {subsubsection}{\numberline {6.2.4}Download Speed}{39}{subsubsection.6.2.4}
+\contentsline {subsubsection}{\numberline {6.2.5}Interaction Delay}{39}{subsubsection.6.2.5}
+\contentsline {subsubsection}{\numberline {6.2.6}Background Noise}{39}{subsubsection.6.2.6}
+\contentsline {subsubsection}{\numberline {6.2.7}Size of QR Code}{39}{subsubsection.6.2.7}
+\contentsline {subsubsection}{\numberline {6.2.8}Complexity of QR Code}{39}{subsubsection.6.2.8}
+\contentsline {subsubsection}{\numberline {6.2.9}``Tap Counter''}{39}{subsubsection.6.2.9}
+\contentsline {subsubsection}{\numberline {6.2.10}User Experience}{39}{subsubsection.6.2.10}
+\contentsline {subsubsection}{\numberline {6.2.11}Multitasking}{39}{subsubsection.6.2.11}
+\contentsline {subsubsection}{\numberline {6.2.12}Battery}{39}{subsubsection.6.2.12}
+\contentsline {subsubsection}{\numberline {6.2.13}Connected to Mobile Device}{39}{subsubsection.6.2.13}
+\contentsline {subsubsection}{\numberline {6.2.14}Overall Conclusions}{39}{subsubsection.6.2.14}
+\contentsline {section}{\numberline {7}Conclusion}{41}{section.7}
+\contentsline {subsection}{\numberline {7.1}Future Work}{41}{subsection.7.1}
+\contentsline {section}{\numberline {8}Abbreviations}{43}{section.8}
+\contentsline {section}{References}{45}{section*.19}
