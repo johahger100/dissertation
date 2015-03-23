@@ -11,6 +11,7 @@
 \PassOptionsToPackage{hyphens}{url}\usepackage{hyperref}
 \usepackage{url}
 \usepackage{subfig}
+\usepackage{tabularx}
 %\usepackage{refcheck}
 
 % If you write in Swedish, uncomment line below
@@ -106,11 +107,6 @@ Put the text of your abstract here
 \input{Implementation.tex}
 \cleardoublepage
 
-\section{Test Cases}
-\label{sec:testcases}
-\input{TestCases.tex}
-\cleardoublepage
-
 \section{Results} % Result / Evaluation
 \label{sec:resultevaluation}
 \input{ResultEvaluation.tex}
@@ -121,11 +117,6 @@ Put the text of your abstract here
 \input{Conclusion.tex}
 \cleardoublepage
 
-\section{Abbreviations}
-\label{sec:abbreviations}
-\input{abbreviations.tex}
-\cleardoublepage
-
 %\nocite{*}
 
 % Start of reference section. 
@@ -133,10 +124,18 @@ Put the text of your abstract here
 \bibliography{myBibliography}
 \bibliographystyle{plain}
 \end{singlespace}
-
+\cleardoublepage
 
 % Appendix if present goes here (optional part)
-%\appendix
-%\section{First appendix}
+\appendix
+\section{Abbreviations}
+\label{sec:abbreviations}
+\input{abbreviations.tex}
+\cleardoublepage
+
+\section{Results}
+\input{tables/DistanceTable.tex}
+\input{tables/ComplexityTable.tex}
+\cleardoublepage
 
 \end{document}

@@ -1,5 +1,10 @@
 \begin{thebibliography}{10}
 
+\bibitem{englishTextStat}
+Electronic Frontier~Foundation (2004).
+\newblock \textit{Statistical Distributions of English Text}.
+\newblock \url{http://www.data-compression.com/english.html} [2015-03-23].
+
 \bibitem{spanishUS}
 United States Census~Bureau (2010).
 \newblock \textit{Language Spoken At Home}.
