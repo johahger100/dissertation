@@ -14,59 +14,43 @@
 \contentsline {subsection}{\numberline {2.4}A Comparison with Smartphones}{14}{subsection.2.4}
 \contentsline {subsection}{\numberline {2.5}Limitations of Google Glass}{16}{subsection.2.5}
 \contentsline {subsection}{\numberline {2.6}QR Code}{17}{subsection.2.6}
-\contentsline {subsection}{\numberline {2.7}Information (and Ways of Presenting Information)}{18}{subsection.2.7}
-\contentsline {subsubsection}{\numberline {2.7.1}Text}{19}{subsubsection.2.7.1}
-\contentsline {subsubsection}{\numberline {2.7.2}Images}{19}{subsubsection.2.7.2}
-\contentsline {subsubsection}{\numberline {2.7.3}Audio}{20}{subsubsection.2.7.3}
-\contentsline {subsubsection}{\numberline {2.7.4}Video}{21}{subsubsection.2.7.4}
-\contentsline {subsection}{\numberline {2.8}Summary}{21}{subsection.2.8}
-\contentsline {section}{\numberline {3}Design}{25}{section.3}
-\contentsline {subsection}{\numberline {3.1}Glassware Flow Designer}{26}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Presenting Information on Google Glass}{26}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Presenting Information on Smartphones}{30}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Test Cases}{32}{subsection.3.4}
-\contentsline {subsubsection}{\numberline {3.4.1}Text Length}{32}{subsubsection.3.4.1}
-\contentsline {subsubsection}{\numberline {3.4.2}Tap Counter}{33}{subsubsection.3.4.2}
-\contentsline {subsubsection}{\numberline {3.4.3}Distance to the QR Code}{33}{subsubsection.3.4.3}
-\contentsline {subsubsection}{\numberline {3.4.4}Complexity of the QR Code}{33}{subsubsection.3.4.4}
-\contentsline {subsubsection}{\numberline {3.4.5}Display Speed}{34}{subsubsection.3.4.5}
-\contentsline {subsection}{\numberline {3.5}Test Units}{34}{subsection.3.5}
-\contentsline {subsection}{\numberline {3.6}Summary}{35}{subsection.3.6}
-\contentsline {section}{\numberline {4}Implementation}{37}{section.4}
-\contentsline {subsection}{\numberline {4.1}Zxing}{37}{subsection.4.1}
-\contentsline {subsubsection}{\numberline {4.1.1}BarcodeEye}{37}{subsubsection.4.1.1}
-\contentsline {subsection}{\numberline {4.2}View Slider}{37}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}AsyncTask}{37}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Text Split}{37}{subsection.4.4}
-\contentsline {subsection}{\numberline {4.5}Card Layout}{37}{subsection.4.5}
-\contentsline {subsection}{\numberline {4.6}Test Cases}{37}{subsection.4.6}
-\contentsline {subsubsection}{\numberline {4.6.1}Text Length}{37}{subsubsection.4.6.1}
-\contentsline {subsubsection}{\numberline {4.6.2}Tap Counter}{37}{subsubsection.4.6.2}
-\contentsline {subsubsection}{\numberline {4.6.3}Distance to the QR Code}{37}{subsubsection.4.6.3}
-\contentsline {subsubsection}{\numberline {4.6.4}Complexity of the QR Code}{37}{subsubsection.4.6.4}
-\contentsline {subsubsection}{\numberline {4.6.5}Display Speed}{37}{subsubsection.4.6.5}
-\contentsline {subsection}{\numberline {4.7}Summary}{37}{subsection.4.7}
-\contentsline {section}{\numberline {5}Results}{39}{section.5}
-\contentsline {subsection}{\numberline {5.1}The Application}{39}{subsection.5.1}
-\contentsline {subsubsection}{\numberline {5.1.1}Google Glass}{39}{subsubsection.5.1.1}
-\contentsline {subsubsection}{\numberline {5.1.2}Smartphone}{39}{subsubsection.5.1.2}
-\contentsline {subsection}{\numberline {5.2}Test Cases}{39}{subsection.5.2}
-\contentsline {subsubsection}{\numberline {5.2.1}Text Length}{39}{subsubsection.5.2.1}
-\contentsline {subsubsection}{\numberline {5.2.2}Image Size}{39}{subsubsection.5.2.2}
-\contentsline {subsubsection}{\numberline {5.2.3}Comparing Text and Images}{39}{subsubsection.5.2.3}
-\contentsline {subsubsection}{\numberline {5.2.4}Download Speed}{39}{subsubsection.5.2.4}
-\contentsline {subsubsection}{\numberline {5.2.5}Interaction Delay}{39}{subsubsection.5.2.5}
-\contentsline {subsubsection}{\numberline {5.2.6}Background Noise}{39}{subsubsection.5.2.6}
-\contentsline {subsubsection}{\numberline {5.2.7}Size of QR Code}{39}{subsubsection.5.2.7}
-\contentsline {subsubsection}{\numberline {5.2.8}Complexity of QR Code}{39}{subsubsection.5.2.8}
-\contentsline {subsubsection}{\numberline {5.2.9}``Tap Counter''}{39}{subsubsection.5.2.9}
-\contentsline {subsubsection}{\numberline {5.2.10}User Experience}{39}{subsubsection.5.2.10}
-\contentsline {subsubsection}{\numberline {5.2.11}Multitasking}{39}{subsubsection.5.2.11}
-\contentsline {subsubsection}{\numberline {5.2.12}Battery}{39}{subsubsection.5.2.12}
-\contentsline {subsubsection}{\numberline {5.2.13}Connected to Mobile Device}{39}{subsubsection.5.2.13}
-\contentsline {subsubsection}{\numberline {5.2.14}Overall Conclusions}{39}{subsubsection.5.2.14}
-\contentsline {section}{\numberline {6}Conclusion}{41}{section.6}
-\contentsline {subsection}{\numberline {6.1}Future Work}{41}{subsection.6.1}
-\contentsline {section}{References}{43}{section*.25}
-\contentsline {section}{\numberline {A}Abbreviations}{47}{appendix.A}
-\contentsline {section}{\numberline {B}Results}{49}{appendix.B}
+\contentsline {subsubsection}{\numberline {2.6.1}Decoding}{18}{subsubsection.2.6.1}
+\contentsline {subsection}{\numberline {2.7}Information (and Ways of Presenting Information)}{27}{subsection.2.7}
+\contentsline {subsubsection}{\numberline {2.7.1}Text}{27}{subsubsection.2.7.1}
+\contentsline {subsubsection}{\numberline {2.7.2}Images}{27}{subsubsection.2.7.2}
+\contentsline {subsubsection}{\numberline {2.7.3}Audio}{28}{subsubsection.2.7.3}
+\contentsline {subsubsection}{\numberline {2.7.4}Video}{29}{subsubsection.2.7.4}
+\contentsline {subsection}{\numberline {2.8}Summary}{29}{subsection.2.8}
+\contentsline {section}{\numberline {3}Design}{33}{section.3}
+\contentsline {subsection}{\numberline {3.1}Glassware Flow Designer}{34}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Presenting Information on Google Glass}{35}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Presenting Information on Smartphones}{38}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Test Cases}{41}{subsection.3.4}
+\contentsline {subsubsection}{\numberline {3.4.1}Text Length}{41}{subsubsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.2}Distance to the QR Code}{42}{subsubsection.3.4.2}
+\contentsline {subsubsection}{\numberline {3.4.3}Complexity of the QR Code}{42}{subsubsection.3.4.3}
+\contentsline {subsubsection}{\numberline {3.4.4}Display Time}{43}{subsubsection.3.4.4}
+\contentsline {subsection}{\numberline {3.5}Test Units}{44}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Summary}{44}{subsection.3.6}
+\contentsline {section}{\numberline {4}Implementation}{45}{section.4}
+\contentsline {subsection}{\numberline {4.1}Android Studio}{45}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}ZXing}{45}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}BarcodeEye}{45}{subsubsection.4.2.1}
+\contentsline {subsection}{\numberline {4.3}View Slider}{45}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}AsyncTask}{45}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Text Split}{45}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.6}Card Layout}{45}{subsection.4.6}
+\contentsline {subsection}{\numberline {4.7}Test Cases}{45}{subsection.4.7}
+\contentsline {subsubsection}{\numberline {4.7.1}Text Length}{45}{subsubsection.4.7.1}
+\contentsline {subsubsection}{\numberline {4.7.2}Distance to the QR Code}{46}{subsubsection.4.7.2}
+\contentsline {subsubsection}{\numberline {4.7.3}Complexity of the QR Code}{47}{subsubsection.4.7.3}
+\contentsline {subsubsection}{\numberline {4.7.4}Display Time}{47}{subsubsection.4.7.4}
+\contentsline {subsection}{\numberline {4.8}Summary}{47}{subsection.4.8}
+\contentsline {section}{\numberline {5}Results}{49}{section.5}
+\contentsline {section}{\numberline {6}Conclusion}{51}{section.6}
+\contentsline {subsection}{\numberline {6.1}Future Work}{51}{subsection.6.1}
+\contentsline {section}{References}{53}{section*.37}
+\contentsline {section}{\numberline {A}Abbreviations}{59}{appendix.A}
+\contentsline {section}{\numberline {B}Results}{61}{appendix.B}
+\contentsline {section}{\numberline {C}Code}{65}{appendix.C}
+\contentsline {section}{\numberline {D}Project Specification (In Swedish)}{67}{appendix.D}

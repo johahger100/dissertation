@@ -14,59 +14,43 @@
 \BOOKMARK [2][-]{subsection.2.4}{A Comparison with Smartphones}{section.2}% 14
 \BOOKMARK [2][-]{subsection.2.5}{Limitations of Google Glass}{section.2}% 15
 \BOOKMARK [2][-]{subsection.2.6}{QR Code}{section.2}% 16
-\BOOKMARK [2][-]{subsection.2.7}{Information \(and Ways of Presenting Information\)}{section.2}% 17
-\BOOKMARK [3][-]{subsubsection.2.7.1}{Text}{subsection.2.7}% 18
-\BOOKMARK [3][-]{subsubsection.2.7.2}{Images}{subsection.2.7}% 19
-\BOOKMARK [3][-]{subsubsection.2.7.3}{Audio}{subsection.2.7}% 20
-\BOOKMARK [3][-]{subsubsection.2.7.4}{Video}{subsection.2.7}% 21
-\BOOKMARK [2][-]{subsection.2.8}{Summary}{section.2}% 22
-\BOOKMARK [1][-]{section.3}{Design}{}% 23
-\BOOKMARK [2][-]{subsection.3.1}{Glassware Flow Designer}{section.3}% 24
-\BOOKMARK [2][-]{subsection.3.2}{Presenting Information on Google Glass}{section.3}% 25
-\BOOKMARK [2][-]{subsection.3.3}{Presenting Information on Smartphones}{section.3}% 26
-\BOOKMARK [2][-]{subsection.3.4}{Test Cases}{section.3}% 27
-\BOOKMARK [3][-]{subsubsection.3.4.1}{Text Length}{subsection.3.4}% 28
-\BOOKMARK [3][-]{subsubsection.3.4.2}{Tap Counter}{subsection.3.4}% 29
-\BOOKMARK [3][-]{subsubsection.3.4.3}{Distance to the QR Code}{subsection.3.4}% 30
-\BOOKMARK [3][-]{subsubsection.3.4.4}{Complexity of the QR Code}{subsection.3.4}% 31
-\BOOKMARK [3][-]{subsubsection.3.4.5}{Display Speed}{subsection.3.4}% 32
+\BOOKMARK [3][-]{subsubsection.2.6.1}{Decoding}{subsection.2.6}% 17
+\BOOKMARK [2][-]{subsection.2.7}{Information \(and Ways of Presenting Information\)}{section.2}% 18
+\BOOKMARK [3][-]{subsubsection.2.7.1}{Text}{subsection.2.7}% 19
+\BOOKMARK [3][-]{subsubsection.2.7.2}{Images}{subsection.2.7}% 20
+\BOOKMARK [3][-]{subsubsection.2.7.3}{Audio}{subsection.2.7}% 21
+\BOOKMARK [3][-]{subsubsection.2.7.4}{Video}{subsection.2.7}% 22
+\BOOKMARK [2][-]{subsection.2.8}{Summary}{section.2}% 23
+\BOOKMARK [1][-]{section.3}{Design}{}% 24
+\BOOKMARK [2][-]{subsection.3.1}{Glassware Flow Designer}{section.3}% 25
+\BOOKMARK [2][-]{subsection.3.2}{Presenting Information on Google Glass}{section.3}% 26
+\BOOKMARK [2][-]{subsection.3.3}{Presenting Information on Smartphones}{section.3}% 27
+\BOOKMARK [2][-]{subsection.3.4}{Test Cases}{section.3}% 28
+\BOOKMARK [3][-]{subsubsection.3.4.1}{Text Length}{subsection.3.4}% 29
+\BOOKMARK [3][-]{subsubsection.3.4.2}{Distance to the QR Code}{subsection.3.4}% 30
+\BOOKMARK [3][-]{subsubsection.3.4.3}{Complexity of the QR Code}{subsection.3.4}% 31
+\BOOKMARK [3][-]{subsubsection.3.4.4}{Display Time}{subsection.3.4}% 32
 \BOOKMARK [2][-]{subsection.3.5}{Test Units}{section.3}% 33
 \BOOKMARK [2][-]{subsection.3.6}{Summary}{section.3}% 34
 \BOOKMARK [1][-]{section.4}{Implementation}{}% 35
-\BOOKMARK [2][-]{subsection.4.1}{Zxing}{section.4}% 36
-\BOOKMARK [3][-]{subsubsection.4.1.1}{BarcodeEye}{subsection.4.1}% 37
-\BOOKMARK [2][-]{subsection.4.2}{View Slider}{section.4}% 38
-\BOOKMARK [2][-]{subsection.4.3}{AsyncTask}{section.4}% 39
-\BOOKMARK [2][-]{subsection.4.4}{Text Split}{section.4}% 40
-\BOOKMARK [2][-]{subsection.4.5}{Card Layout}{section.4}% 41
-\BOOKMARK [2][-]{subsection.4.6}{Test Cases}{section.4}% 42
-\BOOKMARK [3][-]{subsubsection.4.6.1}{Text Length}{subsection.4.6}% 43
-\BOOKMARK [3][-]{subsubsection.4.6.2}{Tap Counter}{subsection.4.6}% 44
-\BOOKMARK [3][-]{subsubsection.4.6.3}{Distance to the QR Code}{subsection.4.6}% 45
-\BOOKMARK [3][-]{subsubsection.4.6.4}{Complexity of the QR Code}{subsection.4.6}% 46
-\BOOKMARK [3][-]{subsubsection.4.6.5}{Display Speed}{subsection.4.6}% 47
-\BOOKMARK [2][-]{subsection.4.7}{Summary}{section.4}% 48
+\BOOKMARK [2][-]{subsection.4.1}{Android Studio}{section.4}% 36
+\BOOKMARK [2][-]{subsection.4.2}{ZXing}{section.4}% 37
+\BOOKMARK [3][-]{subsubsection.4.2.1}{BarcodeEye}{subsection.4.2}% 38
+\BOOKMARK [2][-]{subsection.4.3}{View Slider}{section.4}% 39
+\BOOKMARK [2][-]{subsection.4.4}{AsyncTask}{section.4}% 40
+\BOOKMARK [2][-]{subsection.4.5}{Text Split}{section.4}% 41
+\BOOKMARK [2][-]{subsection.4.6}{Card Layout}{section.4}% 42
+\BOOKMARK [2][-]{subsection.4.7}{Test Cases}{section.4}% 43
+\BOOKMARK [3][-]{subsubsection.4.7.1}{Text Length}{subsection.4.7}% 44
+\BOOKMARK [3][-]{subsubsection.4.7.2}{Distance to the QR Code}{subsection.4.7}% 45
+\BOOKMARK [3][-]{subsubsection.4.7.3}{Complexity of the QR Code}{subsection.4.7}% 46
+\BOOKMARK [3][-]{subsubsection.4.7.4}{Display Time}{subsection.4.7}% 47
+\BOOKMARK [2][-]{subsection.4.8}{Summary}{section.4}% 48
 \BOOKMARK [1][-]{section.5}{Results}{}% 49
-\BOOKMARK [2][-]{subsection.5.1}{The Application}{section.5}% 50
-\BOOKMARK [3][-]{subsubsection.5.1.1}{Google Glass}{subsection.5.1}% 51
-\BOOKMARK [3][-]{subsubsection.5.1.2}{Smartphone}{subsection.5.1}% 52
-\BOOKMARK [2][-]{subsection.5.2}{Test Cases}{section.5}% 53
-\BOOKMARK [3][-]{subsubsection.5.2.1}{Text Length}{subsection.5.2}% 54
-\BOOKMARK [3][-]{subsubsection.5.2.2}{Image Size}{subsection.5.2}% 55
-\BOOKMARK [3][-]{subsubsection.5.2.3}{Comparing Text and Images}{subsection.5.2}% 56
-\BOOKMARK [3][-]{subsubsection.5.2.4}{Download Speed}{subsection.5.2}% 57
-\BOOKMARK [3][-]{subsubsection.5.2.5}{Interaction Delay}{subsection.5.2}% 58
-\BOOKMARK [3][-]{subsubsection.5.2.6}{Background Noise}{subsection.5.2}% 59
-\BOOKMARK [3][-]{subsubsection.5.2.7}{Size of QR Code}{subsection.5.2}% 60
-\BOOKMARK [3][-]{subsubsection.5.2.8}{Complexity of QR Code}{subsection.5.2}% 61
-\BOOKMARK [3][-]{subsubsection.5.2.9}{``Tap Counter''}{subsection.5.2}% 62
-\BOOKMARK [3][-]{subsubsection.5.2.10}{User Experience}{subsection.5.2}% 63
-\BOOKMARK [3][-]{subsubsection.5.2.11}{Multitasking}{subsection.5.2}% 64
-\BOOKMARK [3][-]{subsubsection.5.2.12}{Battery}{subsection.5.2}% 65
-\BOOKMARK [3][-]{subsubsection.5.2.13}{Connected to Mobile Device}{subsection.5.2}% 66
-\BOOKMARK [3][-]{subsubsection.5.2.14}{Overall Conclusions}{subsection.5.2}% 67
-\BOOKMARK [1][-]{section.6}{Conclusion}{}% 68
-\BOOKMARK [2][-]{subsection.6.1}{Future Work}{section.6}% 69
-\BOOKMARK [1][-]{section*.25}{References}{}% 70
-\BOOKMARK [1][-]{appendix.A}{Abbreviations}{}% 71
-\BOOKMARK [1][-]{appendix.B}{Results}{}% 72
+\BOOKMARK [1][-]{section.6}{Conclusion}{}% 50
+\BOOKMARK [2][-]{subsection.6.1}{Future Work}{section.6}% 51
+\BOOKMARK [1][-]{section*.37}{References}{}% 52
+\BOOKMARK [1][-]{appendix.A}{Abbreviations}{}% 53
+\BOOKMARK [1][-]{appendix.B}{Results}{}% 54
+\BOOKMARK [1][-]{appendix.C}{Code}{}% 55
+\BOOKMARK [1][-]{appendix.D}{Project Specification \(In Swedish\)}{}% 56

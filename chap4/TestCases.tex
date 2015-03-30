@@ -1,0 +1,67 @@
+
+
+\subsubsection{Text Length}
+\begin{lstlisting}
+private double randfrom(double min, double max)
+{
+	Random rand = new Random();
+	double range = (max - min);
+	return min + range * rand.nextDouble();
+}
+
+private String getChar(int pos, double rand)
+{
+	if(rand <= doubleList.get(pos) || pos+1 <= alph.size())
+		return alph.get(pos);
+		
+	return getChar(pos+1, rand);
+}
+
+public String randchar()
+{
+	double rand = randfrom(0, 1);
+	return getChar(0, rand);
+}
+\end{lstlisting}
+
+\subsubsection{Distance to the QR Code}
+
+	\begin{table}[ht!]
+    		\caption{Average time of registering a QR code with varying distance.} \label{tab:distanceAverage}
+		\centering \begin{tabularx}{\textwidth}{l|X|X|X} \hline
+		\textbf{Distance (dm)} & \textbf{Google Glass} & \textbf{Samsung Galaxy SII} & \textbf{Samsung Galaxy SIII} \\ \hline \hline
+       
+		1	&	&	&	\\ \hline
+		2	&	&	&	\\ \hline
+		3	&	&	&	\\ \hline
+		
+		\end{tabularx}
+	\end{table}
+
+\subsubsection{Complexity of the QR Code}
+
+	\begin{table}[H]%ht!]
+    		\caption{Average time of registering a QR code with varying density.} \label{tab:complexityAverage}
+		\centering \begin{tabularx}{\textwidth}{l|X|X|X} \hline
+		\textbf{Encoded Characters} & \textbf{Google Glass} & \textbf{Samsung Galaxy SII} & \textbf{Samsung Galaxy SIII} \\ \hline \hline
+       
+		1	&	&	&	\\ \hline
+		50	&	&	&	\\ \hline
+		100	&	&	&	\\ \hline
+		
+		\end{tabularx}
+	\end{table}
+
+\subsubsection{Display Time}
+
+	\begin{table}[ht!]
+    		\caption{Average display time for Google Glass with varying information size.} \label{tab:averageDisplaySpeedGoogleGlass}
+		\centering \begin{tabularx}{\textwidth}{l|X|X|X} \hline
+		\textbf{Information Size (Byte)} & \textbf{Google Glass (ms)}  & \textbf{Samsung Galaxy SII (ms)}  & \textbf{Samsung Galaxy SIII (ms)} \\ \hline \hline
+       
+		100 k	&	&	&	 \\ \hline
+		1 M		&	&	&	 \\ \hline
+		10 M		&	&	&	 \\ \hline
+
+		\end{tabularx}
+	\end{table}

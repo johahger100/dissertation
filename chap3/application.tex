@@ -1,6 +1,15 @@
 The application designed and implemented in parallel with this report is a proof-of-concept of an application used for assembling components. The application is intended to function as a substitute for  instruction manuals, where Google Glass will allow users to scroll through the instructions hands-free. A proof-of-concept of a similar application for smartphones has been designed and implemented at the same time, in order to provide a point of reference as well as help evaluate the pros and cons of using Google Glass.
 
-As seen in Figure~\ref{cardDesign}, the application is designed as a slide view, with only one slide being displayed at a time. Instructions are to be divided into several steps, each presented on a separate slide which users may scroll through at their own pace. On Google Glass, users may scroll through the application using voice commands in order to make the application truly hands-free. By applying the slide view design users may focus on one instruction at a time. Also, the amount of information presented on screen at the same time might also be minimised depending on the limitations of the specific device.
+The application is to function as seen in Figure~\ref{projectmap}. First the user must use the application to scan a QR code. The QR code is then decoded. The decoded information from the QR code is an ID used to download information regarding the product connected to the QR code the user just scanned. The downloaded information contains product name, as well as necessary components and instructions needed for constructing the specific product. The product information is then sent to the display.
+
+	\begin{figure}[ht!]
+		\centering
+		\includegraphics[width=110mm]{images/projectmap2}
+		\caption{A road map to how the application is intended to work.}
+		\label{projectmap}
+	\end{figure}
+
+As seen in Figure~\ref{cardDesign}, the application is designed as a slide view, with only one slide being displayed at a time. Instructions are to be divided into several steps, each presented on a separate slide which users may scroll through at their own pace. On Google Glass, users may scroll through the application using voice commands in order to make the application truly hands-free. By applying the slide view design users may focus on one instruction at a time. %Also, the amount of information presented on screen at the same time might also be minimised depending on the limitations of the specific device.
 %The application is meant to scan a QR Code, which will give information on the product, enabling the application to retrieve building instructions from a back end database. The instructions, as well as necessary components, will then be presented on screen in a slide show, giving users the ability to scroll through at their own pace.
 
 	\begin{figure}[ht!]
@@ -10,7 +19,7 @@ As seen in Figure~\ref{cardDesign}, the application is designed as a slide view,
 		\label{cardDesign}
 	\end{figure}
 
-The instructions are the major focus of each slide, with each instruction using most of the slide. At the bottom of each slide additional information may be found, such as a label which, for instance, specifies that the information being presented on the current slide is an instruction (other information may also be presented, such as components required to complete the instructions). The design has been heavily inspired by Google's own guidelines as to how applications for Google Glass should be designed.
+The instructions are the major focus of each slide, with each instruction using most of the slide. At the bottom of each slide additional information may be found, such as a label which, for instance, specifies that the information being presented on the current slide is an instruction (other information may also be presented, such as components required to complete the instructions). The design has been heavily inspired by Google's own guidelines~\cite{glassDesignPrinciples} as to how applications for Google Glass should be designed.
 %	\begin{figure}[ht!]
 %		\centering
 %   	\subfloat[The Google Glass application.]{{\includegraphics[width=70mm]{images/googleGlassAppScreenshot} }}

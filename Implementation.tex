@@ -1,8 +1,13 @@
-\subsection{Zxing}
+\subsection{Android Studio}
+Both the smartphone application as well as the Google Glass application was developed in Android Studio~\cite{androidStudio}. Android Studio is a development environment developed by Google. %[TODO why Android Studio]
 
+\subsection{ZXing}
+The application was built upon the open-source barcode image processing library, Zebra Crossing (ZXing)~\cite{zxing}. %[TODO Vilka förändringar har gjorts]
+% https://github.com/zxing/zxing/
 
 \subsubsection{BarcodeEye}
-
+The Google Glass application was built upon the Google Glass port of the ZXing library, known as BarcodeEye~\cite{barcodeEye}.% [TODO vilka förändringar har gjorts]%While a slideview was implemented in BarcodeEye already, the information displayed was static [todo, var den statisk]. The slideview consited of only two slides [todo code example of how it was static]. Mixing images with text was not possible either. Information also had to be encoded directly into the QR code and could not be downloaded by an encoded link.
+% https://github.com/BarcodeEye/BarcodeEye
 
 \subsection{View Slider}
 
@@ -19,22 +24,7 @@
 
 
 \subsection{Test Cases}
-
-
-\subsubsection{Text Length}
-
-
-\subsubsection{Tap Counter}
-
-
-\subsubsection{Distance to the QR Code}
-
-
-\subsubsection{Complexity of the QR Code}
-
-
-\subsubsection{Display Speed}
-
+\input{chap4/TestCases.tex}
 
 \subsection{Summary}
 \label{subsec:summary}

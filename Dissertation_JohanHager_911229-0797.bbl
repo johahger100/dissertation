@@ -5,12 +5,31 @@ Electronic Frontier~Foundation (2004).
 \newblock \textit{Statistical Distributions of English Text}.
 \newblock \url{http://www.data-compression.com/english.html} [2015-03-23].
 
+\bibitem{asciitable}
+Ascii~Table (2010).
+\newblock \textit{Ascii Table}.
+\newblock \url{http://www.asciitable.com}.
+
 \bibitem{spanishUS}
 United States Census~Bureau (2010).
 \newblock \textit{Language Spoken At Home}.
 \newblock
   \url{http://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=ACS_10_1YR_S1601&prodType=table}
   [2015-03-06].
+
+\bibitem{qrCodeSizeComplexity}
+QR~Struff (2011).
+\newblock \textit{What Size Should A Printed QR Code Be}.
+\newblock
+  \url{http://www.qrstuff.com/blog/2011/01/18/what-size-should-a-qr-code-be}
+  [2015-03-24].
+
+\bibitem{qrcodeMaskPatterns}
+Wikipedia (2011).
+\newblock \textit{QR Code Mask Patterns}.
+\newblock
+  \url{http://commons.wikimedia.org/wiki/File:QR_Code_Mask_Patterns.svg}
+  [2015-03-30].
 
 \bibitem{glassLiveDemo}
 Google (2012).
@@ -38,6 +57,12 @@ Google (2012).
 Penny (2012).
 \newblock \textit{Penny - Company}.
 \newblock \url{http://www.penny.se/eng/company/company.html} [2015-03-04].
+
+\bibitem{qrcodeDecoding2}
+Bill~Casselman (2013).
+\newblock \textit{How to Read QR Symbols Without Your Mobile Telephone}.
+\newblock \url{http://www.ams.org/samplings/feature-column/fc-2013-02}
+  [2015-03-30].
 
 \bibitem{smartphoneSizeChart2}
 Christina~Bonnington (2013).
@@ -85,6 +110,19 @@ Google (2013).
 \newblock \textit{Google Glass How-to: Getting Started} [{O}nline video].
 \newblock \url{http://youtu.be/4EvNxWhskf8} [2015-02-07].
 
+\bibitem{googleGlassEdition1RAM}
+Jay~Lee (2013).
+\newblock \textit{I realize the with innovative products like Glass, the
+  experience is more...}
+\newblock \url{https://plus.google.com/+JayLee/posts/GwvagwVN6Hz} [2015-03-25].
+
+\bibitem{samsungGalaxyS2Sales}
+Kevin~Kwang (2013).
+\newblock \textit{Samsung Galaxy S smartphones slaes hit 100M}.
+\newblock
+  \url{http://www.zdnet.com/article/samsung-galaxy-s-smartphones-sales-hit-100m/}
+  [2015-03-25].
+
 \bibitem{techLeadManager}
 Matt~Welsh (2013).
 \newblock \textit{Running a software team at Google}.
@@ -99,6 +137,17 @@ Sergey~Brin (2013).
 \newblock \url{http://www.ted.com/talks/sergey_brin_why_google_glass}
   [2015-02-02].
 
+\bibitem{qrcodeDecoding}
+Andrew~Fuller (2014).
+\newblock \textit{Decoding small QR codes by hand}.
+\newblock \url{http://blog.qartis.com/decoding-small-qr-codes-by-hand/}
+  [2015-03-30].
+
+\bibitem{barcodeEye}
+BarcodeEye (2014).
+\newblock \textit{BarcodeEye}.
+\newblock \url{https://github.com/BarcodeEye} [2015-01-27].
+
 \bibitem{smartphoneSizeChart}
 Ben~Taylor (2014).
 \newblock \textit{Why smartphone screens are getting bigger: Specs reveal a
@@ -106,6 +155,14 @@ Ben~Taylor (2014).
 \newblock
   \url{http://www.pcworld.com/article/2455169/why-smartphone-screens-are-getting-bigger-specs-reveal-a-surprising-story.html}
   [2015-02-26].
+
+\bibitem{samsungGalaxyS3Sales}
+Fionna~Agomuoh (2014).
+\newblock \textit{Samsung Galaxy S5 Hits 10 Million Sales Mark: Smartphone
+  Beats Galaxy S4 Initial Sales Record By Two Days}.
+\newblock
+  \url{http://www.ibtimes.com/samsung-galaxy-s5-hits-10-million-sales-mark-smartphone-beats-galaxy-s4-initial-sales-1582476}
+  [2015-03-25].
 
 \bibitem{frameProviders}
 Google (2014).
@@ -123,11 +180,22 @@ Google (2014).
 \newblock \textit{MyGlass}.
 \newblock \url{https://www.google.com/glass/help/myglass/} [2015-03-17].
 
+\bibitem{googleGlassEdition2RAM}
+Google (2014).
+\newblock \textit{Thanks to you, Glass just got even better}.
+\newblock \url{https://plus.google.com/+GoogleGlass/posts/1tSYsPCCsGf}
+  [2015-03-25].
+
 \bibitem{augmentedRealityDef}
 Augmented~Reality (2015).
 \newblock \textit{Encyclop{\ae}dia Britannica Online}.
 \newblock \url{academic.eb.com/EBchecked/topic/1196641/augmented-reality}
   [2015-02-19].
+
+\bibitem{historyOfGlass}
+Glass~Almanac (2015).
+\newblock \textit{The History Of Google Glass}.
+\newblock \url{http://glassalmanac.com/history-google-glass/} [2015-03-25].
 
 \bibitem{glassUp}
 GlassUp (2015).
@@ -153,6 +221,12 @@ Google (2015).
 \newblock
   \url{https://developer.android.com/design/get-started/principles.html}
   [2015-02-16].
+
+\bibitem{androidStudio}
+Google (2015).
+\newblock \textit{Android Studio Overview}.
+\newblock \url{http://developer.android.com/tools/studio/index.html}
+  [2015-03-24].
 
 \bibitem{cardLayout}
 Google (2015).
@@ -236,6 +310,12 @@ Oculus (2015).
 \newblock \textit{Low Latency 360$\,^{\circ}$ Head Tracking}.
 \newblock \url{https://www.oculus.com/rift/} [2015-02-09].
 
+\bibitem{30sampleSize}
+Pennsylvania State~University (2015).
+\newblock \textit{Confidence Intervals and the Central Limit Theorem}.
+\newblock \url{https://onlinecourses.science.psu.edu/stat506/node/8}
+  [2015-03-25].
+
 \bibitem{pennyDisplay}
 Penny (2015).
 \newblock \textit{PDS Projecting Display System}.
@@ -305,10 +385,30 @@ Wikipedia (2015).
 \newblock \textit{QR Code}.
 \newblock \url{http://en.wikipedia.org/wiki/QR_code} [2015-02-24].
 
+\bibitem{samsungGalaxyS2Wiki}
+Wikipedia (2015).
+\newblock \textit{Samsung Galaxy SII}.
+\newblock \url{http://en.wikipedia.org/wiki/Samsung_Galaxy_S_II} [2015-03-25].
+
+\bibitem{samsungGalaxyS3Wiki}
+Wikipedia (2015).
+\newblock \textit{Samsung Galaxy SIII}.
+\newblock \url{http://en.wikipedia.org/wiki/Samsung_Galaxy_S_III} [2015-03-25].
+
 \bibitem{virtualImageWiki}
 Wikipedia (2015).
 \newblock \textit{Virtual Image}.
 \newblock \url{http://en.wikipedia.org/wiki/Virtual_image} [2015-02-27].
+
+\bibitem{zxing}
+Zxing~Project (2015).
+\newblock \textit{Zxing project}.
+\newblock \url{https://github.com/zxing} [2015-01-27].
+
+\bibitem{qrcodeDecoding3}
+robomatics (2013).
+\newblock \textit{How to Decode a QR Code by Hand} [{Online video}].
+\newblock \url{https://youtu.be/KA8hDldvfv0} [2015-03-30].
 
 \bibitem{6504855}
 Thad Starner.

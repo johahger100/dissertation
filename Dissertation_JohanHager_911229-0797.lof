@@ -16,14 +16,24 @@
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Saying ``ok glass'' will bring up the voice command menu\nobreakspace {}\cite {googleGlassVoiceCommand}.\relax }}{14}{figure.caption.11}
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Smartphone screens have been increasing in size for several years\nobreakspace {}\cite {smartphoneSizeChart2}.\relax }}{15}{figure.caption.12}
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Screen sizes of the most popular, currently available smartphones\nobreakspace {}\cite {smartphoneSizeChart}.\relax }}{16}{figure.caption.13}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces The standardised fields in a QR Code\nobreakspace {}\cite {qrCodeWiki}.\relax }}{18}{figure.caption.14}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces A simple sketch of the application's GUI design.\relax }}{25}{figure.caption.15}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Glass Flow Design of the Google Glass application.\relax }}{26}{figure.caption.16}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Google's design guidelines include a card layout template\nobreakspace {}\cite {glassDesignStyle}.\relax }}{27}{figure.caption.17}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Four different standard card layouts\nobreakspace {}\cite {cardLayout}.\relax }}{28}{figure.caption.18}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Text layout.}}}{28}{subfigure.4.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Fixed text layout.}}}{28}{subfigure.4.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Columns layout.}}}{28}{subfigure.4.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Title layout.}}}{28}{subfigure.4.4}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Remember what the user has done previously\nobreakspace {}\cite {androidDesignPrinciples}.\relax }}{31}{figure.caption.19}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces The most important component should be the most prominent\nobreakspace {}\cite {androidDesignPrinciples}.\relax }}{31}{figure.caption.20}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces The standardised fields of a QR code\nobreakspace {}\cite {qrCodeWiki}.\relax }}{18}{figure.caption.14}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces A QR code example, encoded with the string "abc".\relax }}{19}{figure.caption.15}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Mask pattern encoded as 101.\relax }}{20}{figure.caption.16}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Mask pattern represented by the bit string 000\nobreakspace {}\cite {qrcodeMaskPatterns}.\relax }}{20}{figure.caption.17}
+\contentsline {figure}{\numberline {2.14}{\ignorespaces The zig-zag pattern used when decoding a QR code.\relax }}{21}{figure.caption.18}
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Encryption type encoded as 1101.\relax }}{22}{figure.caption.19}
+\contentsline {figure}{\numberline {2.16}{\ignorespaces The message length encoded as 10011010.\relax }}{23}{figure.caption.20}
+\contentsline {figure}{\numberline {2.17}{\ignorespaces The first 8-bit Byte encoded as 11111000.\relax }}{24}{figure.caption.21}
+\contentsline {figure}{\numberline {2.18}{\ignorespaces The second 8-bit Byte encoded as 11110100.\relax }}{25}{figure.caption.22}
+\contentsline {figure}{\numberline {2.19}{\ignorespaces The third 8-bit Byte encoded as 00000101.\relax }}{26}{figure.caption.23}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces A road map to how the application is intended to work.\relax }}{33}{figure.caption.24}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces A simple sketch of the application's GUI design.\relax }}{34}{figure.caption.25}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Glass Flow Design of the Google Glass application.\relax }}{35}{figure.caption.26}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Google's design guidelines include a card layout template\nobreakspace {}\cite {glassDesignStyle}.\relax }}{36}{figure.caption.27}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Four different standard card layouts\nobreakspace {}\cite {cardLayout}.\relax }}{36}{figure.caption.28}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Text layout.}}}{36}{subfigure.5.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Fixed text layout.}}}{36}{subfigure.5.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Columns layout.}}}{36}{subfigure.5.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Title layout.}}}{36}{subfigure.5.4}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Remember what the user has done previously\nobreakspace {}\cite {androidDesignPrinciples}.\relax }}{39}{figure.caption.29}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces The most important component should be the most prominent\nobreakspace {}\cite {androidDesignPrinciples}.\relax }}{40}{figure.caption.30}
