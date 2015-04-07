@@ -359,6 +359,11 @@ Wikipedia (2015).
 \newblock \textit{Cuneiform}.
 \newblock \url{http://en.wikipedia.org/wiki/Cuneiform} [2015-02-23].
 
+\bibitem{googleGlassWiki}
+Wikipedia (2015).
+\newblock \textit{Google Glass}.
+\newblock \url{http://en.wikipedia.org/wiki/Google_Glass} [2015-04-07].
+
 \bibitem{hmdWiki}
 Wikipedia (2015).
 \newblock \textit{Head-Mounted Display}.
@@ -409,6 +414,11 @@ Zxing~Project (2015).
 robomatics (2013).
 \newblock \textit{How to Decode a QR Code by Hand} [{Online video}].
 \newblock \url{https://youtu.be/KA8hDldvfv0} [2015-03-30].
+
+\bibitem{googleGlassCPU}
+Star Simspon~(2013) Scott~Torborg.
+\newblock \textit{Google Glass Teardown}.
+\newblock \url{http://www.catwig.com/google-glass-teardown/} [2015-04-07].
 
 \bibitem{6504855}
 Thad Starner.

@@ -19,9 +19,9 @@ A conventional barcode is capable of storing approximately 20 digits while a QR 
 A QR code can be used to encode information, originally written with alphabetic characters, japanese symbols (Kanji) or numeric characters~\cite{qrCodeVersion}. With the help of a QR code information which would otherwise have taken up a large space can now be easily fitted in smaller areas.
 
 \subsubsection{Decoding}
-Decoding a QR code is a fairly straight forward process which, although time consuming, can be done by hand, as described in several guides around the Internet~\cite{qrcodeDecoding2, qrcodeDecoding, qrcodeDecoding3}. A QR code may be divided in to three standardised fields, which help QR code scanners to identify and decode QR codes. The three fields can be seen in Figue~\ref{qrcodeMall}. The position, alignment and timing fields are used to identify and position the QR code correctly as a QR code may be scanned from any direction. In order to decode a QR code the three big position fields residing in three of the QR code's corners must be positioned as seen in Figure~\ref{qrcodeExample}.
+Decoding a QR code is a fairly straight forward process which, although time consuming, can be done by hand, as described in several guides around the Internet~\cite{qrcodeDecoding2, qrcodeDecoding, qrcodeDecoding3}. A QR code may be divided in to three standardised fields, which help QR code scanners to identify and decode QR codes. The three fields can be seen in Figue~\ref{qrcodeMall}. The position, alignment and timing fields are used to identify and position the QR code correctly as a QR code may be scanned from any direction. In order to decode a QR code the three main position fields residing in three of the QR code's corners must be positioned as seen in Figure~\ref{qrcodeExample}.
 
-The next step is to identify the mask used on the data field in the QR code. The mask is used to get rid of any large, empty or filled, areas within the data field which might make the decoding process more difficult for QR code scanners. The mask field is a part of the format field, seen in Figure~\ref{qrcodeMall}. The format field holds information on error correction, as well as what mask has been used on the data field. The mask is found among the first five bits in the format field. The first two bits of the first five bits of the format field contains information regarding the amount of error correction data the QR code contains, and the other three contains information on which mask has been used.
+The next step is to identify the mask used on the data field in the QR code. The mask is used to remove any large, empty or filled, areas within the data field which might make the decoding process more difficult for QR code scanners. The mask field is a part of the format field, seen in Figure~\ref{qrcodeMall}. The format field holds information about error correction, as well as which mask has been used on the data field. The mask is found among the first five bits in the format field. The first two bits of the first five bits of the format field contain information regarding the amount of error correction data the QR code contains, and the other three contain information on which mask has been used.
 
 	\begin{figure}[H]%ht!]
 		\centering
@@ -30,7 +30,7 @@ The next step is to identify the mask used on the data field in the QR code. The
 		\label{qrcodeExample}
 	\end{figure}
 
-In Figure~\ref{qrcodeExample} the mask field has the value of 101, seen more clearly in Figure~\ref{qrcodeExampleStep3}. Filled blocks should be interpreted as a 1 and empty block should be interpreted as a 0. However, the mask field is always XOR:d with 101 prior to being printed in the QR code and must as such be XOR:d back to the original mask value. In the case of Figure~\ref{qrcodeExample} the original mask value is calculated as follows:
+In Figure~\ref{qrcodeExample} the mask field has the value of 101, seen more clearly in Figure~\ref{qrcodeExampleStep3}. Filled blocks should be interpreted as a 1 and empty blocks should be interpreted as a 0. However, the mask field is always XOR:d with 101 prior to being printed in the QR code and must as such be XOR:d back to the original mask value. In the case of Figure~\ref{qrcodeExample} the original mask value is calculated as follows:
 
 \begin{center}
 	101~XOR~101 = 000
@@ -43,7 +43,7 @@ In Figure~\ref{qrcodeExample} the mask field has the value of 101, seen more cle
 		\label{qrcodeExampleStep3}
 	\end{figure}
 
-There are eight different mask patterns in total, each represented by a unique bit string. The mask pattern represented by 000 can be seen in Figure~\ref{qrcodemaskpattern}, while the rest of the mask patterns may be found here~\cite{qrcodeMaskPatterns}. The mask used in Figure~\ref{qrcodeExample} means that all bits should be flipped if they hold true to the following formula:
+There are eight different mask patterns in total, each represented by a unique bit string. The mask pattern represented by 000 can be seen in Figure~\ref{qrcodemaskpattern}, while the rest of the mask patterns may be found here~\cite{qrcodeMaskPatterns}. The mask used in Figure~\ref{qrcodeExample} means that all bits should be flipped if the following formula is true:
 
 \begin{center}
 	\((i+j)~mod~2=0\), 
@@ -106,7 +106,7 @@ There are several encryption types used in QR codes, however the most common one
 
 The encryption type used in Figure~\ref{qrcodeExample} is as such of encryption type 8-bit Byte.
 
-After having decoded the encryption type the next step is to decode the length. The encoded length is the length of the message encoded in the QR code. Since the message encoded in the QR code may not cover the entire data section of the QR code (the rest is made up of error correction information) the length of the message is necessary to know when the message ends. Since the encryption type used in Figure~\ref{qrcodeExample} is an 8-bit Byte the size of each field that follows is eight bits in size.
+After having decoded the encryption type the next step is to decode the length. The encoded length is the length of the message encoded in the QR code. Since the message encoded in the QR code may not cover the entire data section of the QR code (the rest is made up of error correction information) the length of the message is necessary in order to know when the message ends. Since the encryption type used in Figure~\ref{qrcodeExample} is an 8-bit Byte the size of each field that follows is eight bits in size.
 
 The length field in Figure~\ref{qrcodeExample}, seen also in FIgure~\ref{qrcodeExampleStep5}, is the following bit string: 10011010. However, the length field is a part of the data section and must as such be unmasked in order for the original length value to be obtained.
 

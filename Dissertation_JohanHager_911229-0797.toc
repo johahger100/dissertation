@@ -25,12 +25,12 @@
 \contentsline {subsection}{\numberline {3.1}Glassware Flow Designer}{34}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Presenting Information on Google Glass}{35}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}Presenting Information on Smartphones}{38}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Test Cases}{41}{subsection.3.4}
-\contentsline {subsubsection}{\numberline {3.4.1}Text Length}{41}{subsubsection.3.4.1}
-\contentsline {subsubsection}{\numberline {3.4.2}Distance to the QR Code}{42}{subsubsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4}Test Cases}{40}{subsection.3.4}
+\contentsline {subsubsection}{\numberline {3.4.1}Text Length}{40}{subsubsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.2}Distance to the QR Code}{41}{subsubsection.3.4.2}
 \contentsline {subsubsection}{\numberline {3.4.3}Complexity of the QR Code}{42}{subsubsection.3.4.3}
-\contentsline {subsubsection}{\numberline {3.4.4}Display Time}{43}{subsubsection.3.4.4}
-\contentsline {subsection}{\numberline {3.5}Test Units}{44}{subsection.3.5}
+\contentsline {subsubsection}{\numberline {3.4.4}Display Time}{42}{subsubsection.3.4.4}
+\contentsline {subsection}{\numberline {3.5}Test Units}{43}{subsection.3.5}
 \contentsline {subsection}{\numberline {3.6}Summary}{44}{subsection.3.6}
 \contentsline {section}{\numberline {4}Implementation}{45}{section.4}
 \contentsline {subsection}{\numberline {4.1}Android Studio}{45}{subsection.4.1}
