@@ -16,7 +16,7 @@ A conventional barcode is capable of storing approximately 20 digits while a QR 
 		\label{qrcodeMall}
 	\end{figure}
 	 
-A QR code can be used to encode information, originally written with alphabetic characters, japanese symbols (Kanji) or numeric characters~\cite{qrCodeVersion}. With the help of a QR code information which would otherwise have taken up a large space can now be easily fitted in smaller areas.
+A QR code can be used to encode information, originally written with alphabetic characters, Japanese symbols (Kanji, Katakana and Hiragana) or numeric characters~\cite{qrCodeVersion}. With the help of a QR code information which would otherwise have taken up a large space can now be easily fitted in smaller areas.
 
 \subsubsection{Decoding}
 Decoding a QR code is a fairly straight forward process which, although time consuming, can be done by hand, as described in several guides around the Internet~\cite{qrcodeDecoding2, qrcodeDecoding, qrcodeDecoding3}. A QR code may be divided in to three standardised fields, which help QR code scanners to identify and decode QR codes. The three fields can be seen in Figue~\ref{qrcodeMall}. The position, alignment and timing fields are used to identify and position the QR code correctly as a QR code may be scanned from any direction. In order to decode a QR code the three main position fields residing in three of the QR code's corners must be positioned as seen in Figure~\ref{qrcodeExample}.
@@ -48,7 +48,7 @@ There are eight different mask patterns in total, each represented by a unique b
 \begin{center}
 	\((i+j)~mod~2=0\), 
 
-	where i and j represents the indexes of the specific block, horizontally and vertically respectively~\cite{qrcodeMaskPatterns}.
+	where i and j represent the indexes of the specific block, horizontally and vertically respectively~\cite{qrcodeMaskPatterns}.
 \end{center}
 
 	\begin{figure}[H]%ht!]
@@ -58,7 +58,7 @@ There are eight different mask patterns in total, each represented by a unique b
 		\label{qrcodemaskpattern}
 	\end{figure}
 	
-Having decoded the mask pattern the next step is to decode the data area. The data area always contains a header, containing information on the encryption type as well as data length. The blocks containing the encryption type is always the size of four blocks, and always located in the lower right corner, as seen in Figure~\ref{qrcodeExample}. The number of blocks used for the data length may vary between eight and ten blocks depending on the encryption type.
+Having decoded the mask pattern the next step is to decode the data area. The data area always contains a header, containing information on the encryption type as well as data length. The blocks containing the encryption type are always the size of four blocks, and always located in the lower right corner, as seen in Figure~\ref{qrcodeExample}. The number of blocks used for the data length may vary between eight and ten blocks depending on the encryption type.
 
 As such the first step in decoding the data area is to decode the encryption type. The information in the data area is to be read from the lower right and upwards, in a zig-zag pattern, with a width of two blocks. When reaching the top the zig-zag pattern continues, although downwards. See Figure~\ref{qrcodezigzag} for a better understanding of the zig-zag pattern. The start point is always in the lower right corner since the encryption type must be decoded first.
 
@@ -106,7 +106,7 @@ There are several encryption types used in QR codes, however the most common one
 
 The encryption type used in Figure~\ref{qrcodeExample} is as such of encryption type 8-bit Byte.
 
-After having decoded the encryption type the next step is to decode the length. The encoded length is the length of the message encoded in the QR code. Since the message encoded in the QR code may not cover the entire data section of the QR code (the rest is made up of error correction information) the length of the message is necessary in order to know when the message ends. Since the encryption type used in Figure~\ref{qrcodeExample} is an 8-bit Byte the size of each field that follows is eight bits in size.
+After having decoded the encryption type the next step is to decode the length. The encoded length is the length of the message encoded in the QR code. Since the message encoded in the QR code may not cover the entire data section of the QR code (the rest is made up of error correction information) it is necessary to know the length of the message in order to tell when the message ends. Since the encryption type used in Figure~\ref{qrcodeExample} is an 8-bit Byte the size of each field that follows is eight bits in size.
 
 The length field in Figure~\ref{qrcodeExample}, seen also in FIgure~\ref{qrcodeExampleStep5}, is the following bit string: 10011010. However, the length field is a part of the data section and must as such be unmasked in order for the original length value to be obtained.
 

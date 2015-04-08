@@ -1,4 +1,35 @@
+\begin{lstlisting}
 
+public class Timer {
+	private static Timer ourInstance = new Timer();
+
+	public static Timer getInstance() {
+		return ourInstance;
+	}
+	
+	private Timer() {  }
+	
+	private ArrayList<Long> startTime = new ArrayList<Long>();
+	private ArrayList<Long> stopTime = new ArrayList<Long>();
+	
+	public void startTimer(int TimerID) {
+		startTime.add(timerID, System.nanoTime());
+	}
+	
+	public void stopTimer(int TimerID) {
+		stopTime.add(add, System.nanoTime());
+	}
+	
+	private long getElapsedTime(int timerID) {
+		return stopTime.get(timerID) - startTime.get(timerID);
+	}
+	
+	public void logElapsedTime(int timerID) {
+		Log.d("TIMER", String.valueOf(timerID) + ": " + String.valueOf(getElapsedTime(timerID)) + " nano seconds");
+	}
+}
+
+\end{lstlisting}
 
 \subsubsection{Text Length}
 \begin{lstlisting}
