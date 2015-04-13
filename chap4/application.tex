@@ -1,0 +1,36 @@
+As the application launches the first screen the user sees, in both versions, is the camera screen. The user must, in order to proceed further within the application, scan a QR code. Scanning a QR code is done by positioning the camera on the device (either Google Glass or smartphone) such that the QR code can be seen on screen. The user does not need to press any shutter button as the application automatically recognises the QR code pattern if seen on screen.%, as seen in Figure~\ref{}. The reasoning behind 
+
+[TODO FIGURE CAMERA VIEW]
+
+The reason for not making a menu on the start screen is because the application should, according to the design guidelines discussed in Section~\ref{sec:design}, be simple, easy to use and focus on what is important. Since the the focus of the application is to scan the QR code in order to receive the necessary instructions that is also the main focus of the first screen of the application.
+
+When the QR code has been scanned the application decodes the QR code. The decoding process is done in the same way as described in Section~\ref{subsec:qrcode}. However, the decoding process is handled by the Zebra Crossing (ZXing) library~\cite{zxing}. ZXing is an open source barcode image processing library.
+
+The smartphone application was based directly upon the ZXing library, where as the Google Glass application was based upon a port of the library to Google Glass, called ``BardcodeEye''~\cite{barcodeEye}. The main difference between ZXing and BarcodeEye is the fact that BarcodeEye is a full example application ready to be run, in contrast to the ZXing library which is only a library and as such needs to be attached to a runnable application.
+
+The BarcodeEye application for Google Glass is however a bare bone application, used as an example and introduction as to how ZXing may be implemented in an application for Google Glass. BarcodeEye displayed the decoded information from the QR code and also gave the user the option to search the internet using the information previously decoded from the QR code.
+
+As the information encoded in the QR code for this project was not the desired information to display the application had to be modified. However, prior to change where the information displayed was coming from the layout of the information being displayed was changed. Mostly due to the fact that the information being displayed was being presented the same way independent of which information was being displayed.
+
+Secondly, BarcodeEye also used the now deprecated class ``Card''. The application now instead uses the ``CardBuilder'' class as recommended by Google~\cite{googleCard}. The CardBuilder class allows users to input a desired layout style as an argument to the constructor of the CardBuilder class.
+
+\begin{lstlisting}
+Card card = new Card(context);
+\end{lstlisting}
+
+\begin{lstlisting}
+CardBuilder cardBuilder = new CardBuilder(context, CardBuilder.Layout.TITLE);
+\end{lstlisting}
+
+
+
+discuss differences
+
+discuss downloading of product information
+
+discuss sorting into classes
+
+discuss different layouts
+
+[TODO FIGURE TITLE CARD]
+
