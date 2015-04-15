@@ -30,25 +30,27 @@
 \BOOKMARK [3][-]{subsubsection.3.4.2}{Distance to the QR Code}{subsection.3.4}% 30
 \BOOKMARK [3][-]{subsubsection.3.4.3}{Complexity of the QR Code}{subsection.3.4}% 31
 \BOOKMARK [3][-]{subsubsection.3.4.4}{Display Time}{subsection.3.4}% 32
-\BOOKMARK [2][-]{subsection.3.5}{Test Units}{section.3}% 33
-\BOOKMARK [2][-]{subsection.3.6}{Summary}{section.3}% 34
-\BOOKMARK [1][-]{section.4}{Implementation}{}% 35
-\BOOKMARK [2][-]{subsection.4.1}{Android Studio}{section.4}% 36
-\BOOKMARK [2][-]{subsection.4.2}{View Slider}{section.4}% 37
-\BOOKMARK [2][-]{subsection.4.3}{AsyncTask}{section.4}% 38
-\BOOKMARK [2][-]{subsection.4.4}{Text Split}{section.4}% 39
-\BOOKMARK [2][-]{subsection.4.5}{Card Layout}{section.4}% 40
-\BOOKMARK [2][-]{subsection.4.6}{Test Cases}{section.4}% 41
-\BOOKMARK [3][-]{subsubsection.4.6.1}{Text Length}{subsection.4.6}% 42
-\BOOKMARK [3][-]{subsubsection.4.6.2}{Distance to the QR Code}{subsection.4.6}% 43
-\BOOKMARK [3][-]{subsubsection.4.6.3}{Complexity of the QR Code}{subsection.4.6}% 44
-\BOOKMARK [3][-]{subsubsection.4.6.4}{Display Time}{subsection.4.6}% 45
-\BOOKMARK [2][-]{subsection.4.7}{Summary}{section.4}% 46
-\BOOKMARK [1][-]{section.5}{Results}{}% 47
-\BOOKMARK [1][-]{section.6}{Conclusion}{}% 48
-\BOOKMARK [2][-]{subsection.6.1}{Future Work}{section.6}% 49
-\BOOKMARK [1][-]{section*.37}{References}{}% 50
-\BOOKMARK [1][-]{appendix.A}{Abbreviations}{}% 51
-\BOOKMARK [1][-]{appendix.B}{Results}{}% 52
-\BOOKMARK [1][-]{appendix.C}{Code}{}% 53
-\BOOKMARK [1][-]{appendix.D}{Project Specification \(In Swedish\)}{}% 54
+\BOOKMARK [2][-]{subsection.3.5}{Number of Tests}{section.3}% 33
+\BOOKMARK [2][-]{subsection.3.6}{Test Units}{section.3}% 34
+\BOOKMARK [2][-]{subsection.3.7}{Summary}{section.3}% 35
+\BOOKMARK [1][-]{section.4}{Implementation}{}% 36
+\BOOKMARK [2][-]{subsection.4.1}{Android Studio}{section.4}% 37
+\BOOKMARK [2][-]{subsection.4.2}{View Slider}{section.4}% 38
+\BOOKMARK [2][-]{subsection.4.3}{AsyncTask}{section.4}% 39
+\BOOKMARK [2][-]{subsection.4.4}{Text Split}{section.4}% 40
+\BOOKMARK [2][-]{subsection.4.5}{Card Layout}{section.4}% 41
+\BOOKMARK [2][-]{subsection.4.6}{Test Cases}{section.4}% 42
+\BOOKMARK [3][-]{subsubsection.4.6.1}{Experimental Setup}{subsection.4.6}% 43
+\BOOKMARK [3][-]{subsubsection.4.6.2}{Text Length}{subsection.4.6}% 44
+\BOOKMARK [3][-]{subsubsection.4.6.3}{Distance to the QR Code}{subsection.4.6}% 45
+\BOOKMARK [3][-]{subsubsection.4.6.4}{Complexity of the QR Code}{subsection.4.6}% 46
+\BOOKMARK [3][-]{subsubsection.4.6.5}{Display Time}{subsection.4.6}% 47
+\BOOKMARK [2][-]{subsection.4.7}{Summary}{section.4}% 48
+\BOOKMARK [1][-]{section.5}{Results}{}% 49
+\BOOKMARK [1][-]{section.6}{Conclusion}{}% 50
+\BOOKMARK [2][-]{subsection.6.1}{Future Work}{section.6}% 51
+\BOOKMARK [1][-]{section*.45}{References}{}% 52
+\BOOKMARK [1][-]{appendix.A}{Abbreviations}{}% 53
+\BOOKMARK [1][-]{appendix.B}{Results}{}% 54
+\BOOKMARK [1][-]{appendix.C}{Code}{}% 55
+\BOOKMARK [1][-]{appendix.D}{Project Specification \(In Swedish\)}{}% 56

@@ -26,29 +26,31 @@
 \contentsline {subsection}{\numberline {3.2}Presenting Information on Google Glass}{35}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}Presenting Information on Smartphones}{38}{subsection.3.3}
 \contentsline {subsection}{\numberline {3.4}Test Cases}{40}{subsection.3.4}
-\contentsline {subsubsection}{\numberline {3.4.1}Text Length}{40}{subsubsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.1}Text Length}{41}{subsubsection.3.4.1}
 \contentsline {subsubsection}{\numberline {3.4.2}Distance to the QR Code}{41}{subsubsection.3.4.2}
 \contentsline {subsubsection}{\numberline {3.4.3}Complexity of the QR Code}{42}{subsubsection.3.4.3}
-\contentsline {subsubsection}{\numberline {3.4.4}Display Time}{42}{subsubsection.3.4.4}
-\contentsline {subsection}{\numberline {3.5}Test Units}{43}{subsection.3.5}
-\contentsline {subsection}{\numberline {3.6}Summary}{44}{subsection.3.6}
-\contentsline {section}{\numberline {4}Implementation}{45}{section.4}
-\contentsline {subsection}{\numberline {4.1}Android Studio}{46}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}View Slider}{47}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}AsyncTask}{47}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Text Split}{47}{subsection.4.4}
-\contentsline {subsection}{\numberline {4.5}Card Layout}{47}{subsection.4.5}
-\contentsline {subsection}{\numberline {4.6}Test Cases}{48}{subsection.4.6}
-\contentsline {subsubsection}{\numberline {4.6.1}Text Length}{49}{subsubsection.4.6.1}
-\contentsline {subsubsection}{\numberline {4.6.2}Distance to the QR Code}{50}{subsubsection.4.6.2}
-\contentsline {subsubsection}{\numberline {4.6.3}Complexity of the QR Code}{50}{subsubsection.4.6.3}
-\contentsline {subsubsection}{\numberline {4.6.4}Display Time}{51}{subsubsection.4.6.4}
-\contentsline {subsection}{\numberline {4.7}Summary}{51}{subsection.4.7}
-\contentsline {section}{\numberline {5}Results}{53}{section.5}
-\contentsline {section}{\numberline {6}Conclusion}{55}{section.6}
-\contentsline {subsection}{\numberline {6.1}Future Work}{55}{subsection.6.1}
-\contentsline {section}{References}{57}{section*.37}
-\contentsline {section}{\numberline {A}Abbreviations}{63}{appendix.A}
-\contentsline {section}{\numberline {B}Results}{65}{appendix.B}
-\contentsline {section}{\numberline {C}Code}{69}{appendix.C}
-\contentsline {section}{\numberline {D}Project Specification (In Swedish)}{71}{appendix.D}
+\contentsline {subsubsection}{\numberline {3.4.4}Display Time}{43}{subsubsection.3.4.4}
+\contentsline {subsection}{\numberline {3.5}Number of Tests}{43}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Test Units}{44}{subsection.3.6}
+\contentsline {subsection}{\numberline {3.7}Summary}{46}{subsection.3.7}
+\contentsline {section}{\numberline {4}Implementation}{49}{section.4}
+\contentsline {subsection}{\numberline {4.1}Android Studio}{53}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}View Slider}{53}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}AsyncTask}{53}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Text Split}{53}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Card Layout}{53}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.6}Test Cases}{55}{subsection.4.6}
+\contentsline {subsubsection}{\numberline {4.6.1}Experimental Setup}{55}{subsubsection.4.6.1}
+\contentsline {subsubsection}{\numberline {4.6.2}Text Length}{56}{subsubsection.4.6.2}
+\contentsline {subsubsection}{\numberline {4.6.3}Distance to the QR Code}{57}{subsubsection.4.6.3}
+\contentsline {subsubsection}{\numberline {4.6.4}Complexity of the QR Code}{58}{subsubsection.4.6.4}
+\contentsline {subsubsection}{\numberline {4.6.5}Display Time}{58}{subsubsection.4.6.5}
+\contentsline {subsection}{\numberline {4.7}Summary}{58}{subsection.4.7}
+\contentsline {section}{\numberline {5}Results}{59}{section.5}
+\contentsline {section}{\numberline {6}Conclusion}{61}{section.6}
+\contentsline {subsection}{\numberline {6.1}Future Work}{61}{subsection.6.1}
+\contentsline {section}{References}{63}{section*.45}
+\contentsline {section}{\numberline {A}Abbreviations}{69}{appendix.A}
+\contentsline {section}{\numberline {B}Results}{71}{appendix.B}
+\contentsline {section}{\numberline {C}Code}{75}{appendix.C}
+\contentsline {section}{\numberline {D}Project Specification (In Swedish)}{77}{appendix.D}

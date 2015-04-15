@@ -215,6 +215,13 @@ GlassUp (2015).
 \newblock \textit{GlassUp Features}.
 \newblock \url{http://www.glassup.net/features.html} [2015-02-26].
 
+\bibitem{googleCard}
+Google (2015).
+\newblock Card.
+\newblock
+  \url{https://developers.google.com/glass/develop/gdk/reference/com/google/android/glass/app/Card.html}
+  [2015-04-13].
+
 \bibitem{androidDesignPrinciples}
 Google (2015).
 \newblock \textit{Android Design Principles}.

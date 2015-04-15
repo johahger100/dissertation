@@ -1,38 +1,48 @@
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Google Glass is equipped with a touchpad and a camera\nobreakspace {}\cite {ImagesGoogleGlassUI}.\relax }}{4}{figure.caption.5}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Google Glass is equipped with a touchpad and a camera\nobreakspace {}\cite {ImagesGoogleGlassUI}.\relax }}{4}{figure.caption.6}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The user can control Google Glass with the touchpad.}}}{4}{subfigure.1.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The display sits slightly above the user's line of sight, on the right hand side.}}}{4}{subfigure.1.2}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces The HMD ``Oculus Rift'' is a virtual reality device\nobreakspace {}\cite {ImagesOculusRift}.\relax }}{6}{figure.caption.6}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces A shopping list while the user is out shopping is useful information\nobreakspace {}\cite {glassDesignPrinciples}.\relax }}{7}{figure.caption.7}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces There are many OHMD devices similar to Google Glass\nobreakspace {}\cite {ohmdWiki}.\relax }}{8}{figure.caption.8}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces The HMD ``Oculus Rift'' is a virtual reality device\nobreakspace {}\cite {ImagesOculusRift}.\relax }}{6}{figure.caption.7}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces A shopping list while the user is out shopping is useful information\nobreakspace {}\cite {glassDesignPrinciples}.\relax }}{7}{figure.caption.8}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces There are many OHMD devices similar to Google Glass\nobreakspace {}\cite {ohmdWiki}.\relax }}{8}{figure.caption.9}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Microsoft Hololens\nobreakspace {}\cite {hololens}}}}{8}{subfigure.4.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Recon Jet\nobreakspace {}\cite {reconJet}}}}{8}{subfigure.4.2}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {GlassUp\nobreakspace {}\cite {glassUpFeatures}}}}{8}{subfigure.4.3}
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {C Wear Interactive Glasses\nobreakspace {}\cite {pennyProducts}}}}{8}{subfigure.4.4}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces A visualisation of the timeline as the timeline is perceived by the user\nobreakspace {}\cite {ImagesGoogleGlassUI}.\relax }}{11}{figure.caption.9}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Cards can either display basic applications or represent immersions.\relax }}{12}{figure.caption.10}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces A visualisation of the timeline as the timeline is perceived by the user\nobreakspace {}\cite {ImagesGoogleGlassUI}.\relax }}{11}{figure.caption.10}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Cards can either display basic applications or represent immersions.\relax }}{12}{figure.caption.11}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The Google Glass home screen is a card that displays a clock.}}}{12}{subfigure.6.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The card ``Explore stars'' represents an immersion.}}}{12}{subfigure.6.2}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {The immersion ``Explore stars'' allows the user to look around at stars using the built-in head motion tracker.}}}{12}{subfigure.6.3}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Saying ``ok glass'' will bring up the voice command menu\nobreakspace {}\cite {googleGlassVoiceCommand}.\relax }}{14}{figure.caption.11}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Smartphone screens have been increasing in size for several years\nobreakspace {}\cite {smartphoneSizeChart2}.\relax }}{15}{figure.caption.12}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Screen sizes of the most popular, currently available smartphones\nobreakspace {}\cite {smartphoneSizeChart}.\relax }}{16}{figure.caption.13}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces The standardised fields of a QR code\nobreakspace {}\cite {qrCodeWiki}.\relax }}{18}{figure.caption.14}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces A QR code example, encoded with the string "abc".\relax }}{19}{figure.caption.15}
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Mask pattern encoded as 101.\relax }}{20}{figure.caption.16}
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Mask pattern represented by the bit string 000\nobreakspace {}\cite {qrcodeMaskPatterns}.\relax }}{20}{figure.caption.17}
-\contentsline {figure}{\numberline {2.14}{\ignorespaces The zig-zag pattern used when decoding a QR code.\relax }}{21}{figure.caption.18}
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Encryption type encoded as 1101.\relax }}{22}{figure.caption.19}
-\contentsline {figure}{\numberline {2.16}{\ignorespaces The message length encoded as 10011010.\relax }}{23}{figure.caption.20}
-\contentsline {figure}{\numberline {2.17}{\ignorespaces The first 8-bit Byte encoded as 11111000.\relax }}{24}{figure.caption.21}
-\contentsline {figure}{\numberline {2.18}{\ignorespaces The second 8-bit Byte encoded as 11110100.\relax }}{25}{figure.caption.22}
-\contentsline {figure}{\numberline {2.19}{\ignorespaces The third 8-bit Byte encoded as 00000101.\relax }}{26}{figure.caption.23}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces A road map to how the application is intended to work.\relax }}{33}{figure.caption.24}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces A simple sketch of the application's GUI design.\relax }}{34}{figure.caption.25}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Glass Flow Design of the Google Glass application.\relax }}{35}{figure.caption.26}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Google's design guidelines include a card layout template\nobreakspace {}\cite {glassDesignStyle}.\relax }}{36}{figure.caption.27}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Four different standard card layouts\nobreakspace {}\cite {cardLayout}.\relax }}{36}{figure.caption.28}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Saying ``ok glass'' will bring up the voice command menu\nobreakspace {}\cite {googleGlassVoiceCommand}.\relax }}{14}{figure.caption.12}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Smartphone screens have been increasing in size for several years\nobreakspace {}\cite {smartphoneSizeChart2}.\relax }}{15}{figure.caption.13}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Screen sizes of the most popular, currently available smartphones\nobreakspace {}\cite {smartphoneSizeChart}.\relax }}{16}{figure.caption.14}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces The standardised fields of a QR code\nobreakspace {}\cite {qrCodeWiki}.\relax }}{18}{figure.caption.15}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces A QR code example, encoded with the string "abc".\relax }}{19}{figure.caption.16}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Mask pattern encoded as 101.\relax }}{20}{figure.caption.17}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Mask pattern represented by the bit string 000\nobreakspace {}\cite {qrcodeMaskPatterns}.\relax }}{20}{figure.caption.18}
+\contentsline {figure}{\numberline {2.14}{\ignorespaces The zig-zag pattern used when decoding a QR code.\relax }}{21}{figure.caption.19}
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Encryption type encoded as 1101.\relax }}{22}{figure.caption.20}
+\contentsline {figure}{\numberline {2.16}{\ignorespaces The message length encoded as 10011010.\relax }}{23}{figure.caption.21}
+\contentsline {figure}{\numberline {2.17}{\ignorespaces The first 8-bit Byte encoded as 11111000.\relax }}{24}{figure.caption.22}
+\contentsline {figure}{\numberline {2.18}{\ignorespaces The second 8-bit Byte encoded as 11110100.\relax }}{25}{figure.caption.23}
+\contentsline {figure}{\numberline {2.19}{\ignorespaces The third 8-bit Byte encoded as 00000101.\relax }}{26}{figure.caption.24}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Application functionality.\relax }}{33}{figure.caption.25}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces A simple sketch of the application's GUI design.\relax }}{34}{figure.caption.26}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Glass Flow Design of the Google Glass application.\relax }}{35}{figure.caption.27}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Google's design guidelines include a card layout template\nobreakspace {}\cite {glassDesignStyle}.\relax }}{36}{figure.caption.28}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Four different standard card layouts\nobreakspace {}\cite {cardLayout}.\relax }}{36}{figure.caption.29}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Text layout.}}}{36}{subfigure.5.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Fixed text layout.}}}{36}{subfigure.5.2}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Columns layout.}}}{36}{subfigure.5.3}
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Title layout.}}}{36}{subfigure.5.4}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces The most important component should be the most prominent\nobreakspace {}\cite {androidDesignPrinciples}.\relax }}{39}{figure.caption.29}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces The most important component should be the most prominent\nobreakspace {}\cite {androidDesignPrinciples}.\relax }}{39}{figure.caption.30}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces How tests will be combined in order to reduce the total number of tests.\relax }}{44}{figure.caption.34}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces todo bild behöver uppdateras\relax }}{49}{figure.caption.36}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces The title card of the demo application.\relax }}{51}{figure.caption.37}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces A component slide from the demo application.\relax }}{52}{figure.caption.38}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces An instruction slide from the demo application.\relax }}{52}{figure.caption.39}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces The voice command menu in the demo application.\relax }}{53}{figure.caption.40}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces The different layouts used within the application.\relax }}{54}{figure.caption.41}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The title card layout.}}}{54}{subfigure.6.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The text card layout.}}}{54}{subfigure.6.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {The image card layout.}}}{54}{subfigure.6.3}

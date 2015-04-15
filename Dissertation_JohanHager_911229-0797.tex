@@ -16,7 +16,10 @@
 \usepackage{color}
 \usepackage{pdfpages}
 \usepackage{mathtools}
+\usepackage{chngcntr}
 %\usepackage{refcheck}
+
+\AtBeginDocument{\counterwithin{lstlisting}{section}}
 
 \setlength{\fboxsep}{0pt}
 
@@ -26,7 +29,6 @@
 \lstset
 {
 	frame=tb,
-	language=Java,
 	aboveskip=3mm,
 	belowskip=3mm,
 	showstringspaces=false,
@@ -110,6 +112,8 @@ Put the text of your abstract here
   \listoffigures
 
   \listoftables
+  
+  \lstlistoflistings
 
 \end{frontmatter}
 % End of roman numbering
