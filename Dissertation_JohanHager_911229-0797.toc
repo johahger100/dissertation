@@ -39,18 +39,19 @@
 \contentsline {subsection}{\numberline {4.3}AsyncTask}{53}{subsection.4.3}
 \contentsline {subsection}{\numberline {4.4}Text Split}{53}{subsection.4.4}
 \contentsline {subsection}{\numberline {4.5}Card Layout}{53}{subsection.4.5}
-\contentsline {subsection}{\numberline {4.6}Test Cases}{55}{subsection.4.6}
-\contentsline {subsubsection}{\numberline {4.6.1}Experimental Setup}{55}{subsubsection.4.6.1}
-\contentsline {subsubsection}{\numberline {4.6.2}Text Length}{56}{subsubsection.4.6.2}
-\contentsline {subsubsection}{\numberline {4.6.3}Distance to the QR Code}{57}{subsubsection.4.6.3}
-\contentsline {subsubsection}{\numberline {4.6.4}Complexity of the QR Code}{58}{subsubsection.4.6.4}
-\contentsline {subsubsection}{\numberline {4.6.5}Display Time}{58}{subsubsection.4.6.5}
-\contentsline {subsection}{\numberline {4.7}Summary}{58}{subsection.4.7}
-\contentsline {section}{\numberline {5}Results}{59}{section.5}
-\contentsline {section}{\numberline {6}Conclusion}{61}{section.6}
-\contentsline {subsection}{\numberline {6.1}Future Work}{61}{subsection.6.1}
-\contentsline {section}{References}{63}{section*.45}
-\contentsline {section}{\numberline {A}Abbreviations}{69}{appendix.A}
-\contentsline {section}{\numberline {B}Results}{71}{appendix.B}
-\contentsline {section}{\numberline {C}Code}{75}{appendix.C}
-\contentsline {section}{\numberline {D}Project Specification (In Swedish)}{77}{appendix.D}
+\contentsline {subsection}{\numberline {4.6}Voice Commands}{55}{subsection.4.6}
+\contentsline {subsection}{\numberline {4.7}Test Cases}{57}{subsection.4.7}
+\contentsline {subsubsection}{\numberline {4.7.1}Experimental Setup}{57}{subsubsection.4.7.1}
+\contentsline {subsubsection}{\numberline {4.7.2}Text Length}{58}{subsubsection.4.7.2}
+\contentsline {subsubsection}{\numberline {4.7.3}Distance to the QR Code}{59}{subsubsection.4.7.3}
+\contentsline {subsubsection}{\numberline {4.7.4}Complexity of the QR Code}{60}{subsubsection.4.7.4}
+\contentsline {subsubsection}{\numberline {4.7.5}Display Time}{60}{subsubsection.4.7.5}
+\contentsline {subsection}{\numberline {4.8}Summary}{60}{subsection.4.8}
+\contentsline {section}{\numberline {5}Results}{61}{section.5}
+\contentsline {section}{\numberline {6}Conclusion}{63}{section.6}
+\contentsline {subsection}{\numberline {6.1}Future Work}{63}{subsection.6.1}
+\contentsline {section}{References}{65}{section*.45}
+\contentsline {section}{\numberline {A}Abbreviations}{71}{appendix.A}
+\contentsline {section}{\numberline {B}Results}{73}{appendix.B}
+\contentsline {section}{\numberline {C}Code}{77}{appendix.C}
+\contentsline {section}{\numberline {D}Project Specification (In Swedish)}{79}{appendix.D}

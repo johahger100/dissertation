@@ -1,0 +1,48 @@
+The Google Glass application gives users the option tu use voice commands in order to navigate the instructions. The user opens the voice command menu by saying ``ok glass'' at any point in the application when ``ok glass'' is written at the bottom of the screen. The voice command feature is available at all times except when the camera is active. In other words the voice commands are unavailable when the application is waiting to scan a QR code.
+
+The voice command menu contains the following options.
+
+\begin{itemize}
+	\item \textbf{Show next slide}
+	
+	The application scrolls to the next slide. If the current slide is the last slide, and in other words no other slides are following, the application does nothing.
+	\item \textbf{Show previous slide}
+	
+	The application scrolls to the previous slide. If the current slide is the first slide, and in other words no other slides are sits before it, the application does nothing.
+	\item \textbf{Show components}
+	
+	The application scrolls to the first slide showing information on a component. If the user is currently on the first slide showing information on a component the application does nothing. 
+	\item \textbf{Show instructions}
+	
+	The application scrolls to the first slide showing an instruction. If the user is currently on the first slide showing an instruction the application does nothing.
+	\item \textbf{Scan again}
+	
+	The application launches the camera and expects the user to scan another QR code.
+\end{itemize}
+
+Although none of the voice commands have been sent in for official approval by Google all of the voice commands follows the design guidelines provided by Google.
+
+\begin{lstlisting}[language=XML, caption={The voice command menu XML file}, label=todo]
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+		android:id="@+id/next_menu_item"
+		android:title="Show next slide" >
+	</item>
+	<item
+		android:id="@+id/previous_menu_item"
+		android:title="Show previous slide" >
+	</item>
+	<item
+		android:id="@+id/components_menu_item"
+		android:title="Show components" >
+	</item>
+	<item
+		android:id="@+id/instructions_menu_item"
+		android:title="Show instructions" >
+	</item>
+	<item
+		android:id="@+id/scan_menu_item"
+		android:title="Scan again" >
+	</item>
+</menu>
+\end{lstlisting}

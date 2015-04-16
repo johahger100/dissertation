@@ -39,18 +39,19 @@
 \BOOKMARK [2][-]{subsection.4.3}{AsyncTask}{section.4}% 39
 \BOOKMARK [2][-]{subsection.4.4}{Text Split}{section.4}% 40
 \BOOKMARK [2][-]{subsection.4.5}{Card Layout}{section.4}% 41
-\BOOKMARK [2][-]{subsection.4.6}{Test Cases}{section.4}% 42
-\BOOKMARK [3][-]{subsubsection.4.6.1}{Experimental Setup}{subsection.4.6}% 43
-\BOOKMARK [3][-]{subsubsection.4.6.2}{Text Length}{subsection.4.6}% 44
-\BOOKMARK [3][-]{subsubsection.4.6.3}{Distance to the QR Code}{subsection.4.6}% 45
-\BOOKMARK [3][-]{subsubsection.4.6.4}{Complexity of the QR Code}{subsection.4.6}% 46
-\BOOKMARK [3][-]{subsubsection.4.6.5}{Display Time}{subsection.4.6}% 47
-\BOOKMARK [2][-]{subsection.4.7}{Summary}{section.4}% 48
-\BOOKMARK [1][-]{section.5}{Results}{}% 49
-\BOOKMARK [1][-]{section.6}{Conclusion}{}% 50
-\BOOKMARK [2][-]{subsection.6.1}{Future Work}{section.6}% 51
-\BOOKMARK [1][-]{section*.45}{References}{}% 52
-\BOOKMARK [1][-]{appendix.A}{Abbreviations}{}% 53
-\BOOKMARK [1][-]{appendix.B}{Results}{}% 54
-\BOOKMARK [1][-]{appendix.C}{Code}{}% 55
-\BOOKMARK [1][-]{appendix.D}{Project Specification \(In Swedish\)}{}% 56
+\BOOKMARK [2][-]{subsection.4.6}{Voice Commands}{section.4}% 42
+\BOOKMARK [2][-]{subsection.4.7}{Test Cases}{section.4}% 43
+\BOOKMARK [3][-]{subsubsection.4.7.1}{Experimental Setup}{subsection.4.7}% 44
+\BOOKMARK [3][-]{subsubsection.4.7.2}{Text Length}{subsection.4.7}% 45
+\BOOKMARK [3][-]{subsubsection.4.7.3}{Distance to the QR Code}{subsection.4.7}% 46
+\BOOKMARK [3][-]{subsubsection.4.7.4}{Complexity of the QR Code}{subsection.4.7}% 47
+\BOOKMARK [3][-]{subsubsection.4.7.5}{Display Time}{subsection.4.7}% 48
+\BOOKMARK [2][-]{subsection.4.8}{Summary}{section.4}% 49
+\BOOKMARK [1][-]{section.5}{Results}{}% 50
+\BOOKMARK [1][-]{section.6}{Conclusion}{}% 51
+\BOOKMARK [2][-]{subsection.6.1}{Future Work}{section.6}% 52
+\BOOKMARK [1][-]{section*.45}{References}{}% 53
+\BOOKMARK [1][-]{appendix.A}{Abbreviations}{}% 54
+\BOOKMARK [1][-]{appendix.B}{Results}{}% 55
+\BOOKMARK [1][-]{appendix.C}{Code}{}% 56
+\BOOKMARK [1][-]{appendix.D}{Project Specification \(In Swedish\)}{}% 57
