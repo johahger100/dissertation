@@ -1,7 +1,7 @@
 \input{chap4/application.tex}
 
 \subsection{Android Studio}
-Both the smartphone application as well as the Google Glass application were developed in Android Studio~\cite{androidStudio}. Android Studio is a development environment developed by Google. %[TODO why Android Studio]
+Both the smartphone application as well as the Google Glass application were developed in Android Studio~\cite{androidStudio}. Android Studio is a development environment developed by Google. Both applications were initially being developed in Eclipse~\cite{eclipse}, however development soon shifted to Android Studio as Android Studio is now the official integrated development environment (IDE) for Android~\cite{androidIDE}. The shift was done without complications as Android Studio contains an import feature enabling developers to import projects previously not developed in Android Studio~\cite{androidIDE}.%[TODO why Android Studio]
 
 %\subsection{ZXing}
 %The application was built upon the open-source barcode image processing library, Zebra Crossing (ZXing). 
@@ -29,6 +29,8 @@ Google provides developers with a set of predefined layouts for different types 
 		\centering
     		\subfloat[The title card layout.]{{\includegraphics[width=70mm]{images/demo/titleCard}}}
    		 \qquad
+		\subfloat[The column card layout.]{{\includegraphics[width=70mm]{images/demo/columnImage}}}
+   		 \qquad
     		\subfloat[The text card layout.]{{\includegraphics[width=70mm]{images/demo/instructionText}}}
     		\qquad
         		\subfloat[The image card layout.]{{\includegraphics[width=70mm]{images/demo/instructionImage}}}
@@ -39,7 +41,7 @@ Google provides developers with a set of predefined layouts for different types 
 
 The Columns card layout was used for when an instruction or component was to be presented in both text and image form. Since the Columns layout split the card, with an image to the left and text to the right, the Columns layout was the most reasonable choice. If the information being presented, either a component or an instruction, instead were to only be presented as text the Text layout was used. The Text layout displayed text on screen, with dynamically sized text. In other words, if there was a lot of text the text would be resized to fit the screen.
 
-Using the predefined layouts in the code was easily achieved as the implementation needed was mostly plug-and-play. The ``CardBuilder'' class took the layout as an argument. Having received an instance of the CardBuilder class what remained was to simply input the necessary information. Setting an image was done slightly differently than written information as images were loaded in using a separate thread. As soon as the CardBuilder method ``getView'' was called the card was built with the information that had been inputed.
+Using the predefined layouts in the code was easily achieved as the implementation needed was mostly plug-and-play. The \texttt{CardBuilder} class took the layout as an argument. Having received an instance of the \texttt{CardBuilder} class what remained was to simply input the necessary information. Setting an image was done slightly differently than written information as images were loaded in using a separate thread. As soon as the \texttt{CardBuilder} method \texttt{getView} was called the card was built with the information that had been inputed.
 
 \begin{lstlisting}[language=Java, caption={Initialisation of the CardBuilder class}, label=todo]
 CardBuilder cardBuilder = new CardBuilder(context, CardBuilder.Layout.COLUMNS);

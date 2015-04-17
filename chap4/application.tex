@@ -17,7 +17,7 @@ The BarcodeEye application for Google Glass is however a bare bone application, 
 
 As the QR code was intended to encode only a product ID, and the use the ID to download the instructions, rather than having all of the instructions encoded directly in the QR code the application had to be modified. However, prior to changing where the instructions were coming from the graphical layout of the application was changed. The change of layout was mostly done due to the fact that the application only displayed plain text, not taking in to account for instance a mix of image and text.
 
-However, BarcodeEye also used the now deprecated class ``Card'', as seen in Listing~\ref{listingDeprecated}. Instead the application now uses the ``CardBuilder'' class, as seen in Listing~\ref{listingRecommended}, as recommended by Google~\cite{googleCard}. The CardBuilder class allows users to input a desired layout style as an argument to the constructor of the CardBuilder class.
+However, BarcodeEye also used the deprecated class \texttt{Card}, as seen in Listing~\ref{listingDeprecated}. Instead the application now uses the \texttt{CardBuilder} class, as seen in Listing~\ref{listingRecommended}, as recommended by Google~\cite{googleCard}. The \texttt{CardBuilder} class allows users to input a desired layout style as an argument to the constructor of the \texttt{CardBuilder} class.
 
 \begin{lstlisting}[language=Java, caption={Instancing of the deprecated class Card}, label=listingDeprecated]
 Card card = new Card(context);
@@ -27,50 +27,71 @@ Card card = new Card(context);
 CardBuilder cardBuilder = new CardBuilder(context, CardBuilder.Layout.TITLE);
 \end{lstlisting}
 
-Since the smartphone application also used the ZXing library, but without any pre-existing application no changes similar to those done to the Google Glass application had to be done for the smartphone application.
+Since the smartphone application also used the ZXing library, but without any pre-existing application, no changes similar to those done to the Google Glass application had to be done for the smartphone application. Instead the smartphone application was built to make use of the ZXing library's functionality, similar to how the ZXing library was integrated in the base Google Glass application.
+
+The Google Glass application and the smartphone application are similar in how they are built up, as seen in Figure~\ref{uml}, which shows a UML diagram over the slide view part of the respective applications.
+
+[TODO UML DIAGRAM ref(uml)]
 
 
 
 %discuss differences (classes exclusive to the smartphone application and GG application respectivly)
 
 %discuss downloading of product information
+The download process uses the decoded product ID to download information on the specific product. The downloaded information contains the product name, as well as necessary components and instructions for assembling the product. The components and instructions may be represented by text, images or both. 
 
+The way the dpwnload process uses the decoded product ID is by concatinating it with a URl adress, leading to a Web API for a database containing all necessary information regarding the specific product.
 
 The download process also includes creating and initialise an instance of the Products class. The instance contains the name of the product, potentially an image of the product as the product will look when the user is done assembling all the components (the existence of an image is dependent of whether there was an image of the product stored in the database).
 
 The Products class instance will also contain a list of components as well as a list of instructions. Both components and instructions are classes themselves. Similar to the Products class instances of both the Components class and the Instructions class will contain a string and potentially an image. In the case of components the string will contain the name of the component, in contrast to instances of the Instructions class where the string instead will contain the instruction itself.
 
+When the downloaded information is being displayed the first screen the user sees contains the product name as well as an image of the product (if an image has been added to the database). In the example case, lego parts are to be assembled in order to construct the so called ``Space Pirate'', seen in Figure~\ref{glassDemoRaw}.
 
+	\begin{figure}[H]%ht!]
+		\centering
+		\includegraphics[width=90mm]{images/rawImages/BILD_6}
+		\caption{The product.}
+		\label{glassDemoRaw}
+	\end{figure}
 
-%discuss sorting into classes
-
-%discuss different layouts
+The first information the user sees displayed on screen after the QR code has been scanned and the information has been downloaded is the title page for the Space Pirate product, seen in Figure~{glassDemoTitleCard}.
 
 	\begin{figure}[H]%ht!]
 		\centering
 		\includegraphics[width=110mm]{images/demo/titleCard}
 		\caption{The title card of the demo application.}
-		\label{glassDemotitleCard}
+		\label{glassDemoTitleCard}
 	\end{figure}
 	
 	\begin{figure}[H]%ht!]
 		\centering
 		\includegraphics[width=110mm]{images/demo/componentText}
 		\caption{A component slide from the demo application.}
-		\label{glassDemoQR}
+		\label{glassDemoComponentText}
+	\end{figure}
+
+	\begin{figure}[H]%ht!]
+		\centering
+		\includegraphics[width=110mm]{images/demo/columnImage}
+		\caption{A component slide from the demo application.}
+		\label{glassDemoComponentColumn}
 	\end{figure}
 	
 	\begin{figure}[H]%ht!]
 		\centering
 		\includegraphics[width=110mm]{images/demo/instructionImage}
 		\caption{An instruction slide from the demo application.}
-		\label{glassDemoQR}
+		\label{glassDemoInstructionImage}
 	\end{figure}
 	
 	\begin{figure}[H]%ht!]
 		\centering
 		\includegraphics[width=110mm]{images/demo/voiceCommand1}
 		\caption{The voice command menu in the demo application.}
-		\label{glassDemoQR}
+		\label{glassDemoVoiceCommand}
 	\end{figure}
 
+%discuss sorting into classes
+
+%discuss different layouts

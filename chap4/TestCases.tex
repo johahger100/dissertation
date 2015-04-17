@@ -1,35 +1,44 @@
+The following section describes how the tests were set up and carried out.
+
 \subsubsection{Experimental Setup}
+The tests were carried out using an optical bench to guarantee more scientific accuracy. The experimental setup contained an optical bench, with a screen holder at the zero point where the QR code was positioned. The device currently being tested, Google Glass or smartphone, was then positioned at the specified mark on the optical bench using a clamp and pointed towards the QR code. See Figure~\ref{experimentalSetup} for a better understanding of the experimental setup. 
 
+	\begin{figure}[ht!]
+		\centering
+		\includegraphics[width=110mm]{images/demo/componentText}
+		\caption{todo change image The experimental setup.}
+		\label{experimentalSetup}
+	\end{figure}
 
+In order to measure the time needed for the results of each test a specific class was built, called \texttt{Timer} and seen in Listing~\ref{timerClass}. The \texttt{Timer} class was built using the singleton design pattern. A singleton class is a class that can only be instanced once during the entire execution of an application, however the instance lives throughout the entire execution and may be accessed from anywhere in the application.
 
-\begin{lstlisting}[language=Java, caption={The Timer class}, label=todo]
+Using this pattern meant that the timer could be started in one class, and stop in another without having to pass the instance around, which potentially could affect performance.
+
+\begin{lstlisting}[language=Java, caption={The Timer class}, label=timerClass]
 
 public class Timer {
 	private static Timer ourInstance = new Timer();
-
-	public static Timer getInstance() {
-		return ourInstance;
-	}
-	
+	public static Timer getInstance() { return ourInstance; }
 	private Timer() {  }
 	
-	private ArrayList<Long> startTime = new ArrayList<Long>();
-	private ArrayList<Long> stopTime = new ArrayList<Long>();
+	private boolean timerRunning = false;
+	private Long startTime;
+	private Long stopTime;
 	
-	public void startTimer(int TimerID) {
-		startTime.add(timerID, System.nanoTime());
+	public void startTimer() { 
+		if(timerRunning) { Log.d("TIMER", "Timer already running"); }
+		else 	{ startIme = System.nanoTime(); }
 	}
 	
-	public void stopTimer(int TimerID) {
-		stopTime.add(add, System.nanoTime());
+	public void stopTimer() {
+		if(!timerRunning) { Log.d("TIMER", "No timer running"); }
+		else { stopTime = System.nanoTime()); }
 	}
 	
-	private long getElapsedTime(int timerID) {
-		return stopTime.get(timerID) - startTime.get(timerID);
-	}
+	private long getElapsedTime(int timerID) { return stopTime - startTime; }
 	
-	public void logElapsedTime(int timerID) {
-		Log.d("TIMER", String.valueOf(timerID) + ": " + String.valueOf(getElapsedTime(timerID)) + " nano seconds");
+	public void logElapsedTime(String information) {
+		Log.d("TIMER", information + ": " + String.valueOf(getElapsedTime() + " nano seconds");
 	}
 }
 

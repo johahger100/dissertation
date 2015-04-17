@@ -192,6 +192,11 @@ Augmented~Reality (2015).
 \newblock \url{academic.eb.com/EBchecked/topic/1196641/augmented-reality}
   [2015-02-19].
 
+\bibitem{eclipse}
+Eclipse (2015).
+\newblock Eclipse.
+\newblock \url{https://eclipse.org} [2015-04-17].
+
 \bibitem{historyOfGlass}
 Glass~Almanac (2015).
 \newblock \textit{The History Of Google Glass}.
@@ -221,6 +226,12 @@ Google (2015).
 \newblock
   \url{https://developers.google.com/glass/develop/gdk/reference/com/google/android/glass/app/Card.html}
   [2015-04-13].
+
+\bibitem{androidIDE}
+Google (2015).
+\newblock Migrating to android studio.
+\newblock \url{http://developer.android.com/sdk/installing/migrate.html}
+  [2015-04-17].
 
 \bibitem{androidDesignPrinciples}
 Google (2015).

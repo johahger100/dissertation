@@ -38,11 +38,15 @@
 \contentsline {figure}{\numberline {3.6}{\ignorespaces The most important component should be the most prominent\nobreakspace {}\cite {androidDesignPrinciples}.\relax }}{39}{figure.caption.30}
 \contentsline {figure}{\numberline {3.7}{\ignorespaces How tests will be combined in order to reduce the total number of tests.\relax }}{44}{figure.caption.34}
 \contentsline {figure}{\numberline {4.1}{\ignorespaces todo bild behöver uppdateras\relax }}{49}{figure.caption.36}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces The title card of the demo application.\relax }}{51}{figure.caption.37}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces A component slide from the demo application.\relax }}{52}{figure.caption.38}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces An instruction slide from the demo application.\relax }}{52}{figure.caption.39}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces The voice command menu in the demo application.\relax }}{53}{figure.caption.40}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces The different layouts used within the application.\relax }}{54}{figure.caption.41}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The title card layout.}}}{54}{subfigure.6.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The text card layout.}}}{54}{subfigure.6.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {The image card layout.}}}{54}{subfigure.6.3}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces The product.\relax }}{52}{figure.caption.37}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces The title card of the demo application.\relax }}{52}{figure.caption.38}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces A component slide from the demo application.\relax }}{53}{figure.caption.39}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces A component slide from the demo application.\relax }}{53}{figure.caption.40}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces An instruction slide from the demo application.\relax }}{54}{figure.caption.41}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces The voice command menu in the demo application.\relax }}{54}{figure.caption.42}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces The different layouts used within the application.\relax }}{56}{figure.caption.43}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The title card layout.}}}{56}{subfigure.8.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The column card layout.}}}{56}{subfigure.8.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {The text card layout.}}}{56}{subfigure.8.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {The image card layout.}}}{56}{subfigure.8.4}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces todo change image The experimental setup.\relax }}{60}{figure.caption.44}
