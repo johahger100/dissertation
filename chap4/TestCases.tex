@@ -3,16 +3,23 @@ The following section describes how the tests were set up and carried out.
 \subsubsection{Experimental Setup}
 The tests were carried out using an optical bench to guarantee more scientific accuracy. The experimental setup contained an optical bench, with a screen holder at the zero point where the QR code was positioned. The device currently being tested, Google Glass or smartphone, was then positioned at the specified mark on the optical bench using a clamp and pointed towards the QR code. See Figure~\ref{experimentalSetup} for a better understanding of the experimental setup. 
 
-	\begin{figure}[ht!]
+As seen in Figure~\ref{experimentalSetup} Google Glass were mounted in such a way that the camera sat a bit closer to the QR code than where the clamp marked on the optical bench. In order to compensate for the slight misalignment the clamp was positioned a few centimeters back and not used for determine the distance to the QR code. Instead the camera on Google Glass was used to pin point the exact distance to the QR code, and the clamp was positioned in such a way that the camera on Google Glass was at the distance specified in each experiment. In other words, even though the clamp was not at the distance to the QR code for the smartphone tests as for the Google Glass tests, the camera of each device was.
+
+	\begin{figure}[H]%ht!]
 		\centering
-		\includegraphics[width=110mm]{images/demo/componentText}
-		\caption{todo change image The experimental setup.}
+    		\subfloat[The experimental setup for Google Glass.]{{\includegraphics[width=70mm]{images/testSetupGlass}}}
+   		 \qquad
+		\subfloat[The experimental setup for Samsung Galaxy S2.]{{\includegraphics[width=70mm]{images/testSetupS2}}}
+   		 \qquad
+		\caption{The experimental setup.}
 		\label{experimentalSetup}
 	\end{figure}
 
-In order to measure the time needed for the results of each test a specific class was built, called \texttt{Timer} and seen in Listing~\ref{timerClass}. The \texttt{Timer} class was built using the singleton design pattern. A singleton class is a class that can only be instanced once during the entire execution of an application, however the instance lives throughout the entire execution and may be accessed from anywhere in the application.
+Although not shown i Figure~\ref{experimentalSetup} each device was connected to a computer using a USB cable. The  result time of each test was obtained from the log within Android Studio after each run as when running an android application via Android Studio log information may be obtained through the log within Android Studio.
 
-Using this pattern meant that the timer could be started in one class, and stop in another without having to pass the instance around, which potentially could affect performance.
+In order to measure the time needed for the results of each test a specific class was built, called \texttt{Timer} (seen in Listing~\ref{timerClass}). The \texttt{Timer} class was built using the singleton design pattern. A singleton class is a class that can only be instanced once during the entire execution of an application, however the instance lives throughout the entire execution and may be accessed from anywhere in the application.
+
+Using the singleton pattern meant that the timer could be started in one class, and stop in another without having to pass the instance around, which potentially could affect performance.
 
 \begin{lstlisting}[language=Java, caption={The Timer class}, label=timerClass]
 
@@ -41,28 +48,28 @@ public class Timer {
 		Log.d("TIMER", information + ": " + String.valueOf(getElapsedTime() + " nano seconds");
 	}
 }
-
 \end{lstlisting}
 
 \subsubsection{Text Length}
-\begin{lstlisting}[language=Java, caption={The randomizer class}, label=todo]
-private double randfrom(double min, double max)
-{
+When evaluating the text length the text string used was not a pre defined one, but rather a randomised one. The text was randomly generated using the distribution of characters in regular English text. One might argue that technical texts have a slightly different distribution of characters, but Google recommend developers to be personal when writing text meant to be displayed to the user [TODO REFERENCE]. The text was also short enough to fit a smartphone screen and as such the difference using slightly different distribution would not have any major effect on the results.
+
+Listing~\ref{randomizer} shows how each character was randomly selected. \texttt{randchar} was called from within a for loop where the character was added to a string. The number of loops determined how long the text was going to be. 
+
+\begin{lstlisting}[language=Java, caption={The randomizer class}, label=randomizer]
+private double randfrom(double min, double max) {
 	Random rand = new Random();
 	double range = (max - min);
 	return min + range * rand.nextDouble();
 }
 
-private String getChar(int pos, double rand)
-{
+private String getChar(int pos, double rand) {
 	if(rand <= doubleList.get(pos) || pos+1 <= alph.size())
 		return alph.get(pos);
 		
 	return getChar(pos+1, rand);
 }
 
-public String randchar()
-{
+public String randchar() {
 	double rand = randfrom(0, 1);
 	return getChar(0, rand);
 }

@@ -1,27 +1,168 @@
-\subsection{Distance to the QR Code}
+The following are the results of the tests performed on the application, both on the Google Glass version as well as the smartphone version.
+
+\subsection{Text Length}
+The following are the results from evaluating the number of characters that may fit on a card in the Google Glass application, both when using only text and when using both text and image. This test was performed only once for each device as despite randomising the characters used the length would not differ signifcally from one case to another. As seen in the following results none of the tests resulted in an additional card with only one character. Had that been the case, different combinations of characters may have changed the number of cards necessary to display all of the information. As that is not the case only one test was deemed sufficient enough to determine the number of card required to display the same information as displayed on a smartphone device.
+
+However, some trial and error was part of the process of finding how many characters would fill the smartphone screens. 550 was deemed a suitable number for Samsung Galaxy SII och 750 was deemed a suitable number for Samsung Galaxy SIII. For Samsung Galaxy S2 600 characters did not fit on the screen, and for Samsung Galaxy SIII 800 characters did not fit on the screen. As such 550 and 750 respectively was set as the maximum number of characters, although depending on the characters being displayed the text may use up more or less space as an 'i' does not take up as much space as a 'w'. The filled smartphone screens can be seen in Figure~\ref{glassTestTextLengthRaw}.
+
+	\begin{figure}[H]%ht!]
+		\centering
+    		\subfloat[todo]{{\includegraphics[width=50mm]{images/textLengthTestImages/S2_Raw}}}
+   		 \qquad
+		\subfloat[todo]{{\includegraphics[width=50mm]{images/textLengthTestImages/S3_Raw}}}
+   		 \qquad
+		\caption{The title card of the demo application.}
+		\label{glassTestTextLengthRaw}
+	\end{figure}
+
+When translating the results from the smartphones to Google Glass the same text was used and simply pasted over to the Google Glass application. The result of the text that filled the Samsug Galaxy SIII screen, seen in Figure~\ref{glassTestTextLengthRaw}~(a), can be seen in Figure~\ref{glassTestTextLengthS2Text}. As seen the text that filled the Samsung Galaxy SII screen took up roughly two and a half card in the Google Glass application. Although the screen is nearly filled in Figure~\ref{glassTestTextLengthS2Text}~(c) the text is dynamically sized depending on the amount of text being displayed. As such the card can me deemed about half full. Table~\ref{tab:glassTestTextLengthS2TextTable} shows the exact number of characters and words on each card.
+
+	\begin{figure}[H]%ht!]
+		\centering
+    		\subfloat[The Google Glass application]{{\includegraphics[width=60mm]{images/textLengthTestImages/S2_Text_1}}}
+   		 \qquad
+		\subfloat[The smartphone application.]{{\includegraphics[width=60mm]{images/textLengthTestImages/S2_Text_2}}}
+   		 \qquad
+		\subfloat[The smartphone application.]{{\includegraphics[width=60mm]{images/textLengthTestImages/S2_Text_3}}}
+   		 \qquad
+		\caption{The title card of the demo application.}
+		\label{glassTestTextLengthS2Text}
+	\end{figure}
 
 	\begin{table}[ht!]
+    		\caption{Average time of registering a QR code with varying distance.} \label{tab:glassTestTextLengthS2TextTable}
+		\centering \begin{tabularx}{\textwidth}{l|X|X} \hline
+		\textbf{Figure} & \textbf{Number of words} & \textbf{Number of characters} \\ \hline \hline
+       
+		Figure~\ref{glassTestTextLengthS2Text}~(a)	&30	&229	\\ \hline
+		Figure~\ref{glassTestTextLengthS2Text}~(b)	&35	&229	\\ \hline
+		Figure~\ref{glassTestTextLengthS2Text}~(c)	&13	&92	\\ \hline
+		Figure~\ref{glassTestTextLengthS2Text}~(Total)	&78	&550	\\ \hline
+		
+		\end{tabularx}
+	\end{table}
+
+The result of using the text the filled the Samsung Galaxy SIII screen, seen in Figure~\ref{glassTestTextLengthRaw}~(b), in the Google Glass application can be seen in Figure~\ref{glassTestTextLengthS3Text}. As seen the Samsung Galaxy SIII screen fit more characters than the Samsung Galaxy SII screen and as such three and a half cards was needed to display all the text that filled the Samsung Galaxy SIII screen. The exact number och characters and words on each card can be seen in Table~\ref{tab:glassTestTextLengthS3TextTable}.
+
+	\begin{figure}[H]%ht!]
+		\centering
+    		\subfloat[The Google Glass application]{{\includegraphics[width=60mm]{images/textLengthTestImages/S3_Text_1}}}
+   		 \qquad
+		\subfloat[The smartphone application.]{{\includegraphics[width=60mm]{images/textLengthTestImages/S3_Text_2}}}
+   		 \qquad
+		\subfloat[The smartphone application.]{{\includegraphics[width=60mm]{images/textLengthTestImages/S3_Text_3}}}
+   		 \qquad
+		\subfloat[The smartphone application.]{{\includegraphics[width=60mm]{images/textLengthTestImages/S3_Text_4}}}
+   		 \qquad
+		\caption{The title card of the demo application.}
+		\label{glassTestTextLengthS3Text}
+	\end{figure}
+
+	\begin{table}[ht!]
+    		\caption{Average time of registering a QR code with varying distance.} \label{tab:glassTestTextLengthS3TextTable}
+		\centering \begin{tabularx}{\textwidth}{l|X|X} \hline
+		\textbf{Figure} & \textbf{Number of words} & \textbf{Number of characters} \\ \hline \hline
+       
+		Figure~\ref{glassTestTextLengthS3Text}~(a)	&26	&199	\\ \hline
+		Figure~\ref{glassTestTextLengthS3Text}~(b)	&32	&213	\\ \hline
+		Figure~\ref{glassTestTextLengthS3Text}~(c)	&29	&217	\\ \hline
+		Figure~\ref{glassTestTextLengthS3Text}~(d)	&19	&121	\\ \hline
+		Figure~\ref{glassTestTextLengthS3Text}~(Total)	&106	&750	\\ \hline
+		
+		\end{tabularx}
+	\end{table}
+
+Instructions described in text may also be displayed in combination with an image. When text combined with an image is used a the design layout for a slide the maximum number of characters that can be displayed changes. The image, according to Google's pre defined card layout design [todo reference needed], make up \(3/8\) of the card, and as such the text make up the other \(5/8\). As such the maximum number of characters can be calculated using the maximum number of characters that came as a result from when using only text.
+
+For Samsung Galaxy SII the maximum number of characters when using both text and an image was calculated as follows \((5/8)*550~=~343.75\). As three quarters of a character is of now use the maximum number of characters for Samsung Galaxy SII can be said to be 343 characters. The result of using the same text as when displaying only text on Samsung Galaxy SII, only shorten down to 343 characters can be seen in Figure~\ref{glassTestTextLengthS2Columns}, with specific numbers in Table~\ref{tab:glassTestTextLengthS2ColumnsTable}.
+
+	\begin{figure}[H]%ht!]
+		\centering
+		\subfloat[The smartphone application.]{{\includegraphics[width=60mm]{images/textLengthTestImages/S2_Columns_1}}}
+   		 \qquad
+		\subfloat[The smartphone application.]{{\includegraphics[width=60mm]{images/textLengthTestImages/S2_Columns_2}}}
+   		 \qquad
+		\subfloat[The smartphone application.]{{\includegraphics[width=60mm]{images/textLengthTestImages/S2_Columns_3}}}
+   		 \qquad
+		\caption{The title card of the demo application.}
+		\label{glassTestTextLengthS2Columns}
+	\end{figure}
+
+	\begin{table}[ht!]
+    		\caption{Average time of registering a QR code with varying distance.} \label{tab:glassTestTextLengthS2ColumnsTable}
+		\centering \begin{tabularx}{\textwidth}{l|X|X} \hline
+		\textbf{Figure} & \textbf{Number of words} & \textbf{Number of characters} \\ \hline \hline
+       
+		Figure~\ref{glassTestTextLengthS2Columns}~(a)	&12	&118	\\ \hline
+		Figure~\ref{glassTestTextLengthS2Columns}~(b)	&18	&111	\\ \hline
+		Figure~\ref{glassTestTextLengthS2Columns}~(c)	&21	&114	\\ \hline
+		Figure~\ref{glassTestTextLengthS2Columns}~(Total)	&51	&343	\\ \hline
+		
+		\end{tabularx}
+	\end{table}
+
+The maximum number of characters when using both text and and image on Samsung Galaxy SIII was calculated the same way as for Samsung Galaxy SII, as follows: \((5/8~=~468.75)\). As three quarters of a character is of no use the maximum number of caharcters when displaying both text and an image is as such 468 characters. The result of using the same text as in Figure~\ref{glassTestTextLengthRaw}, only shorten down to 468 characters, in the Google Glass application can be seen in Figure~\ref{glassTestTextLengthS3Columns}. The application requires about three and a half card to be able to display all of the text. The exact number of characters and words on each card can be fount in Table~\ref{tab:glassTestTextLengthS3ColumnsTable}.
+
+	\begin{figure}[H]%ht!]
+		\centering
+    		\subfloat[The Google Glass application]{{\includegraphics[width=60mm]{images/textLengthTestImages/S3_Columns_1}}}
+   		 \qquad
+		\subfloat[The smartphone application.]{{\includegraphics[width=60mm]{images/textLengthTestImages/S3_Columns_2}}}
+   		 \qquad
+		\subfloat[The smartphone application.]{{\includegraphics[width=60mm]{images/textLengthTestImages/S3_Columns_2}}}
+   		 \qquad
+		\subfloat[The smartphone application.]{{\includegraphics[width=60mm]{images/textLengthTestImages/S3_Columns_4}}}
+   		 \qquad
+		\caption{The title card of the demo application.}
+		\label{glassTestTextLengthS3Columns}
+	\end{figure}
+
+	\begin{table}[ht!]
+    		\caption{Average time of registering a QR code with varying distance.} \label{tab:glassTestTextLengthS3ColumnsTable}
+		\centering \begin{tabularx}{\textwidth}{l|X|X} \hline
+		\textbf{Figure} & \textbf{Number of words} & \textbf{Number of characters} \\ \hline \hline
+       
+		Figure~\ref{glassTestTextLengthS3Columns}~(a)	&12	&127	\\ \hline
+		Figure~\ref{glassTestTextLengthS3Columns}~(b)	&23	&124	\\ \hline
+		Figure~\ref{glassTestTextLengthS3Columns}~(c)	&18	&115	\\ \hline
+		Figure~\ref{glassTestTextLengthS3Columns}~(d)	&9	&102	\\ \hline
+		Figure~\ref{glassTestTextLengthS3Columns}~(Total)	&62	&468	\\ \hline
+		
+		\end{tabularx}
+	\end{table}
+
+Overall a slide in the Google Glass application which contains only text can fit around 200 characters, nd somewhere between 25 to 30 words. When using both text and and image the number of characters that may fit on a slide in the Google Glass application is about 115, and the number of words are about 15. In total the Google Glass application requires 3 to 4 cards for every slide in the smartphone application, depending on the size of the smartphone screen, in order to display the same text as a full slide in the smartphone application.
+
+\subsection{Distance to the QR Code}
+
+In Table~\ref{tab:distanceAverage} the average time for registering and decoding a QR code while varying the distance to the QR code can be seen. The size of the QR code was optimised for two decimeters, which also shows in the results as all devices registered the QR code fastet at a distance of two decimeters. The QR code used encoded only one character, an 'a'. The results from every individual run can be seen in Appendix~\ref{app:results}
+
+	\begin{table}[H]%ht!]
     		\caption{Average time of registering a QR code with varying distance.} \label{tab:distanceAverage}
 		\centering \begin{tabularx}{\textwidth}{l|X|X|X} \hline
-		\textbf{Distance (dm)} & \textbf{Google Glass} & \textbf{Samsung Galaxy SII} & \textbf{Samsung Galaxy SIII} \\ \hline \hline
+		\textbf{Distance (dm)} & \textbf{Google Glass (sec)} & \textbf{Samsung Galaxy SII (sec)} & \textbf{Samsung Galaxy SIII (sec)} \\ \hline \hline
        
-		1	&	&	&	\\ \hline
-		2	&	&	&	\\ \hline
-		3	&	&	&	\\ \hline
+		1	&1.919976807	&1.965959850	&1.839656134	\\ \hline
+		2	&1.831889852	&1.649790392	&1.487449920	\\ \hline
+		3	&2.227158610	&1.921767210	&1.568837591	\\ \hline
 		
 		\end{tabularx}
 	\end{table}
 
 \subsection{Complexity of the QR Code}
 
+Table~\ref{tab:complexityAverage} shows the average time for each device to both register and decode a QR code of varying complexity. The distance to the QR codes where two decimeters, as the size of the QR code was optimised for a distance of two decimeters. As seen in Table~\ref{tab:complexityAverage} some of the results are infinite, meaning that the device was never able to register the QR code due to the high complexity of the QR code. Samsung Galaxy SIII was able to both register and decode all three of the QR codes, Samsung Galaxy SII was not able to decode the most complex QR code and Google Glass was only able to register the simplest QR code.
+
+One explenation as to why Google Glass was not able to register any QR code other than the simplest one would be that the Google Glass camera did not auto focus as well as both Samsung Galaxy SII and Samsung Galaxy SIII. As such the complexity of the QR code made it difficult to register the QR code. [todo lägga in jämförelse bild när man skannar qr code så man får se hur suddigt det är på glass]. Every single test run for each device can be found in Appendix~\ref{app:results}.
+
 	\begin{table}[H]%ht!]
     		\caption{Average time of registering a QR code with varying density.} \label{tab:complexityAverage}
 		\centering \begin{tabularx}{\textwidth}{l|X|X|X} \hline
-		\textbf{Encoded Characters} & \textbf{Google Glass} & \textbf{Samsung Galaxy SII} & \textbf{Samsung Galaxy SIII} \\ \hline \hline
+		\textbf{Encoded Characters} & \textbf{Google Glass (sec)} & \textbf{Samsung Galaxy SII (sec)} & \textbf{Samsung Galaxy SIII (sec)} \\ \hline \hline
        
-		1	&	&	&	\\ \hline
-		50	&	&	&	\\ \hline
-		100	&	&	&	\\ \hline
+		1	&1.831889852	&1.649790392	&1.487449920	\\ \hline
+		50	&\textit{Infinite}	&2.096434673	&1.913361687	\\ \hline
+		100	&\textit{Infinite}	&\textit{Infinite}	&1.949743816	\\ \hline
 		
 		\end{tabularx}
 	\end{table}
@@ -29,13 +170,13 @@
 \subsection{Display Time}
 
 	\begin{table}[ht!]
-    		\caption{Average display time for Google Glass with varying information size.} \label{tab:averageDisplaySpeedGoogleGlass}
+    		\caption{TODO check s3 valuesAverage display time for Google Glass with varying information size.} \label{tab:averageDisplaySpeedGoogleGlass}
 		\centering \begin{tabularx}{\textwidth}{l|X|X|X} \hline
-		\textbf{Information Size (Byte)} & \textbf{Google Glass (ms)}  & \textbf{Samsung Galaxy SII (ms)}  & \textbf{Samsung Galaxy SIII (ms)} \\ \hline \hline
+		\textbf{Information Size (Byte)} & \textbf{Google Glass (sec)}  & \textbf{Samsung Galaxy SII (sec)}  & \textbf{Samsung Galaxy SIII (sec)} \\ \hline \hline
        
-		100 k	&	&	&	 \\ \hline
-		1 M		&	&	&	 \\ \hline
-		10 M		&	&	&	 \\ \hline
+		1 k		&0.310802205	&0.008374156	&0.022958460	 \\ \hline
+		100 k 	&0.442440796	&0.020444892	&0.032734194	 \\ \hline
+		1 M		&0.582170613	&0.050938751	&0.023259679	 \\ \hline
 
 		\end{tabularx}
 	\end{table}

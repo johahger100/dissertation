@@ -1,8 +1,18 @@
 As the application launches, the first screen the user sees, in both versions, is the camera screen. The user must, in order to proceed further within the application, scan a QR code. Scanning a QR code is done by positioning the camera on the device (either Google Glass or smartphone) such that the QR code can be seen on screen. The user does not need to press any shutter button as the application automatically recognises the QR code pattern if seen on screen.%, as seen in Figure~\ref{}. The reasoning behind 
 
+%	\begin{figure}[ht!]
+%		\centering
+%		\includegraphics[width=110mm]{images/demo/qrCode}
+%		\caption{todo bild behöver uppdateras}
+%		\label{glassDemoQR}
+%	\end{figure}
+	
 	\begin{figure}[ht!]
 		\centering
-		\includegraphics[width=110mm]{images/demo/qrCode}
+    		\subfloat[The Google Glass application]{{\includegraphics[width=70mm]{images/demo/qrCode}}}
+   		 \qquad
+		\subfloat[The smartphone application.]{{\includegraphics[width=70mm]{images/demo/smartphone/qrCode}}}
+   		 \qquad
 		\caption{todo bild behöver uppdateras}
 		\label{glassDemoQR}
 	\end{figure}
@@ -48,7 +58,7 @@ The Products class instance will also contain a list of components as well as a 
 
 When the downloaded information is being displayed the first screen the user sees contains the product name as well as an image of the product (if an image has been added to the database). In the example case, lego parts are to be assembled in order to construct the so called ``Space Pirate'', seen in Figure~\ref{glassDemoRaw}.
 
-	\begin{figure}[H]%ht!]
+	\begin{figure}[ht!]
 		\centering
 		\includegraphics[width=90mm]{images/rawImages/BILD_6}
 		\caption{The product.}
@@ -57,35 +67,82 @@ When the downloaded information is being displayed the first screen the user see
 
 The first information the user sees displayed on screen after the QR code has been scanned and the information has been downloaded is the title page for the Space Pirate product, seen in Figure~{glassDemoTitleCard}.
 
-	\begin{figure}[H]%ht!]
+%	\begin{figure}[H]%ht!]
+%		\centering
+%		\includegraphics[width=110mm]{images/demo/titleCard}
+%		\caption{The title card of the demo application.}
+%		\label{glassDemoTitleCard}
+%	\end{figure}
+	
+		\begin{figure}[ht!]
 		\centering
-		\includegraphics[width=110mm]{images/demo/titleCard}
+    		\subfloat[The Google Glass application]{{\includegraphics[width=70mm]{images/demo/titleCard}}}
+   		 \qquad
+		\subfloat[The smartphone application.]{{\includegraphics[width=70mm]{images/demo/smartphone/titleCard}}}
+   		 \qquad
 		\caption{The title card of the demo application.}
 		\label{glassDemoTitleCard}
 	\end{figure}
 	
-	\begin{figure}[H]%ht!]
+The nest slide in line after the title slide is the first slide containing information on the components necessary for constructing the specific product. Each component has a separate slide as the component may contain an image in complement to the name of the component. Examples of a component described in only text can been seen in Figure~\ref{flassDemoComponentText} and examples of when the component has been described with both text and image can be seen in Figure~\ref{glassDemoComponentColumn}.
+%	\begin{figure}[H]%ht!]
+%		\centering
+%		\includegraphics[width=110mm]{images/demo/componentText}
+%		\caption{A component slide from the demo application.}
+%		\label{glassDemoComponentText}
+%	\end{figure}
+The card design used for the component slide containing only text, seen in Figure~\ref{glassDemoComponentText}, is the pre defined TEXT layout, used in similar fashion to how the title card design was specified in Listing~\ref{listingRecommended}. A component slide may also contain an image as complement to text. The card design used for the component slide containing both text and image, seen in Figure~\ref{glassDemoComponentColumn} is the pre defined COLUMNS layout, used in similar fashin to how the title card design was specified in Listing~\ref{listingRecommended}
+
+		\begin{figure}[ht!]
 		\centering
-		\includegraphics[width=110mm]{images/demo/componentText}
+    		\subfloat[The Google Glass application]{{\includegraphics[width=70mm]{images/demo/componentText}}}
+   		 \qquad
+		\subfloat[The smartphone application.]{{\includegraphics[width=70mm]{images/demo/smartphone/componentText}}}
+   		 \qquad
 		\caption{A component slide from the demo application.}
 		\label{glassDemoComponentText}
 	\end{figure}
 
-	\begin{figure}[H]%ht!]
+%	\begin{figure}[H]%ht!]
+%		\centering
+%		\includegraphics[width=110mm]{images/demo/columnImage}
+%		\caption{A component slide from the demo application.}
+%		\label{glassDemoComponentColumn}
+%	\end{figure}
+	
+	\begin{figure}[ht!]
 		\centering
-		\includegraphics[width=110mm]{images/demo/columnImage}
+    		\subfloat[The Google Glass application]{{\includegraphics[width=70mm]{images/demo/columnImage}}}
+   		 \qquad
+		\subfloat[The smartphone application.]{{\includegraphics[width=70mm]{images/demo/smartphone/columnImage}}}
+   		 \qquad
 		\caption{A component slide from the demo application.}
 		\label{glassDemoComponentColumn}
 	\end{figure}
-	
-	\begin{figure}[H]%ht!]
+
+%	\begin{figure}[H]%ht!]
+%		\centering
+%		\includegraphics[width=110mm]{images/demo/instructionImage}
+%		\caption{An instruction slide from the demo application.}
+%		\label{glassDemoInstructionImage}
+%	\end{figure}
+After all the component slides comes the instruction slides. These slides may also contain either only text or both text and and image, and these layout are specified in the same way as for the component slides. However, an instruction slide may also consist of only an image, and no text at all. The reason for giving an image exclusive layout as a possible card layout for an instruction slide is because an instruction may be best described with an image. Describing the same instruction in text may take up more slides than the image, as the image will only take up one slide. A slide containing only an image and no text will also mean that the image will be scaled biggar than when using both text and an image. As such more detail can be shown and users may get a better understanding for how the components should be assembled.
+
+TODO use demo example to explain why image is better than text Not using image because text takes less space and is faster to download
+
+	\begin{figure}[ht!]
 		\centering
-		\includegraphics[width=110mm]{images/demo/instructionImage}
+    		\subfloat[The Google Glass application]{{\includegraphics[width=70mm]{images/demo/instructionImage}}}
+   		 \qquad
+		\subfloat[The smartphone application.]{{\includegraphics[width=70mm]{images/demo/smartphone/instructionImage}}}
+   		 \qquad
 		\caption{An instruction slide from the demo application.}
 		\label{glassDemoInstructionImage}
 	\end{figure}
 	
-	\begin{figure}[H]%ht!]
+The Google Glass application may be controlled by swiping across the Google Glass touchpad, but the Google Glass application may also be controlled by using voice commands. The voice commands may be used as simple replacement for the touchpad, where users may swipe cards both backwards and forwards. However, using voice commands users may also jump in the application. By for instance saying ``ok glass, show components'' the application jumps to the first component slide, regardless of which slide the user is currently viewing. If the user is currently already viewing the first component slide nothing will happen.
+	
+	\begin{figure}[ht!]
 		\centering
 		\includegraphics[width=110mm]{images/demo/voiceCommand1}
 		\caption{The voice command menu in the demo application.}

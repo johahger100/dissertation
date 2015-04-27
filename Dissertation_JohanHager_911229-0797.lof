@@ -26,27 +26,60 @@
 \contentsline {figure}{\numberline {2.17}{\ignorespaces The first 8-bit Byte encoded as 11111000.\relax }}{24}{figure.caption.22}
 \contentsline {figure}{\numberline {2.18}{\ignorespaces The second 8-bit Byte encoded as 11110100.\relax }}{25}{figure.caption.23}
 \contentsline {figure}{\numberline {2.19}{\ignorespaces The third 8-bit Byte encoded as 00000101.\relax }}{26}{figure.caption.24}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Application functionality.\relax }}{33}{figure.caption.25}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Application functionality.\relax }}{34}{figure.caption.25}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces A simple sketch of the application's GUI design.\relax }}{34}{figure.caption.26}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Glass Flow Design of the Google Glass application.\relax }}{35}{figure.caption.27}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Google's design guidelines include a card layout template\nobreakspace {}\cite {glassDesignStyle}.\relax }}{36}{figure.caption.28}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Four different standard card layouts\nobreakspace {}\cite {cardLayout}.\relax }}{36}{figure.caption.29}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Text layout.}}}{36}{subfigure.5.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Fixed text layout.}}}{36}{subfigure.5.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Columns layout.}}}{36}{subfigure.5.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Title layout.}}}{36}{subfigure.5.4}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Four different standard card layouts\nobreakspace {}\cite {cardLayout}.\relax }}{37}{figure.caption.29}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Text layout.}}}{37}{subfigure.5.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Fixed text layout.}}}{37}{subfigure.5.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Columns layout.}}}{37}{subfigure.5.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Title layout.}}}{37}{subfigure.5.4}
 \contentsline {figure}{\numberline {3.6}{\ignorespaces The most important component should be the most prominent\nobreakspace {}\cite {androidDesignPrinciples}.\relax }}{39}{figure.caption.30}
 \contentsline {figure}{\numberline {3.7}{\ignorespaces How tests will be combined in order to reduce the total number of tests.\relax }}{44}{figure.caption.34}
 \contentsline {figure}{\numberline {4.1}{\ignorespaces todo bild behöver uppdateras\relax }}{49}{figure.caption.36}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The Google Glass application}}}{49}{subfigure.1.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The smartphone application.}}}{49}{subfigure.1.2}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces The product.\relax }}{52}{figure.caption.37}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces The title card of the demo application.\relax }}{52}{figure.caption.38}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces A component slide from the demo application.\relax }}{53}{figure.caption.39}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces A component slide from the demo application.\relax }}{53}{figure.caption.40}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces An instruction slide from the demo application.\relax }}{54}{figure.caption.41}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces The voice command menu in the demo application.\relax }}{54}{figure.caption.42}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces The different layouts used within the application.\relax }}{56}{figure.caption.43}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The title card layout.}}}{56}{subfigure.8.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The column card layout.}}}{56}{subfigure.8.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {The text card layout.}}}{56}{subfigure.8.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {The image card layout.}}}{56}{subfigure.8.4}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces todo change image The experimental setup.\relax }}{60}{figure.caption.44}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces The title card of the demo application.\relax }}{53}{figure.caption.38}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The Google Glass application}}}{53}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The smartphone application.}}}{53}{subfigure.3.2}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces A component slide from the demo application.\relax }}{54}{figure.caption.39}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The Google Glass application}}}{54}{subfigure.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The smartphone application.}}}{54}{subfigure.4.2}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces A component slide from the demo application.\relax }}{55}{figure.caption.40}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The Google Glass application}}}{55}{subfigure.5.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The smartphone application.}}}{55}{subfigure.5.2}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces An instruction slide from the demo application.\relax }}{56}{figure.caption.41}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The Google Glass application}}}{56}{subfigure.6.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The smartphone application.}}}{56}{subfigure.6.2}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces The voice command menu in the demo application.\relax }}{57}{figure.caption.42}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces The different layouts used within the application.\relax }}{57}{figure.caption.43}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The title card layout.}}}{57}{subfigure.8.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The column card layout.}}}{57}{subfigure.8.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {The text card layout.}}}{57}{subfigure.8.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {The image card layout.}}}{57}{subfigure.8.4}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces The experimental setup.\relax }}{61}{figure.caption.44}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The experimental setup for Google Glass.}}}{61}{subfigure.9.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The experimental setup for Samsung Galaxy S2.}}}{61}{subfigure.9.2}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces The title card of the demo application.\relax }}{68}{figure.caption.48}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {todo}}}{68}{subfigure.1.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {todo}}}{68}{subfigure.1.2}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces The title card of the demo application.\relax }}{69}{figure.caption.49}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The Google Glass application}}}{69}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The smartphone application.}}}{69}{subfigure.2.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {The smartphone application.}}}{69}{subfigure.2.3}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces The title card of the demo application.\relax }}{70}{figure.caption.51}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The Google Glass application}}}{70}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The smartphone application.}}}{70}{subfigure.3.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {The smartphone application.}}}{70}{subfigure.3.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {The smartphone application.}}}{70}{subfigure.3.4}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces The title card of the demo application.\relax }}{71}{figure.caption.53}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The smartphone application.}}}{71}{subfigure.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The smartphone application.}}}{71}{subfigure.4.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {The smartphone application.}}}{71}{subfigure.4.3}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces The title card of the demo application.\relax }}{72}{figure.caption.55}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The Google Glass application}}}{72}{subfigure.5.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The smartphone application.}}}{72}{subfigure.5.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {The smartphone application.}}}{72}{subfigure.5.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {The smartphone application.}}}{72}{subfigure.5.4}
