@@ -61,25 +61,25 @@ The speed at which Google Glass registers the QR code is important to wether the
 		\end{tabularx}
 	\end{table}
 
-\subsection{Number of Tests}
-Only looking at the three last test cases the number of tests that must be performed are 30 for each different varying factor, on three different devices. The number of tests can as such be calculated as follows:
-
-\[30 * 3 * 3 * 3 = 810~tests\]
-
-However, since some of the tests will overlap in terms of their set-up the number of tests can be reduced as described in Figure~\ref{testCombination}, giving the following number of tests:
-
-\[30 * 7 * 3 = 630~tests\]
-
-The number of tests may be reduced this way as the distance between the QR code and the specific device in the complexity test and the display time test will be 2 decimeters. The complexity used for the distance test and the display time test will be that of one character, as the ID connected to the database is only one character (one identifying number, to be more specific). The display time will, however, have no effect on neither the distance test or the complexity test as the distance test and the complexity test and done prior to the information being downloaded from the back-end, in contrast the the display time which will be calculated after the information has been downloaded from the back-end.
-
-Looking at Figure~\ref{projectmap} the distance test and the complexity test will cover step 1 and 2 in the application, and the display time test will cover step 4. Step 3 is part of the back-end and as such not dependent on the device used, which is why step 3 will not be tested.
-
-	\begin{figure}[H]%ht!]
-		\centering
-		\includegraphics[width=110mm]{images/testCombination}
-		\caption{How tests will be combined in order to reduce the total number of tests.}
-		\label{testCombination}
-	\end{figure}
+%\subsection{Number of Tests}
+%Only looking at the three last test cases the number of tests that must be performed are 30 for each different varying factor, on three different devices. The number of tests can as such be calculated as follows:
+%
+%\[30 * 3 * 3 * 3 = 810~tests\]
+%
+%However, since some of the tests will overlap in terms of their set-up the number of tests can be reduced as described in Figure~\ref{testCombination}, giving the following number of tests:
+%
+%\[30 * 7 * 3 = 630~tests\]
+%
+%The number of tests may be reduced this way as the distance between the QR code and the specific device in the complexity test and the display time test will be 2 decimeters. The complexity used for the distance test and the display time test will be that of one character, as the ID connected to the database is only one character (one identifying number, to be more specific). The display time will, however, have no effect on neither the distance test or the complexity test as the distance test and the complexity test and done prior to the information being downloaded from the back-end, in contrast the the display time which will be calculated after the information has been downloaded from the back-end.
+%
+%Looking at Figure~\ref{projectmap} the distance test and the complexity test will cover step 1 and 2 in the application, and the display time test will cover step 4. Step 3 is part of the back-end and as such not dependent on the device used, which is why step 3 will not be tested.
+%
+%	\begin{figure}[H]%ht!]
+%		\centering
+%		\includegraphics[width=110mm]{images/testCombination}
+%		\caption{How tests will be combined in order to reduce the total number of tests.}
+%		\label{testCombination}
+%	\end{figure}
 
 
 %[TODO Inledande text]
