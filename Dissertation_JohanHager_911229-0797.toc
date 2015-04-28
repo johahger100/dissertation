@@ -40,23 +40,23 @@
 \contentsline {subsection}{\numberline {4.3}Voice Commands}{56}{subsection.4.3}
 \contentsline {subsection}{\numberline {4.4}Test Cases}{58}{subsection.4.4}
 \contentsline {subsubsection}{\numberline {4.4.1}Experimental Setup}{58}{subsubsection.4.4.1}
-\contentsline {subsubsection}{\numberline {4.4.2}Text Length}{61}{subsubsection.4.4.2}
-\contentsline {subsubsection}{\numberline {4.4.3}Distance to the QR Code}{62}{subsubsection.4.4.3}
-\contentsline {subsubsection}{\numberline {4.4.4}Complexity of the QR Code}{63}{subsubsection.4.4.4}
+\contentsline {subsubsection}{\numberline {4.4.2}Text Length}{62}{subsubsection.4.4.2}
+\contentsline {subsubsection}{\numberline {4.4.3}Distance to the QR Code}{63}{subsubsection.4.4.3}
+\contentsline {subsubsection}{\numberline {4.4.4}Complexity of the QR Code}{64}{subsubsection.4.4.4}
 \contentsline {subsubsection}{\numberline {4.4.5}Display Time}{64}{subsubsection.4.4.5}
-\contentsline {subsection}{\numberline {4.5}Summary}{64}{subsection.4.5}
-\contentsline {section}{\numberline {5}Results}{65}{section.5}
-\contentsline {subsection}{\numberline {5.1}Text Length}{65}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Distance to the QR Code}{71}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Complexity of the QR Code}{71}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Display Time}{72}{subsection.5.4}
-\contentsline {section}{\numberline {6}Conclusion}{73}{section.6}
-\contentsline {subsection}{\numberline {6.1}Future Work}{73}{subsection.6.1}
-\contentsline {subsubsection}{\numberline {6.1.1}Official approval of Voice Commands}{73}{subsubsection.6.1.1}
-\contentsline {subsubsection}{\numberline {6.1.2}TextResultProcessor}{73}{subsubsection.6.1.2}
-\contentsline {subsubsection}{\numberline {6.1.3}A General Fragment}{74}{subsubsection.6.1.3}
-\contentsline {section}{References}{75}{section*.59}
-\contentsline {section}{\numberline {A}Abbreviations}{81}{appendix.A}
-\contentsline {section}{\numberline {B}Results}{83}{appendix.B}
-\contentsline {section}{\numberline {C}Code}{93}{appendix.C}
-\contentsline {section}{\numberline {D}Project Specification (In Swedish)}{95}{appendix.D}
+\contentsline {subsection}{\numberline {4.5}Summary}{65}{subsection.4.5}
+\contentsline {section}{\numberline {5}Results}{67}{section.5}
+\contentsline {subsection}{\numberline {5.1}Text Length}{67}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Distance to the QR Code}{73}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Complexity of the QR Code}{73}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Display Time}{74}{subsection.5.4}
+\contentsline {section}{\numberline {6}Conclusion}{75}{section.6}
+\contentsline {subsection}{\numberline {6.1}Future Work}{75}{subsection.6.1}
+\contentsline {subsubsection}{\numberline {6.1.1}Official approval of Voice Commands}{75}{subsubsection.6.1.1}
+\contentsline {subsubsection}{\numberline {6.1.2}TextResultProcessor}{75}{subsubsection.6.1.2}
+\contentsline {subsubsection}{\numberline {6.1.3}A General Fragment}{76}{subsubsection.6.1.3}
+\contentsline {section}{References}{77}{section*.60}
+\contentsline {section}{\numberline {A}Abbreviations}{83}{appendix.A}
+\contentsline {section}{\numberline {B}Results}{85}{appendix.B}
+\contentsline {section}{\numberline {C}Code}{95}{appendix.C}
+\contentsline {section}{\numberline {D}Project Specification (In Swedish)}{97}{appendix.D}
