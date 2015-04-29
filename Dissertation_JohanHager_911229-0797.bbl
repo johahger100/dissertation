@@ -186,6 +186,20 @@ Google (2014).
 \newblock \url{https://plus.google.com/+GoogleGlass/posts/1tSYsPCCsGf}
   [2015-03-25].
 
+\bibitem{voiceCommandCustom1}
+Stack~Overflow (2014).
+\newblock \textit{content near "ok glass" gets grayed out}.
+\newblock
+  \url{http://stackoverflow.com/questions/25533765/content-near-ok-glass-gets-grayed-out}
+  [2015-04-29].
+
+\bibitem{voiceCommandCustom2}
+Stack~Overflow (2014).
+\newblock \textit{Hide "ok glass" menu when enable contextual voice commands}.
+\newblock
+  \url{http://stackoverflow.com/questions/24733681/hide-ok-glass-menu-when-enable-contextual-voice-commands}
+  [2015-04-29].
+
 \bibitem{augmentedRealityDef}
 Augmented~Reality (2015).
 \newblock \textit{Encyclop{\ae}dia Britannica Online}.
@@ -298,6 +312,12 @@ Google (2015).
 \newblock \textit{Voice input}.
 \newblock \url{https://developers.google.com/glass/develop/gdk/voice}
   [2015-03-02].
+
+\bibitem{howToVoiceInput}
+Google (2015).
+\newblock \textit{Voice Input}.
+\newblock \url{https://developers.google.com/glass/develop/gdk/voice}
+  [2015--04-29].
 
 \bibitem{existingVoiceCommands}
 Google (2015).

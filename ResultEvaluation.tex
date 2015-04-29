@@ -30,7 +30,7 @@ When translating the results from the smartphones to Google Glass the same text 
 	\end{figure}
 
 	\begin{table}[ht!]
-    		\caption{Average time of registering a QR code with varying distance.} \label{tab:glassTestTextLengthS2TextTable}
+    		\caption{Details on text length on Google Glass from Samsung Galaxy SII.} \label{tab:glassTestTextLengthS2TextTable}
 		\centering \begin{tabularx}{\textwidth}{l|X|X} \hline
 		\textbf{Figure} & \textbf{Number of words} & \textbf{Number of characters} \\ \hline \hline
        
@@ -59,7 +59,7 @@ The result of using the text the filled the Samsung Galaxy SIII screen, seen in 
 	\end{figure}
 
 	\begin{table}[ht!]
-    		\caption{Average time of registering a QR code with varying distance.} \label{tab:glassTestTextLengthS3TextTable}
+    		\caption{Details on text length on Google Glass from Samsung Galaxy SIII.} \label{tab:glassTestTextLengthS3TextTable}
 		\centering \begin{tabularx}{\textwidth}{l|X|X} \hline
 		\textbf{Figure} & \textbf{Number of words} & \textbf{Number of characters} \\ \hline \hline
        
@@ -72,7 +72,7 @@ The result of using the text the filled the Samsung Galaxy SIII screen, seen in 
 		\end{tabularx}
 	\end{table}
 
-Instructions described in text may also be displayed in combination with an image. When text combined with an image is used a the design layout for a slide the maximum number of characters that can be displayed changes. The image, according to Google's pre defined card layout design~\cite{glassDesignStyle}, make up \(3/8\) of the card, and as such the text make up the other \(5/8\). As such the maximum number of characters can be calculated using the maximum number of characters that came as a result from when using only text.
+Instructions described in text may also be displayed in combination with an image. When text combined with an image is used a the design layout for a slide the maximum number of characters that can be displayed changes. The image, according to Google's predefined card layout design~\cite{glassDesignStyle}, make up \(3/8\) of the card, and as such the text make up the other \(5/8\). As such the maximum number of characters can be calculated using the maximum number of characters that came as a result from when using only text.
 
 For Samsung Galaxy SII the maximum number of characters when using both text and an image was calculated as follows \((5/8)*550~=~343.75\). As three quarters of a character is of now use the maximum number of characters for Samsung Galaxy SII can be said to be 343 characters. The result of using the same text as when displaying only text on Samsung Galaxy SII, only shorten down to 343 characters can be seen in Figure~\ref{glassTestTextLengthS2Columns}, with specific numbers in Table~\ref{tab:glassTestTextLengthS2ColumnsTable}.
 
@@ -89,7 +89,7 @@ For Samsung Galaxy SII the maximum number of characters when using both text and
 	\end{figure}
 
 	\begin{table}[ht!]
-    		\caption{Average time of registering a QR code with varying distance.} \label{tab:glassTestTextLengthS2ColumnsTable}
+    		\caption{Details on text length on Google Glass from Samsung Galaxy SII.} \label{tab:glassTestTextLengthS2ColumnsTable}
 		\centering \begin{tabularx}{\textwidth}{l|X|X} \hline
 		\textbf{Figure} & \textbf{Number of words} & \textbf{Number of characters} \\ \hline \hline
        
@@ -118,7 +118,7 @@ The maximum number of characters when using both text and and image on Samsung G
 	\end{figure}
 
 	\begin{table}[ht!]
-    		\caption{Average time of registering a QR code with varying distance.} \label{tab:glassTestTextLengthS3ColumnsTable}
+    		\caption{Details on text length on Google Glass from Samsung Galaxy SIII.} \label{tab:glassTestTextLengthS3ColumnsTable}
 		\centering \begin{tabularx}{\textwidth}{l|X|X} \hline
 		\textbf{Figure} & \textbf{Number of words} & \textbf{Number of characters} \\ \hline \hline
        
@@ -169,14 +169,18 @@ One explenation as to why Google Glass was not able to register any QR code othe
 
 \subsection{Display Time}
 
+The average display time of each device, with varying information sizes, can be seen in Table~\ref{tab:averageDisplaySpeedGoogleGlass}. As the size of the information increased, so did the average display time. The increase in time came as a result of all information being downloaded at the same time, and is then handled by the device. Although only the currently visible information is sent to the display, there are still more information handled by the device and as such the device must search through more information in order to determine what information is to be displayed. 
+
+The display time is also affected by other background processes running at the same time. The average display time also only shows the time from when the information was sorted into classes until the information was sent to the display, and as such does not take in to account the potential delay the display might add in order to actually display the information ot the user. Every single test run for each device can be found in Appendix~\ref{app:results}.
+
 	\begin{table}[ht!]
-    		\caption{TODO check s3 valuesAverage display time for Google Glass with varying information size.} \label{tab:averageDisplaySpeedGoogleGlass}
+    		\caption{Average display time for Google Glass with varying information size.} \label{tab:averageDisplaySpeedGoogleGlass}
 		\centering \begin{tabularx}{\textwidth}{l|X|X|X} \hline
 		\textbf{Information Size (Bytes)} & \textbf{Google Glass (sec)}  & \textbf{Samsung Galaxy SII (sec)}  & \textbf{Samsung Galaxy SIII (sec)} \\ \hline \hline
        
-		1 000	&0.310802205	&0.008374156	&0.022958460	 \\ \hline
-		100 000 	&0.442440796	&0.020444892	&0.032734194	 \\ \hline
-		1 000 000	&0.582170613	&0.050938751	&0.023259679	 \\ \hline
+		1 000	&0.310802205	&0.008374156	&0.025498950	 \\ \hline
+		100 000 	&0.442440796	&0.020444892	&0.034109654	 \\ \hline
+		1 000 000	&0.582170613	&0.050938751	&0.078170083	 \\ \hline
 
 		\end{tabularx}
 	\end{table}

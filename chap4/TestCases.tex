@@ -9,7 +9,7 @@ As seen in Figure~\ref{experimentalSetup} Google Glass were mounted in such a wa
 		\centering
     		\subfloat[The experimental setup for Google Glass.]{{\includegraphics[width=70mm]{images/testSetupGlass}}}
    		 \qquad
-		\subfloat[The experimental setup for Samsung Galaxy S2.]{{\includegraphics[width=70mm]{images/testSetupS2}}}
+		\subfloat[The experimental setup for Samsung Galaxy SII.]{{\includegraphics[width=70mm]{images/testSetupS2}}}
    		 \qquad
 		\caption{The experimental setup.}
 		\label{experimentalSetup}
@@ -51,7 +51,7 @@ public class Timer {
 \end{lstlisting}
 
 \subsubsection{Text Length}
-When evaluating the text length the text string used was not a pre defined one, but rather a randomised one. The text was randomly generated using the distribution of characters in regular English text. One might argue that technical texts have a slightly different distribution of characters, but Google recommend developers to be personal when writing text meant to be displayed to the user~\cite{glassDesignStyle}. The text was also short enough to fit a smartphone screen and as such the difference using slightly different distribution would not have any major effect on the results.
+When evaluating the text length the text string used was not a predefined one, but rather a randomised one. The text was randomly generated using the distribution of characters in regular English text. One might argue that technical texts have a slightly different distribution of characters, but Google recommend developers to be personal when writing text meant to be displayed to the user~\cite{glassDesignStyle}. The text was also short enough to fit a smartphone screen and as such the difference using slightly different distribution would not have any major effect on the results.
 
 Listing~\ref{randomizer} shows how each character was randomly selected. \texttt{randchar} was called from within a for loop where the character was added to a string. The number of loops determined how long the text was going to be. The \texttt{doubleList} list contained the distribution of each character according the their distribution in the english language~\cite{englishTextStat} and the \texttt{alph} list contained all the individual characters, including whitespace. As a random decimal number between zero and one was randomly selected a character was as such picked out based on the distribution of that character.
 

@@ -1,6 +1,9 @@
 \subsubsection{Official approval of Voice Commands}
 The voice commands should be officially approved by Google.
 
+\subsubsection{Customised Voice Command}
+Construct own or use \url{https://github.com/RIVeR-Lab/google_glass_driver/blob/master/android/RobotManager/src/com/riverlab/robotmanager/voice_recognition/VoiceRecognitionThread.java}
+
 \subsubsection{TextResultProcessor}
 In the Google Glass application the class TextResultProcessor is not needed any more and should as such be removed. At this point the class in only used as middleware between an instance of the Products class and a list of CardPresenter. Instead the CardPresenter class should only be instanced once for each product, and keep the instance of the Products class.
 

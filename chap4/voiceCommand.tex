@@ -20,7 +20,7 @@ The voice command menu contains the following options.
 	The application launches the camera and expects the user to scan another QR code.
 \end{itemize}
 
-Implementing voice command in the Google Glass application is done by todo~\ref{voiceCommandXML}
+Implementing voice command in the Google Glass application is done by following Google's step-by-step guide on how to implement voice commands in Goole Glass applications~\cite{howToVoiceInput}. Listing~\ref{voiceCommandXML} shows the resulting XML which gives the voice commands used in the application. Using contextual voice commands means that ``ok glass'' is displayed at the bottom of the screen at all times when voice commands are available. ``ok glass'' also comes with a black overlay, seen for instance in Figure~{fig:cardLayout}, which is transparent yet darkens the slides a bit, especially near the bottom of the slides where ``ok glass'' appears. Although the dark overlay could potentially distort the slides a bit, especially when the slide contains only an image, it was as of implementing the voice command feature not possible to alter the ``ok glass'' overlay in any way~\cite{voiceCommandCustom1, voiceCommandCustom2}. The dark overlay does however ensure that ``ok glass'' is always visible, no matter what the background image look like.
 
 \begin{lstlisting}[language=XML, caption={The voice command menu XML file}, label=voiceCommandXML]
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
@@ -47,6 +47,8 @@ Implementing voice command in the Google Glass application is done by todo~\ref{
 </menu>
 \end{lstlisting}
 
-Although none of the voice commands have been sent in for official approval by Google all of the voice commands follows the design guidelines provided by Google. 
+Although none of the voice commands have been sent in for official approval by Google most of the voice commands follows the design guidelines provided by Google. As seen in Table~\ref{tab:voiceCommandCheckTableChecked} 11 och the 15 voice command guidelines provided by Google has been followed. However, some of the guidelines has been applied to some or most of the voice command used within the application, and not all. For instance ``Show components'' does not follow the first guideline of the voice command checklist. ``Show components'' is however still a part of the application as ``Show components'' is a key feature of the application.
 
 \input{voiceCommandCheckTableChecked}
+
+The reason for not following guidelines 11--14 is because they would make the voice commands longer. As the voice commands may potentially be said often while using the application, as the user may proceed through the slides quite fast, shorter voice commands makes for more comfortable use. As the voice commands still follows guideline 6 the voice commands were deemed to be long enough to still ensure high recognition quality.
