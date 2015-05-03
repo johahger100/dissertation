@@ -260,6 +260,13 @@ Google (2015).
 \newblock \url{http://developer.android.com/tools/studio/index.html}
   [2015-03-24].
 
+\bibitem{asyncTask}
+Google (2015).
+\newblock \textit{AsyncTask}.
+\newblock
+  \url{http://developer.android.com/reference/android/os/AsyncTask.html}
+  [2015-05-02].
+
 \bibitem{cardLayout}
 Google (2015).
 \newblock \textit{Card Design - Layout}.

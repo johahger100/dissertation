@@ -1,9 +1,9 @@
 The following section describes how the tests were set up and carried out.
 
 \subsubsection{Experimental Setup}
-The tests were carried out using an optical bench to guarantee more scientific accuracy. The experimental setup contained an optical bench, with a screen holder at the zero point where the QR code was positioned. The device currently being tested, Google Glass or smartphone, was then positioned at the specified mark on the optical bench using a clamp and pointed towards the QR code. See Figure~\ref{experimentalSetup} for a better understanding of the experimental setup. 
+The tests were carried out using an optical bench to guarantee scientific accuracy. The experimental setup contained an optical bench, with a screen holder at the zero point, where the QR code was positioned. The device being tested, Google Glass or smartphone, was then positioned at the specified mark on the optical bench using a clamp and pointed towards the QR code. See Figure~\ref{experimentalSetup} for a better understanding of the experimental setup. 
 
-As seen in Figure~\ref{experimentalSetup} Google Glass were mounted in such a way that the camera sat a bit closer to the QR code than where the clamp marked on the optical bench. In order to compensate for the slight misalignment the clamp was positioned a few centimeters back and not used for determine the distance to the QR code. Instead the camera on Google Glass was used to pin point the exact distance to the QR code, and the clamp was positioned in such a way that the camera on Google Glass was at the distance specified in each experiment. In other words, even though the clamp was not at the distance to the QR code for the smartphone tests as for the Google Glass tests, the camera of each device was.
+As seen in Figure~\ref{experimentalSetup} Google Glass were mounted in such a way that the camera sat a bit closer to the QR code than where the clamp marked on the optical bench. In order to compensate for the slight misalignment the clamp was positioned a few centimeters back from the specified mark and as such not used to determine the distance to the QR code. Instead the camera on Google Glass was used to pin point the exact distance to the QR code, and the clamp was positioned in such a way that the camera on Google Glass was at the distance specified in each experiment. In other words, even though the clamp was not at the same distance to the QR code for the smartphone tests as for the Google Glass tests, the camera of each device was.
 
 	\begin{figure}[H]%ht!]
 		\centering
@@ -15,11 +15,11 @@ As seen in Figure~\ref{experimentalSetup} Google Glass were mounted in such a wa
 		\label{experimentalSetup}
 	\end{figure}
 
-Although not shown i Figure~\ref{experimentalSetup} each device was connected to a computer via a USB cable. The  result time of each test was obtained from the log within Android Studio after each run as when running an android application via Android Studio log information may be obtained through the log within Android Studio.
+Although not shown i Figure~\ref{experimentalSetup} each device was connected to a computer via a USB cable. The result time of each test was obtained from the log within Android Studio after each run, since when running an android application via Android Studio, log information may be obtained through the log within Android Studio.
 
-In order to measure the time needed for the results of each test a specific class was built, called \texttt{Timer} (seen in Listing~\ref{timerClass}). The \texttt{Timer} class was built using the singleton design pattern. A singleton class is a class that can only be instanced once during the entire execution of an application, however the instance lives throughout the entire execution and may be accessed from anywhere in the application.
+In order to measure the time needed for the results of each test a specific class was built, called \texttt{Timer} (seen in Listing~\ref{timerClass}). The \texttt{Timer} class was built using the singleton design pattern. A singleton class is a class that can only be instanced once during the entire execution of an application. However the instance of a singleton class lives throughout the entire execution and may be accessed from anywhere in the application.
 
-Using the singleton pattern meant that the timer could be started in one class, and stop in another without having to pass the instance around, which potentially could affect performance.
+Using the singleton pattern meant that the timer could be started in one class, and stop in another without having to pass the instance around, which could potentially affect the performance of each device.
 
 \begin{lstlisting}[language=Java, caption={The Timer class}, label=timerClass]
 
@@ -51,11 +51,13 @@ public class Timer {
 \end{lstlisting}
 
 \subsubsection{Text Length}
-When evaluating the text length the text string used was not a predefined one, but rather a randomised one. The text was randomly generated using the distribution of characters in regular English text. One might argue that technical texts have a slightly different distribution of characters, but Google recommend developers to be personal when writing text meant to be displayed to the user~\cite{glassDesignStyle}. The text was also short enough to fit a smartphone screen and as such the difference using slightly different distribution would not have any major effect on the results.
+When evaluating the text length the text string used was not a predefined one, but rather a randomised one. The text was randomly generated using the distribution of characters in regular English text. One might argue that technical texts have a slightly different distribution of characters, but Google recommend developers to be personal when writing text meant to be displayed to the user~\cite{glassDesignStyle}. The text was also short enough to fit a smartphone screen and as such the difference using slightly different distribution of characters would not have any major effect on the results.
 
-Listing~\ref{randomizer} shows how each character was randomly selected. \texttt{randchar} was called from within a for loop where the character was added to a string. The number of loops determined how long the text was going to be. The \texttt{doubleList} list contained the distribution of each character according the their distribution in the english language~\cite{englishTextStat} and the \texttt{alph} list contained all the individual characters, including whitespace. As a random decimal number between zero and one was randomly selected a character was as such picked out based on the distribution of that character.
+Listing~\ref{randomizer} shows how each character was randomly selected. \texttt{randchar} was called from within a for loop where the character was added to a string. The number of loops determined how long the text was going to be. The \texttt{doubleList} list contained the distribution of each character according the their distribution in the english language~\cite{englishTextStat} and the \texttt{alph} list contained all the individual characters, including whitespace. As a decimal number between zero and one was randomly selected a corresponding character was picked out based on the distribution of that character.
 
 A recursive method located the corresponding character and returned the character back up to the calling method \texttt{randchar} which in turns returned the character to the for loop in which a string of random characters were collected.
+
+TODO exempel
 
 \begin{lstlisting}[language=Java, caption={The randomizer class}, label=randomizer]
 private double randfrom(double min, double max) {
@@ -79,7 +81,7 @@ public String randchar() {
 
 \subsubsection{Distance to the QR Code}
 
-Using the \texttt{Timer} class, seen in Listing~\ref{timerClass}, the elapsed time from the start of the application until the QR code was decoded was measured for each device. The test was done 30 times for each device, with 3 different distances between the QR code and the device. Figure~\ref{projectmap} described the application functionality and this test measures steps 1 and 2.  The results of the test can be seen in detail in Appendix~\ref{app:results} but will also be presented in a smaller version with the average time in a table similar to Table~\ref{tab:distanceAverage}. Although the \texttt{Timer} class will give the elapsed time in nano seconds the result will be presented in seconds in order to clearly show the significance of each time as small, nano seconds, differences between devices will not matter as much as seconds.
+Using the \texttt{Timer} class, seen in Listing~\ref{timerClass}, the elapsed time from the start of the application until the QR code was decoded was measured for each device. The test was done 30 times for each device, with 3 different distances between the QR code and the device. Figure~\ref{projectmap} described the application functionality and this test measures steps 1 and 2 in Figure~\ref{projectmap}. The results of the test can be seen in detail in Appendix~\ref{app:results} but will also be presented in a smaller version with the average time in a table similar to Table~\ref{tab:distanceAverage}. Although the \texttt{Timer} class will give the elapsed time in nano seconds the result will be presented in seconds in order to clearly show the significance of each time as small, nano seconds, differences between devices will not matter as much as seconds.
 
 	\begin{table}[ht!]
     		\caption{Average time of registering a QR code with varying distance.} \label{tab:distanceAverage}
@@ -95,8 +97,7 @@ Using the \texttt{Timer} class, seen in Listing~\ref{timerClass}, the elapsed ti
 
 \subsubsection{Complexity of the QR Code}
 
-Using the \texttt{Timer} class, seen in Listing~\ref{timerClass}, the elapsed time from the start of the application until the QR code was decoded was measured for each device. The test was done 30 times for each device, with 3 different complexities of the QR code. Figure~\ref{projectmap} described the application functionality and this test measures steps 1 and 2. The results of the test can be seen in detail in Appendix~\ref{app:results} but will also be presented in a smaller version with the average time in a table similar to Table~\ref{tab:complexityAverage}. Although the \texttt{Timer} class will give the elapsed time in nano seconds the result will be presented in seconds in order to clearly show the significance of each time as small, nano seconds, differences between devices will not matter as much as seconds.
-
+Using the \texttt{Timer} class, seen in Listing~\ref{timerClass}, the elapsed time from the start of the application until the QR code was decoded was measured for each device. The test was done 30 times for each device, with 3 different complexities of the QR code. Figure~\ref{projectmap} described the application functionality and this test measures steps 1 and 2 in Figure~\ref{projectmap}. The results of the test can be seen in detail in Appendix~\ref{app:results} but will also be presented in a smaller version with the average time in a table similar to Table~\ref{tab:complexityAverage}. Although the \texttt{Timer} class will give the elapsed time in nano seconds the result will be presented in seconds in order to clearly show the significance of each time as small, nano seconds, differences between devices will not matter as much as seconds.
 
 	\begin{table}[H]%ht!]
     		\caption{Average time of registering a QR code with varying density.} \label{tab:complexityAverage}
@@ -112,8 +113,7 @@ Using the \texttt{Timer} class, seen in Listing~\ref{timerClass}, the elapsed ti
 
 \subsubsection{Display Time}
 
-Using the \texttt{Timer} class, seen in Listing~\ref{timerClass}, the elapsed time from the point that the product information had ben downloaded until the information was sent to the display was measured for each device. The test was done 30 times for each device, with 3 different size of product information. Figure~\ref{projectmap} described the application functionality and this test measures steps 4 and 5. The results of the test can be seen in detail in Appendix~\ref{app:results} but will also be presented in a smaller version with the average time in a table similar to Table~\ref{tab:averageDisplaySpeedGoogleGlass}. Although the \texttt{Timer} class will give the elapsed time in nano seconds the result will be presented in seconds in order to clearly show the significance of each time as small, nano seconds, differences between devices will not matter as much as seconds.
-
+Using the \texttt{Timer} class, seen in Listing~\ref{timerClass}, the elapsed time from the point that the product information had ben downloaded until the information was sent to the display was measured for each device. The test was done 30 times for each device, with 3 different sizes of product information. Figure~\ref{projectmap} described the application functionality and this test measures steps 4 and 5 in Figure~\ref{projectmap}. The results of the test can be seen in detail in Appendix~\ref{app:results} but will also be presented in a smaller version with the average time in a table similar to Table~\ref{tab:averageDisplaySpeedGoogleGlass}. Although the \texttt{Timer} class will give the elapsed time in nano seconds the result will be presented in seconds in order to clearly show the significance of each time as small, nano seconds, differences between devices will not matter as much as seconds.
 
 	\begin{table}[ht!]
     		\caption{Average display time for Google Glass with varying information size.} \label{tab:averageDisplaySpeedGoogleGlass}
