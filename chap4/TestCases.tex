@@ -57,9 +57,20 @@ Listing~\ref{randomizer} shows how each character was randomly selected. \texttt
 
 A recursive method located the corresponding character and returned the character back up to the calling method \texttt{randchar} which in turns returned the character to the for loop in which a string of random characters were collected.
 
-TODO exempel
-
 \begin{lstlisting}[language=Java, caption={The randomizer class}, label=randomizer]
+public RandomizeEnglishText() {
+	doubleList = new ArrayList<>();
+	doubleList.add(0.0651738);					// A
+	doubleList.add(doubleList.get(0) + 0.0124248);		// B
+	doubleList.add(doubleList.get(1) + 0.0217339);		// C
+		[...]
+	doubleList.add(doubleList.get(23) + 0.0145984);	// Y
+	doubleList.add(doubleList.get(24) + 0.0007836);	// Z
+	doubleList.add(doubleList.get(25) + 0.1918182);	// _
+
+	alph = Arrays.asList("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "k", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", " ");
+}
+
 private double randfrom(double min, double max) {
 	Random rand = new Random();
 	double range = (max - min);
@@ -67,10 +78,9 @@ private double randfrom(double min, double max) {
 }
 
 private String getChar(int pos, double rand) {
-	if(rand <= doubleList.get(pos) || pos+1 <= alph.size())
-		return alph.get(pos);
-		
-	return getChar(pos+1, rand);
+	return (rand <= doubleList.get(pos) || pos+1 <= alph.size()) ?
+		alph.get(pos) :
+		getChar(pos+1, rand);
 }
 
 public String randchar() {

@@ -23,7 +23,7 @@ Both the smartphone application as well as the Google Glass application were dev
 
 
 \subsection{Card Layout}
-Google provides developers with a set of predefined layouts for different types of cards, which were used in the Google Glass application and used as basis for the design of the different layouts for the slides in the smartphone application. The following predefined layouts were used in the implementation: ``Title'', ``Columns'' and ``Text''. The Title layout was used for the first card of the slide view, which shows the product name as well as an image of the product as it is supposed to look when finished. TODO Image card? vilken layout? Använde den också title- layouten?
+Google provides developers with a set of predefined layouts for different types of cards, which were used in the Google Glass application and used as basis for the design of the different layouts for the slides in the smartphone application. The following predefined layouts were used in the implementation: ``Title'', ``Columns'' and ``Text''. The Title layout was used for the first card of the slide view, which shows the product name as well as an image of the product as it is supposed to look when finished. 
 
 	\begin{figure}[ht!]
 		\centering
@@ -43,9 +43,9 @@ The Columns card layout, seen in Figure~\ref{fig:cardLayout}~(b) was used for wh
 
 Such a layout design was instead used for the title card as the amount of text being displayed is only the name of the product, and the image is only to give an idea of what the finished product will look like. The layout design where the text overlapped the image was called Title and can be seen in Figure~\ref{fig:cardLayout}~(a).
 
-If the information being presented, either a component or an instruction, instead were to be presented only as text the Text layout, seen in Figure~\ref{fig:cardLayout}~(c) was used. The Text layout displayed dynamically sized text. In other words, if there was a lot of text being displayed the text would be resized to fit the screen.
+If the information, either a component or an instruction, instead were to be presented only as text the Text layout, seen in Figure~\ref{fig:cardLayout}~(c) was used. The Text layout displayed dynamically sized text. In other words, if there was a lot of text being displayed the text would be resized to fit the screen.
 
-TODO IMAGE layout
+When the card were to only contain an image and no text the Caption layout was used, seen in Figure~\ref{fig:cardLayout}~(d). The Caption layout is similar to the Title layout, but in contrast to the Title layout the Caption layout also have both a footer and a timestamp at the bottom of the card on the left and right side respectively. The Caption layout enables the use of an actual caption, however a caption is not necessary and neither is a caption used in the application as the Caption layout was used when no text was meant to be displayed (not counting the footer and the timestamp which appears on all cards except for the title card).
 
 Using the predefined layouts in the implementation was easily achieved as the process consisted mostly of plug-and-play. The \texttt{CardBuilder} class constructor took the layout as an argument, as seen in Listing~\ref{cardBuilderPlugPlay}. When and instance of the \texttt{CardBuilder} class was created what remained was to simply input the necessary information, such as the instruction text. Setting an image was done slightly differently than written information as images were loaded in using a separate thread. As soon as the \texttt{CardBuilder} method \texttt{getView} was called the card was built with the information that had been inputed.
 

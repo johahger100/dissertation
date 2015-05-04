@@ -27,21 +27,22 @@ The BarcodeEye application for Google Glass is however a bare bone application, 
 
 As the QR code is meant to encode only a product ID, and the application will then use the ID to download the product information (rather than having all of the instructions encoded directly in the QR code), the BarcodeEye application had to be modified. The first modification was on the graphical layout of the BarcodeEye application. The change of layout was mostly done due to the fact that the BarcodeEye application only displayed plain text, not taking in to account for instance a mix of image and text.
 
-In order to display information BarcodeEye used the deprecated class \texttt{Card}, as seen in Listing~\ref{listingDeprecated}. The application now instead uses the \texttt{CardBuilder} class, as seen in Listing~\ref{listingRecommended}, as recommended by Google~\cite{googleCard}. The \texttt{CardBuilder} class allows users to input a desired layout style as an argument to the constructor of the \texttt{CardBuilder} class. TODO hur gjordes detta med CARD? Skillnad?
+In order to display information BarcodeEye used the deprecated class \texttt{Card}, as seen in Listing~\ref{listingDeprecated}. The application now instead uses the \texttt{CardBuilder} class, as seen in Listing~\ref{listingRecommended}, as recommended by Google~\cite{googleCard}. The \texttt{CardBuilder} class allows users to input a desired layout style as an argument to the constructor of the \texttt{CardBuilder} class. With the \texttt{Card} class developers could in a separate method call set where on the card the image would appear. For instance, in order to create a columns card, as seen in Figure~\ref{glassDemoComponentColumn}, the code would look as the code in Listing~\ref{listingDeprecated}. Using the recommended \texttt{CardBuilder} class instead would look as the code in Listing~\ref{listingRecommended}. With \texttt{CardBuilder} developers can now use default layouts, enabling more consistent application design across Google Glass applications. If a developers wishes to use a custom layout instead, the developer can simply use the custom layout as input to the \texttt{CardBuilder} constructor instead.
 
 \begin{lstlisting}[language=Java, caption={Instancing of the deprecated class Card}, label=listingDeprecated]
 Card card = new Card(context);
+card.setImageLayout(Card.ImageLayout.LEFT);
 \end{lstlisting}
 
 \begin{lstlisting}[language=Java, caption={Instancing of the recommended class CardBuilder}, label=listingRecommended]
-CardBuilder cardBuilder = new CardBuilder(context, CardBuilder.Layout.TITLE);
+CardBuilder cardBuilder = new CardBuilder(context, CardBuilder.Layout.COLUMNS);
 \end{lstlisting}
 
 Since the smartphone application also used the ZXing library, but without any pre-existing application, no changes similar to those done to the Google Glass application had to be done for the smartphone application. Instead the smartphone application was built from the ground up to make use of the ZXing library's functionality, similar to how the ZXing library was integrated in the base Google Glass application.
 
-The Google Glass application and the smartphone application are similar in how they are built, as seen in Figure~\ref{uml}, which shows a UML diagram over the slide view part of the respective applications.
+%The Google Glass application and the smartphone application are similar in how they are built, as seen in Figure~\ref{uml}, which shows a UML diagram over the slide view part of the respective applications.
 
-[TODO UML DIAGRAM ref(uml)]
+%[TODO UML DIAGRAM ref(uml)]
 
 
 
@@ -53,13 +54,18 @@ Having scanned and decoded a QR code the decoded information is then used to dow
 
 The way the download process uses the decoded product ID is by concatenating the product ID with a URL adress, which connects to a database containing all necessary information regarding the specific product. The download process was done using a \texttt{AsyncTask}. An AsyncTask is a class which performs operations in the background on a different thread than the user interface, such that the user interface is not frozen when the download process is taking place~\cite{asyncTask}.
 
-The the smartphone application a loading spinner pops up when information is being downloaded, as seen in Figure~\ref{downloadSpinner}. However, such a spinner was not implemented in the Google Glass application. The reason for not implementing such a download spinner in the Google Glass application was because the AsyncTask, in order to display anything during the execution of the AsyncTask, requires access to the active activity TODO explain why no spinner in glass application
+In the Google Glass application a loading bar pops up at the bottom of the screen when information is being downloaded, as seen in Figure~\ref{downloadLoading}~(a), indicating that the application is loading. A similar animation was added to the smartphone application. However, in contrast to the Google Glass application's loading bar the smartphone application instead displays a spinning wheel at the center of the screen, seen in Figure~\ref{downloadLoading}~(a), indicating that the application is loading.
+
+%However, such a spinner was not implemented in the Google Glass application. The reason for not implementing such a download spinner in the Google Glass application was because the AsyncTask, in order to display anything during the execution of the AsyncTask, requires access to a \texttt{Context} instance. A context comes from an activity in the android application, but in the Google Glass application the download process i taking place in between the scanning activity and the presenting activity. As such, the loading spinner 
 
 	\begin{figure}[ht!]
 		\centering
-		\includegraphics[width=70mm]{images/demo/smartphone/loadingSpinner}
-		\caption{The loading spinner in the smartphone application.}
-		\label{downloadSpinner}
+    		\subfloat[The Google Glass application]{{\includegraphics[width=70mm]{images/demo/loadingBar}}}
+   		 \qquad
+		\subfloat[The smartphone application.]{{\includegraphics[width=70mm]{images/demo/smartphone/loadingSpinner}}}
+   		 \qquad
+		\caption{The loading screens.}
+		\label{downloadLoading}
 	\end{figure}
 
 The download process also includes creating and initialise an instance of the \texttt{Products} class. The instance contains the name of the product and an image of the product as the product will look when the user is done assembling all the components (the existence of an image is dependent of whether there was an image of the product stored in the database or not).
@@ -84,7 +90,7 @@ The first information the user sees displayed on screen after the QR code has be
 %		\label{glassDemoTitleCard}
 %	\end{figure}
 	
-		\begin{figure}[ht!]
+	\begin{figure}[ht!]
 		\centering
     		\subfloat[The Google Glass application]{{\includegraphics[width=70mm]{images/demo/titleCard}}}
    		 \qquad
@@ -142,7 +148,7 @@ The card design used for the component slide containing only text, seen in Figur
 
 After all the component slides comes the instruction slides. These slides may also contain either only text or both text and an image, and these layouts are specified the same way as the component slides. However, an instruction slide may also consist of only an image, and no text at all. The reason for giving an image exclusive layout as a possible card layout for an instruction slide is because an instruction may be best described with an image. Describing the same instruction in text may take up more slides than the image, as the image will only take up one slide. A slide containing only an image and no text will also mean that the image will be scaled larger than when using both text and an image. As such more detail can be shown and users may get a better understanding for how the components should be assembled.
 
-As seen in Figure~\ref{glassDemoInstructionImage} one instruction is described with only an image and no text. Since the placement of the components are important, and potentially hard to specify in text, an image may describe the placement better. Note also that the smartphone application still has room for text. Potentially the image in the smartphone application could be expanded, for instance by giving the user the ability to zoom by pinch. However, such a feature does not exist.
+As seen in Figure~\ref{glassDemoInstructionImage}, one instruction is described with only an image and no text. Since the placement of the components are important, and potentially hard to specify in text, an image may describe the placement better. Note also that the smartphone application still has room for text. Potentially the image in the smartphone application could be expanded, for instance by giving the user the ability to zoom by pinch. However, such a feature does not exist.
 
 	\begin{figure}[ht!]
 		\centering
@@ -154,7 +160,7 @@ As seen in Figure~\ref{glassDemoInstructionImage} one instruction is described w
 		\label{glassDemoInstructionImage}
 	\end{figure}
 	
-The Google Glass application may be controlled by swiping across the Google Glass touchpad, but the Google Glass application may also be controlled using voice commands. The voice commands can be used as simple replacement for the touchpad, where users may swipe cards both backwards and forwards. However, using voice commands users may also ``jump'' in the application. By for instance saying ``ok glass, show components'' the application jumps to the first component slide, regardless of which slide the user is currently viewing. If the user is currently already viewing the first component slide nothing will happen. The voice command menu of the Google Glass application can be seen in Figure~\ref{glassDemoVoiceCommand}. Although the smartphone application does not have any voice command features the title slide contains buttons, as seen in Figure~/ref{glassDemoTitleCard}~(b) giving the user the ability to skip straight to the instructions is so desired.
+The Google Glass application may be controlled by swiping across the Google Glass touchpad, but the Google Glass application may also be controlled using voice commands. The voice commands can be used as simple replacement for the touchpad, where users may swipe cards both backwards and forwards. However, using voice commands users may also ``jump'' in the application. By for instance saying ``ok glass, show components'' the application jumps to the first component slide, regardless of which slide the user is currently viewing. If the user is currently already viewing the first component slide nothing will happen. The voice command menu of the Google Glass application can be seen in Figure~\ref{glassDemoVoiceCommand}. Although the smartphone application does not have any voice command features the title slide contains buttons, as seen in Figure~\ref{glassDemoTitleCard}~(b) giving the user the ability to skip straight to the instructions is so desired.
 	
 	\begin{figure}[ht!]
 		\centering
