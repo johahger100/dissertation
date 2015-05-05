@@ -44,8 +44,6 @@ Since the smartphone application also used the ZXing library, but without any pr
 
 %[TODO UML DIAGRAM ref(uml)]
 
-
-
 %discuss differences (classes exclusive to the smartphone application and GG application respectivly)
 
 %discuss downloading of product information
@@ -54,7 +52,9 @@ Having scanned and decoded a QR code the decoded information is then used to dow
 
 The way the download process uses the decoded product ID is by concatenating the product ID with a URL adress, which connects to a database containing all necessary information regarding the specific product. The download process was done using a \texttt{AsyncTask}. An AsyncTask is a class which performs operations in the background on a different thread than the user interface, such that the user interface is not frozen when the download process is taking place~\cite{asyncTask}.
 
-In the Google Glass application a loading bar pops up at the bottom of the screen when information is being downloaded, as seen in Figure~\ref{downloadLoading}~(a), indicating that the application is loading. A similar animation was added to the smartphone application. However, in contrast to the Google Glass application's loading bar the smartphone application instead displays a spinning wheel at the center of the screen, seen in Figure~\ref{downloadLoading}~(a), indicating that the application is loading.
+In the Google Glass application a loading bar pops up at the bottom of the screen when information is being downloaded, as seen in Figure~\ref{downloadLoading}~(a), indicating that the application is loading. Google calls the bar an ``Ìndeterminate Slider'', as the the class used in implementation is the same as for a regular Slider~\cite{indeterminateSlide}. A similar animation was added to the smartphone application. However, in contrast to the Google Glass application's loading bar the smartphone application instead displays a spinning wheel at the center of the screen, seen in Figure~\ref{downloadLoading}~(a), indicating that the application is loading. The spinning wheel is implemented by the \texttt{ProgressDialog} class~\cite{loadingWheel}.
+
+in both cases of loading animation the animation is started in the \texttt{AsyncTask}, just before the download begins. The loading animation stops when the \texttt{AsyncTask} has finished downloading the product information.
 
 %However, such a spinner was not implemented in the Google Glass application. The reason for not implementing such a download spinner in the Google Glass application was because the AsyncTask, in order to display anything during the execution of the AsyncTask, requires access to a \texttt{Context} instance. A context comes from an activity in the android application, but in the Google Glass application the download process i taking place in between the scanning activity and the presenting activity. As such, the loading spinner 
 

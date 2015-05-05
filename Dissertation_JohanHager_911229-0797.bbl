@@ -302,6 +302,12 @@ Google (2015).
 \newblock \textit{Roboto}.
 \newblock \url{http://www.google.com/fonts/specimen/Roboto} [2015-03-16].
 
+\bibitem{indeterminateSlide}
+Google (2015).
+\newblock \textit{Slider}.
+\newblock \url{https://developers.google.com/glass/develop/gdk/slider}
+  [2015-05-05].
+
 \bibitem{GlassSpecs}
 Google (2015).
 \newblock \textit{Tech spechs}.
