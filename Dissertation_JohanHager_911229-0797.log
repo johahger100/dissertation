@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.12)  6 MAY 2015 01:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.12)  7 MAY 2015 16:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -389,15 +389,6 @@ LaTeX Warning: Label `GoogleGlassHardware' multiply defined.
 LaTeX Warning: Label `subsec:summary' multiply defined.
 
 
-LaTeX Warning: Label `tab:distanceAverage' multiply defined.
-
-
-LaTeX Warning: Label `tab:complexityAverage' multiply defined.
-
-
-LaTeX Warning: Label `tab:averageDisplaySpeedGoogleGlass' multiply defined.
-
-
 LaTeX Warning: Label `subsec:summary' multiply defined.
 
 
@@ -501,7 +492,7 @@ Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count140
 
-<kaueng.pdf, id=269, 505.89pt x 506.89375pt>
+<kaueng.pdf, id=281, 505.89pt x 506.89375pt>
 File: kaueng.pdf Graphic file (type pdf)
  <use kaueng.pdf>
 Package pdftex.def Info: kaueng.pdf used on input line 70.
@@ -527,64 +518,69 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 ] [5] [6
 
 
-] (./Dissertation_JohanHager_911229-0797.toc [7] [8])
+] [7
+
+] [8
+
+
+] (./Dissertation_JohanHager_911229-0797.toc [9] [10])
 \tf@toc=\write4
 \openout4 = `Dissertation_JohanHager_911229-0797.toc'.
 
- [9]
-[10
 
-] (./Dissertation_JohanHager_911229-0797.lof [11
+[11] [12
+
+] (./Dissertation_JohanHager_911229-0797.lof [13
 
 ])
 \tf@lof=\write5
 \openout5 = `Dissertation_JohanHager_911229-0797.lof'.
 
- [12]
+ [14]
 (./Dissertation_JohanHager_911229-0797.lot)
 \tf@lot=\write6
 \openout6 = `Dissertation_JohanHager_911229-0797.lot'.
 
- [13
+ [15
 
 
-] [14
+] [16
 
 ]
 (./Dissertation_JohanHager_911229-0797.lol)
 \tf@lol=\write7
 \openout7 = `Dissertation_JohanHager_911229-0797.lol'.
 
- [15] [16
+ [17] [18
 
-] (./Introduction.tex
+] (./Introduction.texpdfTeX warning (ext4): destination with the same identifie
+r (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.27 
+      [1
+
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.22 
-      [1
-
-]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
- been already used, duplicate ignored
+l.38 \subsection
+                {Hypothesis} [2]pdfTeX warning (ext4): destination with the sam
+e identifier (name{page.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.35 T
-      he~\ref{sec:conclusion}th and final chapter contains conclusions on th...
-[2])pdfTeX warning (ext4): destination with the same identifier (name{page.3}) 
-has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.142 \cleardoublepage
-                       [3] [4
-
-] (./Background.tex (./chap2/GlassDef.tex
+l.51 C
+      hapter~\ref{sec:implementation} describes the implementation part of t...
+[3]) [4] (./Background.tex (./chap2/GlassDef.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5]
-<images/GoogleGlassHardwareTouchpad.png, id=646, 851.18pt x 466.74374pt>
+ [5
+
+]
+<images/GoogleGlassHardwareTouchpad.png, id=670, 851.18pt x 466.74374pt>
 File: images/GoogleGlassHardwareTouchpad.png Graphic file (type png)
 
 <use images/GoogleGlassHardwareTouchpad.png>
@@ -592,7 +588,7 @@ Package pdftex.def Info: images/GoogleGlassHardwareTouchpad.png used on input l
 ine 6.
 (pdftex.def)             Requested size: 199.16928pt x 109.21474pt.
 
-<images/GoogleGlassHardware.png, id=647, 854.19125pt x 468.75125pt>
+<images/GoogleGlassHardware.png, id=671, 854.19125pt x 468.75125pt>
 File: images/GoogleGlassHardware.png Graphic file (type png)
 
 <use images/GoogleGlassHardware.png>
@@ -600,14 +596,14 @@ Package pdftex.def Info: images/GoogleGlassHardware.png used on input line 8.
 (pdftex.def)             Requested size: 199.16928pt x 109.29109pt.
  [6 <./images/GoogleGlassHardwareTouchpad.png> <./images/GoogleGlassHardware.pn
 g>]
-<images/OculusRift.jpg, id=667, 481.8pt x 417.56pt>
+<images/OculusRift.jpg, id=691, 481.8pt x 417.56pt>
 File: images/OculusRift.jpg Graphic file (type jpg)
 
 <use images/OculusRift.jpg>
 Package pdftex.def Info: images/OculusRift.jpg used on input line 61.
 (pdftex.def)             Requested size: 312.9803pt x 271.25786pt.
  [7] [8 <./images/OculusRift.jpg>]
-<images/GoogleGlassKeepRevelant.jpg, id=691, 722.7pt x 406.51875pt>
+<images/GoogleGlassKeepRevelant.jpg, id=713, 722.7pt x 406.51875pt>
 File: images/GoogleGlassKeepRevelant.jpg Graphic file (type jpg)
 
 <use images/GoogleGlassKeepRevelant.jpg>
@@ -615,7 +611,7 @@ Package pdftex.def Info: images/GoogleGlassKeepRevelant.jpg used on input line
 78.
 (pdftex.def)             Requested size: 312.9803pt x 176.05264pt.
 ) (./chap2/SimilarProducts.tex
-<images/similarProducts/hololens.png, id=696, 696.6025pt x 312.16624pt>
+<images/similarProducts/hololens.png, id=718, 696.6025pt x 312.16624pt>
 File: images/similarProducts/hololens.png Graphic file (type png)
 
 <use images/similarProducts/hololens.png>
@@ -623,7 +619,7 @@ Package pdftex.def Info: images/similarProducts/hololens.png used on input line
  5.
 (pdftex.def)             Requested size: 199.16928pt x 89.24933pt.
 
-<images/similarProducts/reconJet.png, id=699, 693.59125pt x 343.2825pt>
+<images/similarProducts/reconJet.png, id=721, 693.59125pt x 343.2825pt>
 File: images/similarProducts/reconJet.png Graphic file (type png)
 
 <use images/similarProducts/reconJet.png>
@@ -631,7 +627,7 @@ Package pdftex.def Info: images/similarProducts/reconJet.png used on input line
  7.
 (pdftex.def)             Requested size: 199.16928pt x 98.57509pt.
 
-<images/similarProducts/glassUp.png, id=702, 779.91376pt x 364.36125pt>
+<images/similarProducts/glassUp.png, id=724, 779.91376pt x 364.36125pt>
 File: images/similarProducts/glassUp.png Graphic file (type png)
 
 <use images/similarProducts/glassUp.png>
@@ -639,7 +635,7 @@ Package pdftex.def Info: images/similarProducts/glassUp.png used on input line
 9.
 (pdftex.def)             Requested size: 199.16928pt x 93.04709pt.
 
-<images/similarProducts/penny.png, id=705, 500.87125pt x 190.7125pt>
+<images/similarProducts/penny.png, id=727, 500.87125pt x 190.7125pt>
 File: images/similarProducts/penny.png Graphic file (type png)
 
 <use images/similarProducts/penny.png>
@@ -671,14 +667,14 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\@ifnextchar' on input line 40.
 
 ) [12] (./chap2/GlassUI.tex
-<images/GoogleGlassUI.png, id=767, 850.17625pt x 465.74pt>
+<images/GoogleGlassUI.png, id=790, 850.17625pt x 465.74pt>
 File: images/GoogleGlassUI.png Graphic file (type png)
 
 <use images/GoogleGlassUI.png>
 Package pdftex.def Info: images/GoogleGlassUI.png used on input line 5.
 (pdftex.def)             Requested size: 312.9803pt x 171.45409pt.
 
-<images/GoogleGlassHomescreen.png, id=771, 803.0pt x 481.8pt>
+<images/GoogleGlassHomescreen.png, id=794, 803.0pt x 481.8pt>
 File: images/GoogleGlassHomescreen.png Graphic file (type png)
 
 <use images/GoogleGlassHomescreen.png>
@@ -686,7 +682,7 @@ Package pdftex.def Info: images/GoogleGlassHomescreen.png used on input line 14
 .
 (pdftex.def)             Requested size: 199.16928pt x 119.50133pt.
 
-<images/GoogleGlassStarImmersion.png, id=772, 803.0pt x 481.8pt>
+<images/GoogleGlassStarImmersion.png, id=795, 803.0pt x 481.8pt>
 File: images/GoogleGlassStarImmersion.png Graphic file (type png)
 
 <use images/GoogleGlassStarImmersion.png>
@@ -694,7 +690,7 @@ Package pdftex.def Info: images/GoogleGlassStarImmersion.png used on input line
  16.
 (pdftex.def)             Requested size: 199.16928pt x 119.50133pt.
 
-<images/GoogleGlassStarImmersion2.png, id=773, 803.0pt x 481.8pt>
+<images/GoogleGlassStarImmersion2.png, id=796, 803.0pt x 481.8pt>
 File: images/GoogleGlassStarImmersion2.png Graphic file (type png)
 
 <use images/GoogleGlassStarImmersion2.png>
@@ -706,7 +702,7 @@ Underfull \vbox (badness 5985) has occurred while \output is active []
 
  [14 <./images/GoogleGlassHomescreen.png> <./images/GoogleGlassStarImmersion.pn
 g> <./images/GoogleGlassStarImmersion2.png>]
-<images/glassVoiceMenu.png, id=795, 642.4pt x 361.35pt>
+<images/glassVoiceMenu.png, id=818, 642.4pt x 361.35pt>
 File: images/glassVoiceMenu.png Graphic file (type png)
 
 <use images/glassVoiceMenu.png>
@@ -717,14 +713,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [15])
 (./chap2/vsphones.tex [16 <./images/glassVoiceMenu.png>]
-<images/smartphoneSize2.jpg, id=817, 662.475pt x 363.3575pt>
+<images/smartphoneSize2.jpg, id=839, 662.475pt x 363.3575pt>
 File: images/smartphoneSize2.jpg Graphic file (type jpg)
 
 <use images/smartphoneSize2.jpg>
 Package pdftex.def Info: images/smartphoneSize2.jpg used on input line 14.
 (pdftex.def)             Requested size: 312.9803pt x 171.66513pt.
 
-<images/smartphoneSize.png, id=820, 722.7pt x 429.605pt>
+<images/smartphoneSize.png, id=842, 722.7pt x 429.605pt>
 File: images/smartphoneSize.png Graphic file (type png)
 
 <use images/smartphoneSize.png>
@@ -733,28 +729,28 @@ Package pdftex.def Info: images/smartphoneSize.png used on input line 23.
  [17 <./images/smartphoneSize2.jpg>])
 (./chap2/Limitations.tex [18 <./images/smartphoneSize.png>])
 (./chap2/QRCode.tex [19]
-<images/qrcodeMall.pdf, id=854, 1173.8637pt x 851.71005pt>
+<images/qrcodeMall.pdf, id=876, 1173.8637pt x 851.71005pt>
 File: images/qrcodeMall.pdf Graphic file (type pdf)
 
 <use images/qrcodeMall.pdf>
 Package pdftex.def Info: images/qrcodeMall.pdf used on input line 14.
 (pdftex.def)             Requested size: 227.62204pt x 165.15356pt.
  [20 <./images/qrcodeMall.pdf>]
-<images/qrcodeexample.pdf, id=883, 1100.38531pt x 715.4366pt>
+<images/qrcodeexample.pdf, id=905, 1100.38531pt x 715.4366pt>
 File: images/qrcodeexample.pdf Graphic file (type pdf)
 
 <use images/qrcodeexample.pdf>
 Package pdftex.def Info: images/qrcodeexample.pdf used on input line 28.
 (pdftex.def)             Requested size: 284.52756pt x 184.98296pt.
  [21 <./images/qrcodeexample.pdf>]
-<images/qrcodeexampleStep3.pdf, id=899, 102.2052pt x 34.0684pt>
+<images/qrcodeexampleStep3.pdf, id=921, 102.2052pt x 34.0684pt>
 File: images/qrcodeexampleStep3.pdf Graphic file (type pdf)
 
 <use images/qrcodeexampleStep3.pdf>
 Package pdftex.def Info: images/qrcodeexampleStep3.pdf used on input line 41.
 (pdftex.def)             Requested size: 85.35826pt x 28.45299pt.
 
-<images/qrcodemaskpattern.pdf, id=904, 204.4104pt x 204.4104pt>
+<images/qrcodemaskpattern.pdf, id=926, 204.4104pt x 204.4104pt>
 File: images/qrcodemaskpattern.pdf Graphic file (type pdf)
 
 <use images/qrcodemaskpattern.pdf>
@@ -764,42 +760,42 @@ Package pdftex.def Info: images/qrcodemaskpattern.pdf used on input line 56.
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/qrcodemaskpattern.pdf): PDF
  inclusion: multiple pdfs with page group included in a single page
->] <images/qrcodezigzag.pdf, id=917, 851.70999pt x 851.71005pt>
+>] <images/qrcodezigzag.pdf, id=940, 851.70999pt x 851.71005pt>
 File: images/qrcodezigzag.pdf Graphic file (type pdf)
 
 <use images/qrcodezigzag.pdf>
 Package pdftex.def Info: images/qrcodezigzag.pdf used on input line 67.
 (pdftex.def)             Requested size: 284.52756pt x 284.52213pt.
  [23 <./images/qrcodezigzag.pdf>]
-<images/qrcodeexampleStep4.pdf, id=926, 68.1368pt x 68.1368pt>
+<images/qrcodeexampleStep4.pdf, id=950, 68.1368pt x 68.1368pt>
 File: images/qrcodeexampleStep4.pdf Graphic file (type pdf)
 
 <use images/qrcodeexampleStep4.pdf>
 Package pdftex.def Info: images/qrcodeexampleStep4.pdf used on input line 88.
 (pdftex.def)             Requested size: 42.67912pt x 42.68103pt.
  [24 <./images/qrcodeexampleStep4.pdf>]
-<images/qrcodeexampleStep5.pdf, id=938, 68.1368pt x 136.27357pt>
+<images/qrcodeexampleStep5.pdf, id=961, 68.1368pt x 136.27357pt>
 File: images/qrcodeexampleStep5.pdf Graphic file (type pdf)
 
 <use images/qrcodeexampleStep5.pdf>
 Package pdftex.def Info: images/qrcodeexampleStep5.pdf used on input line 115.
 (pdftex.def)             Requested size: 42.67912pt x 85.36206pt.
  [25 <./images/qrcodeexampleStep5.pdf>]
-<images/qrcodeexampleStep6.pdf, id=948, 68.1368pt x 136.27357pt>
+<images/qrcodeexampleStep6.pdf, id=970, 68.1368pt x 136.27357pt>
 File: images/qrcodeexampleStep6.pdf Graphic file (type pdf)
 
 <use images/qrcodeexampleStep6.pdf>
 Package pdftex.def Info: images/qrcodeexampleStep6.pdf used on input line 178.
 (pdftex.def)             Requested size: 42.67912pt x 85.36206pt.
  [26 <./images/qrcodeexampleStep6.pdf>]
-<images/qrcodeexampleStep7.pdf, id=957, 136.27357pt x 68.1368pt>
+<images/qrcodeexampleStep7.pdf, id=979, 136.27357pt x 68.1368pt>
 File: images/qrcodeexampleStep7.pdf Graphic file (type pdf)
 
 <use images/qrcodeexampleStep7.pdf>
 Package pdftex.def Info: images/qrcodeexampleStep7.pdf used on input line 213.
 (pdftex.def)             Requested size: 85.35826pt x 42.68103pt.
 
-<images/qrcodeexampleStep8.pdf, id=960, 68.1368pt x 136.27357pt>
+<images/qrcodeexampleStep8.pdf, id=982, 68.1368pt x 136.27357pt>
 File: images/qrcodeexampleStep8.pdf Graphic file (type pdf)
 
 <use images/qrcodeexampleStep8.pdf>
@@ -815,7 +811,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [33]
 [34] (./Design.tex (./chap3/application.tex
-<images/projectmap4.pdf, id=1032, 563.35132pt x 384.26134pt>
+<images/projectmap4.pdf, id=1055, 563.35132pt x 384.26134pt>
 File: images/projectmap4.pdf Graphic file (type pdf)
 
 <use images/projectmap4.pdf>
@@ -824,49 +820,49 @@ Package pdftex.def Info: images/projectmap4.pdf used on input line 7.
  [35
 
  <./images/projectmap4.pdf>]
-<images/cardDesign2.pdf, id=1053, 453.2716pt x 82.88536pt>
+<images/cardDesign2.pdf, id=1076, 453.2716pt x 82.88536pt>
 File: images/cardDesign2.pdf Graphic file (type pdf)
 
 <use images/cardDesign2.pdf>
 Package pdftex.def Info: images/cardDesign2.pdf used on input line 17.
 (pdftex.def)             Requested size: 426.79134pt x 78.0463pt.
  [36 <./images/cardDesign2.pdf>]
-<images/glaswareFlowDesignerScreenshot.png, id=1070, 1632.0975pt x 775.89874pt>
+<images/glaswareFlowDesignerScreenshot.png, id=1093, 1632.0975pt x 775.89874pt>
 File: images/glaswareFlowDesignerScreenshot.png Graphic file (type png)
 <use images/glaswareFlowDesignerScreenshot.png>
 Package pdftex.def Info: images/glaswareFlowDesignerScreenshot.png used on inpu
 t line 40.
 (pdftex.def)             Requested size: 426.79134pt x 202.88916pt.
 ) (./chap3/SmallSpaceDesign.tex
-<images/standard-template.png, id=1073, 735.74875pt x 366.36874pt>
+<images/standard-template.png, id=1096, 735.74875pt x 366.36874pt>
 File: images/standard-template.png Graphic file (type png)
 
 <use images/standard-template.png>
 Package pdftex.def Info: images/standard-template.png used on input line 5.
 (pdftex.def)             Requested size: 312.9803pt x 155.8528pt.
  [37 <./images/glaswareFlowDesignerScreenshot.png>] <images/card_text.png, id=1
-083, 642.4pt x 361.35pt>
+105, 642.4pt x 361.35pt>
 File: images/card_text.png Graphic file (type png)
 
 <use images/card_text.png>
 Package pdftex.def Info: images/card_text.png used on input line 14.
 (pdftex.def)             Requested size: 199.16928pt x 112.03387pt.
 
-<images/card_text_fixed.png, id=1084, 642.4pt x 361.35pt>
+<images/card_text_fixed.png, id=1106, 642.4pt x 361.35pt>
 File: images/card_text_fixed.png Graphic file (type png)
 
 <use images/card_text_fixed.png>
 Package pdftex.def Info: images/card_text_fixed.png used on input line 16.
 (pdftex.def)             Requested size: 199.16928pt x 112.03387pt.
 
-<images/card_columns.png, id=1085, 642.4pt x 361.35pt>
+<images/card_columns.png, id=1107, 642.4pt x 361.35pt>
 File: images/card_columns.png Graphic file (type png)
 
 <use images/card_columns.png>
 Package pdftex.def Info: images/card_columns.png used on input line 18.
 (pdftex.def)             Requested size: 199.16928pt x 112.03387pt.
 
-<images/card_title.png, id=1086, 642.4pt x 361.35pt>
+<images/card_title.png, id=1108, 642.4pt x 361.35pt>
 File: images/card_title.png Graphic file (type png)
 
 <use images/card_title.png>
@@ -884,7 +880,7 @@ Underfull \vbox (badness 2809) has occurred while \output is active []
  [38 <./images/standard-template.png> <./images/card_text.png> <./images/card_t
 ext_fixed.png> <./images/card_columns.png> <./images/card_title.png>] [39])
 (./chap3/Smartphones.tex [40]
-<images/principles_make_important_fast.png, id=1124, 341.275pt x 170.6375pt>
+<images/principles_make_important_fast.png, id=1146, 341.275pt x 170.6375pt>
 File: images/principles_make_important_fast.png Graphic file (type png)
 
 <use images/principles_make_important_fast.png>
@@ -973,14 +969,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [46]
 [47])) [48] (./Implementation.tex (./chap4/application.tex
-<images/demo/qrCodeNew.png, id=1210, 642.4pt x 361.35pt>
+<images/demo/qrCodeNew.png, id=1235, 642.4pt x 361.35pt>
 File: images/demo/qrCodeNew.png Graphic file (type png)
 
 <use images/demo/qrCodeNew.png>
 Package pdftex.def Info: images/demo/qrCodeNew.png used on input line 12.
 (pdftex.def)             Requested size: 199.16928pt x 112.03387pt.
 
-<images/demo/smartphone/qrCodeNew.png, id=1211, 481.8pt x 803.0pt>
+<images/demo/smartphone/qrCodeNew.png, id=1236, 481.8pt x 803.0pt>
 File: images/demo/smartphone/qrCodeNew.png Graphic file (type png)
 
 <use images/demo/smartphone/qrCodeNew.png>
@@ -999,20 +995,14 @@ File: lstlang1.sty 2014/03/04 1.5c listings language file
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 32.
  [51]
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no Œ in font cmr12!
-
-
-LaTeX Warning: Citation `loadingWheel' on page 52 undefined on input line 55.
-
-<images/demo/loadingBar.png, id=1249, 642.4pt x 361.35pt>
+<images/demo/loadingBar.png, id=1274, 642.4pt x 361.35pt>
 File: images/demo/loadingBar.png Graphic file (type png)
 
 <use images/demo/loadingBar.png>
 Package pdftex.def Info: images/demo/loadingBar.png used on input line 63.
 (pdftex.def)             Requested size: 199.16928pt x 112.03387pt.
 
-<images/demo/smartphone/loadingSpinner.png, id=1250, 481.8pt x 803.0pt>
+<images/demo/smartphone/loadingSpinner.png, id=1275, 481.8pt x 803.0pt>
 File: images/demo/smartphone/loadingSpinner.png Graphic file (type png)
 
 <use images/demo/smartphone/loadingSpinner.png>
@@ -1023,21 +1013,21 @@ t line 65.
 Underfull \vbox (badness 4752) has occurred while \output is active []
 
  [52]
-<images/rawImages/BILD_6.pdf, id=1258, 528.06029pt x 395.19574pt>
+<images/rawImages/BILD_6.pdf, id=1284, 528.06029pt x 395.19574pt>
 File: images/rawImages/BILD_6.pdf Graphic file (type pdf)
 
 <use images/rawImages/BILD_6.pdf>
 Package pdftex.def Info: images/rawImages/BILD_6.pdf used on input line 79.
 (pdftex.def)             Requested size: 256.0748pt x 191.65161pt.
 
-<images/demo/titleCard.png, id=1260, 642.4pt x 361.35pt>
+<images/demo/titleCard.png, id=1286, 642.4pt x 361.35pt>
 File: images/demo/titleCard.png Graphic file (type png)
 
 <use images/demo/titleCard.png>
 Package pdftex.def Info: images/demo/titleCard.png used on input line 95.
 (pdftex.def)             Requested size: 199.16928pt x 112.03387pt.
 
-<images/demo/smartphone/titleCard.png, id=1261, 481.8pt x 803.0pt>
+<images/demo/smartphone/titleCard.png, id=1287, 481.8pt x 803.0pt>
 File: images/demo/smartphone/titleCard.png Graphic file (type png)
 
 <use images/demo/smartphone/titleCard.png>
@@ -1046,14 +1036,14 @@ e 97.
 (pdftex.def)             Requested size: 199.16928pt x 331.94pt.
  [53 <./images/demo/loadingBar.png (PNG copy)> <./images/demo/smartphone/loadin
 gSpinner.png>]
-<images/demo/componentText.png, id=1273, 642.4pt x 361.35pt>
+<images/demo/componentText.png, id=1300, 642.4pt x 361.35pt>
 File: images/demo/componentText.png Graphic file (type png)
 
 <use images/demo/componentText.png>
 Package pdftex.def Info: images/demo/componentText.png used on input line 115.
 (pdftex.def)             Requested size: 199.16928pt x 112.03387pt.
 
-<images/demo/smartphone/componentText.png, id=1274, 481.8pt x 803.0pt>
+<images/demo/smartphone/componentText.png, id=1301, 481.8pt x 803.0pt>
 File: images/demo/smartphone/componentText.png Graphic file (type png)
 
 <use images/demo/smartphone/componentText.png>
@@ -1061,14 +1051,14 @@ Package pdftex.def Info: images/demo/smartphone/componentText.png used on input
  line 117.
 (pdftex.def)             Requested size: 199.16928pt x 331.94pt.
 
-<images/demo/columnImage.png, id=1275, 642.4pt x 361.35pt>
+<images/demo/columnImage.png, id=1302, 642.4pt x 361.35pt>
 File: images/demo/columnImage.png Graphic file (type png)
 
 <use images/demo/columnImage.png>
 Package pdftex.def Info: images/demo/columnImage.png used on input line 132.
 (pdftex.def)             Requested size: 199.16928pt x 112.03387pt.
 
-<images/demo/smartphone/columnImage.png, id=1276, 481.8pt x 803.0pt>
+<images/demo/smartphone/columnImage.png, id=1303, 481.8pt x 803.0pt>
 File: images/demo/smartphone/columnImage.png Graphic file (type png)
 
 <use images/demo/smartphone/columnImage.png>
@@ -1081,7 +1071,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [54 <./images/rawImages/BILD_6.pdf>] [55 <./images/demo/titleCard.png (PNG cop
 y)> <./images/demo/smartphone/titleCard.png>] [56 <./images/demo/componentText.
 png (PNG copy)> <./images/demo/smartphone/componentText.png>]
-<images/demo/instructionImage.png, id=1306, 642.4pt x 361.35pt>
+<images/demo/instructionImage.png, id=1333, 642.4pt x 361.35pt>
 File: images/demo/instructionImage.png Graphic file (type png)
 
 <use images/demo/instructionImage.png>
@@ -1089,7 +1079,7 @@ Package pdftex.def Info: images/demo/instructionImage.png used on input line 15
 5.
 (pdftex.def)             Requested size: 199.16928pt x 112.03387pt.
 
-<images/demo/smartphone/instructionImage.png, id=1307, 481.8pt x 803.0pt>
+<images/demo/smartphone/instructionImage.png, id=1334, 481.8pt x 803.0pt>
 File: images/demo/smartphone/instructionImage.png Graphic file (type png)
 
 <use images/demo/smartphone/instructionImage.png>
@@ -1098,7 +1088,7 @@ put line 157.
 (pdftex.def)             Requested size: 199.16928pt x 331.94pt.
  [57 <./images/demo/columnImage.png (PNG copy)> <./images/demo/smartphone/colum
 nImage.png>]
-<images/demo/voiceCommand1.png, id=1317, 642.4pt x 361.35pt>
+<images/demo/voiceCommand1.png, id=1343, 642.4pt x 361.35pt>
 File: images/demo/voiceCommand1.png Graphic file (type png)
 
 <use images/demo/voiceCommand1.png>
@@ -1118,7 +1108,7 @@ File: images/demo/columnImage.png Graphic file (type png)
 Package pdftex.def Info: images/demo/columnImage.png used on input line 32.
 (pdftex.def)             Requested size: 199.16928pt x 112.03387pt.
 
-<images/demo/instructionText.png, id=1328, 642.4pt x 361.35pt>
+<images/demo/instructionText.png, id=1354, 642.4pt x 361.35pt>
 File: images/demo/instructionText.png Graphic file (type png)
 
 <use images/demo/instructionText.png>
@@ -1143,7 +1133,10 @@ File: lstlang1.sty 2014/03/04 1.5c listings language file
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
-) [63]
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [63]
 (./voiceCommandCheckTableChecked.tex)) (./chap4/TestCases.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1151,14 +1144,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 4792) has occurred while \output is active []
 
  [65]
-<images/testSetupGlass.jpg, id=1413, 4304.08pt x 2858.68pt>
+<images/testSetupGlass.jpg, id=1444, 4304.08pt x 2858.68pt>
 File: images/testSetupGlass.jpg Graphic file (type jpg)
 
 <use images/testSetupGlass.jpg>
 Package pdftex.def Info: images/testSetupGlass.jpg used on input line 10.
 (pdftex.def)             Requested size: 199.16928pt x 132.2555pt.
 
-<images/testSetupS2.jpg, id=1414, 4304.08pt x 2858.68pt>
+<images/testSetupS2.jpg, id=1445, 4304.08pt x 2858.68pt>
 File: images/testSetupS2.jpg Graphic file (type jpg)
 
 <use images/testSetupS2.jpg>
@@ -1173,53 +1166,14 @@ Underfull \hbox (badness 1648) in paragraph at lines 12--12
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [67]
-[68] [69]
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
-[]|\OT1/cmr/bx/n/12 Samsung Galaxy
- []
+[68] [69]) (./chap4/Summary.tex [70] [71]
+Underfull \vbox (badness 2435) has occurred while \output is active []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
-[]|\OT1/cmr/bx/n/12 Samsung Galaxy
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
-[]|\OT1/cmr/bx/n/12 Google Glass
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [70]
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
-[]|\OT1/cmr/bx/n/12 Google Glass
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
-[]|\OT1/cmr/bx/n/12 Samsung
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
-\OT1/cmr/bx/n/12 Galaxy SII
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
-[]|\OT1/cmr/bx/n/12 Samsung
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
-\OT1/cmr/bx/n/12 Galaxy SIII
- []
-
-) (./chap4/Summary.tex)) [71] [72
+ [72]))
+[73] [74
 
 ] (./ResultEvaluation.tex
-<images/textLengthTestImages/S2_Raw.png, id=1525, 481.8pt x 764.8575pt>
+<images/textLengthTestImages/S2_Raw.png, id=1560, 481.8pt x 764.8575pt>
 File: images/textLengthTestImages/S2_Raw.png Graphic file (type png)
 
 <use images/textLengthTestImages/S2_Raw.png>
@@ -1231,7 +1185,7 @@ Underfull \hbox (badness 1314) in paragraph at lines 10--10
 []\OT1/cmr/m/n/10 (a) |The Sam-sung Galaxy SII
  []
 
-<images/textLengthTestImages/S3_Raw.png, id=1526, 722.7pt x 1240.635pt>
+<images/textLengthTestImages/S3_Raw.png, id=1561, 722.7pt x 1240.635pt>
 File: images/textLengthTestImages/S3_Raw.png Graphic file (type png)
 
 <use images/textLengthTestImages/S3_Raw.png>
@@ -1241,8 +1195,8 @@ ine 12.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [73]
-<images/textLengthTestImages/S2_Text_1.png, id=1536, 642.4pt x 361.35pt>
+ [75]
+<images/textLengthTestImages/S2_Text_1.png, id=1570, 642.4pt x 361.35pt>
 File: images/textLengthTestImages/S2_Text_1.png Graphic file (type png)
 
 <use images/textLengthTestImages/S2_Text_1.png>
@@ -1250,7 +1204,7 @@ Package pdftex.def Info: images/textLengthTestImages/S2_Text_1.png used on inpu
 t line 22.
 (pdftex.def)             Requested size: 170.71652pt x 96.02747pt.
 
-<images/textLengthTestImages/S2_Text_2.png, id=1537, 642.4pt x 361.35pt>
+<images/textLengthTestImages/S2_Text_2.png, id=1571, 642.4pt x 361.35pt>
 File: images/textLengthTestImages/S2_Text_2.png Graphic file (type png)
 
 <use images/textLengthTestImages/S2_Text_2.png>
@@ -1258,7 +1212,7 @@ Package pdftex.def Info: images/textLengthTestImages/S2_Text_2.png used on inpu
 t line 24.
 (pdftex.def)             Requested size: 170.71652pt x 96.02747pt.
 
-<images/textLengthTestImages/S2_Text_3.png, id=1538, 642.4pt x 361.35pt>
+<images/textLengthTestImages/S2_Text_3.png, id=1572, 642.4pt x 361.35pt>
 File: images/textLengthTestImages/S2_Text_3.png Graphic file (type png)
 
 <use images/textLengthTestImages/S2_Text_3.png>
@@ -1268,8 +1222,8 @@ t line 26.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [74 <./images/textLengthTestImages/S2_Raw.png> <./images/textLengthTestImages/
-S3_Raw.png>] <images/textLengthTestImages/S3_Text_1.png, id=1560, 642.4pt x 361
+ [76 <./images/textLengthTestImages/S2_Raw.png> <./images/textLengthTestImages/
+S3_Raw.png>] <images/textLengthTestImages/S3_Text_1.png, id=1594, 642.4pt x 361
 .35pt>
 File: images/textLengthTestImages/S3_Text_1.png Graphic file (type png)
 
@@ -1278,7 +1232,7 @@ Package pdftex.def Info: images/textLengthTestImages/S3_Text_1.png used on inpu
 t line 49.
 (pdftex.def)             Requested size: 170.71652pt x 96.02747pt.
 
-<images/textLengthTestImages/S3_Text_2.png, id=1561, 642.4pt x 361.35pt>
+<images/textLengthTestImages/S3_Text_2.png, id=1595, 642.4pt x 361.35pt>
 File: images/textLengthTestImages/S3_Text_2.png Graphic file (type png)
 
 <use images/textLengthTestImages/S3_Text_2.png>
@@ -1286,7 +1240,7 @@ Package pdftex.def Info: images/textLengthTestImages/S3_Text_2.png used on inpu
 t line 51.
 (pdftex.def)             Requested size: 170.71652pt x 96.02747pt.
 
-<images/textLengthTestImages/S3_Text_3.png, id=1562, 642.4pt x 361.35pt>
+<images/textLengthTestImages/S3_Text_3.png, id=1596, 642.4pt x 361.35pt>
 File: images/textLengthTestImages/S3_Text_3.png Graphic file (type png)
 
 <use images/textLengthTestImages/S3_Text_3.png>
@@ -1294,7 +1248,7 @@ Package pdftex.def Info: images/textLengthTestImages/S3_Text_3.png used on inpu
 t line 53.
 (pdftex.def)             Requested size: 170.71652pt x 96.02747pt.
 
-<images/textLengthTestImages/S3_Text_4.png, id=1563, 642.4pt x 361.35pt>
+<images/textLengthTestImages/S3_Text_4.png, id=1597, 642.4pt x 361.35pt>
 File: images/textLengthTestImages/S3_Text_4.png Graphic file (type png)
 
 <use images/textLengthTestImages/S3_Text_4.png>
@@ -1304,19 +1258,19 @@ t line 55.
 
 Underfull \vbox (badness 2726) has occurred while \output is active []
 
- [75 <./images/textLengthTestImages/S2_Text_1.png> <./images/textLengthTestImag
-es/S2_Text_2.png> <./images/textLengthTestImages/S2_Text_3.png>] [76 <./images/
+ [77 <./images/textLengthTestImages/S2_Text_1.png> <./images/textLengthTestImag
+es/S2_Text_2.png> <./images/textLengthTestImages/S2_Text_3.png>] [78 <./images/
 textLengthTestImages/S3_Text_1.png> <./images/textLengthTestImages/S3_Text_2.pn
 g> <./images/textLengthTestImages/S3_Text_3.png> <./images/textLengthTestImages
 /S3_Text_4.png>]
-<images/textLengthTestImages/S2_Columns_1.png, id=1597, 682.55pt x 394.47375pt>
+<images/textLengthTestImages/S2_Columns_1.png, id=1636, 682.55pt x 394.47375pt>
 File: images/textLengthTestImages/S2_Columns_1.png Graphic file (type png)
 <use images/textLengthTestImages/S2_Columns_1.png>
 Package pdftex.def Info: images/textLengthTestImages/S2_Columns_1.png used on i
 nput line 81.
 (pdftex.def)             Requested size: 170.71652pt x 98.66032pt.
 
-<images/textLengthTestImages/S2_Columns_2.png, id=1598, 642.4pt x 361.35pt>
+<images/textLengthTestImages/S2_Columns_2.png, id=1637, 642.4pt x 361.35pt>
 File: images/textLengthTestImages/S2_Columns_2.png Graphic file (type png)
 
 <use images/textLengthTestImages/S2_Columns_2.png>
@@ -1324,16 +1278,16 @@ Package pdftex.def Info: images/textLengthTestImages/S2_Columns_2.png used on i
 nput line 83.
 (pdftex.def)             Requested size: 170.71652pt x 96.02747pt.
 
-<images/textLengthTestImages/S2_Columns_3.png, id=1599, 642.4pt x 361.35pt>
+<images/textLengthTestImages/S2_Columns_3.png, id=1638, 642.4pt x 361.35pt>
 File: images/textLengthTestImages/S2_Columns_3.png Graphic file (type png)
 
 <use images/textLengthTestImages/S2_Columns_3.png>
 Package pdftex.def Info: images/textLengthTestImages/S2_Columns_3.png used on i
 nput line 85.
 (pdftex.def)             Requested size: 170.71652pt x 96.02747pt.
- [77 <./images/textLengthTestImages/S2_Columns_1.png> <./images/textLengthTestI
+ [79 <./images/textLengthTestImages/S2_Columns_1.png> <./images/textLengthTestI
 mages/S2_Columns_2.png> <./images/textLengthTestImages/S2_Columns_3.png>]
-<images/textLengthTestImages/S3_Columns_1.png, id=1622, 642.4pt x 361.35pt>
+<images/textLengthTestImages/S3_Columns_1.png, id=1663, 642.4pt x 361.35pt>
 File: images/textLengthTestImages/S3_Columns_1.png Graphic file (type png)
 
 <use images/textLengthTestImages/S3_Columns_1.png>
@@ -1341,7 +1295,7 @@ Package pdftex.def Info: images/textLengthTestImages/S3_Columns_1.png used on i
 nput line 108.
 (pdftex.def)             Requested size: 170.71652pt x 96.02747pt.
 
-<images/textLengthTestImages/S3_Columns_2.png, id=1623, 642.4pt x 361.35pt>
+<images/textLengthTestImages/S3_Columns_2.png, id=1664, 642.4pt x 361.35pt>
 File: images/textLengthTestImages/S3_Columns_2.png Graphic file (type png)
 
 <use images/textLengthTestImages/S3_Columns_2.png>
@@ -1355,30 +1309,30 @@ Package pdftex.def Info: images/textLengthTestImages/S3_Columns_2.png used on i
 nput line 112.
 (pdftex.def)             Requested size: 170.71652pt x 96.02747pt.
 
-<images/textLengthTestImages/S3_Columns_4.png, id=1624, 642.4pt x 361.35pt>
+<images/textLengthTestImages/S3_Columns_4.png, id=1665, 642.4pt x 361.35pt>
 File: images/textLengthTestImages/S3_Columns_4.png Graphic file (type png)
 
 <use images/textLengthTestImages/S3_Columns_4.png>
 Package pdftex.def Info: images/textLengthTestImages/S3_Columns_4.png used on i
 nput line 114.
 (pdftex.def)             Requested size: 170.71652pt x 96.02747pt.
- [78 <./images/textLengthTestImages/S3_Columns_1.png> <./images/textLengthTestI
+ [80 <./images/textLengthTestImages/S3_Columns_1.png> <./images/textLengthTestI
 mages/S3_Columns_2.png> <./images/textLengthTestImages/S3_Columns_4.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 149--149
-[]|\OT1/cmr/bx/n/12 Samsung Galaxy
+[]|\OT1/cmr/bx/n/12 Distance
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 149--149
-[]|\OT1/cmr/bx/n/12 Samsung Galaxy
+[]|\OT1/cmr/bx/n/12 Google Glass
  []
 
-[79]
+[81]
 Underfull \hbox (badness 10000) in paragraph at lines 167--167
 []|\OT1/cmr/bx/n/12 Google Glass
  []
 
-[80]
+[82]
 Underfull \hbox (badness 10000) in paragraph at lines 185--185
 []|\OT1/cmr/bx/n/12 Google Glass
  []
@@ -1403,25 +1357,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 185--185
 \OT1/cmr/bx/n/12 Galaxy SIII
  []
 
-) [81] [82
+) [83] [84
 
 ] (./Conclusion.tex (./chap6/PersonalExperience.tex)
 (./chap6/FutureWork.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [83]
-Overfull \hbox (25.27087pt too wide) in paragraph at lines 5--6
-\OT1/cmr/m/n/12 Construct own or use []$\OT1/cmtt/m/n/12 https : / / github . c
-om / RIVeR -[] Lab / google _ glass _ driver / blob / master /
- []
-
-
-Overfull \hbox (107.37904pt too wide) in paragraph at lines 5--6
-\OT1/cmtt/m/n/12 android / RobotManager / src / com / riverlab / robotmanager /
- voice _ recognition / VoiceRecognitionThread .
- []
-
-) [84]) [85] [86
+ [85]
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¥ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¥ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¥ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¶ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¶ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¤ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¥ in font cmr12!
+)
+[86]) [87] [88
 
 ] (./Dissertation_JohanHager_911229-0797.bbl
 Underfull \hbox (badness 1629) in paragraph at lines 14--19
@@ -1447,7 +1405,7 @@ Underfull \hbox (badness 3058) in paragraph at lines 74--79
 ass -[] and -[] google -[] legal/$[] \OT1/cmr/m/n/12 [2015-03-
  []
 
-[87]
+[89]
 Underfull \hbox (badness 10000) in paragraph at lines 101--107
 \OT1/cmtt/m/n/12 eliseackerman / 2013 / 03 / 04 / could -[] google -[] glass -[
 ] hurt -[] your -[] eyes -[] a -[] harvard -[]
@@ -1471,7 +1429,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 160--166
 -[] hits -[] 10 -[] million -[] sales -[] mark -[]
  []
 
-[88]
+[90]
 Underfull \hbox (badness 2269) in paragraph at lines 190--195
 []\OT1/cmr/m/n/12 Stack Over-flow (2014).  \OT1/cmr/m/it/12 con-tent near "ok g
 lass" gets grayed out\OT1/cmr/m/n/12 .  []$\OT1/cmtt/m/n/12 http :
@@ -1483,64 +1441,71 @@ Underfull \hbox (badness 10000) in paragraph at lines 190--195
 ear -[] ok -[] glass -[] gets -[]
  []
 
-[89]
-Underfull \hbox (badness 1127) in paragraph at lines 295--299
+[91]
+Underfull \hbox (badness 1127) in paragraph at lines 300--304
 []\OT1/cmr/m/n/12 Google (2015).  \OT1/cmr/m/it/12 Prin-ci-ples\OT1/cmr/m/n/12 
 .  []$\OT1/cmtt/m/n/12 https : / / developers . google . com / glass / design /
 
  []
 
 
-Underfull \hbox (badness 1917) in paragraph at lines 312--316
+Underfull \hbox (badness 1275) in paragraph at lines 306--311
+[]\OT1/cmr/m/n/12 Google (2015).  \OT1/cmr/m/it/12 Pro-gress-Di-a-log\OT1/cmr/m
+/n/12 .  []$\OT1/cmtt/m/n/12 http : / / developer . android . com / reference /
+
+ []
+
+
+Underfull \hbox (badness 1917) in paragraph at lines 324--328
 []\OT1/cmr/m/n/12 Google (2015).  \OT1/cmr/m/it/12 Tech spechs\OT1/cmr/m/n/12 .
   []$\OT1/cmtt/m/n/12 https : / / support . google . com / glass / answer /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--341
+Underfull \hbox (badness 10000) in paragraph at lines 348--353
 \OT1/cmtt/m/n/12 develop / gdk / reference / com / google / android / glass / a
 pp / VoiceTriggers .
  []
 
-[90]
-Underfull \hbox (badness 10000) in paragraph at lines 353--358
+[92]
+Underfull \hbox (badness 10000) in paragraph at lines 371--376
 []\OT1/cmr/m/n/12 Microsoft (2015).  \OT1/cmr/m/it/12 Mi-crosoft Hololens Con-c
 ept Video \OT1/cmr/m/n/12 [On-line video].
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 353--358
+Underfull \hbox (badness 10000) in paragraph at lines 371--376
 []$\OT1/cmtt/m/n/12 http : / / compass . surface . com / assets / b2 / 15 / b21
 5c2a2 -[] 1c5b -[] 4707 -[] 9a92 -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 353--358
+Underfull \hbox (badness 10000) in paragraph at lines 371--376
 \OT1/cmtt/m/n/12 fffca6fb82fe . mp4 ? n = Microsoft _ HoloLens _ TransformYourW
 orld _ 816p23 . mp4$[]
  []
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 371--374
+Underfull \hbox (badness 1028) in paragraph at lines 389--392
 []\OT1/cmr/m/n/12 Penny (2015).  \OT1/cmr/m/it/12 PDS Pro-ject-ing Dis-play Sys
 -tem\OT1/cmr/m/n/12 .  []$\OT1/cmtt/m/n/12 http : / / www . penny . se / eng /
  []
 
 
-Underfull \hbox (badness 1102) in paragraph at lines 386--389
+Underfull \hbox (badness 1102) in paragraph at lines 404--407
 []\OT1/cmr/m/n/12 Recon In-stru-ments (2015).  \OT1/cmr/m/it/12 Re-con Jet\OT1/
 cmr/m/n/12 .  []$\OT1/cmtt/m/n/12 http : / / www . reconinstruments . com /
  []
 
 
-Underfull \hbox (badness 1152) in paragraph at lines 404--407
+Underfull \hbox (badness 1152) in paragraph at lines 422--425
 []\OT1/cmr/m/n/12 Wikipedia (2015).  \OT1/cmr/m/it/12 Bone con-duc-tion\OT1/cmr
 /m/n/12 .  []$\OT1/cmtt/m/n/12 http : / / en . wikipedia . org / wiki / Bone _
  []
 
-[91]) [92] (./abbreviations.tex) [93
+[93]) [94] (./abbreviations.tex) [95
 
-] [94
+] [96
 
 ] (./tables/DistanceTable.tex)
 (./tables/ComplexityTable.tex
@@ -1558,169 +1523,215 @@ Underfull \hbox (badness 2828) in paragraph at lines 115--115
 []|\OT1/cmr/bx/n/12 50 En-coded Char-ac-
  []
 
-) (./tables/displayTable.tex) [95] [96] [97] [98] [99] [100] [101] [102]
-[103] [104
+) (./tables/displayTable.tex) [97] [98] [99] [100] [101] [102] [103] [104]
+[105] [106
 
-] [105] [106
+] [107] [108
 
-] <Google_Glass.pdf, id=1924, 597.55246pt x 845.07718pt>
+] <Google_Glass.pdf, id=1971, 597.55246pt x 845.07718pt>
 File: Google_Glass.pdf Graphic file (type pdf)
 
 <use Google_Glass.pdf>
-Package pdftex.def Info: Google_Glass.pdf used on input line 204.
+Package pdftex.def Info: Google_Glass.pdf used on input line 209.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 File: Google_Glass.pdf Graphic file (type pdf)
  <use Google_Glass.pdf>
-Package pdftex.def Info: Google_Glass.pdf used on input line 204.
+Package pdftex.def Info: Google_Glass.pdf used on input line 209.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
- [107]
-<Google_Glass.pdf, id=1931, page=1, 597.55246pt x 845.07718pt>
+ [109]
+<Google_Glass.pdf, id=1978, page=1, 597.55246pt x 845.07718pt>
 File: Google_Glass.pdf Graphic file (type pdf)
 
 <use Google_Glass.pdf, page 1>
-Package pdftex.def Info: Google_Glass.pdf, page1 used on input line 204.
+Package pdftex.def Info: Google_Glass.pdf, page1 used on input line 209.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 File: Google_Glass.pdf Graphic file (type pdf)
  <use Google_Glass.pdf, page 1>
-Package pdftex.def Info: Google_Glass.pdf, page1 used on input line 204.
+Package pdftex.def Info: Google_Glass.pdf, page1 used on input line 209.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: Google_Glass.pdf Graphic file (type pdf)
 
 <use Google_Glass.pdf, page 1>
-Package pdftex.def Info: Google_Glass.pdf, page1 used on input line 204.
+Package pdftex.def Info: Google_Glass.pdf, page1 used on input line 209.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: Google_Glass.pdf Graphic file (type pdf)
  <use Google_Glass.pdf, page 1>
-Package pdftex.def Info: Google_Glass.pdf, page1 used on input line 204.
+Package pdftex.def Info: Google_Glass.pdf, page1 used on input line 209.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: Google_Glass.pdf Graphic file (type pdf)
 
 <use Google_Glass.pdf, page 1>
-Package pdftex.def Info: Google_Glass.pdf, page1 used on input line 204.
+Package pdftex.def Info: Google_Glass.pdf, page1 used on input line 209.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
- [108 <./Google_Glass.pdf>]
-<Google_Glass.pdf, id=1967, page=2, 597.55246pt x 845.19763pt>
+ [110 <./Google_Glass.pdf>]
+<Google_Glass.pdf, id=2014, page=2, 597.55246pt x 845.19763pt>
 File: Google_Glass.pdf Graphic file (type pdf)
 
 <use Google_Glass.pdf, page 2>
-Package pdftex.def Info: Google_Glass.pdf, page2 used on input line 204.
+Package pdftex.def Info: Google_Glass.pdf, page2 used on input line 209.
 (pdftex.def)             Requested size: 597.57834pt x 845.23425pt.
 File: Google_Glass.pdf Graphic file (type pdf)
  <use Google_Glass.pdf, page 2>
-Package pdftex.def Info: Google_Glass.pdf, page2 used on input line 204.
+Package pdftex.def Info: Google_Glass.pdf, page2 used on input line 209.
 (pdftex.def)             Requested size: 597.57834pt x 845.23425pt.
 File: Google_Glass.pdf Graphic file (type pdf)
 
 <use Google_Glass.pdf, page 2>
-Package pdftex.def Info: Google_Glass.pdf, page2 used on input line 204.
+Package pdftex.def Info: Google_Glass.pdf, page2 used on input line 209.
 (pdftex.def)             Requested size: 597.57834pt x 845.23425pt.
- [109 <./Google_Glass.pdf>]
-<Google_Glass.pdf, id=1986, page=3, 597.55246pt x 845.19763pt>
+ [111 <./Google_Glass.pdf>]
+<Google_Glass.pdf, id=2032, page=3, 597.55246pt x 845.19763pt>
 File: Google_Glass.pdf Graphic file (type pdf)
 
 <use Google_Glass.pdf, page 3>
-Package pdftex.def Info: Google_Glass.pdf, page3 used on input line 204.
+Package pdftex.def Info: Google_Glass.pdf, page3 used on input line 209.
 (pdftex.def)             Requested size: 597.57834pt x 845.23425pt.
 File: Google_Glass.pdf Graphic file (type pdf)
  <use Google_Glass.pdf, page 3>
-Package pdftex.def Info: Google_Glass.pdf, page3 used on input line 204.
+Package pdftex.def Info: Google_Glass.pdf, page3 used on input line 209.
 (pdftex.def)             Requested size: 597.57834pt x 845.23425pt.
 File: Google_Glass.pdf Graphic file (type pdf)
 
 <use Google_Glass.pdf, page 3>
-Package pdftex.def Info: Google_Glass.pdf, page3 used on input line 204.
+Package pdftex.def Info: Google_Glass.pdf, page3 used on input line 209.
 (pdftex.def)             Requested size: 597.57834pt x 845.23425pt.
- [110 <./Google_Glass.pdf>]
-<Google_Glass.pdf, id=2000, page=4, 597.55246pt x 845.19763pt>
+ [112 <./Google_Glass.pdf>]
+<Google_Glass.pdf, id=2047, page=4, 597.55246pt x 845.19763pt>
 File: Google_Glass.pdf Graphic file (type pdf)
 
 <use Google_Glass.pdf, page 4>
-Package pdftex.def Info: Google_Glass.pdf, page4 used on input line 204.
+Package pdftex.def Info: Google_Glass.pdf, page4 used on input line 209.
 (pdftex.def)             Requested size: 597.57834pt x 845.23425pt.
 File: Google_Glass.pdf Graphic file (type pdf)
  <use Google_Glass.pdf, page 4>
-Package pdftex.def Info: Google_Glass.pdf, page4 used on input line 204.
+Package pdftex.def Info: Google_Glass.pdf, page4 used on input line 209.
 (pdftex.def)             Requested size: 597.57834pt x 845.23425pt.
 File: Google_Glass.pdf Graphic file (type pdf)
 
 <use Google_Glass.pdf, page 4>
-Package pdftex.def Info: Google_Glass.pdf, page4 used on input line 204.
+Package pdftex.def Info: Google_Glass.pdf, page4 used on input line 209.
 (pdftex.def)             Requested size: 597.57834pt x 845.23425pt.
- [111 <./Google_Glass.pdf>]
-<Google_Glass.pdf, id=2015, page=5, 597.55246pt x 845.19763pt>
+ [113 <./Google_Glass.pdf>]
+<Google_Glass.pdf, id=2063, page=5, 597.55246pt x 845.19763pt>
 File: Google_Glass.pdf Graphic file (type pdf)
 
 <use Google_Glass.pdf, page 5>
-Package pdftex.def Info: Google_Glass.pdf, page5 used on input line 204.
+Package pdftex.def Info: Google_Glass.pdf, page5 used on input line 209.
 (pdftex.def)             Requested size: 597.57834pt x 845.23425pt.
 File: Google_Glass.pdf Graphic file (type pdf)
  <use Google_Glass.pdf, page 5>
-Package pdftex.def Info: Google_Glass.pdf, page5 used on input line 204.
+Package pdftex.def Info: Google_Glass.pdf, page5 used on input line 209.
 (pdftex.def)             Requested size: 597.57834pt x 845.23425pt.
 File: Google_Glass.pdf Graphic file (type pdf)
 
 <use Google_Glass.pdf, page 5>
-Package pdftex.def Info: Google_Glass.pdf, page5 used on input line 204.
+Package pdftex.def Info: Google_Glass.pdf, page5 used on input line 209.
 (pdftex.def)             Requested size: 597.57834pt x 845.23425pt.
- [112 <./Google_Glass.pdf>]
-<Google_Glass.pdf, id=2021, page=6, 597.55246pt x 845.19763pt>
+ [114 <./Google_Glass.pdf>]
+<Google_Glass.pdf, id=2069, page=6, 597.55246pt x 845.19763pt>
 File: Google_Glass.pdf Graphic file (type pdf)
 
 <use Google_Glass.pdf, page 6>
-Package pdftex.def Info: Google_Glass.pdf, page6 used on input line 204.
+Package pdftex.def Info: Google_Glass.pdf, page6 used on input line 209.
 (pdftex.def)             Requested size: 597.57834pt x 845.23425pt.
 File: Google_Glass.pdf Graphic file (type pdf)
  <use Google_Glass.pdf, page 6>
-Package pdftex.def Info: Google_Glass.pdf, page6 used on input line 204.
+Package pdftex.def Info: Google_Glass.pdf, page6 used on input line 209.
 (pdftex.def)             Requested size: 597.57834pt x 845.23425pt.
 File: Google_Glass.pdf Graphic file (type pdf)
 
 <use Google_Glass.pdf, page 6>
-Package pdftex.def Info: Google_Glass.pdf, page6 used on input line 204.
+Package pdftex.def Info: Google_Glass.pdf, page6 used on input line 209.
 (pdftex.def)             Requested size: 597.57834pt x 845.23425pt.
- [113 <./Google_Glass.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 206.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 206.
+ [115 <./Google_Glass.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 211.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 211.
 
 (./Dissertation_JohanHager_911229-0797.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 206.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 206.
-Package rerunfilecheck Info: File `Dissertation_JohanHager_911229-0797.out' has
- not changed.
-(rerunfilecheck)             Checksum: 3E9FF6133CE734F1CD3DAD0DE8E09D7E;4512.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 211.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 211.
 
 
-LaTeX Warning: There were undefined references.
+Package rerunfilecheck Warning: File `Dissertation_JohanHager_911229-0797.out' 
+has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
+Package rerunfilecheck Info: Checksums for `Dissertation_JohanHager_911229-0797
+.out':
+(rerunfilecheck)             Before: C6EA119FBDE61ECCCFAA82EBF6B29EA5;4728
+(rerunfilecheck)             After:  19D8B60A24E21DE963B4158BA2EE5C51;4728.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 206.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 211.
  ) 
 Here is how much of TeX's memory you used:
- 10839 strings out of 493117
- 171943 string characters out of 6135432
- 396820 words of memory out of 5000000
- 13510 multiletter control sequences out of 15000+600000
+ 10866 strings out of 493117
+ 172340 string characters out of 6135432
+ 397607 words of memory out of 5000000
+ 13515 multiletter control sequences out of 15000+600000
  10612 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,18n,51p,1258b,1798s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
-r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/l
-ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loca
-l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
-/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/t
-exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/te
-xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/tex
-live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Dissertation_JohanHager_911229-0797.pdf (131 pages, 13819709 
+ 44i,18n,51p,1260b,1850s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{table.caption.59} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.54} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.52} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.50} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.48} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.44} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.31} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.53} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.51} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.49} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.45} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.35} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.6} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.58} has been referenced but does not exist
+, replaced by a fixed one
+
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
+/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
+local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loc
+al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/
+texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
+exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/tex
+live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texl
+ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texli
+ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on Dissertation_JohanHager_911229-0797.pdf (135 pages, 13827904 
 bytes).
 PDF statistics:
- 2174 PDF objects out of 2487 (max. 8388607)
- 1833 compressed objects within 19 object streams
- 495 named destinations out of 1000 (max. 500000)
- 909 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2226 PDF objects out of 2487 (max. 8388607)
+ 1881 compressed objects within 19 object streams
+ 517 named destinations out of 1000 (max. 500000)
+ 933 words of extra memory for PDF output out of 10000 (max. 10000000)
 

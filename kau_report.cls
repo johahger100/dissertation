@@ -194,7 +194,7 @@
      \hrule
      \vspace*{0.5cm}
 
-     Bachelor's Project \\ \@pubnum
+     Degree Project for Master of Science in Engineering, Computer Engineering \\ \@pubnum
    \end{center}
    \pagebreak
    \voffset = 0cm

@@ -1,17 +1,19 @@
 \subsubsection{Official approval of Voice Commands}
 The voice commands should be officially approved by Google.
-
+todo
 \subsubsection{Customised Voice Command}
-Construct own or use \url{https://github.com/RIVeR-Lab/google_glass_driver/blob/master/android/RobotManager/src/com/riverlab/robotmanager/voice_recognition/VoiceRecognitionThread.java}
-
+%Construct own or use \url{https://github.com/RIVeR-Lab/google_glass_driver/blob/master/android/RobotManager/src/com/riverlab/robotmanager/voice_recognition/VoiceRecognitionThread.java}
+todo
 \subsubsection{TextResultProcessor}
-In the Google Glass application the class TextResultProcessor is not needed any more and should as such be removed. At this point the class in only used as middleware between an instance of the Products class and a list of CardPresenter. Instead the CardPresenter class should only be instanced once for each product, and keep the instance of the Products class.
+In the Google Glass application the class \texttt{TextResultProcessor} is not required any more and should as such be removed. At this point the \texttt{TextResultProcessor} class in only used as middleware between an instance of the \texttt{Products} class and a list of \texttt{CardPresenter}. Instead the \texttt{CardPresenter} class should only be instanced once for each product, and keep the instance of the Products class.
 
-The reason the TextResultProcessor class exists in the first place is due to how the Google Glass application was built originally, were all information presented was encoded directly in the QR code. At that point the TextResultProcessor was used when the encoded information was a text string. At this point the only information encoded in the QR codes are product ID:s.
+todo man går från en till många, till en till en. Varför? Eftersom cardpresenter just nu sparar information. Det behövs ej, all information kan hämtas direkt från instansen av Products
 
-The smartphone application already functions in this way, where the information stored in the instance of the Products class is used directly when a slide is created, instead of first being sorted through a middleware class.
+The reason the \texttt{TextResultProcessor} class exists in the first place is due to how the Google Glass application was originally built, were all information presented was encoded directly in the QR code. At that point the \texttt{TextResultProcessor} was used when the encoded information was a text string. At this point the only information encoded in the QR codes are product ID:s.
 
-[TODO possibly uml diagram of how the application works now and how it should work]
+The smartphone application already functions in this way, where the information stored in the instance of the \texttt{Products} class is used directly when a slide is created, instead of first being sorted through a middleware class.
+
+%[TODO possibly uml diagram of how the application works now and how it should work]
 
 \subsubsection{A General Fragment}
-The smartphone application should only have one general fragment instead of a bunch of different ones for different purposes. This should be done in order to be even more similar to the Google Glass application which uses the CardBuilder class, that is a general case that takes the layout as input.
+The smartphone application should only have one general fragment instead of different ones for different purposes. This should be done in order to be even more similar to the Google Glass application which uses the \texttt{CardBuilder} class, which is a general case that takes the layout as input. The smartphone application could be designed in a similar way, where a general fragment takes the layout as an argument. At this point there is one fragment for each individual layout.

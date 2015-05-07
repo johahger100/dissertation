@@ -286,6 +286,11 @@ Google (2015).
   \url{https://developers.google.com/glass/tools-downloads/glassware-flow-designer}
   [2015-03-12].
 
+\bibitem{glassStart}
+Google (2015).
+\newblock \textit{Google Glass}.
+\newblock \url{https://www.google.com/glass/start/} [2015-05-06].
+
 \bibitem{headWakeUp}
 Google (2015).
 \newblock \textit{Head Wake Up}.
@@ -296,6 +301,13 @@ Google (2015).
 \newblock \textit{Principles}.
 \newblock \url{https://developers.google.com/glass/design/principles}
   [2015-02-02].
+
+\bibitem{loadingWheel}
+Google (2015).
+\newblock \textit{ProgressDialog}.
+\newblock
+  \url{http://developer.android.com/reference/android/app/ProgressDialog.html}
+  [2015-05-05].
 
 \bibitem{googleTypefaceRoboto}
 Google (2015).
@@ -338,6 +350,12 @@ Google (2015).
 \newblock
   \url{https://developers.google.com/glass/develop/gdk/reference/com/google/android/glass/app/VoiceTriggers.Command}
   [2015-03-17].
+
+\bibitem{glassDiscontinued}
+Google (2015).
+\newblock \textit{We're graduating from Google[x] labs}.
+\newblock \url{https://plus.google.com/+GoogleGlass/posts/9uiwXY42tvc}
+  [2015-05-07].
 
 \bibitem{hololensDemo}
 IGN (2015).
