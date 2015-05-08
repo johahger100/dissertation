@@ -53,7 +53,7 @@
 \BOOKMARK [2][-]{subsection.5.2}{Distance to the QR Code}{section.5}% 53
 \BOOKMARK [2][-]{subsection.5.3}{Complexity of the QR Code}{section.5}% 54
 \BOOKMARK [2][-]{subsection.5.4}{Display Time}{section.5}% 55
-\BOOKMARK [1][-]{section.6}{Conclusion}{}% 56
+\BOOKMARK [1][-]{section.6}{Conclusions}{}% 56
 \BOOKMARK [2][-]{subsection.6.1}{Personal User Experience}{section.6}% 57
 \BOOKMARK [2][-]{subsection.6.2}{Back End Conclusions}{section.6}% 58
 \BOOKMARK [2][-]{subsection.6.3}{Future Work}{section.6}% 59
@@ -62,8 +62,10 @@
 \BOOKMARK [3][-]{subsubsection.6.3.3}{TextResultProcessor}{subsection.6.3}% 62
 \BOOKMARK [3][-]{subsubsection.6.3.4}{A General Fragment}{subsection.6.3}% 63
 \BOOKMARK [2][-]{subsection.6.4}{Concluding Remarks}{section.6}% 64
-\BOOKMARK [1][-]{section*.59}{References}{}% 65
+\BOOKMARK [1][-]{section*.68}{References}{}% 65
 \BOOKMARK [1][-]{appendix.A}{Abbreviations}{}% 66
 \BOOKMARK [1][-]{appendix.B}{Results}{}% 67
 \BOOKMARK [1][-]{appendix.C}{Code}{}% 68
-\BOOKMARK [1][-]{appendix.D}{Project Specification \(In Swedish\)}{}% 69
+\BOOKMARK [2][-]{subsection.C.1}{Google Glass application}{appendix.C}% 69
+\BOOKMARK [2][-]{subsection.C.2}{Smartphone application}{appendix.C}% 70
+\BOOKMARK [1][-]{appendix.D}{Project Specification \(In Swedish\)}{}% 71

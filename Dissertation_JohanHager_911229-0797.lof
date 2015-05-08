@@ -37,7 +37,7 @@
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Title layout.}}}{38}{subfigure.5.4}
 \contentsline {figure}{\numberline {3.6}{\ignorespaces The most important component should be the most prominent\nobreakspace {}\cite {androidDesignPrinciples}.\relax }}{41}{figure.caption.31}
 \contentsline {figure}{\numberline {4.1}{\ignorespaces The application is scanning a QR code.\relax }}{49}{figure.caption.36}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The Google Glass application}}}{49}{subfigure.1.1}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The Google Glass application.}}}{49}{subfigure.1.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The smartphone application.}}}{49}{subfigure.1.2}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces The loading screens.\relax }}{53}{figure.caption.37}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The Google Glass application}}}{53}{subfigure.2.1}
@@ -64,24 +64,37 @@
 \contentsline {figure}{\numberline {4.10}{\ignorespaces The experimental setup.\relax }}{66}{figure.caption.46}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The experimental setup for Google Glass.}}}{66}{subfigure.10.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The experimental setup for Samsung Galaxy SII.}}}{66}{subfigure.10.2}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces The maximum text length on the smartphone application.\relax }}{76}{figure.caption.47}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The Samsung Galaxy SII screen.}}}{76}{subfigure.1.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The Samsung Galaxy SIII screen.}}}{76}{subfigure.1.2}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Samsung Galaxy SII text.\relax }}{77}{figure.caption.48}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The first slide.}}}{77}{subfigure.2.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The second slide.}}}{77}{subfigure.2.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {The third slide.}}}{77}{subfigure.2.3}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Samsung Galaxy SIII text.\relax }}{78}{figure.caption.50}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The first slide.}}}{78}{subfigure.3.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The second slide.}}}{78}{subfigure.3.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {The third slide.}}}{78}{subfigure.3.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {The fourth slide.}}}{78}{subfigure.3.4}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Samsung Galaxy SII text and image.\relax }}{79}{figure.caption.52}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The first slide.}}}{79}{subfigure.4.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The second slide.}}}{79}{subfigure.4.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {The third slide.}}}{79}{subfigure.4.3}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Samsung Galaxy SIII text and image.\relax }}{80}{figure.caption.54}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The first slide.}}}{80}{subfigure.5.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The second slide.}}}{80}{subfigure.5.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {The third slide.}}}{80}{subfigure.5.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {The fourth slide.}}}{80}{subfigure.5.4}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces todo.\relax }}{75}{figure.caption.47}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Steering.}}}{75}{subfigure.1.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Tail Light.}}}{75}{subfigure.1.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Body.}}}{75}{subfigure.1.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Pirate.}}}{75}{subfigure.1.4}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces todo.\relax }}{76}{figure.caption.48}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces todo.\relax }}{76}{figure.caption.49}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces todo.\relax }}{77}{figure.caption.50}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces todo.\relax }}{77}{figure.caption.51}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces todo.\relax }}{78}{figure.caption.52}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces todo.\relax }}{78}{figure.caption.53}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces todo.\relax }}{79}{figure.caption.54}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces todo.\relax }}{79}{figure.caption.55}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces The maximum text length on the smartphone application.\relax }}{80}{figure.caption.56}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The Samsung Galaxy SII screen.}}}{80}{subfigure.10.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The Samsung Galaxy SIII screen.}}}{80}{subfigure.10.2}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Samsung Galaxy SII text.\relax }}{81}{figure.caption.57}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The first slide.}}}{81}{subfigure.11.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The second slide.}}}{81}{subfigure.11.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {The third slide.}}}{81}{subfigure.11.3}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Samsung Galaxy SIII text.\relax }}{82}{figure.caption.59}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The first slide.}}}{82}{subfigure.12.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The second slide.}}}{82}{subfigure.12.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {The third slide.}}}{82}{subfigure.12.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {The fourth slide.}}}{82}{subfigure.12.4}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Samsung Galaxy SII text and image.\relax }}{83}{figure.caption.61}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The first slide.}}}{83}{subfigure.13.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The second slide.}}}{83}{subfigure.13.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {The third slide.}}}{83}{subfigure.13.3}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Samsung Galaxy SIII text and image.\relax }}{84}{figure.caption.63}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The first slide.}}}{84}{subfigure.14.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The second slide.}}}{84}{subfigure.14.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {The third slide.}}}{84}{subfigure.14.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {The fourth slide.}}}{84}{subfigure.14.4}
