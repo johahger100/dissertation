@@ -33,7 +33,11 @@ The instructions are the major focus of each slide, with each instruction using 
 \subsection{Glassware Flow Designer}
 Google provides developers with a design tool to help them visualise applications prior to implementation. The design tool, called ``Glassware Flow Designer''~\cite{glasswareFlowDesigner}, allows developers to discover recommended design patterns and to draw out the flow of their application prior to implementation.
 
-In Figure~\ref{glassFlowDesign} the Glass Flow Design for the Google Glass application described in this report is shown. When the application launches the user should scan a QR code. After successfully doing so, the product name will be displayed, in order to help the user confirm that the correct instructions have been loaded in. This is followed by the slides which show the required components. After the list of components follows the instructions. The slides can be controlled either by swiping on the Google Glass touchpad or via voice commands.
+In Figure~\ref{glassFlowDesign} the Glass Flow Design for the Google Glass application described in this report is shown. When the application launches the user should scan a QR code. After successfully doing so, the product name will be displayed, in order to help the user confirm that the correct instructions have been loaded in. This is followed by the slides which show the required components. After the list of components follows the instructions. The slides can be controlled either by swiping on the Google Glass touchpad or via voice commands. The next card in line is positioned to the right of the current card.
+
+Although each card could be seen as happening in the future, and should as such be accessed when the user swipes backwards, it should be noted that the main menu timeline of Google Glass and the application differ in terms of how dependent the cards are. In the main menu timeline on Google Glass cards are simply related in terms of when they occur. The cards are otherwise not related to each other.
+
+In the application, however, each card is dependent on the other. The first instruction comes before the second, and so forth. As such the cards should be scrolled through more as a story, or a book, where the the user swiped to read the next page.
 
 	\begin{figure}[ht!]
 		\centering

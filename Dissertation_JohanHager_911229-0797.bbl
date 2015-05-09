@@ -200,6 +200,13 @@ Stack~Overflow (2014).
   \url{http://stackoverflow.com/questions/24733681/hide-ok-glass-menu-when-enable-contextual-voice-commands}
   [2015-04-29].
 
+\bibitem{iosDesignGuidelines}
+Apple (2015).
+\newblock \textit{Designing for iOS}.
+\newblock
+  \url{https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/index.html}
+  [2015-05-09].
+
 \bibitem{augmentedRealityDef}
 Augmented~Reality (2015).
 \newblock \textit{Encyclop{\ae}dia Britannica Online}.
