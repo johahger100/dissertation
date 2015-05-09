@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.12)  8 MAY 2015 16:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.12)  9 MAY 2015 12:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -392,27 +392,6 @@ LaTeX Warning: Label `subsec:summary' multiply defined.
 LaTeX Warning: Label `subsec:summary' multiply defined.
 
 
-LaTeX Warning: Label `todo' multiply defined.
-
-
-LaTeX Warning: Label `todo' multiply defined.
-
-
-LaTeX Warning: Label `todo' multiply defined.
-
-
-LaTeX Warning: Label `todo' multiply defined.
-
-
-LaTeX Warning: Label `todo' multiply defined.
-
-
-LaTeX Warning: Label `todo' multiply defined.
-
-
-LaTeX Warning: Label `todo' multiply defined.
-
-
 LaTeX Warning: Label `tab:distanceAverage' multiply defined.
 
 
@@ -593,15 +572,14 @@ l.38 \subsection
 e identifier (name{page.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.51 C
-      hapter~\ref{sec:implementation} describes the implementation part of t...
-[3]) [4] (./Background.tex (./chap2/GlassDef.tex
+l.52 
+      [3]) [4] (./Background.tex (./chap2/GlassDef.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5
 
 ]
-<images/GoogleGlassHardwareTouchpad.png, id=698, 851.18pt x 466.74374pt>
+<images/GoogleGlassHardwareTouchpad.png, id=700, 851.18pt x 466.74374pt>
 File: images/GoogleGlassHardwareTouchpad.png Graphic file (type png)
 
 <use images/GoogleGlassHardwareTouchpad.png>
@@ -609,7 +587,7 @@ Package pdftex.def Info: images/GoogleGlassHardwareTouchpad.png used on input l
 ine 6.
 (pdftex.def)             Requested size: 199.16928pt x 109.21474pt.
 
-<images/GoogleGlassHardware.png, id=699, 854.19125pt x 468.75125pt>
+<images/GoogleGlassHardware.png, id=701, 854.19125pt x 468.75125pt>
 File: images/GoogleGlassHardware.png Graphic file (type png)
 
 <use images/GoogleGlassHardware.png>
@@ -617,14 +595,14 @@ Package pdftex.def Info: images/GoogleGlassHardware.png used on input line 8.
 (pdftex.def)             Requested size: 199.16928pt x 109.29109pt.
  [6 <./images/GoogleGlassHardwareTouchpad.png> <./images/GoogleGlassHardware.pn
 g>]
-<images/OculusRift.jpg, id=719, 481.8pt x 417.56pt>
+<images/OculusRift.jpg, id=721, 481.8pt x 417.56pt>
 File: images/OculusRift.jpg Graphic file (type jpg)
 
 <use images/OculusRift.jpg>
 Package pdftex.def Info: images/OculusRift.jpg used on input line 61.
 (pdftex.def)             Requested size: 312.9803pt x 271.25786pt.
  [7] [8 <./images/OculusRift.jpg>]
-<images/GoogleGlassKeepRevelant.jpg, id=741, 722.7pt x 406.51875pt>
+<images/GoogleGlassKeepRevelant.jpg, id=743, 722.7pt x 406.51875pt>
 File: images/GoogleGlassKeepRevelant.jpg Graphic file (type jpg)
 
 <use images/GoogleGlassKeepRevelant.jpg>
@@ -632,7 +610,7 @@ Package pdftex.def Info: images/GoogleGlassKeepRevelant.jpg used on input line
 78.
 (pdftex.def)             Requested size: 312.9803pt x 176.05264pt.
 ) (./chap2/SimilarProducts.tex
-<images/similarProducts/hololens.png, id=746, 696.6025pt x 312.16624pt>
+<images/similarProducts/hololens.png, id=748, 696.6025pt x 312.16624pt>
 File: images/similarProducts/hololens.png Graphic file (type png)
 
 <use images/similarProducts/hololens.png>
@@ -640,7 +618,7 @@ Package pdftex.def Info: images/similarProducts/hololens.png used on input line
  5.
 (pdftex.def)             Requested size: 199.16928pt x 89.24933pt.
 
-<images/similarProducts/reconJet.png, id=749, 693.59125pt x 343.2825pt>
+<images/similarProducts/reconJet.png, id=751, 693.59125pt x 343.2825pt>
 File: images/similarProducts/reconJet.png Graphic file (type png)
 
 <use images/similarProducts/reconJet.png>
@@ -648,7 +626,7 @@ Package pdftex.def Info: images/similarProducts/reconJet.png used on input line
  7.
 (pdftex.def)             Requested size: 199.16928pt x 98.57509pt.
 
-<images/similarProducts/glassUp.png, id=752, 779.91376pt x 364.36125pt>
+<images/similarProducts/glassUp.png, id=754, 779.91376pt x 364.36125pt>
 File: images/similarProducts/glassUp.png Graphic file (type png)
 
 <use images/similarProducts/glassUp.png>
@@ -656,7 +634,7 @@ Package pdftex.def Info: images/similarProducts/glassUp.png used on input line
 9.
 (pdftex.def)             Requested size: 199.16928pt x 93.04709pt.
 
-<images/similarProducts/penny.png, id=755, 500.87125pt x 190.7125pt>
+<images/similarProducts/penny.png, id=757, 500.87125pt x 190.7125pt>
 File: images/similarProducts/penny.png Graphic file (type png)
 
 <use images/similarProducts/penny.png>
@@ -688,14 +666,14 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\@ifnextchar' on input line 40.
 
 ) [12] (./chap2/GlassUI.tex
-<images/GoogleGlassUI.png, id=819, 850.17625pt x 465.74pt>
+<images/GoogleGlassUI.png, id=821, 850.17625pt x 465.74pt>
 File: images/GoogleGlassUI.png Graphic file (type png)
 
 <use images/GoogleGlassUI.png>
 Package pdftex.def Info: images/GoogleGlassUI.png used on input line 5.
 (pdftex.def)             Requested size: 312.9803pt x 171.45409pt.
 
-<images/GoogleGlassHomescreen.png, id=823, 803.0pt x 481.8pt>
+<images/GoogleGlassHomescreen.png, id=825, 803.0pt x 481.8pt>
 File: images/GoogleGlassHomescreen.png Graphic file (type png)
 
 <use images/GoogleGlassHomescreen.png>
@@ -703,7 +681,7 @@ Package pdftex.def Info: images/GoogleGlassHomescreen.png used on input line 14
 .
 (pdftex.def)             Requested size: 199.16928pt x 119.50133pt.
 
-<images/GoogleGlassStarImmersion.png, id=824, 803.0pt x 481.8pt>
+<images/GoogleGlassStarImmersion.png, id=826, 803.0pt x 481.8pt>
 File: images/GoogleGlassStarImmersion.png Graphic file (type png)
 
 <use images/GoogleGlassStarImmersion.png>
@@ -711,7 +689,7 @@ Package pdftex.def Info: images/GoogleGlassStarImmersion.png used on input line
  16.
 (pdftex.def)             Requested size: 199.16928pt x 119.50133pt.
 
-<images/GoogleGlassStarImmersion2.png, id=825, 803.0pt x 481.8pt>
+<images/GoogleGlassStarImmersion2.png, id=827, 803.0pt x 481.8pt>
 File: images/GoogleGlassStarImmersion2.png Graphic file (type png)
 
 <use images/GoogleGlassStarImmersion2.png>
@@ -723,7 +701,7 @@ Underfull \vbox (badness 5985) has occurred while \output is active []
 
  [14 <./images/GoogleGlassHomescreen.png> <./images/GoogleGlassStarImmersion.pn
 g> <./images/GoogleGlassStarImmersion2.png>]
-<images/glassVoiceMenu.png, id=846, 642.4pt x 361.35pt>
+<images/glassVoiceMenu.png, id=848, 642.4pt x 361.35pt>
 File: images/glassVoiceMenu.png Graphic file (type png)
 
 <use images/glassVoiceMenu.png>
@@ -734,14 +712,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [15])
 (./chap2/vsphones.tex [16 <./images/glassVoiceMenu.png>]
-<images/smartphoneSize2.jpg, id=867, 662.475pt x 363.3575pt>
+<images/smartphoneSize2.jpg, id=869, 662.475pt x 363.3575pt>
 File: images/smartphoneSize2.jpg Graphic file (type jpg)
 
 <use images/smartphoneSize2.jpg>
 Package pdftex.def Info: images/smartphoneSize2.jpg used on input line 14.
 (pdftex.def)             Requested size: 312.9803pt x 171.66513pt.
 
-<images/smartphoneSize.png, id=870, 722.7pt x 429.605pt>
+<images/smartphoneSize.png, id=872, 722.7pt x 429.605pt>
 File: images/smartphoneSize.png Graphic file (type png)
 
 <use images/smartphoneSize.png>
@@ -750,28 +728,28 @@ Package pdftex.def Info: images/smartphoneSize.png used on input line 23.
  [17 <./images/smartphoneSize2.jpg>])
 (./chap2/Limitations.tex [18 <./images/smartphoneSize.png>])
 (./chap2/QRCode.tex [19]
-<images/qrcodeMall.pdf, id=904, 1173.8637pt x 851.71005pt>
+<images/qrcodeMall.pdf, id=906, 1173.8637pt x 851.71005pt>
 File: images/qrcodeMall.pdf Graphic file (type pdf)
 
 <use images/qrcodeMall.pdf>
 Package pdftex.def Info: images/qrcodeMall.pdf used on input line 14.
 (pdftex.def)             Requested size: 227.62204pt x 165.15356pt.
  [20 <./images/qrcodeMall.pdf>]
-<images/qrcodeexample.pdf, id=933, 1100.38531pt x 715.4366pt>
+<images/qrcodeexample.pdf, id=935, 1100.38531pt x 715.4366pt>
 File: images/qrcodeexample.pdf Graphic file (type pdf)
 
 <use images/qrcodeexample.pdf>
 Package pdftex.def Info: images/qrcodeexample.pdf used on input line 28.
 (pdftex.def)             Requested size: 284.52756pt x 184.98296pt.
  [21 <./images/qrcodeexample.pdf>]
-<images/qrcodeexampleStep3.pdf, id=950, 102.2052pt x 34.0684pt>
+<images/qrcodeexampleStep3.pdf, id=952, 102.2052pt x 34.0684pt>
 File: images/qrcodeexampleStep3.pdf Graphic file (type pdf)
 
 <use images/qrcodeexampleStep3.pdf>
 Package pdftex.def Info: images/qrcodeexampleStep3.pdf used on input line 41.
 (pdftex.def)             Requested size: 85.35826pt x 28.45299pt.
 
-<images/qrcodemaskpattern.pdf, id=955, 204.4104pt x 204.4104pt>
+<images/qrcodemaskpattern.pdf, id=957, 204.4104pt x 204.4104pt>
 File: images/qrcodemaskpattern.pdf Graphic file (type pdf)
 
 <use images/qrcodemaskpattern.pdf>
@@ -781,42 +759,42 @@ Package pdftex.def Info: images/qrcodemaskpattern.pdf used on input line 56.
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/qrcodemaskpattern.pdf): PDF
  inclusion: multiple pdfs with page group included in a single page
->] <images/qrcodezigzag.pdf, id=968, 851.70999pt x 851.71005pt>
+>] <images/qrcodezigzag.pdf, id=970, 851.70999pt x 851.71005pt>
 File: images/qrcodezigzag.pdf Graphic file (type pdf)
 
 <use images/qrcodezigzag.pdf>
 Package pdftex.def Info: images/qrcodezigzag.pdf used on input line 67.
 (pdftex.def)             Requested size: 284.52756pt x 284.52213pt.
  [23 <./images/qrcodezigzag.pdf>]
-<images/qrcodeexampleStep4.pdf, id=978, 68.1368pt x 68.1368pt>
+<images/qrcodeexampleStep4.pdf, id=980, 68.1368pt x 68.1368pt>
 File: images/qrcodeexampleStep4.pdf Graphic file (type pdf)
 
 <use images/qrcodeexampleStep4.pdf>
 Package pdftex.def Info: images/qrcodeexampleStep4.pdf used on input line 88.
 (pdftex.def)             Requested size: 42.67912pt x 42.68103pt.
  [24 <./images/qrcodeexampleStep4.pdf>]
-<images/qrcodeexampleStep5.pdf, id=989, 68.1368pt x 136.27357pt>
+<images/qrcodeexampleStep5.pdf, id=991, 68.1368pt x 136.27357pt>
 File: images/qrcodeexampleStep5.pdf Graphic file (type pdf)
 
 <use images/qrcodeexampleStep5.pdf>
 Package pdftex.def Info: images/qrcodeexampleStep5.pdf used on input line 115.
 (pdftex.def)             Requested size: 42.67912pt x 85.36206pt.
  [25 <./images/qrcodeexampleStep5.pdf>]
-<images/qrcodeexampleStep6.pdf, id=998, 68.1368pt x 136.27357pt>
+<images/qrcodeexampleStep6.pdf, id=1000, 68.1368pt x 136.27357pt>
 File: images/qrcodeexampleStep6.pdf Graphic file (type pdf)
 
 <use images/qrcodeexampleStep6.pdf>
 Package pdftex.def Info: images/qrcodeexampleStep6.pdf used on input line 178.
 (pdftex.def)             Requested size: 42.67912pt x 85.36206pt.
  [26 <./images/qrcodeexampleStep6.pdf>]
-<images/qrcodeexampleStep7.pdf, id=1007, 136.27357pt x 68.1368pt>
+<images/qrcodeexampleStep7.pdf, id=1009, 136.27357pt x 68.1368pt>
 File: images/qrcodeexampleStep7.pdf Graphic file (type pdf)
 
 <use images/qrcodeexampleStep7.pdf>
 Package pdftex.def Info: images/qrcodeexampleStep7.pdf used on input line 213.
 (pdftex.def)             Requested size: 85.35826pt x 42.68103pt.
 
-<images/qrcodeexampleStep8.pdf, id=1010, 68.1368pt x 136.27357pt>
+<images/qrcodeexampleStep8.pdf, id=1012, 68.1368pt x 136.27357pt>
 File: images/qrcodeexampleStep8.pdf Graphic file (type pdf)
 
 <use images/qrcodeexampleStep8.pdf>
@@ -832,7 +810,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [33]
 [34] (./Design.tex (./chap3/application.tex
-<images/projectmap4.pdf, id=1083, 563.35132pt x 384.26134pt>
+<images/projectmap4.pdf, id=1085, 563.35132pt x 384.26134pt>
 File: images/projectmap4.pdf Graphic file (type pdf)
 
 <use images/projectmap4.pdf>
@@ -841,49 +819,49 @@ Package pdftex.def Info: images/projectmap4.pdf used on input line 7.
  [35
 
  <./images/projectmap4.pdf>]
-<images/cardDesign2.pdf, id=1104, 453.2716pt x 82.88536pt>
+<images/cardDesign2.pdf, id=1106, 453.2716pt x 82.88536pt>
 File: images/cardDesign2.pdf Graphic file (type pdf)
 
 <use images/cardDesign2.pdf>
 Package pdftex.def Info: images/cardDesign2.pdf used on input line 17.
 (pdftex.def)             Requested size: 426.79134pt x 78.0463pt.
  [36 <./images/cardDesign2.pdf>]
-<images/glaswareFlowDesignerScreenshot.png, id=1121, 1632.0975pt x 775.89874pt>
+<images/glaswareFlowDesignerScreenshot.png, id=1123, 1632.0975pt x 775.89874pt>
 File: images/glaswareFlowDesignerScreenshot.png Graphic file (type png)
 <use images/glaswareFlowDesignerScreenshot.png>
 Package pdftex.def Info: images/glaswareFlowDesignerScreenshot.png used on inpu
 t line 40.
 (pdftex.def)             Requested size: 426.79134pt x 202.88916pt.
 ) (./chap3/SmallSpaceDesign.tex
-<images/standard-template.png, id=1124, 735.74875pt x 366.36874pt>
+<images/standard-template.png, id=1126, 735.74875pt x 366.36874pt>
 File: images/standard-template.png Graphic file (type png)
 
 <use images/standard-template.png>
 Package pdftex.def Info: images/standard-template.png used on input line 5.
 (pdftex.def)             Requested size: 312.9803pt x 155.8528pt.
  [37 <./images/glaswareFlowDesignerScreenshot.png>] <images/card_text.png, id=1
-133, 642.4pt x 361.35pt>
+135, 642.4pt x 361.35pt>
 File: images/card_text.png Graphic file (type png)
 
 <use images/card_text.png>
 Package pdftex.def Info: images/card_text.png used on input line 14.
 (pdftex.def)             Requested size: 199.16928pt x 112.03387pt.
 
-<images/card_text_fixed.png, id=1134, 642.4pt x 361.35pt>
+<images/card_text_fixed.png, id=1136, 642.4pt x 361.35pt>
 File: images/card_text_fixed.png Graphic file (type png)
 
 <use images/card_text_fixed.png>
 Package pdftex.def Info: images/card_text_fixed.png used on input line 16.
 (pdftex.def)             Requested size: 199.16928pt x 112.03387pt.
 
-<images/card_columns.png, id=1135, 642.4pt x 361.35pt>
+<images/card_columns.png, id=1137, 642.4pt x 361.35pt>
 File: images/card_columns.png Graphic file (type png)
 
 <use images/card_columns.png>
 Package pdftex.def Info: images/card_columns.png used on input line 18.
 (pdftex.def)             Requested size: 199.16928pt x 112.03387pt.
 
-<images/card_title.png, id=1136, 642.4pt x 361.35pt>
+<images/card_title.png, id=1138, 642.4pt x 361.35pt>
 File: images/card_title.png Graphic file (type png)
 
 <use images/card_title.png>
@@ -901,7 +879,7 @@ Underfull \vbox (badness 2809) has occurred while \output is active []
  [38 <./images/standard-template.png> <./images/card_text.png> <./images/card_t
 ext_fixed.png> <./images/card_columns.png> <./images/card_title.png>] [39])
 (./chap3/Smartphones.tex [40]
-<images/principles_make_important_fast.png, id=1174, 341.275pt x 170.6375pt>
+<images/principles_make_important_fast.png, id=1176, 341.275pt x 170.6375pt>
 File: images/principles_make_important_fast.png Graphic file (type png)
 
 <use images/principles_make_important_fast.png>
@@ -990,14 +968,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [46]
 [47])) [48] (./Implementation.tex (./chap4/application.tex
-<images/demo/qrCodeNew.png, id=1261, 642.4pt x 361.35pt>
+<images/demo/qrCodeNew.png, id=1263, 642.4pt x 361.35pt>
 File: images/demo/qrCodeNew.png Graphic file (type png)
 
 <use images/demo/qrCodeNew.png>
 Package pdftex.def Info: images/demo/qrCodeNew.png used on input line 12.
 (pdftex.def)             Requested size: 199.16928pt x 112.03387pt.
 
-<images/demo/smartphone/qrCodeNew.png, id=1262, 481.8pt x 803.0pt>
+<images/demo/smartphone/qrCodeNew.png, id=1264, 481.8pt x 803.0pt>
 File: images/demo/smartphone/qrCodeNew.png Graphic file (type png)
 
 <use images/demo/smartphone/qrCodeNew.png>
@@ -1016,14 +994,14 @@ File: lstlang1.sty 2014/03/04 1.5c listings language file
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 32.
  [51]
-<images/demo/loadingBar.png, id=1300, 642.4pt x 361.35pt>
+<images/demo/loadingBar.png, id=1302, 642.4pt x 361.35pt>
 File: images/demo/loadingBar.png Graphic file (type png)
 
 <use images/demo/loadingBar.png>
 Package pdftex.def Info: images/demo/loadingBar.png used on input line 63.
 (pdftex.def)             Requested size: 199.16928pt x 112.03387pt.
 
-<images/demo/smartphone/loadingSpinner.png, id=1301, 481.8pt x 803.0pt>
+<images/demo/smartphone/loadingSpinner.png, id=1303, 481.8pt x 803.0pt>
 File: images/demo/smartphone/loadingSpinner.png Graphic file (type png)
 
 <use images/demo/smartphone/loadingSpinner.png>
@@ -1034,21 +1012,21 @@ t line 65.
 Underfull \vbox (badness 4752) has occurred while \output is active []
 
  [52]
-<images/rawImages/BILD_6.pdf, id=1310, 528.06029pt x 395.19574pt>
+<images/rawImages/BILD_6.pdf, id=1312, 528.06029pt x 395.19574pt>
 File: images/rawImages/BILD_6.pdf Graphic file (type pdf)
 
 <use images/rawImages/BILD_6.pdf>
 Package pdftex.def Info: images/rawImages/BILD_6.pdf used on input line 79.
 (pdftex.def)             Requested size: 256.0748pt x 191.65161pt.
 
-<images/demo/titleCard.png, id=1312, 642.4pt x 361.35pt>
+<images/demo/titleCard.png, id=1314, 642.4pt x 361.35pt>
 File: images/demo/titleCard.png Graphic file (type png)
 
 <use images/demo/titleCard.png>
 Package pdftex.def Info: images/demo/titleCard.png used on input line 95.
 (pdftex.def)             Requested size: 199.16928pt x 112.03387pt.
 
-<images/demo/smartphone/titleCard.png, id=1313, 481.8pt x 803.0pt>
+<images/demo/smartphone/titleCard.png, id=1315, 481.8pt x 803.0pt>
 File: images/demo/smartphone/titleCard.png Graphic file (type png)
 
 <use images/demo/smartphone/titleCard.png>
@@ -1057,14 +1035,14 @@ e 97.
 (pdftex.def)             Requested size: 199.16928pt x 331.94pt.
  [53 <./images/demo/loadingBar.png (PNG copy)> <./images/demo/smartphone/loadin
 gSpinner.png>]
-<images/demo/componentText.png, id=1326, 642.4pt x 361.35pt>
+<images/demo/componentText.png, id=1328, 642.4pt x 361.35pt>
 File: images/demo/componentText.png Graphic file (type png)
 
 <use images/demo/componentText.png>
 Package pdftex.def Info: images/demo/componentText.png used on input line 115.
 (pdftex.def)             Requested size: 199.16928pt x 112.03387pt.
 
-<images/demo/smartphone/componentText.png, id=1327, 481.8pt x 803.0pt>
+<images/demo/smartphone/componentText.png, id=1329, 481.8pt x 803.0pt>
 File: images/demo/smartphone/componentText.png Graphic file (type png)
 
 <use images/demo/smartphone/componentText.png>
@@ -1072,14 +1050,14 @@ Package pdftex.def Info: images/demo/smartphone/componentText.png used on input
  line 117.
 (pdftex.def)             Requested size: 199.16928pt x 331.94pt.
 
-<images/demo/columnImage.png, id=1328, 642.4pt x 361.35pt>
+<images/demo/columnImage.png, id=1330, 642.4pt x 361.35pt>
 File: images/demo/columnImage.png Graphic file (type png)
 
 <use images/demo/columnImage.png>
 Package pdftex.def Info: images/demo/columnImage.png used on input line 132.
 (pdftex.def)             Requested size: 199.16928pt x 112.03387pt.
 
-<images/demo/smartphone/columnImage.png, id=1329, 481.8pt x 803.0pt>
+<images/demo/smartphone/columnImage.png, id=1331, 481.8pt x 803.0pt>
 File: images/demo/smartphone/columnImage.png Graphic file (type png)
 
 <use images/demo/smartphone/columnImage.png>
@@ -1092,7 +1070,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [54 <./images/rawImages/BILD_6.pdf>] [55 <./images/demo/titleCard.png (PNG cop
 y)> <./images/demo/smartphone/titleCard.png>] [56 <./images/demo/componentText.
 png (PNG copy)> <./images/demo/smartphone/componentText.png>]
-<images/demo/instructionImage.png, id=1359, 642.4pt x 361.35pt>
+<images/demo/instructionImage.png, id=1361, 642.4pt x 361.35pt>
 File: images/demo/instructionImage.png Graphic file (type png)
 
 <use images/demo/instructionImage.png>
@@ -1100,7 +1078,7 @@ Package pdftex.def Info: images/demo/instructionImage.png used on input line 15
 5.
 (pdftex.def)             Requested size: 199.16928pt x 112.03387pt.
 
-<images/demo/smartphone/instructionImage.png, id=1360, 481.8pt x 803.0pt>
+<images/demo/smartphone/instructionImage.png, id=1362, 481.8pt x 803.0pt>
 File: images/demo/smartphone/instructionImage.png Graphic file (type png)
 
 <use images/demo/smartphone/instructionImage.png>
@@ -1109,7 +1087,7 @@ put line 157.
 (pdftex.def)             Requested size: 199.16928pt x 331.94pt.
  [57 <./images/demo/columnImage.png (PNG copy)> <./images/demo/smartphone/colum
 nImage.png>]
-<images/demo/voiceCommand1.png, id=1369, 642.4pt x 361.35pt>
+<images/demo/voiceCommand1.png, id=1371, 642.4pt x 361.35pt>
 File: images/demo/voiceCommand1.png Graphic file (type png)
 
 <use images/demo/voiceCommand1.png>
@@ -1129,7 +1107,7 @@ File: images/demo/columnImage.png Graphic file (type png)
 Package pdftex.def Info: images/demo/columnImage.png used on input line 32.
 (pdftex.def)             Requested size: 199.16928pt x 112.03387pt.
 
-<images/demo/instructionText.png, id=1380, 642.4pt x 361.35pt>
+<images/demo/instructionText.png, id=1382, 642.4pt x 361.35pt>
 File: images/demo/instructionText.png Graphic file (type png)
 
 <use images/demo/instructionText.png>
@@ -1165,14 +1143,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 4792) has occurred while \output is active []
 
  [65]
-<images/testSetupGlass.jpg, id=1468, 4304.08pt x 2858.68pt>
+<images/testSetupGlass.jpg, id=1470, 4304.08pt x 2858.68pt>
 File: images/testSetupGlass.jpg Graphic file (type jpg)
 
 <use images/testSetupGlass.jpg>
 Package pdftex.def Info: images/testSetupGlass.jpg used on input line 10.
 (pdftex.def)             Requested size: 199.16928pt x 132.2555pt.
 
-<images/testSetupS2.jpg, id=1469, 4304.08pt x 2858.68pt>
+<images/testSetupS2.jpg, id=1471, 4304.08pt x 2858.68pt>
 File: images/testSetupS2.jpg Graphic file (type jpg)
 
 <use images/testSetupS2.jpg>
@@ -1194,47 +1172,143 @@ Underfull \vbox (badness 2435) has occurred while \output is active []
 [73] [74
 
 ] (./ResultEvaluation.tex (./chap5/DemoCase.tex
+File: images/rawImages/BILD_6.pdf Graphic file (type pdf)
 
-LaTeX Warning: Reference `' on page 75 undefined on input line 1.
+<use images/rawImages/BILD_6.pdf>
+Package pdftex.def Info: images/rawImages/BILD_6.pdf used on input line 5.
+(pdftex.def)             Requested size: 256.0748pt x 191.65161pt.
 
-<images/rawImages/BILD_1.pdf, id=1583, 543.15128pt x 332.67142pt>
+<images/rawImages/BILD_1.pdf, id=1586, 543.15128pt x 332.67142pt>
 File: images/rawImages/BILD_1.pdf Graphic file (type pdf)
 
 <use images/rawImages/BILD_1.pdf>
-Package pdftex.def Info: images/rawImages/BILD_1.pdf used on input line 5.
+Package pdftex.def Info: images/rawImages/BILD_1.pdf used on input line 12.
 (pdftex.def)             Requested size: 199.16928pt x 121.99004pt.
 
-<images/rawImages/BILD_2.pdf, id=1584, 337.26pt x 263.38399pt>
+<images/rawImages/BILD_2.pdf, id=1587, 337.26pt x 263.38399pt>
 File: images/rawImages/BILD_2.pdf Graphic file (type pdf)
 
 <use images/rawImages/BILD_2.pdf>
-Package pdftex.def Info: images/rawImages/BILD_2.pdf used on input line 7.
+Package pdftex.def Info: images/rawImages/BILD_2.pdf used on input line 14.
 (pdftex.def)             Requested size: 199.16928pt x 155.5439pt.
 
-<images/rawImages/BILD_3.pdf, id=1585, 333.245pt x 199.94699pt>
+<images/rawImages/BILD_3.pdf, id=1588, 333.245pt x 199.94699pt>
 File: images/rawImages/BILD_3.pdf Graphic file (type pdf)
 
 <use images/rawImages/BILD_3.pdf>
-Package pdftex.def Info: images/rawImages/BILD_3.pdf used on input line 9.
+Package pdftex.def Info: images/rawImages/BILD_3.pdf used on input line 16.
 (pdftex.def)             Requested size: 199.16928pt x 119.5023pt.
 
-<images/rawImages/BILD_4.pdf, id=1586, 311.564pt x 219.219pt>
+<images/rawImages/BILD_4.pdf, id=1589, 311.564pt x 219.219pt>
 File: images/rawImages/BILD_4.pdf Graphic file (type pdf)
 
 <use images/rawImages/BILD_4.pdf>
-Package pdftex.def Info: images/rawImages/BILD_4.pdf used on input line 11.
+Package pdftex.def Info: images/rawImages/BILD_4.pdf used on input line 18.
 (pdftex.def)             Requested size: 199.16928pt x 140.13576pt.
 
 
-LaTeX Warning: Reference `' on page 75 undefined on input line 17.
+LaTeX Warning: Reference `' on page 75 undefined on input line 24.
 
 
-LaTeX Warning: Reference `' on page 75 undefined on input line 17.
+LaTeX Warning: Reference `' on page 75 undefined on input line 24.
 
+<images/demoCase/1.png, id=1591, 642.4pt x 361.35pt>
+File: images/demoCase/1.png Graphic file (type png)
 
-LaTeX Warning: Reference `' on page 75 undefined on input line 19.
+<use images/demoCase/1.png>
+Package pdftex.def Info: images/demoCase/1.png used on input line 30.
+(pdftex.def)             Requested size: 256.0748pt x 144.0467pt.
 
-[75 <./images/rawImages/BILD_1.pdf> <./images/rawImages/BILD_2.pdf
+<images/demoCase/2.png, id=1592, 642.4pt x 361.35pt>
+File: images/demoCase/2.png Graphic file (type png)
+
+<use images/demoCase/2.png>
+Package pdftex.def Info: images/demoCase/2.png used on input line 39.
+(pdftex.def)             Requested size: 199.16928pt x 112.03387pt.
+File: images/rawImages/BILD_1.pdf Graphic file (type pdf)
+ <use images/rawImages/BILD_1.pdf>
+Package pdftex.def Info: images/rawImages/BILD_1.pdf used on input line 41.
+(pdftex.def)             Requested size: 199.16928pt x 121.99004pt.
+
+<images/demoCase/3.png, id=1593, 642.4pt x 361.35pt>
+File: images/demoCase/3.png Graphic file (type png)
+
+<use images/demoCase/3.png>
+Package pdftex.def Info: images/demoCase/3.png used on input line 48.
+(pdftex.def)             Requested size: 199.16928pt x 112.03387pt.
+File: images/rawImages/BILD_2.pdf Graphic file (type pdf)
+ <use images/rawImages/BILD_2.pdf>
+Package pdftex.def Info: images/rawImages/BILD_2.pdf used on input line 50.
+(pdftex.def)             Requested size: 199.16928pt x 155.5439pt.
+
+<images/demoCase/4.png, id=1594, 642.4pt x 361.35pt>
+File: images/demoCase/4.png Graphic file (type png)
+
+<use images/demoCase/4.png>
+Package pdftex.def Info: images/demoCase/4.png used on input line 57.
+(pdftex.def)             Requested size: 199.16928pt x 112.03387pt.
+File: images/rawImages/BILD_3.pdf Graphic file (type pdf)
+ <use images/rawImages/BILD_3.pdf>
+Package pdftex.def Info: images/rawImages/BILD_3.pdf used on input line 59.
+(pdftex.def)             Requested size: 199.16928pt x 119.5023pt.
+
+<images/demoCase/5.png, id=1595, 642.4pt x 361.35pt>
+File: images/demoCase/5.png Graphic file (type png)
+
+<use images/demoCase/5.png>
+Package pdftex.def Info: images/demoCase/5.png used on input line 66.
+(pdftex.def)             Requested size: 199.16928pt x 112.03387pt.
+File: images/rawImages/BILD_4.pdf Graphic file (type pdf)
+ <use images/rawImages/BILD_4.pdf>
+Package pdftex.def Info: images/rawImages/BILD_4.pdf used on input line 68.
+(pdftex.def)             Requested size: 199.16928pt x 140.13576pt.
+
+<images/demoCase/6.png, id=1596, 642.4pt x 361.35pt>
+File: images/demoCase/6.png Graphic file (type png)
+
+<use images/demoCase/6.png>
+Package pdftex.def Info: images/demoCase/6.png used on input line 75.
+(pdftex.def)             Requested size: 199.16928pt x 112.03387pt.
+
+<images/rawImages/BILD_5.pdf, id=1597, 562.90298pt x 399.894pt>
+File: images/rawImages/BILD_5.pdf Graphic file (type pdf)
+
+<use images/rawImages/BILD_5.pdf>
+Package pdftex.def Info: images/rawImages/BILD_5.pdf used on input line 77.
+(pdftex.def)             Requested size: 199.16928pt x 141.49046pt.
+
+<images/demoCase/7.png, id=1598, 642.4pt x 361.35pt>
+File: images/demoCase/7.png Graphic file (type png)
+
+<use images/demoCase/7.png>
+Package pdftex.def Info: images/demoCase/7.png used on input line 84.
+(pdftex.def)             Requested size: 199.16928pt x 112.03387pt.
+
+<images/rawImages/BILD_8.pdf, id=1599, 323.49428pt x 273.02pt>
+File: images/rawImages/BILD_8.pdf Graphic file (type pdf)
+
+<use images/rawImages/BILD_8.pdf>
+Package pdftex.def Info: images/rawImages/BILD_8.pdf used on input line 86.
+(pdftex.def)             Requested size: 199.16928pt x 168.09586pt.
+
+<images/demoCase/8.png, id=1600, 642.4pt x 361.35pt>
+File: images/demoCase/8.png Graphic file (type png)
+
+<use images/demoCase/8.png>
+Package pdftex.def Info: images/demoCase/8.png used on input line 93.
+(pdftex.def)             Requested size: 199.16928pt x 112.03387pt.
+File: images/rawImages/BILD_6.pdf Graphic file (type pdf)
+ <use images/rawImages/BILD_6.pdf>
+Package pdftex.def Info: images/rawImages/BILD_6.pdf used on input line 95.
+(pdftex.def)             Requested size: 199.16928pt x 149.05432pt.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [75]
+
+LaTeX Warning: Text page 76 contains only floats.
+
+[76 <./images/rawImages/BILD_1.pdf> <./images/rawImages/BILD_2.pdf
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/rawImages/BILD_2.pdf): PDF 
 inclusion: multiple pdfs with page group included in a single page
@@ -1246,58 +1320,13 @@ inclusion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/rawImages/BILD_4.pdf): PDF 
 inclusion: multiple pdfs with page group included in a single page
->]
-File: images/rawImages/BILD_1.pdf Graphic file (type pdf)
- <use images/rawImages/BILD_1.pdf>
-Package pdftex.def Info: images/rawImages/BILD_1.pdf used on input line 27.
-(pdftex.def)             Requested size: 256.0748pt x 156.84796pt.
-File: images/rawImages/BILD_2.pdf Graphic file (type pdf)
- <use images/rawImages/BILD_2.pdf>
-Package pdftex.def Info: images/rawImages/BILD_2.pdf used on input line 34.
-(pdftex.def)             Requested size: 256.0748pt x 199.985pt.
-File: images/rawImages/BILD_3.pdf Graphic file (type pdf)
+> <./images/demoCase/1.png (PNG copy)>] [77 <./images/demoCase/2.png (PNG copy)
+> <./images/demoCase/3.png (PNG copy)>]
+Underfull \vbox (badness 1902) has occurred while \output is active []
 
-<use images/rawImages/BILD_3.pdf>
-Package pdftex.def Info: images/rawImages/BILD_3.pdf used on input line 41.
-(pdftex.def)             Requested size: 256.0748pt x 153.65454pt.
-File: images/rawImages/BILD_4.pdf Graphic file (type pdf)
- <use images/rawImages/BILD_4.pdf>
-Package pdftex.def Info: images/rawImages/BILD_4.pdf used on input line 48.
-(pdftex.def)             Requested size: 256.0748pt x 180.1755pt.
+ [78 <./images/demoCase/4.png (PNG copy)> <./images/demoCase/5.png (PNG copy)>]
 
-<images/rawImages/BILD_5.pdf, id=1620, 562.90298pt x 399.894pt>
-File: images/rawImages/BILD_5.pdf Graphic file (type pdf)
-
-<use images/rawImages/BILD_5.pdf>
-Package pdftex.def Info: images/rawImages/BILD_5.pdf used on input line 55.
-(pdftex.def)             Requested size: 256.0748pt x 181.92154pt.
-File: images/rawImages/BILD_6.pdf Graphic file (type pdf)
- <use images/rawImages/BILD_6.pdf>
-Package pdftex.def Info: images/rawImages/BILD_6.pdf used on input line 62.
-(pdftex.def)             Requested size: 256.0748pt x 191.65161pt.
-
-<images/rawImages/BILD_7.pdf, id=1621, 570.93684pt x 432.03522pt>
-File: images/rawImages/BILD_7.pdf Graphic file (type pdf)
-
-<use images/rawImages/BILD_7.pdf>
-Package pdftex.def Info: images/rawImages/BILD_7.pdf used on input line 69.
-(pdftex.def)             Requested size: 256.0748pt x 193.78119pt.
-
-<images/rawImages/BILD_8.pdf, id=1622, 323.49428pt x 273.02pt>
-File: images/rawImages/BILD_8.pdf Graphic file (type pdf)
-
-<use images/rawImages/BILD_8.pdf>
-Package pdftex.def Info: images/rawImages/BILD_8.pdf used on input line 76.
-(pdftex.def)             Requested size: 256.0748pt x 216.13336pt.
-)
-Underfull \vbox (badness 4713) has occurred while \output is active []
-
- [76]
-[77]
-Underfull \vbox (badness 3701) has occurred while \output is active []
-
- [78 <./images/rawImages/BILD_5.pdf>]
-<images/textLengthTestImages/S2_Raw.png, id=1646, 481.8pt x 764.8575pt>
+<images/textLengthTestImages/S2_Raw.png, id=1658, 481.8pt x 764.8575pt>
 File: images/textLengthTestImages/S2_Raw.png Graphic file (type png)
 
 <use images/textLengthTestImages/S2_Raw.png>
@@ -1309,18 +1338,24 @@ Underfull \hbox (badness 1314) in paragraph at lines 12--12
 []\OT1/cmr/m/n/10 (a) |The Sam-sung Galaxy SII
  []
 
-<images/textLengthTestImages/S3_Raw.png, id=1647, 722.7pt x 1240.635pt>
+<images/textLengthTestImages/S3_Raw.png, id=1659, 722.7pt x 1240.635pt>
 File: images/textLengthTestImages/S3_Raw.png Graphic file (type png)
 
 <use images/textLengthTestImages/S3_Raw.png>
 Package pdftex.def Info: images/textLengthTestImages/S3_Raw.png used on input l
 ine 14.
 (pdftex.def)             Requested size: 142.26378pt x 244.22292pt.
- [79 <./images/rawImages/BILD_7.pdf> <./images/rawImages/BILD_8.pdf
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [79 <./images/demoCase/6.png (PNG copy)> <./images/rawImages/BILD_5.pdf> <./im
+ages/demoCase/7.png (PNG copy)> <./images/rawImages/BILD_8.pdf
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./images/rawImages/BILD_8.pdf): PDF 
 inclusion: multiple pdfs with page group included in a single page
->] <images/textLengthTestImages/S2_Text_1.png, id=1669, 642.4pt x 361.35pt>
+>] [80 <./images/demoCase/8.png (PNG copy)> <./images/textLengthTestImages/S2_R
+aw.png> <./images/textLengthTestImages/S3_Raw.png>]
+<images/textLengthTestImages/S2_Text_1.png, id=1694, 642.4pt x 361.35pt>
 File: images/textLengthTestImages/S2_Text_1.png Graphic file (type png)
 
 <use images/textLengthTestImages/S2_Text_1.png>
@@ -1328,7 +1363,7 @@ Package pdftex.def Info: images/textLengthTestImages/S2_Text_1.png used on inpu
 t line 24.
 (pdftex.def)             Requested size: 170.71652pt x 96.02747pt.
 
-<images/textLengthTestImages/S2_Text_2.png, id=1670, 642.4pt x 361.35pt>
+<images/textLengthTestImages/S2_Text_2.png, id=1695, 642.4pt x 361.35pt>
 File: images/textLengthTestImages/S2_Text_2.png Graphic file (type png)
 
 <use images/textLengthTestImages/S2_Text_2.png>
@@ -1336,19 +1371,16 @@ Package pdftex.def Info: images/textLengthTestImages/S2_Text_2.png used on inpu
 t line 26.
 (pdftex.def)             Requested size: 170.71652pt x 96.02747pt.
 
-<images/textLengthTestImages/S2_Text_3.png, id=1671, 642.4pt x 361.35pt>
+<images/textLengthTestImages/S2_Text_3.png, id=1696, 642.4pt x 361.35pt>
 File: images/textLengthTestImages/S2_Text_3.png Graphic file (type png)
 
 <use images/textLengthTestImages/S2_Text_3.png>
 Package pdftex.def Info: images/textLengthTestImages/S2_Text_3.png used on inpu
 t line 28.
 (pdftex.def)             Requested size: 170.71652pt x 96.02747pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [80 <./images/textLengthTestImages/S2_Raw.png> <./images/textLengthTestImages/
-S3_Raw.png>] <images/textLengthTestImages/S3_Text_1.png, id=1694, 642.4pt x 361
-.35pt>
+ [81 <./images/textLengthTestImages/S2_Text_1.png> <./images/textLengthTestImag
+es/S2_Text_2.png> <./images/textLengthTestImages/S2_Text_3.png>]
+<images/textLengthTestImages/S3_Text_1.png, id=1719, 642.4pt x 361.35pt>
 File: images/textLengthTestImages/S3_Text_1.png Graphic file (type png)
 
 <use images/textLengthTestImages/S3_Text_1.png>
@@ -1356,7 +1388,7 @@ Package pdftex.def Info: images/textLengthTestImages/S3_Text_1.png used on inpu
 t line 51.
 (pdftex.def)             Requested size: 170.71652pt x 96.02747pt.
 
-<images/textLengthTestImages/S3_Text_2.png, id=1695, 642.4pt x 361.35pt>
+<images/textLengthTestImages/S3_Text_2.png, id=1720, 642.4pt x 361.35pt>
 File: images/textLengthTestImages/S3_Text_2.png Graphic file (type png)
 
 <use images/textLengthTestImages/S3_Text_2.png>
@@ -1364,7 +1396,7 @@ Package pdftex.def Info: images/textLengthTestImages/S3_Text_2.png used on inpu
 t line 53.
 (pdftex.def)             Requested size: 170.71652pt x 96.02747pt.
 
-<images/textLengthTestImages/S3_Text_3.png, id=1696, 642.4pt x 361.35pt>
+<images/textLengthTestImages/S3_Text_3.png, id=1721, 642.4pt x 361.35pt>
 File: images/textLengthTestImages/S3_Text_3.png Graphic file (type png)
 
 <use images/textLengthTestImages/S3_Text_3.png>
@@ -1372,29 +1404,24 @@ Package pdftex.def Info: images/textLengthTestImages/S3_Text_3.png used on inpu
 t line 55.
 (pdftex.def)             Requested size: 170.71652pt x 96.02747pt.
 
-<images/textLengthTestImages/S3_Text_4.png, id=1697, 642.4pt x 361.35pt>
+<images/textLengthTestImages/S3_Text_4.png, id=1722, 642.4pt x 361.35pt>
 File: images/textLengthTestImages/S3_Text_4.png Graphic file (type png)
 
 <use images/textLengthTestImages/S3_Text_4.png>
 Package pdftex.def Info: images/textLengthTestImages/S3_Text_4.png used on inpu
 t line 57.
 (pdftex.def)             Requested size: 170.71652pt x 96.02747pt.
-
-Underfull \vbox (badness 2726) has occurred while \output is active []
-
- [81 <./images/textLengthTestImages/S2_Text_1.png> <./images/textLengthTestImag
-es/S2_Text_2.png> <./images/textLengthTestImages/S2_Text_3.png>] [82 <./images/
-textLengthTestImages/S3_Text_1.png> <./images/textLengthTestImages/S3_Text_2.pn
-g> <./images/textLengthTestImages/S3_Text_3.png> <./images/textLengthTestImages
-/S3_Text_4.png>]
-<images/textLengthTestImages/S2_Columns_1.png, id=1731, 682.55pt x 394.47375pt>
+ [82 <./images/textLengthTestImages/S3_Text_1.png> <./images/textLengthTestImag
+es/S3_Text_2.png> <./images/textLengthTestImages/S3_Text_3.png> <./images/textL
+engthTestImages/S3_Text_4.png>]
+<images/textLengthTestImages/S2_Columns_1.png, id=1749, 682.55pt x 394.47375pt>
 File: images/textLengthTestImages/S2_Columns_1.png Graphic file (type png)
 <use images/textLengthTestImages/S2_Columns_1.png>
 Package pdftex.def Info: images/textLengthTestImages/S2_Columns_1.png used on i
 nput line 83.
 (pdftex.def)             Requested size: 170.71652pt x 98.66032pt.
 
-<images/textLengthTestImages/S2_Columns_2.png, id=1732, 642.4pt x 361.35pt>
+<images/textLengthTestImages/S2_Columns_2.png, id=1750, 642.4pt x 361.35pt>
 File: images/textLengthTestImages/S2_Columns_2.png Graphic file (type png)
 
 <use images/textLengthTestImages/S2_Columns_2.png>
@@ -1402,7 +1429,7 @@ Package pdftex.def Info: images/textLengthTestImages/S2_Columns_2.png used on i
 nput line 85.
 (pdftex.def)             Requested size: 170.71652pt x 96.02747pt.
 
-<images/textLengthTestImages/S2_Columns_3.png, id=1733, 642.4pt x 361.35pt>
+<images/textLengthTestImages/S2_Columns_3.png, id=1751, 642.4pt x 361.35pt>
 File: images/textLengthTestImages/S2_Columns_3.png Graphic file (type png)
 
 <use images/textLengthTestImages/S2_Columns_3.png>
@@ -1411,7 +1438,7 @@ nput line 87.
 (pdftex.def)             Requested size: 170.71652pt x 96.02747pt.
  [83 <./images/textLengthTestImages/S2_Columns_1.png> <./images/textLengthTestI
 mages/S2_Columns_2.png> <./images/textLengthTestImages/S2_Columns_3.png>]
-<images/textLengthTestImages/S3_Columns_1.png, id=1757, 642.4pt x 361.35pt>
+<images/textLengthTestImages/S3_Columns_1.png, id=1775, 642.4pt x 361.35pt>
 File: images/textLengthTestImages/S3_Columns_1.png Graphic file (type png)
 
 <use images/textLengthTestImages/S3_Columns_1.png>
@@ -1419,7 +1446,7 @@ Package pdftex.def Info: images/textLengthTestImages/S3_Columns_1.png used on i
 nput line 110.
 (pdftex.def)             Requested size: 170.71652pt x 96.02747pt.
 
-<images/textLengthTestImages/S3_Columns_2.png, id=1758, 642.4pt x 361.35pt>
+<images/textLengthTestImages/S3_Columns_2.png, id=1776, 642.4pt x 361.35pt>
 File: images/textLengthTestImages/S3_Columns_2.png Graphic file (type png)
 
 <use images/textLengthTestImages/S3_Columns_2.png>
@@ -1433,7 +1460,7 @@ Package pdftex.def Info: images/textLengthTestImages/S3_Columns_2.png used on i
 nput line 114.
 (pdftex.def)             Requested size: 170.71652pt x 96.02747pt.
 
-<images/textLengthTestImages/S3_Columns_4.png, id=1759, 642.4pt x 361.35pt>
+<images/textLengthTestImages/S3_Columns_4.png, id=1777, 642.4pt x 361.35pt>
 File: images/textLengthTestImages/S3_Columns_4.png Graphic file (type png)
 
 <use images/textLengthTestImages/S3_Columns_4.png>
@@ -1451,7 +1478,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 151--151
 []|\OT1/cmr/bx/n/12 Google Glass
  []
 
-[85]
+
+Underfull \vbox (badness 2409) has occurred while \output is active []
+
+ [85]
 Underfull \hbox (badness 10000) in paragraph at lines 169--169
 []|\OT1/cmr/bx/n/12 Google Glass
  []
@@ -1653,7 +1683,7 @@ Underfull \hbox (badness 2828) in paragraph at lines 115--115
 ] (./Code.tex) [111] [112
 
 ]
-<Google_Glass.pdf, id=2060, 597.55246pt x 845.07718pt>
+<Google_Glass.pdf, id=2078, 597.55246pt x 845.07718pt>
 File: Google_Glass.pdf Graphic file (type pdf)
  <use Google_Glass.pdf>
 Package pdftex.def Info: Google_Glass.pdf used on input line 210.
@@ -1664,7 +1694,7 @@ File: Google_Glass.pdf Graphic file (type pdf)
 Package pdftex.def Info: Google_Glass.pdf used on input line 210.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
  [113]
-<Google_Glass.pdf, id=2068, page=1, 597.55246pt x 845.07718pt>
+<Google_Glass.pdf, id=2086, page=1, 597.55246pt x 845.07718pt>
 File: Google_Glass.pdf Graphic file (type pdf)
 
 <use Google_Glass.pdf, page 1>
@@ -1689,7 +1719,7 @@ File: Google_Glass.pdf Graphic file (type pdf)
 Package pdftex.def Info: Google_Glass.pdf, page1 used on input line 210.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
  [114 <./Google_Glass.pdf>]
-<Google_Glass.pdf, id=2104, page=2, 597.55246pt x 845.19763pt>
+<Google_Glass.pdf, id=2122, page=2, 597.55246pt x 845.19763pt>
 File: Google_Glass.pdf Graphic file (type pdf)
 
 <use Google_Glass.pdf, page 2>
@@ -1705,7 +1735,7 @@ File: Google_Glass.pdf Graphic file (type pdf)
 Package pdftex.def Info: Google_Glass.pdf, page2 used on input line 210.
 (pdftex.def)             Requested size: 597.57834pt x 845.23425pt.
  [115 <./Google_Glass.pdf>]
-<Google_Glass.pdf, id=2122, page=3, 597.55246pt x 845.19763pt>
+<Google_Glass.pdf, id=2140, page=3, 597.55246pt x 845.19763pt>
 File: Google_Glass.pdf Graphic file (type pdf)
 
 <use Google_Glass.pdf, page 3>
@@ -1721,7 +1751,7 @@ File: Google_Glass.pdf Graphic file (type pdf)
 Package pdftex.def Info: Google_Glass.pdf, page3 used on input line 210.
 (pdftex.def)             Requested size: 597.57834pt x 845.23425pt.
  [116 <./Google_Glass.pdf>]
-<Google_Glass.pdf, id=2136, page=4, 597.55246pt x 845.19763pt>
+<Google_Glass.pdf, id=2154, page=4, 597.55246pt x 845.19763pt>
 File: Google_Glass.pdf Graphic file (type pdf)
 
 <use Google_Glass.pdf, page 4>
@@ -1737,7 +1767,7 @@ File: Google_Glass.pdf Graphic file (type pdf)
 Package pdftex.def Info: Google_Glass.pdf, page4 used on input line 210.
 (pdftex.def)             Requested size: 597.57834pt x 845.23425pt.
  [117 <./Google_Glass.pdf>]
-<Google_Glass.pdf, id=2151, page=5, 597.55246pt x 845.19763pt>
+<Google_Glass.pdf, id=2170, page=5, 597.55246pt x 845.19763pt>
 File: Google_Glass.pdf Graphic file (type pdf)
 
 <use Google_Glass.pdf, page 5>
@@ -1753,7 +1783,7 @@ File: Google_Glass.pdf Graphic file (type pdf)
 Package pdftex.def Info: Google_Glass.pdf, page5 used on input line 210.
 (pdftex.def)             Requested size: 597.57834pt x 845.23425pt.
  [118 <./Google_Glass.pdf>]
-<Google_Glass.pdf, id=2157, page=6, 597.55246pt x 845.19763pt>
+<Google_Glass.pdf, id=2176, page=6, 597.55246pt x 845.19763pt>
 File: Google_Glass.pdf Graphic file (type pdf)
 
 <use Google_Glass.pdf, page 6>
@@ -1777,7 +1807,7 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 212.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 212.
 Package rerunfilecheck Info: File `Dissertation_JohanHager_911229-0797.out' has
  not changed.
-(rerunfilecheck)             Checksum: 6F6C272E226441C06C030121991087A3;4877.
+(rerunfilecheck)             Checksum: 14C0F49248D449801C46EECCB20F8747;4877.
 
 
 LaTeX Warning: There were undefined references.
@@ -1788,13 +1818,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 212.
  ) 
 Here is how much of TeX's memory you used:
- 10920 strings out of 493117
- 173523 string characters out of 6135432
- 397810 words of memory out of 5000000
- 13550 multiletter control sequences out of 15000+600000
+ 10979 strings out of 493117
+ 174647 string characters out of 6135432
+ 398262 words of memory out of 5000000
+ 13586 multiletter control sequences out of 15000+600000
  10612 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,18n,51p,1260b,1850s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,18n,51p,1565b,1850s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
@@ -1806,11 +1836,11 @@ l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
 exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/te
 xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/tex
 live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Dissertation_JohanHager_911229-0797.pdf (139 pages, 22459625 
+Output written on Dissertation_JohanHager_911229-0797.pdf (139 pages, 21678944 
 bytes).
 PDF statistics:
- 2316 PDF objects out of 2487 (max. 8388607)
- 1944 compressed objects within 20 object streams
- 522 named destinations out of 1000 (max. 500000)
- 984 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2337 PDF objects out of 2487 (max. 8388607)
+ 1960 compressed objects within 20 object streams
+ 537 named destinations out of 1000 (max. 500000)
+ 1019 words of extra memory for PDF output out of 10000 (max. 10000000)
 
