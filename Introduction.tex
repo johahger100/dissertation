@@ -27,13 +27,24 @@ This dissertation describes the design, implementation and evaluation of an appl
 
 The application will also be built for smartphones, giving a reference point for the evaluation as well as a method of comparison with the Google Glass application. Using the Google Glass application users will be able to construct products by following instructions, but without having to shift their focus from what they are doing, and neither will the users have to use their hands in order to control the application.
 
+The application, described in Figure~\ref{projectmapLightVersion}, will scan a QR code, download information based on the information received from the QR code, and the display the downloaded information in the form of a slide view. The application will exist in two versions, one for Google Glass and another for smartphones. However, the will both function the same and as such the device in Figure~\ref{projectmapLightVersion} can be either Google Glass or a smartphone.
+
+	\begin{figure}[ht!]
+		\centering
+		\includegraphics[width=110mm]{images/projectmapLightVersion}
+		\caption{Application functionality.}
+		\label{projectmapLightVersion}
+	\end{figure}
+
 \subsection{Discontinuance of the Explorer Program}
 It should be noted that, since the start of this dissertation, Google have chosen to cancelled the so called ``explorer program'' for Google Glass~\cite{glassDiscontinued}. The explorer program was the ``open beta phase'' of Google Glass where Google, although Google Glass was sold as a consumer product, were still developing Google Glass at Google's research center, called Google X. Google used user's input and feedback to improve on Google Glass as a product, both in terms of hardware as well as software.
 
 Coming out of the open beta phase, Google have now chosen to keep developing Google Glass, but without the help of consumers, meaning that any further updates, both in terms of hardware as well as software, will (as of now) not be publicly available. Google states that they are ``thrilled to be moving even more from concept to reality'', when discussing the future of Google Glass. As of January 20th, 2015, the Google Glass Explorer Edition was no longer available for sale. However, Google ensures that Google Glass will return ``when they're ready'', but does not go in to further details on when Google Glass will be available for sale again or what the new version will entail. 
 
 \subsection{Back End}
-todo
+The project has been divided in to two different parts. This dissertation will cover the front end part of the project, which includes building the applications, both the Google Glass version and the smartphone version. This dissertation will also discuss the different ways of presenting information and how information is presented in the application.
+
+However, another part of the project is the back end part. The backend part has been summed up in Figure~\ref{projectmapLightVersion} as ``Download Information''. The back end part was done by Richard Hoorn and consists of web API, connected to a database in which all product information is stored. 
 
 \subsection{Hypothesis}
 The hypothesis is that the Google Glass application will prove useful and valuable, more so than the smartphone application. Although Google Glass might not be the most powerful device on the market, the features of Google Glass are the selling points. 

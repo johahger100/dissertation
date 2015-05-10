@@ -1,7 +1,5 @@
 As the application launches, the first screen the user sees, in both the Google Glass version and the smartphone version, is the camera screen. The user must, in order to proceed further within the application, scan a QR code. Scanning a QR code is done by positioning the device's camera such that the QR code can be seen on screen, as seen in Figure~\ref{glassDemoQR}. The user does not need to press any shutter button as the application automatically recognises the QR code pattern if seen on screen.%, as seen in Figure~\ref{}. The reasoning behind 
 
-todo check all images in chapter 4 - application
-
 %	\begin{figure}[ht!]
 %		\centering
 %		\includegraphics[width=110mm]{images/demo/qrCode}
@@ -42,9 +40,23 @@ CardBuilder cardBuilder = new CardBuilder(context, CardBuilder.Layout.COLUMNS);
 
 Since the smartphone application also used the ZXing library, but without any pre-existing application, no changes similar to those done to the Google Glass application had to be done for the smartphone application. Instead the smartphone application was built from the beginning to make use of the ZXing library's functionality, similar to how the ZXing library was integrated in the base Google Glass application.
 
-%The Google Glass application and the smartphone application are similar in how they are built, as seen in Figure~\ref{uml}, which shows a UML diagram over the slide view part of the respective applications.
+The Google Glass application and the smartphone application are similar in how they are built. However, they look a bit different from each other, as seen in Figure~\ref{umlDiagrams}, which shows a UML diagram over the slide view part of the respective applications. The Google Glass version has a few extra classes revolving result processors.
+
+The result processors come from the base version of the Google Glass application, where more specific information was expected to be encoded in the QR code. For instance, the base version contained a ISBN processor for books, which was not needed in the application described in this dissertation. In the base version the \texttt{ResultProcessorFactory} returned a specific result processor depending on what information was to be processed. However, in the application only the \texttt{TextResultProcessor} is used and as such also the only remaining \texttt{ResultProcessor}. The Google Glass version should be rebuilt so that the \texttt{DownloadProductTask} replaces all three of the result processor classes. However, such refactoring has not been done at this point. 
 
 %[TODO UML DIAGRAM ref(uml)]
+
+	\begin{figure}[ht!]
+		\centering
+    		\subfloat[Google Glass.]{{\includegraphics[width=100mm]{images/classDiagram/GoogleGlassClassDiagram.pdf}}}
+   		 \qquad
+		\subfloat[Smartphone.]{{\includegraphics[width=30mm]{images/classDiagram/SmartphoneClassDiagram.pdf}}}
+   		 \qquad
+		\caption{UML diagrams.}
+		\label{umlDiagrams}
+	\end{figure}
+	
+In Figure~\ref{umlDiagrams}~(b) the class \texttt{Fragment} can be seen. The \texttt{Fragment} class is actually only an interface which is implemented by several other classes, however the UML diagram in Figure~\ref{umlDiagrams}~(b) has been simplified as all classes inheriting the \texttt{Fragment} class essentially does what the \texttt{CardBuilder} class in the Google Glass application does, which is setting up the specific layout of the slide. In the smartphone application there is a class for each different layout, in comparison to the Google Glass application where the \texttt{cardBuilder} class handles the layout through argument, as seen in Listing~\ref{listingRecommended}. As such another potential refactor which could be done is to create a general class that inherits the \texttt{Fragment} class and which takes the desired layout as an argument, similar to the \texttt{CardBuilder} class in the Google Glass application. Since the \texttt{CardBuilder} class is a Google Glass specific feature the \texttt{CardBuilder} class could not be used in the smartphone application.
 
 %discuss differences (classes exclusive to the smartphone application and GG application respectivly)
 

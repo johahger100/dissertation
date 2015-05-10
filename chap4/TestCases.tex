@@ -111,7 +111,19 @@ Although the \texttt{Timer} class will give the elapsed time in nanoseconds the 
 
 Using the \texttt{Timer} class, seen in Listing~\ref{timerClass}, the elapsed time from the start of the application until the QR code was decoded was measured for each device. The test was performed 30 times for each device, with 3 different complexities of the QR code. Figure~\ref{projectmap} described the application functionality and this test measures steps 1 and 2 in Figure~\ref{projectmap}. The results of the test can be seen in detail in Appendix~\ref{app:results} but will also be presented in a smaller table with the average time.
 % in a table similar to Table~\ref{tab:complexityAverage}. 
-Although the \texttt{Timer} class will give the elapsed time in nano seconds the result will be presented in seconds in order to clearly show the significance of each time as small, nanoseconds, differences between devices will not matter as much as seconds.
+Although the \texttt{Timer} class will give the elapsed time in nano seconds the result will be presented in seconds in order to clearly show the significance of each time as small, nanoseconds, differences between devices will not matter as much as seconds. Figure~\ref{qrCodeComplex} shows the three different QR codes used for the complexity test.
+
+	\begin{figure}[H]%ht!]
+		\centering
+    		\subfloat[1 encoded character.]{{\includegraphics[width=20mm]{images/qrCodeComplex/1}}}
+   		 \qquad
+		\subfloat[50 encoded characters.]{{\includegraphics[width=20mm]{images/qrCodeComplex/50}}}
+   		 \qquad
+		\subfloat[100 encoded characters.]{{\includegraphics[width=20mm]{images/qrCodeComplex/100}}}
+   		 \qquad
+		\caption{The three different QR codes used in the complexity test.}
+		\label{qrCodeComplex}
+	\end{figure}
 
 %	\begin{table}[H]%ht!]
 %    		\caption{Average time of registering a QR code with varying density.} \label{tab:complexityAverage}

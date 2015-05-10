@@ -1,17 +1,23 @@
+Since Google have discontinued the Google Glass Explorer program and as such Google Glass is not available for purchase at the point of writing this dissertation, it is somewhat hard to argue for needed future work to be done on the application. However, that aside, some further testing should be done.
+
+For instance the voice commands should be tested, both in a silent environment, but also in a noisy environment. The test should be done in order to better determine if Google Glass is a viable device to be used in an industry environment, where there is potentially a lot of noise. 
+
+The application should also be tried out by a general public for an extensive period of time, and the results evaluated in order to determine wether some parts of the application should be redesigned or not. Following Google's design guidelines is only one aspect of the development process. In the end it is the users who should be satisfied with the result.
+
 \subsubsection{Official approval of Voice Commands}
 The voice commands used in the Google Glass application has not yet been officially approved by Google, nor has they been submitted to Google. Since the discontinuation of the Google Glass Explorer program Google has removed the voice command approval form, which developers were meant to fill in and submit to Google.
 
 Getting custom made, contextual voice commands officially approved by Google was a requirement for Google Glass applications with custom made, contextual voice commands to be released on MyGlass. If this requirement will remain when the new version of Google Glass is eventually is released remains to be seen.
 
-\subsubsection{Customised Voice Command}
+Potentially customised voice commands could be designed using the voice recognition feature built in to the Android operating system. However, doing so would require a design similar to that of Google's contextual voice command system, which uses ``ok glass'' as the phrase that loads up the voice command menu and listens for other voice commands. An application which always listens for all voice commands could become difficult to use in a noisy environment since Google Glass would listen for several phrases, instead of one specific.
 
+%\subsubsection{Customised Voice Command}
+%A potential option to getting the voice commands approved by Google would be to use customised voice commands, as suggested by a few number of people online .
 
 %Construct own or use \url{https://github.com/RIVeR-Lab/google_glass_driver/blob/master/android/RobotManager/src/com/riverlab/robotmanager/voice_recognition/VoiceRecognitionThread.java}
-todo
-\subsubsection{TextResultProcessor}
-In the Google Glass application the class \texttt{TextResultProcessor} is not required any more and should as such be removed. At this point the \texttt{TextResultProcessor} class in only used as middleware between an instance of the \texttt{Products} class and a list of \texttt{CardPresenter}. Instead the \texttt{CardPresenter} class should only be instanced once for each product, and keep the instance of the Products class.
 
-todo man går från en till många, till en till en. Varför? Eftersom cardpresenter just nu sparar information. Det behövs ej, all information kan hämtas direkt från instansen av Products
+\subsubsection{TextResultProcessor}
+In the Google Glass application the class \texttt{TextResultProcessor} is not required any more and should as such be removed. At this point the \texttt{TextResultProcessor} class is only used as middleware between an instance of the \texttt{Products} class, sent as an argument from the \texttt{DownloadProductTask} class, and a list of \texttt{CardPresenter}. Instead the \texttt{CardPresenter} class should only be instanced once for each product, and keep the instance of the Products class itself.
 
 The reason the \texttt{TextResultProcessor} class exists in the first place is due to how the Google Glass application was originally built, were all information presented was encoded directly in the QR code. At that point the \texttt{TextResultProcessor} was used when the encoded information was a text string. At this point the only information encoded in the QR codes are product ID:s.
 
