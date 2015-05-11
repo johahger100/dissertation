@@ -3,7 +3,7 @@
 \contentsline {subsection}{\numberline {1.2}Back End}{3}{subsection.1.2}
 \contentsline {subsection}{\numberline {1.3}Hypothesis}{4}{subsection.1.3}
 \contentsline {subsection}{\numberline {1.4}Project Results}{4}{subsection.1.4}
-\contentsline {subsection}{\numberline {1.5}Dissertation Layout}{4}{subsection.1.5}
+\contentsline {subsection}{\numberline {1.5}Dissertation Layout}{5}{subsection.1.5}
 \contentsline {section}{\numberline {2}Background}{7}{section.2}
 \contentsline {subsection}{\numberline {2.1}What is Google Glass?}{8}{subsection.2.1}
 \contentsline {subsubsection}{\numberline {2.1.1}Head-Mounted Display (HMD)}{9}{subsubsection.2.1.1}
@@ -39,15 +39,16 @@
 \contentsline {subsection}{\numberline {3.6}Summary}{49}{subsection.3.6}
 \contentsline {section}{\numberline {4}Implementation}{53}{section.4}
 \contentsline {subsection}{\numberline {4.1}Android Studio}{64}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Card Layout}{65}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Voice Commands}{67}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Test Cases}{70}{subsection.4.4}
-\contentsline {subsubsection}{\numberline {4.4.1}Experimental Setup}{70}{subsubsection.4.4.1}
-\contentsline {subsubsection}{\numberline {4.4.2}Text Length}{73}{subsubsection.4.4.2}
-\contentsline {subsubsection}{\numberline {4.4.3}Distance to the QR Code}{75}{subsubsection.4.4.3}
-\contentsline {subsubsection}{\numberline {4.4.4}Complexity of the QR Code}{75}{subsubsection.4.4.4}
-\contentsline {subsubsection}{\numberline {4.4.5}Display Time}{76}{subsubsection.4.4.5}
-\contentsline {subsection}{\numberline {4.5}Summary}{76}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.2}API level}{65}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Card Layout}{65}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Voice Commands}{68}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Test Cases}{70}{subsection.4.5}
+\contentsline {subsubsection}{\numberline {4.5.1}Experimental Setup}{71}{subsubsection.4.5.1}
+\contentsline {subsubsection}{\numberline {4.5.2}Text Length}{74}{subsubsection.4.5.2}
+\contentsline {subsubsection}{\numberline {4.5.3}Distance to the QR Code}{75}{subsubsection.4.5.3}
+\contentsline {subsubsection}{\numberline {4.5.4}Complexity of the QR Code}{76}{subsubsection.4.5.4}
+\contentsline {subsubsection}{\numberline {4.5.5}Display Time}{77}{subsubsection.4.5.5}
+\contentsline {subsection}{\numberline {4.6}Summary}{77}{subsection.4.6}
 \contentsline {section}{\numberline {5}Results}{81}{section.5}
 \contentsline {subsection}{\numberline {5.1}Demo Case}{81}{subsection.5.1}
 \contentsline {subsection}{\numberline {5.2}Text Length}{89}{subsection.5.2}
@@ -57,16 +58,17 @@
 \contentsline {subsection}{\numberline {5.6}Summary}{99}{subsection.5.6}
 \contentsline {section}{\numberline {6}Conclusions}{101}{section.6}
 \contentsline {subsection}{\numberline {6.1}Personal User Experience}{102}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Back End Conclusions}{104}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Future Work}{104}{subsection.6.3}
-\contentsline {subsubsection}{\numberline {6.3.1}Official approval of Voice Commands}{104}{subsubsection.6.3.1}
-\contentsline {subsubsection}{\numberline {6.3.2}TextResultProcessor}{105}{subsubsection.6.3.2}
-\contentsline {subsubsection}{\numberline {6.3.3}A General Fragment}{106}{subsubsection.6.3.3}
-\contentsline {subsection}{\numberline {6.4}Concluding Remarks}{106}{subsection.6.4}
-\contentsline {section}{References}{107}{section*.74}
-\contentsline {section}{\numberline {A}Abbreviations}{113}{appendix.A}
-\contentsline {section}{\numberline {B}Results}{115}{appendix.B}
-\contentsline {section}{\numberline {C}Code}{125}{appendix.C}
-\contentsline {subsection}{\numberline {C.1}Google Glass application}{125}{subsection.C.1}
-\contentsline {subsection}{\numberline {C.2}Smartphone application}{125}{subsection.C.2}
-\contentsline {section}{\numberline {D}Project Specification (In Swedish)}{127}{appendix.D}
+\contentsline {subsection}{\numberline {6.2}Project Evaluation}{104}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Back End Conclusions}{104}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Future Work}{105}{subsection.6.4}
+\contentsline {subsubsection}{\numberline {6.4.1}Official approval of Voice Commands}{105}{subsubsection.6.4.1}
+\contentsline {subsubsection}{\numberline {6.4.2}TextResultProcessor}{106}{subsubsection.6.4.2}
+\contentsline {subsubsection}{\numberline {6.4.3}A General Fragment}{107}{subsubsection.6.4.3}
+\contentsline {subsection}{\numberline {6.5}Concluding Remarks}{107}{subsection.6.5}
+\contentsline {section}{References}{109}{section*.74}
+\contentsline {section}{\numberline {A}Abbreviations}{117}{appendix.A}
+\contentsline {section}{\numberline {B}Results}{119}{appendix.B}
+\contentsline {section}{\numberline {C}Code}{129}{appendix.C}
+\contentsline {subsection}{\numberline {C.1}Google Glass application}{129}{subsection.C.1}
+\contentsline {subsection}{\numberline {C.2}Smartphone application}{129}{subsection.C.2}
+\contentsline {section}{\numberline {D}Project Specification (In Swedish)}{131}{appendix.D}

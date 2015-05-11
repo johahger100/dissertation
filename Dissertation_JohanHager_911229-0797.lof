@@ -59,15 +59,15 @@
 \contentsline {figure}{\numberline {4.8}{\ignorespaces An instruction slide from the demo application.\relax }}{63}{figure.caption.44}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The Google Glass application}}}{63}{subfigure.8.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The smartphone application.}}}{63}{subfigure.8.2}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces todo update imageThe voice command menu in the demo application.\relax }}{64}{figure.caption.45}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces The different layouts used within the Google Glass application.\relax }}{65}{figure.caption.46}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The title card layout.}}}{65}{subfigure.10.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The column card layout.}}}{65}{subfigure.10.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {The text card layout.}}}{65}{subfigure.10.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {The image card layout.}}}{65}{subfigure.10.4}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces The experimental setup.\relax }}{71}{figure.caption.48}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The experimental setup for Google Glass.}}}{71}{subfigure.11.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The experimental setup for Samsung Galaxy SII.}}}{71}{subfigure.11.2}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces The voice command menu.\relax }}{64}{figure.caption.45}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces The different layouts used within the Google Glass application.\relax }}{66}{figure.caption.46}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The title card layout.}}}{66}{subfigure.10.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The column card layout.}}}{66}{subfigure.10.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {The text card layout.}}}{66}{subfigure.10.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {The image card layout.}}}{66}{subfigure.10.4}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces The experimental setup.\relax }}{72}{figure.caption.48}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The experimental setup for Google Glass.}}}{72}{subfigure.11.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The experimental setup for Samsung Galaxy SII.}}}{72}{subfigure.11.2}
 \contentsline {figure}{\numberline {4.12}{\ignorespaces The three different QR codes used in the complexity test.\relax }}{76}{figure.caption.49}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {1 encoded character.}}}{76}{subfigure.12.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {50 encoded characters.}}}{76}{subfigure.12.2}
@@ -83,7 +83,7 @@
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Loading in the Google Glass application.}}}{83}{subfigure.3.2}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Scanning a QR code in the smartphone application.}}}{83}{subfigure.3.3}
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Loading in the smartphone application.}}}{83}{subfigure.3.4}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces todo update imageThe voice command menu in the demo application.\relax }}{84}{figure.caption.53}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces The voice command menu.\relax }}{84}{figure.caption.53}
 \contentsline {figure}{\numberline {5.5}{\ignorespaces The title slide.\relax }}{85}{figure.caption.54}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The title card in the Google Glass application.}}}{85}{subfigure.5.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The title slide in the smartphone application.}}}{85}{subfigure.5.2}

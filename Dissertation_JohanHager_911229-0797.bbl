@@ -254,6 +254,12 @@ Google (2015).
 \newblock \url{http://developer.android.com/sdk/installing/migrate.html}
   [2015-04-17].
 
+\bibitem{api22}
+Google (2015).
+\newblock \textit{Android API Differences Report}.
+\newblock \url{http://developer.android.com/sdk/api_diff/22/changes.html}
+  [2015-05-11].
+
 \bibitem{androidDesignPrinciples}
 Google (2015).
 \newblock \textit{Android Design Principles}.
@@ -327,6 +333,11 @@ Google (2015).
 \newblock \url{https://developers.google.com/glass/develop/gdk/slider}
   [2015-05-05].
 
+\bibitem{glassware}
+Google (2015).
+\newblock \textit{Start building great Glassware}.
+\newblock \url{https://developers.google.com/glass/} [2015-05-11].
+
 \bibitem{GlassSpecs}
 Google (2015).
 \newblock \textit{Tech spechs}.
@@ -363,6 +374,13 @@ Google (2015).
 \newblock \textit{We're graduating from Google[x] labs}.
 \newblock \url{https://plus.google.com/+GoogleGlass/posts/9uiwXY42tvc}
   [2015-05-07].
+
+\bibitem{androidAPI}
+Google (2015).
+\newblock \textit{What is API Level?}
+\newblock
+  \url{http://developer.android.com/guide/topics/manifest/uses-sdk-element.html#ApiLevels}
+  [2015-05-11].
 
 \bibitem{hololensDemo}
 IGN (2015).
