@@ -1,7 +1,7 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
 \BOOKMARK [2][-]{subsection.1.1}{Discontinuance of the Explorer Program}{section.1}% 2
-\BOOKMARK [2][-]{subsection.1.2}{Back End}{section.1}% 3
-\BOOKMARK [2][-]{subsection.1.3}{Hypothesis}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.2}{Back-End}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Expected Results}{section.1}% 4
 \BOOKMARK [2][-]{subsection.1.4}{Project Results}{section.1}% 5
 \BOOKMARK [2][-]{subsection.1.5}{Dissertation Layout}{section.1}% 6
 \BOOKMARK [1][-]{section.2}{Background}{}% 7
@@ -10,12 +10,12 @@
 \BOOKMARK [3][-]{subsubsection.2.1.2}{Heads-Up Display \(HUD\)}{subsection.2.1}% 10
 \BOOKMARK [3][-]{subsubsection.2.1.3}{Virtual Reality}{subsection.2.1}% 11
 \BOOKMARK [3][-]{subsubsection.2.1.4}{Augmented Reality}{subsection.2.1}% 12
-\BOOKMARK [2][-]{subsection.2.2}{Similar Products}{section.2}% 13
-\BOOKMARK [3][-]{subsubsection.2.2.1}{Microsoft Hololens hololens}{subsection.2.2}% 14
-\BOOKMARK [3][-]{subsubsection.2.2.2}{Recon Jet reconJet}{subsection.2.2}% 15
-\BOOKMARK [3][-]{subsubsection.2.2.3}{GlassUp glassUp}{subsection.2.2}% 16
-\BOOKMARK [3][-]{subsubsection.2.2.4}{C Wear Interactive Glasses penny}{subsection.2.2}% 17
-\BOOKMARK [2][-]{subsection.2.3}{User Interface}{section.2}% 18
+\BOOKMARK [2][-]{subsection.2.2}{User Interface}{section.2}% 13
+\BOOKMARK [2][-]{subsection.2.3}{Similar Products}{section.2}% 14
+\BOOKMARK [3][-]{subsubsection.2.3.1}{Microsoft Hololens}{subsection.2.3}% 15
+\BOOKMARK [3][-]{subsubsection.2.3.2}{Recon Jet}{subsection.2.3}% 16
+\BOOKMARK [3][-]{subsubsection.2.3.3}{GlassUp}{subsection.2.3}% 17
+\BOOKMARK [3][-]{subsubsection.2.3.4}{C Wear Interactive Glasses}{subsection.2.3}% 18
 \BOOKMARK [2][-]{subsection.2.4}{A Comparison with Smartphones}{section.2}% 19
 \BOOKMARK [2][-]{subsection.2.5}{Limitations of Google Glass}{section.2}% 20
 \BOOKMARK [2][-]{subsection.2.6}{QR Code}{section.2}% 21
@@ -43,32 +43,31 @@
 \BOOKMARK [2][-]{subsection.4.3}{Card Layout}{section.4}% 43
 \BOOKMARK [2][-]{subsection.4.4}{Voice Commands}{section.4}% 44
 \BOOKMARK [2][-]{subsection.4.5}{Test Cases}{section.4}% 45
-\BOOKMARK [3][-]{subsubsection.4.5.1}{Experimental Setup}{subsection.4.5}% 46
-\BOOKMARK [3][-]{subsubsection.4.5.2}{Text Length}{subsection.4.5}% 47
-\BOOKMARK [3][-]{subsubsection.4.5.3}{Distance to the QR Code}{subsection.4.5}% 48
-\BOOKMARK [3][-]{subsubsection.4.5.4}{Complexity of the QR Code}{subsection.4.5}% 49
-\BOOKMARK [3][-]{subsubsection.4.5.5}{Display Time}{subsection.4.5}% 50
-\BOOKMARK [2][-]{subsection.4.6}{Summary}{section.4}% 51
-\BOOKMARK [1][-]{section.5}{Results}{}% 52
-\BOOKMARK [2][-]{subsection.5.1}{Demo Case}{section.5}% 53
-\BOOKMARK [2][-]{subsection.5.2}{Text Length}{section.5}% 54
-\BOOKMARK [2][-]{subsection.5.3}{Distance to the QR Code}{section.5}% 55
-\BOOKMARK [2][-]{subsection.5.4}{Complexity of the QR Code}{section.5}% 56
-\BOOKMARK [2][-]{subsection.5.5}{Display Time}{section.5}% 57
-\BOOKMARK [2][-]{subsection.5.6}{Summary}{section.5}% 58
-\BOOKMARK [1][-]{section.6}{Conclusions}{}% 59
-\BOOKMARK [2][-]{subsection.6.1}{Personal User Experience}{section.6}% 60
-\BOOKMARK [2][-]{subsection.6.2}{Project Evaluation}{section.6}% 61
-\BOOKMARK [2][-]{subsection.6.3}{Back End Conclusions}{section.6}% 62
-\BOOKMARK [2][-]{subsection.6.4}{Future Work}{section.6}% 63
-\BOOKMARK [3][-]{subsubsection.6.4.1}{Official approval of Voice Commands}{subsection.6.4}% 64
-\BOOKMARK [3][-]{subsubsection.6.4.2}{TextResultProcessor}{subsection.6.4}% 65
-\BOOKMARK [3][-]{subsubsection.6.4.3}{A General Fragment}{subsection.6.4}% 66
-\BOOKMARK [2][-]{subsection.6.5}{Concluding Remarks}{section.6}% 67
-\BOOKMARK [1][-]{section*.74}{References}{}% 68
-\BOOKMARK [1][-]{appendix.A}{Abbreviations}{}% 69
-\BOOKMARK [1][-]{appendix.B}{Results}{}% 70
-\BOOKMARK [1][-]{appendix.C}{Code}{}% 71
-\BOOKMARK [2][-]{subsection.C.1}{Google Glass application}{appendix.C}% 72
-\BOOKMARK [2][-]{subsection.C.2}{Smartphone application}{appendix.C}% 73
-\BOOKMARK [1][-]{appendix.D}{Project Specification \(In Swedish\)}{}% 74
+\BOOKMARK [3][-]{subsubsection.4.5.1}{Text Length}{subsection.4.5}% 46
+\BOOKMARK [3][-]{subsubsection.4.5.2}{Distance to the QR Code}{subsection.4.5}% 47
+\BOOKMARK [3][-]{subsubsection.4.5.3}{Complexity of the QR Code}{subsection.4.5}% 48
+\BOOKMARK [3][-]{subsubsection.4.5.4}{Display Time}{subsection.4.5}% 49
+\BOOKMARK [2][-]{subsection.4.6}{Summary}{section.4}% 50
+\BOOKMARK [1][-]{section.5}{Results}{}% 51
+\BOOKMARK [2][-]{subsection.5.1}{Demonstration Case}{section.5}% 52
+\BOOKMARK [2][-]{subsection.5.2}{Text Length}{section.5}% 53
+\BOOKMARK [2][-]{subsection.5.3}{Distance to the QR Code}{section.5}% 54
+\BOOKMARK [2][-]{subsection.5.4}{Complexity of the QR Code}{section.5}% 55
+\BOOKMARK [2][-]{subsection.5.5}{Display Time}{section.5}% 56
+\BOOKMARK [2][-]{subsection.5.6}{Summary}{section.5}% 57
+\BOOKMARK [1][-]{section.6}{Conclusions}{}% 58
+\BOOKMARK [2][-]{subsection.6.1}{Personal User Experience}{section.6}% 59
+\BOOKMARK [2][-]{subsection.6.2}{Project Evaluation}{section.6}% 60
+\BOOKMARK [2][-]{subsection.6.3}{Back-End Conclusions}{section.6}% 61
+\BOOKMARK [2][-]{subsection.6.4}{Future Work}{section.6}% 62
+\BOOKMARK [3][-]{subsubsection.6.4.1}{Official approval of Voice Commands}{subsection.6.4}% 63
+\BOOKMARK [3][-]{subsubsection.6.4.2}{TextResultProcessor}{subsection.6.4}% 64
+\BOOKMARK [3][-]{subsubsection.6.4.3}{A General Fragment}{subsection.6.4}% 65
+\BOOKMARK [2][-]{subsection.6.5}{Concluding Remarks}{section.6}% 66
+\BOOKMARK [1][-]{section*.75}{References}{}% 67
+\BOOKMARK [1][-]{appendix.A}{Abbreviations}{}% 68
+\BOOKMARK [1][-]{appendix.B}{Results}{}% 69
+\BOOKMARK [1][-]{appendix.C}{Code}{}% 70
+\BOOKMARK [2][-]{subsection.C.1}{Google Glass application}{appendix.C}% 71
+\BOOKMARK [2][-]{subsection.C.2}{Smartphone application}{appendix.C}% 72
+\BOOKMARK [1][-]{appendix.D}{Project Specification \(In Swedish\)}{}% 73

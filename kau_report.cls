@@ -314,9 +314,8 @@
 \begin{center}
 
 \noindent
-\begin{minipage}{\approval} {This report is submitted in partial fulfillment 
-of the requirements for the Bachelor's degree in 
-Computer Science. All material in this report which is not my own work
+\begin{minipage}{\approval} {This dissertation is submitted in partial fulfilment 
+of the requirements for the Degree Project for Master of Science in Engineering, Computer Engineering. All material in this dissertation which is not my own work
 has been identified and no material is included for which a degree has
 previously been conferred.}
 \end{minipage}

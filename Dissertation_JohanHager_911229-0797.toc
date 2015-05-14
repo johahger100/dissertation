@@ -1,7 +1,7 @@
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}
 \contentsline {subsection}{\numberline {1.1}Discontinuance of the Explorer Program}{3}{subsection.1.1}
-\contentsline {subsection}{\numberline {1.2}Back End}{3}{subsection.1.2}
-\contentsline {subsection}{\numberline {1.3}Hypothesis}{4}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.2}Back-End}{3}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Expected Results}{4}{subsection.1.3}
 \contentsline {subsection}{\numberline {1.4}Project Results}{4}{subsection.1.4}
 \contentsline {subsection}{\numberline {1.5}Dissertation Layout}{5}{subsection.1.5}
 \contentsline {section}{\numberline {2}Background}{7}{section.2}
@@ -10,21 +10,21 @@
 \contentsline {subsubsection}{\numberline {2.1.2}Heads-Up Display (HUD)}{9}{subsubsection.2.1.2}
 \contentsline {subsubsection}{\numberline {2.1.3}Virtual Reality}{9}{subsubsection.2.1.3}
 \contentsline {subsubsection}{\numberline {2.1.4}Augmented Reality}{10}{subsubsection.2.1.4}
-\contentsline {subsection}{\numberline {2.2}Similar Products}{11}{subsection.2.2}
-\contentsline {subsubsection}{\numberline {2.2.1}Microsoft Hololens\nobreakspace {}\cite {hololens}}{12}{subsubsection.2.2.1}
-\contentsline {subsubsection}{\numberline {2.2.2}Recon Jet\nobreakspace {}\cite {reconJet}}{13}{subsubsection.2.2.2}
-\contentsline {subsubsection}{\numberline {2.2.3}GlassUp\nobreakspace {}\cite {glassUp}}{13}{subsubsection.2.2.3}
-\contentsline {subsubsection}{\numberline {2.2.4}C Wear Interactive Glasses\nobreakspace {}\cite {penny}}{14}{subsubsection.2.2.4}
-\contentsline {subsection}{\numberline {2.3}User Interface}{15}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.2}User Interface}{11}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Similar Products}{15}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}Microsoft Hololens}{15}{subsubsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.2}Recon Jet}{16}{subsubsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.3}GlassUp}{17}{subsubsection.2.3.3}
+\contentsline {subsubsection}{\numberline {2.3.4}C Wear Interactive Glasses}{17}{subsubsection.2.3.4}
 \contentsline {subsection}{\numberline {2.4}A Comparison with Smartphones}{18}{subsection.2.4}
 \contentsline {subsection}{\numberline {2.5}Limitations of Google Glass}{20}{subsection.2.5}
 \contentsline {subsection}{\numberline {2.6}QR Code}{21}{subsection.2.6}
 \contentsline {subsubsection}{\numberline {2.6.1}Decoding}{22}{subsubsection.2.6.1}
-\contentsline {subsection}{\numberline {2.7}Information (and Ways of Presenting Information)}{31}{subsection.2.7}
-\contentsline {subsubsection}{\numberline {2.7.1}Text}{31}{subsubsection.2.7.1}
+\contentsline {subsection}{\numberline {2.7}Information (and Ways of Presenting Information)}{30}{subsection.2.7}
+\contentsline {subsubsection}{\numberline {2.7.1}Text}{30}{subsubsection.2.7.1}
 \contentsline {subsubsection}{\numberline {2.7.2}Images}{31}{subsubsection.2.7.2}
 \contentsline {subsubsection}{\numberline {2.7.3}Audio}{32}{subsubsection.2.7.3}
-\contentsline {subsubsection}{\numberline {2.7.4}Video}{33}{subsubsection.2.7.4}
+\contentsline {subsubsection}{\numberline {2.7.4}Video}{32}{subsubsection.2.7.4}
 \contentsline {subsection}{\numberline {2.8}Summary}{33}{subsection.2.8}
 \contentsline {section}{\numberline {3}Design}{37}{section.3}
 \contentsline {subsection}{\numberline {3.1}Glassware Flow Designer}{38}{subsection.3.1}
@@ -42,33 +42,32 @@
 \contentsline {subsection}{\numberline {4.2}API level}{65}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}Card Layout}{65}{subsection.4.3}
 \contentsline {subsection}{\numberline {4.4}Voice Commands}{68}{subsection.4.4}
-\contentsline {subsection}{\numberline {4.5}Test Cases}{70}{subsection.4.5}
-\contentsline {subsubsection}{\numberline {4.5.1}Experimental Setup}{71}{subsubsection.4.5.1}
-\contentsline {subsubsection}{\numberline {4.5.2}Text Length}{74}{subsubsection.4.5.2}
-\contentsline {subsubsection}{\numberline {4.5.3}Distance to the QR Code}{75}{subsubsection.4.5.3}
-\contentsline {subsubsection}{\numberline {4.5.4}Complexity of the QR Code}{76}{subsubsection.4.5.4}
-\contentsline {subsubsection}{\numberline {4.5.5}Display Time}{77}{subsubsection.4.5.5}
+\contentsline {subsection}{\numberline {4.5}Test Cases}{71}{subsection.4.5}
+\contentsline {subsubsection}{\numberline {4.5.1}Text Length}{74}{subsubsection.4.5.1}
+\contentsline {subsubsection}{\numberline {4.5.2}Distance to the QR Code}{76}{subsubsection.4.5.2}
+\contentsline {subsubsection}{\numberline {4.5.3}Complexity of the QR Code}{76}{subsubsection.4.5.3}
+\contentsline {subsubsection}{\numberline {4.5.4}Display Time}{77}{subsubsection.4.5.4}
 \contentsline {subsection}{\numberline {4.6}Summary}{77}{subsection.4.6}
 \contentsline {section}{\numberline {5}Results}{81}{section.5}
-\contentsline {subsection}{\numberline {5.1}Demo Case}{81}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Text Length}{89}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Distance to the QR Code}{97}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Complexity of the QR Code}{97}{subsection.5.4}
-\contentsline {subsection}{\numberline {5.5}Display Time}{98}{subsection.5.5}
-\contentsline {subsection}{\numberline {5.6}Summary}{99}{subsection.5.6}
-\contentsline {section}{\numberline {6}Conclusions}{101}{section.6}
-\contentsline {subsection}{\numberline {6.1}Personal User Experience}{102}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Project Evaluation}{104}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Back End Conclusions}{104}{subsection.6.3}
-\contentsline {subsection}{\numberline {6.4}Future Work}{105}{subsection.6.4}
-\contentsline {subsubsection}{\numberline {6.4.1}Official approval of Voice Commands}{105}{subsubsection.6.4.1}
-\contentsline {subsubsection}{\numberline {6.4.2}TextResultProcessor}{106}{subsubsection.6.4.2}
-\contentsline {subsubsection}{\numberline {6.4.3}A General Fragment}{107}{subsubsection.6.4.3}
-\contentsline {subsection}{\numberline {6.5}Concluding Remarks}{107}{subsection.6.5}
-\contentsline {section}{References}{109}{section*.74}
-\contentsline {section}{\numberline {A}Abbreviations}{117}{appendix.A}
-\contentsline {section}{\numberline {B}Results}{119}{appendix.B}
-\contentsline {section}{\numberline {C}Code}{129}{appendix.C}
-\contentsline {subsection}{\numberline {C.1}Google Glass application}{129}{subsection.C.1}
-\contentsline {subsection}{\numberline {C.2}Smartphone application}{129}{subsection.C.2}
-\contentsline {section}{\numberline {D}Project Specification (In Swedish)}{131}{appendix.D}
+\contentsline {subsection}{\numberline {5.1}Demonstration Case}{81}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Text Length}{92}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Distance to the QR Code}{98}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Complexity of the QR Code}{99}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}Display Time}{99}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.6}Summary}{100}{subsection.5.6}
+\contentsline {section}{\numberline {6}Conclusions}{103}{section.6}
+\contentsline {subsection}{\numberline {6.1}Personal User Experience}{104}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Project Evaluation}{106}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Back-End Conclusions}{107}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Future Work}{108}{subsection.6.4}
+\contentsline {subsubsection}{\numberline {6.4.1}Official approval of Voice Commands}{108}{subsubsection.6.4.1}
+\contentsline {subsubsection}{\numberline {6.4.2}TextResultProcessor}{109}{subsubsection.6.4.2}
+\contentsline {subsubsection}{\numberline {6.4.3}A General Fragment}{109}{subsubsection.6.4.3}
+\contentsline {subsection}{\numberline {6.5}Concluding Remarks}{110}{subsection.6.5}
+\contentsline {section}{References}{111}{section*.75}
+\contentsline {section}{\numberline {A}Abbreviations}{119}{appendix.A}
+\contentsline {section}{\numberline {B}Results}{121}{appendix.B}
+\contentsline {section}{\numberline {C}Code}{131}{appendix.C}
+\contentsline {subsection}{\numberline {C.1}Google Glass application}{131}{subsection.C.1}
+\contentsline {subsection}{\numberline {C.2}Smartphone application}{131}{subsection.C.2}
+\contentsline {section}{\numberline {D}Project Specification (In Swedish)}{133}{appendix.D}

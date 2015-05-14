@@ -40,9 +40,9 @@ CardBuilder cardBuilder = new CardBuilder(context, CardBuilder.Layout.COLUMNS);
 
 Since the smartphone application also used the ZXing library, but without any pre-existing application, no changes similar to those done to the Google Glass application had to be done for the smartphone application. Instead the smartphone application was built from the beginning to make use of the ZXing library's functionality, similar to how the ZXing library was integrated in the base Google Glass application.
 
-The Google Glass application and the smartphone application are similar in how they are built. However, they look a bit different from each other, as seen in Figure~\ref{umlDiagrams}, which shows a UML diagram over the slide view part of the respective applications. The Google Glass version has a few extra classes revolving result processors.
+The Google Glass application and the smartphone application are similar in how they are built. However, they look a bit different from each other, as seen in Figure~\ref{umlDiagrams}, which shows a UML diagram over the slide view part of the respective applications. The Google Glass version has a few extra classes involving result processors.
 
-The result processors come from the base version of the Google Glass application, where more specific information was expected to be encoded in the QR code. For instance, the base version contained a ISBN processor for books, which was not needed in the application described in this dissertation. In the base version the \texttt{ResultProcessorFactory} returned a specific result processor depending on what information was to be processed. However, in the application only the \texttt{TextResultProcessor} is used and as such also the only remaining \texttt{ResultProcessor}. The Google Glass version should be rebuilt so that the \texttt{DownloadProductTask} replaces all three of the result processor classes. However, such refactoring has not been done at this point. 
+The result processors come from the base version of the Google Glass application, where more specific information was expected to be encoded in the QR code. For instance, the base version contained a ISBN processor for books, which was not needed in the application described in this dissertation. In the base version the \texttt{ResultProcessorFactory} returned a specific result processor depending on which information was to be processed. However, in the application only the \texttt{TextResultProcessor} is used and as such also the only remaining \texttt{ResultProcessor}. The Google Glass version should be rebuilt so that the \texttt{DownloadProductTask} replaces all three of the result processor classes. However, such refactoring has not been done at this point. 
 
 %[TODO UML DIAGRAM ref(uml)]
 
@@ -110,7 +110,7 @@ The first information the user sees displayed on screen after the QR code has be
    		 \qquad
 		\subfloat[The smartphone application.]{{\includegraphics[width=70mm]{images/demo/smartphone/titleCard}}}
    		 \qquad
-		\caption{The title card of the demo application.}
+		\caption{The title card of the application.}
 		\label{glassDemoTitleCard}
 	\end{figure}
 	
@@ -130,7 +130,7 @@ As seen in Figure~\ref{glassDemoComponentText} the text in the Google Glass appl
    		 \qquad
 		\subfloat[The smartphone application.]{{\includegraphics[width=70mm]{images/demo/smartphone/componentText}}}
    		 \qquad
-		\caption{A component slide from the demo application.}
+		\caption{A component slide from the application.}
 		\label{glassDemoComponentText}
 	\end{figure}
 
@@ -147,7 +147,7 @@ As seen in Figure~\ref{glassDemoComponentText} the text in the Google Glass appl
    		 \qquad
 		\subfloat[The smartphone application.]{{\includegraphics[width=70mm]{images/demo/smartphone/columnImage}}}
    		 \qquad
-		\caption{A component slide from the demo application.}
+		\caption{A component slide from the application.}
 		\label{glassDemoComponentColumn}
 	\end{figure}
 
@@ -170,7 +170,7 @@ As seen in Figure~\ref{glassDemoInstructionImage}, one instruction is described 
    		 \qquad
 		\subfloat[The smartphone application.]{{\includegraphics[width=70mm]{images/demo/smartphone/instructionImage}}}
    		 \qquad
-		\caption{An instruction slide from the demo application.}
+		\caption{An instruction slide from the application.}
 		\label{glassDemoInstructionImage}
 	\end{figure}
 	

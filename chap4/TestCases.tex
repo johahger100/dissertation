@@ -1,6 +1,6 @@
-The following section describes how the tests were set up and carried out.
-
-\subsubsection{Experimental Setup}
+%The following section describes how the tests were set up and carried out.
+%
+%\subsubsection{Experimental Setup}
 The tests were carried out using an optical bench to guarantee scientific accuracy. The experimental setup contained an optical bench, with a screen holder at the zero point, where the QR code was positioned. The device being tested, Google Glass or smartphone, was then positioned at the specified mark on the optical bench using a clamp and pointed towards the QR code. See Figure~\ref{experimentalSetup} for a better understanding of the experimental setup. 
 
 As seen in Figure~\ref{experimentalSetup} Google Glass were mounted in such a way that the camera sat a bit closer to the QR code than where the clamp marked on the optical bench. In order to compensate for the slight misalignment the clamp was positioned a few centimeters back from the specified mark and as such not used to determine the distance to the QR code. Instead the camera on Google Glass was used to pinpoint the exact distance to the QR code, and the clamp was positioned in such a way that the camera on Google Glass was at the distance specified in each experiment. In other words, even though the clamp was not at the same distance to the QR code for the smartphone tests as for the Google Glass tests, the camera of each device was.
@@ -57,6 +57,7 @@ Listing~\ref{randomizer} shows how each character was randomly selected. \texttt
 
 A recursive method located the corresponding character and returned the character back up to the calling method \texttt{randchar} which in turns returned the character to the for loop in which a string of random characters were collected.
 
+\newpage
 \begin{lstlisting}[language=Java, caption={The randomizer class}, label=randomizer]
 public RandomizeEnglishText() {
 	doubleList = new ArrayList<>();
@@ -67,22 +68,18 @@ public RandomizeEnglishText() {
 	doubleList.add(doubleList.get(23) + 0.0145984);	// Y
 	doubleList.add(doubleList.get(24) + 0.0007836);	// Z
 	doubleList.add(doubleList.get(25) + 0.1918182);	// _
-
 	alph = Arrays.asList("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "k", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", " ");
 }
-
 private double randfrom(double min, double max) {
 	Random rand = new Random();
 	double range = (max - min);
 	return min + range * rand.nextDouble();
 }
-
 private String getChar(int pos, double rand) {
 	return (rand <= doubleList.get(pos) || pos+1 <= alph.size()) ?
 		alph.get(pos) :
 		getChar(pos+1, rand);
 }
-
 public String randchar() {
 	double rand = randfrom(0, 1);
 	return getChar(0, rand);

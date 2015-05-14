@@ -58,24 +58,32 @@ Penny (2012).
 \newblock \textit{Penny - Company}.
 \newblock \url{http://www.penny.se/eng/company/company.html} [2015-03-04].
 
-\bibitem{qrcodeDecoding2}
-Bill~Casselman (2013).
-\newblock \textit{How to Read QR Symbols Without Your Mobile Telephone}.
-\newblock \url{http://www.ams.org/samplings/feature-column/fc-2013-02}
-  [2015-03-30].
+\bibitem{ackerman13}
+{Ackerman, Elise} (2013).
+\newblock \textit{Could Google Glass Hurt Your Eyes? A Harvard Vision Scientist
+  And Project Glass Advisor Responds}.
+\newblock
+  \url{http://www.forbes.com/sites/eliseackerman/2013/03/04/could-google-glass-hurt-your-eyes-a-harvard-vision-scientist-and-project-glass-advisor-responds/}
+  [2015-02-23].
 
 \bibitem{smartphoneSizeChart2}
-Christina~Bonnington (2013).
+{Bonnington, Christina} (2013).
 \newblock Smartphone screen sizes keep on growing---but not for much longer.
 \newblock \url{http://www.wired.com/2013/04/why-big-smartphone-screens/}
   [2015-03-02].
 
-\bibitem{glassUpLegal}
-Dan~Farber (2013).
-\newblock \textit{GlassUp takes on Google Glass and Google legal}.
-\newblock
-  \url{http://www.cnet.com/news/glassup-takes-on-google-glass-and-google-legal/}
-  [2015-03-02].
+\bibitem{tedtalkWhyGlass}
+{Brin, Sergey} (2013).
+\newblock \textit{Why Google Glass?} {L}ong {B}each, {U}nited {S}tates of
+  {A}merica.
+\newblock \url{http://www.ted.com/talks/sergey_brin_why_google_glass}
+  [2015-02-02].
+
+\bibitem{qrcodeDecoding2}
+{Casselman, Bill} (2013).
+\newblock \textit{How to Read QR Symbols Without Your Mobile Telephone}.
+\newblock \url{http://www.ams.org/samplings/feature-column/fc-2013-02}
+  [2015-03-30].
 
 \bibitem{qrCodeVersion}
 Demo~Wave (2013).
@@ -97,72 +105,61 @@ Denso~Wave (2013).
 \newblock \textit{What is a QR Code?}
 \newblock \url{http://www.qrcode.com/en/about/} [2015-02-25].
 
-\bibitem{ackerman13}
-Elise~Ackerman (2013).
-\newblock \textit{Could Google Glass Hurt Your Eyes? A Harvard Vision Scientist
-  And Project Glass Advisor Responds}.
+\bibitem{glassUpLegal}
+{Farber, Dan} (2013).
+\newblock \textit{GlassUp takes on Google Glass and Google legal}.
 \newblock
-  \url{http://www.forbes.com/sites/eliseackerman/2013/03/04/could-google-glass-hurt-your-eyes-a-harvard-vision-scientist-and-project-glass-advisor-responds/}
-  [2015-02-23].
+  \url{http://www.cnet.com/news/glassup-takes-on-google-glass-and-google-legal/}
+  [2015-03-02].
 
 \bibitem{ImagesGoogleGlassUI}
 Google (2013).
 \newblock \textit{Google Glass How-to: Getting Started} [{O}nline video].
 \newblock \url{http://youtu.be/4EvNxWhskf8} [2015-02-07].
 
-\bibitem{googleGlassEdition1RAM}
-Jay~Lee (2013).
-\newblock \textit{I realize the with innovative products like Glass, the
-  experience is more...}
-\newblock \url{https://plus.google.com/+JayLee/posts/GwvagwVN6Hz} [2015-03-25].
-
 \bibitem{samsungGalaxyS2Sales}
-Kevin~Kwang (2013).
+{Kwang, Kevin} (2013).
 \newblock \textit{Samsung Galaxy S smartphones slaes hit 100M}.
 \newblock
   \url{http://www.zdnet.com/article/samsung-galaxy-s-smartphones-sales-hit-100m/}
   [2015-03-25].
 
+\bibitem{googleGlassEdition1RAM}
+{Lee, Jay} (2013).
+\newblock \textit{I realize the with innovative products like Glass, the
+  experience is more...}
+\newblock \url{https://plus.google.com/+JayLee/posts/GwvagwVN6Hz} [2015-03-25].
+
+\bibitem{googleGlassCPU}
+{Torborg, Scott}~{Simpson, Star} (2013).
+\newblock \textit{Google Glass Teardown}.
+\newblock \url{http://www.catwig.com/google-glass-teardown/} [2015-04-07].
+
 \bibitem{techLeadManager}
-Matt~Welsh (2013).
+{Welsh, Matt} (2013).
 \newblock \textit{Running a software team at Google}.
 \newblock
   \url{http://matt-welsh.blogspot.com/2013/04/running-software-team-at-google.html}
   [2015-03-03].
 
-\bibitem{tedtalkWhyGlass}
-Sergey~Brin (2013).
-\newblock \textit{Why Google Glass?} {L}ong {B}each, {U}nited {S}tates of
-  {A}merica.
-\newblock \url{http://www.ted.com/talks/sergey_brin_why_google_glass}
-  [2015-02-02].
-
-\bibitem{qrcodeDecoding}
-Andrew~Fuller (2014).
-\newblock \textit{Decoding small QR codes by hand}.
-\newblock \url{http://blog.qartis.com/decoding-small-qr-codes-by-hand/}
-  [2015-03-30].
+\bibitem{samsungGalaxyS3Sales}
+{Agomouh, Fionna} (2014).
+\newblock \textit{Samsung Galaxy S5 Hits 10 Million Sales Mark: Smartphone
+  Beats Galaxy S4 Initial Sales Record By Two Days}.
+\newblock
+  \url{http://www.ibtimes.com/samsung-galaxy-s5-hits-10-million-sales-mark-smartphone-beats-galaxy-s4-initial-sales-1582476}
+  [2015-03-25].
 
 \bibitem{barcodeEye}
 BarcodeEye (2014).
 \newblock \textit{BarcodeEye}.
 \newblock \url{https://github.com/BarcodeEye} [2015-01-27].
 
-\bibitem{smartphoneSizeChart}
-Ben~Taylor (2014).
-\newblock \textit{Why smartphone screens are getting bigger: Specs reveal a
-  surprising story}.
-\newblock
-  \url{http://www.pcworld.com/article/2455169/why-smartphone-screens-are-getting-bigger-specs-reveal-a-surprising-story.html}
-  [2015-02-26].
-
-\bibitem{samsungGalaxyS3Sales}
-Fionna~Agomuoh (2014).
-\newblock \textit{Samsung Galaxy S5 Hits 10 Million Sales Mark: Smartphone
-  Beats Galaxy S4 Initial Sales Record By Two Days}.
-\newblock
-  \url{http://www.ibtimes.com/samsung-galaxy-s5-hits-10-million-sales-mark-smartphone-beats-galaxy-s4-initial-sales-1582476}
-  [2015-03-25].
+\bibitem{qrcodeDecoding}
+{Fuller, Andrew} (2014).
+\newblock \textit{Decoding small QR codes by hand}.
+\newblock \url{http://blog.qartis.com/decoding-small-qr-codes-by-hand/}
+  [2015-03-30].
 
 \bibitem{frameProviders}
 Google (2014).
@@ -199,6 +196,14 @@ Stack~Overflow (2014).
 \newblock
   \url{http://stackoverflow.com/questions/24733681/hide-ok-glass-menu-when-enable-contextual-voice-commands}
   [2015-04-29].
+
+\bibitem{smartphoneSizeChart}
+{Taylor, Ben} (2014).
+\newblock \textit{Why smartphone screens are getting bigger: Specs reveal a
+  surprising story}.
+\newblock
+  \url{http://www.pcworld.com/article/2455169/why-smartphone-screens-are-getting-bigger-specs-reveal-a-surprising-story.html}
+  [2015-02-26].
 
 \bibitem{iosDesignGuidelines}
 Apple (2015).
@@ -504,25 +509,26 @@ Zxing~Project (2015).
 \newblock \textit{Zxing project}.
 \newblock \url{https://github.com/zxing} [2015-01-27].
 
+\bibitem{hoorn}
+{Hoorn, Richard}.
+\newblock \textit{Google Glass: The Design, implementation, and Performance
+  Evaluation of an assembly system for Google Glass}.
+\newblock Master's thesis, Karlstad University, 2015.
+
 \bibitem{qrcodeDecoding3}
 robomatics (2013).
 \newblock \textit{How to Decode a QR Code by Hand} [{Online video}].
 \newblock \url{https://youtu.be/KA8hDldvfv0} [2015-03-30].
 
-\bibitem{googleGlassCPU}
-Star Simspon~(2013) Scott~Torborg.
-\newblock \textit{Google Glass Teardown}.
-\newblock \url{http://www.catwig.com/google-glass-teardown/} [2015-04-07].
-
-\bibitem{6504855}
-Thad Starner.
-\newblock Project glass: An extension of the self.
-\newblock {\em Pervasive Computing, IEEE}, 12(2):14--16, 2013.
-
 \bibitem{informationDef1}
-Einar~Selander Sture~All{\'e}n.
+{All{\'e}n, Sture} {Selander, Einar}.
 \newblock {\em [Information on Information]}.
 \newblock Studentlitteratur, Lund, 1985 (In Swedish).
+
+\bibitem{6504855}
+{Starner, Thad}.
+\newblock Project glass: An extension of the self.
+\newblock {\em Pervasive Computing, IEEE}, 12(2):14--16, 2013.
 
 \bibitem{laramee02}
 {Laramee, Robert S}. {Ware, Colin}.
