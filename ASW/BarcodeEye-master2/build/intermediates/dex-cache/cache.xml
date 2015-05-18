@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\jhager\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.0.0\4c8d1536dba3812cc1592090dc20c47a4ed3c35e\okhttp-2.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4c8d1536dba3812cc1592090dc20c47a4ed3c35e">
+        <dex dex="C:\Users\jhager\Documents\TFS\GG code\Karlstad.EX-JOBB\GoogleGlass\GoogleGlassFrontEnd\ASW\BarcodeEye-master2\app\build\intermediates\pre-dexed\debug\okhttp-2.0.0-de2f2bf4d85cc0af9f8503b620b3752b6700b6d4.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhager\Documents\TFS\GG code\Karlstad.EX-JOBB\GoogleGlass\GoogleGlassFrontEnd\ASW\BarcodeEye-master2\app\libs\zxing-core-2.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e372d5e580d0d10ee36d9cd8cdefbd542450cc5e">
+        <dex dex="C:\Users\jhager\Documents\TFS\GG code\Karlstad.EX-JOBB\GoogleGlass\GoogleGlassFrontEnd\ASW\BarcodeEye-master2\app\build\intermediates\pre-dexed\debug\zxing-core-2.3-e594586b40ed8cfbda4a380cf8d2456043aa3983.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhager\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.0.1\39eff75ddcb987ff65888361a29f489c178429a3\okio-1.0.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="39eff75ddcb987ff65888361a29f489c178429a3">
+        <dex dex="C:\Users\jhager\Documents\TFS\GG code\Karlstad.EX-JOBB\GoogleGlass\GoogleGlassFrontEnd\ASW\BarcodeEye-master2\app\build\intermediates\pre-dexed\debug\okio-1.0.1-ea88776784a1d59ad53a0669ab55fc8ae6318499.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhager\AndroidStudioProjects\BarcodeEye-master2\app\libs\zxing-core-2.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e372d5e580d0d10ee36d9cd8cdefbd542450cc5e">
+        <dex dex="C:\Users\jhager\AndroidStudioProjects\BarcodeEye-master2\app\build\intermediates\pre-dexed\debug\zxing-core-2.3-9a4ae98b1eeceae03bf86409d204432ceeabb616.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhager\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp-urlconnection\2.0.0\afe8399d352713b66e597e9670c741d1e60ae923\okhttp-urlconnection-2.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="afe8399d352713b66e597e9670c741d1e60ae923">
+        <dex dex="C:\Users\jhager\Documents\TFS\GG code\Karlstad.EX-JOBB\GoogleGlass\GoogleGlassFrontEnd\ASW\BarcodeEye-master2\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-2.0.0-e20e1948fd76bba5bb91220313b5a42738c45ad0.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhager\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="C:\Users\jhager\Documents\TFS\GG code\Karlstad.EX-JOBB\GoogleGlass\GoogleGlassFrontEnd\ASW\BarcodeEye-master2\app\build\intermediates\pre-dexed\debug\gson-2.3.1-ebdf95119539f29fb052942c841a53c0b105a7af.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhager\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\1.9.0\a681c044244d9fc375198588297a39ba78028423\retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="C:\Users\jhager\Documents\TFS\GG code\Karlstad.EX-JOBB\GoogleGlass\GoogleGlassFrontEnd\ASW\BarcodeEye-master2\app\build\intermediates\pre-dexed\debug\retrofit-1.9.0-2c91d6168a4a68e78d93869be6b94953c3ee1a50.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhager\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\jhager\AndroidStudioProjects\BarcodeEye-master2\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-e1b3d856d40302e1263cfb71a22eafd2028fa6ee.jar" />
+    </item>
+
+</items>

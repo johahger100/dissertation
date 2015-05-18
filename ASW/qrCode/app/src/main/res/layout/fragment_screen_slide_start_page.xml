@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/productImage"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/productName" />
+    
+    <TextView style="?android:textAppearanceLarge"
+        android:textColor="@android:color/white"
+        android:id="@+id/productName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/productName"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/componentClickable" />
+
+    <TextView style="?android:textAppearanceMedium"
+        android:background="@drawable/textview_border"
+        android:textColor="@android:color/white"
+        android:id="@+id/componentClickable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/componentClickableString"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView style="?android:textAppearanceMedium"
+        android:background="@drawable/textview_border"
+        android:textColor="@android:color/white"
+        android:id="@+id/instructionClickable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/instructionClickableString"
+        android:layout_gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/componentClickable" />
+
+</RelativeLayout>

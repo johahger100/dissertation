@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/imageContent"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"
+        android:paddingBottom="50dp" >
+
+        <TextView style="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:id="@+id/fragmentText"
+            android:padding="16dp"
+            android:lineSpacingMultiplier="1.2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lorem_ipsum" />
+        <!-- LinearLayout might not work as intended, check http://www.curious-creature.com/2010/08/15/scrollviews-handy-trick/comment-page-1/ -->
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/fragmentFooter"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true" >
+
+        <TextView style="?android:textAppearanceSmall"
+            android:textColor="@android:color/white"
+            android:id="@+id/fragmentFooterText"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:padding="16dp"
+            android:lineSpacingMultiplier="1.2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lorem_ipsum" />
+
+        <TextView style="?android:textAppearanceSmall"
+            android:textColor="@android:color/white"
+            android:id="@+id/fragmentTimestampText"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:padding="16dp"
+            android:lineSpacingMultiplier="1.2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lorem_ipsum" />
+
+    </RelativeLayout>
+</RelativeLayout>

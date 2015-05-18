@@ -1,0 +1,8 @@
+C:\Users\jhager\Documents\TFS\GG code\Karlstad.EX-JOBB\GoogleGlass\GoogleGlassFrontEnd\ASW\BarcodeEye-master2\app\build\intermediates\classes\debug
+C:\Users\jhager\Documents\TFS\GG code\Karlstad.EX-JOBB\GoogleGlass\GoogleGlassFrontEnd\ASW\BarcodeEye-master2\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-2.0.0-e20e1948fd76bba5bb91220313b5a42738c45ad0.jar
+C:\Users\jhager\Documents\TFS\GG code\Karlstad.EX-JOBB\GoogleGlass\GoogleGlassFrontEnd\ASW\BarcodeEye-master2\app\build\intermediates\pre-dexed\debug\okio-1.0.1-ea88776784a1d59ad53a0669ab55fc8ae6318499.jar
+C:\Users\jhager\Documents\TFS\GG code\Karlstad.EX-JOBB\GoogleGlass\GoogleGlassFrontEnd\ASW\BarcodeEye-master2\app\build\intermediates\pre-dexed\debug\retrofit-1.9.0-2c91d6168a4a68e78d93869be6b94953c3ee1a50.jar
+C:\Users\jhager\Documents\TFS\GG code\Karlstad.EX-JOBB\GoogleGlass\GoogleGlassFrontEnd\ASW\BarcodeEye-master2\app\build\intermediates\pre-dexed\debug\gson-2.3.1-ebdf95119539f29fb052942c841a53c0b105a7af.jar
+C:\Users\jhager\Documents\TFS\GG code\Karlstad.EX-JOBB\GoogleGlass\GoogleGlassFrontEnd\ASW\BarcodeEye-master2\app\build\intermediates\pre-dexed\debug\okhttp-2.0.0-de2f2bf4d85cc0af9f8503b620b3752b6700b6d4.jar
+C:\Users\jhager\Documents\TFS\GG code\Karlstad.EX-JOBB\GoogleGlass\GoogleGlassFrontEnd\ASW\BarcodeEye-master2\app\build\intermediates\pre-dexed\debug\zxing-core-2.3-e594586b40ed8cfbda4a380cf8d2456043aa3983.jar
+C:\Users\jhager\Documents\TFS\GG code\Karlstad.EX-JOBB\GoogleGlass\GoogleGlassFrontEnd\ASW\BarcodeEye-master2\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-e1b3d856d40302e1263cfb71a22eafd2028fa6ee.jar

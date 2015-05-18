@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Use the constants defined in the ContextualMenus.Command enum-->
+    <!--
+        <item
+            android:id="@+id/show_menu_item"
+            android:title="@string/show_me_string" >
+            <menu>
+    -->
+            <item
+                android:id="@+id/next_menu_item"
+                android:title="@string/next_slide_string" >
+            </item>
+            <item
+                android:id="@+id/previous_menu_item"
+                android:title="@string/previous_slide_string" >
+            </item>
+            <item
+                android:id="@+id/components_menu_item"
+                android:title="@string/components_string" >
+            </item>
+            <item
+                android:id="@+id/instructions_menu_item"
+                android:title="@string/instructions_string" >
+            </item>
+    <!--
+        </menu>
+    </item>
+    -->
+
+    <item
+        android:id="@+id/scan_menu_item"
+        android:title="@string/scan_again_string">
+    </item>
+
+</menu><!-- From: file:/C:/Users/jhager/Documents/TFS/GG%20code/Karlstad.EX-JOBB/GoogleGlass/GoogleGlassFrontEnd/ASW/BarcodeEye-master2/app/src/main/res/menu/main.xml -->

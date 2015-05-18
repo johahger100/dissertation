@@ -7,7 +7,7 @@ The application should also be tried out by a general public for an extensive pe
 \subsubsection{Official approval of Voice Commands}
 The voice commands used in the Google Glass application have not yet been officially approved by Google, nor have they been submitted to Google. Since the discontinuation of the Google Glass Explorer programme Google has removed the voice command approval form, which developers were meant to fill in and submit to Google.
 
-Having custom-made, contextual voice commands officially approved by Google was a requirement for Google Glass applications with custom-made, contextual voice commands to be released on MyGlass. If this requirement is still present when the new version of Google Glass is eventually is released remains to be seen.
+Having custom-made, contextual voice commands officially approved by Google was a requirement for Google Glass applications with custom-made, contextual voice commands to be released on MyGlass. Whether this requirement is still present when the new version of Google Glass is eventually is released remains to be seen.
 
 Potentially customised voice commands could be designed using the voice recognition feature built in to the Android operating system. However, doing so would require a design similar to that of Google's contextual voice command system, which uses ``ok glass'' as the phrase that loads up the voice command menu and listens for other voice commands. An application which always listens for all voice commands could become difficult to use in a noisy environment since Google Glass would listen for several phrases, instead of one specific phrase.
 
@@ -19,7 +19,7 @@ Potentially customised voice commands could be designed using the voice recognit
 \subsubsection{TextResultProcessor}
 In the Google Glass application the class \texttt{TextResultProcessor} is not required any more and should as such be removed. At this point the \texttt{TextResultProcessor} class is only used as middleware between an instance of the \texttt{Products} class, sent as an argument from the \texttt{DownloadProductTask} class, and a list of \texttt{CardPresenter}. Instead the \texttt{CardPresenter} class should only be instanced once for each product, and keep the instance of the Products class itself.
 
-The reason the \texttt{TextResultProcessor} class exists in the first place is due to how the Google Glass application was originally built, were all information presented was encoded directly in the QR code. At that point the \texttt{TextResultProcessor} was used when the encoded information was a text string. At this point the only information encoded in the QR codes are product ID:s.
+The reason the \texttt{TextResultProcessor} class exists in the first place is due to how the Google Glass application was originally built, where all information presented was encoded directly in the QR code. At that point the \texttt{TextResultProcessor} was used when the encoded information was a text string. At this point the only information encoded in the QR codes are product ID:s.
 
 The smartphone application already functions in this way, where the information stored in the instance of the \texttt{Products} class is used directly when a slide is created, instead of first being sorted through a middleware class.
 
