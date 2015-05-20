@@ -202,7 +202,7 @@
 
 
 \newcommand{\makeswekautitle}{%
-\ackname{Tack}
+\ackname{Acknowledgements}
 \enlargethispage{5cm}
 \voffset = -2.5cm
 \thispagestyle{empty}
@@ -220,13 +220,15 @@
 
       \vspace*{\stretch{1}}
 
-      {\LARGE\bf \@title\par}
+      {\LARGE\bf {{En Utv{\"a}rdering av Google Glass\\ 
+\large Design, Implementation and Utv{\"a}rdering av en Produktsammans{\"a}ttningsapplikation f{\H o}r\\ Google Glass och Smarttelefoner}
+}\par}
       \vspace*{\stretch{2.2}}
 
      \hrule
      \vspace*{0.5cm}
 
-     Examensarbete \\ \@pubnum
+     Examensarbete f{\H o}r Civilingenj{\H o}rsexamen i Datateknik \\ Juni, 2015
    \end{center}
    \pagebreak
    \voffset = 0cm

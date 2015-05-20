@@ -1,4 +1,4 @@
-Overall the results show that Google Glass was slower than the smartphones in all stages of the application. Google Glass performed about half a second slower than the smartphones, where Samsung Galaxy SIII proved to be faster than Samsung Galaxy SII. Using different complexities of the QR code Google Glass was only able to read the QR code encoding one character. The Samsung Galaxy SII managed to read the QR code encoding 50 characters, however not the QR code encoding 100 characters. The Samsung Galaxy SIII managed to read all three of the QR codes which represented three increasing levels of complexity.
+Overall the results show that Google Glass was slower than the smartphones in all stages of the application. Google Glass performed about half a second slower than the smartphones, where the Samsung Galaxy SIII proved to be faster than the Samsung Galaxy SII. Using different complexities of the QR code Google Glass was only able to read the QR code encoding one character. The Samsung Galaxy SII managed to read the QR code encoding 50 characters, however not the QR code encoding 100 characters. The Samsung Galaxy SIII managed to read all three of the QR codes which represented three increasing levels of complexity.
 
 Google Glass can also only show somewhere between 200 and 220 characters on screen at the same time, when using a layout design where only text is presented. Using a layout design which displays both text and an image the number of characters Google Glass may show on screen is somewhere between 100 and 120.
 
@@ -12,7 +12,7 @@ Since the layout design for the Google Glass application was used as basis for t
 \subsection{Text Length}
 The following are the results from evaluating the number of characters that may fit on a card in the Google Glass application, both when using only text and when using both text and an image. The test was performed only once for each device since despite randomising the characters used, the text length would not differ significally from one case to another. As seen in the following results none of the tests resulted in an additional card with only one character. Had that been the case, different combinations of characters may have changed the number of cards necessary to display all of the information. As that is not the case only one test was deemed sufficient enough to determine the number of card required to display the same information as displayed on a smartphone device.
 
-However, some trial and error was part of the process of finding how many characters would fill the smartphone screens. 550 was deemed a suitable number for Samsung Galaxy SII och 750 was deemed a suitable number for Samsung Galaxy SIII, as that many characters filled up the screen and yet still left some room for longer characters or longer words, as seen in Figure~\ref{glassTestTextLengthRaw}. For Samsung Galaxy SII, 600 characters did not fit on the screen, and for Samsung Galaxy SIII, 800 characters did not fit on the screen. As such 550 and 750 respectively was set as the maximum number of characters, although depending on the characters being displayed the text may use up more or less space since an 'i' does not take up as much space as a 'w'. The filled smartphone screens can be seen in Figure~\ref{glassTestTextLengthRaw}.
+However, some trial and error was part of the process of finding how many characters would fill the smartphone screens. 550 was deemed a suitable number for the Samsung Galaxy SII och 750 was deemed a suitable number for the Samsung Galaxy SIII, as that many characters filled up the screen and yet still left some room for longer characters or longer words, as seen in Figure~\ref{glassTestTextLengthRaw}. For the Samsung Galaxy SII, 600 characters did not fit on the screen, and for the Samsung Galaxy SIII, 800 characters did not fit on the screen. As such 550 and 750 respectively was set as the maximum number of characters, although depending on the characters being displayed the text may use up more or less space since an 'i' does not take up as much space as a 'w'. The filled smartphone screens can be seen in Figure~\ref{glassTestTextLengthRaw}.
 
 	\begin{figure}[H]%ht!]
 		\centering
@@ -24,7 +24,7 @@ However, some trial and error was part of the process of finding how many charac
 		\label{glassTestTextLengthRaw}
 	\end{figure}
 
-When translating the results from the smartphones to Google Glass the same text was used and simply copied over to the Google Glass application. The result of the text that filled the Samsug Galaxy SIII screen, seen in Figure~\ref{glassTestTextLengthRaw}~(a), can be seen in Figure~\ref{glassTestTextLengthS2Text}. As seen the text that filled the Samsung Galaxy SII screen took up roughly two and a half cards in the Google Glass application. Although the screen is nearly filled in Figure~\ref{glassTestTextLengthS2Text}~(c) the text is dynamically sized depending on the amount of text being displayed. As such the card can be deemed about half full. Table~\ref{tab:glassTestTextLengthS2TextTable} shows the exact number of characters and words on each card, showing that the last card contains about half the number och characters as the other two cards.
+When translating the results from the smartphones to Google Glass the same text was used and simply copied over to the Google Glass application. The result of the text that filled the Samsung Galaxy SIII screen, seen in Figure~\ref{glassTestTextLengthRaw}~(a), can be seen in Figure~\ref{glassTestTextLengthS2Text}. As seen the text that filled the Samsung Galaxy SII screen took up roughly two and a half cards in the Google Glass application. Although the screen is nearly filled in Figure~\ref{glassTestTextLengthS2Text}~(c) the text is dynamically sized depending on the amount of text being displayed. As such the card can be deemed about half full. Table~\ref{tab:glassTestTextLengthS2TextTable} shows the exact number of characters and words on each card, showing that the last card contains about half the number och characters as the other two cards.
 
 	\begin{figure}[H]%ht!]
 		\centering
@@ -34,7 +34,7 @@ When translating the results from the smartphones to Google Glass the same text 
    		 \qquad
 		\subfloat[The third slide.]{{\includegraphics[width=60mm]{images/textLengthTestImages/S2_Text_3}}}
    		 \qquad
-		\caption{Samsung Galaxy SII text.}
+		\caption{The Samsung Galaxy SII text.}
 		\label{glassTestTextLengthS2Text}
 	\end{figure}
 
@@ -63,7 +63,7 @@ The result of using the text that filled the Samsung Galaxy SIII screen, seen in
    		 \qquad
 		\subfloat[The fourth slide.]{{\includegraphics[width=60mm]{images/textLengthTestImages/S3_Text_4}}}
    		 \qquad
-		\caption{Samsung Galaxy SIII text.}
+		\caption{The Samsung Galaxy SIII text.}
 		\label{glassTestTextLengthS3Text}
 	\end{figure}
 
@@ -83,7 +83,7 @@ The result of using the text that filled the Samsung Galaxy SIII screen, seen in
 
 Instructions described in text may also be displayed in combination with an image. When text combined with an image is used as the design layout for a slide the maximum number of characters that can be displayed changes. The image, according to Google's predefined card layout design~\cite{glassDesignStyle}, makes up \(\frac{3}{8}\) of the card, and as such the text makes up the other \(\frac{5}{8}\). As such the maximum number of characters can be calculated using the maximum number of characters used when presenting only text.
 
-For Samsung Galaxy SII the maximum number of characters when using both text and an image was calculated as follows: \[\frac{5}{8}*550~=~343.75\]. As three quarters of a character is of no use the maximum number of characters on the Samsung Galaxy SII screen is 343 characters. The result of using the same text as when displaying only text on Samsung Galaxy SII, only shorten down to 343 characters can be seen in Figure~\ref{glassTestTextLengthS2Columns}, with specific numbers in Table~\ref{tab:glassTestTextLengthS2ColumnsTable}.
+For the Samsung Galaxy SII the maximum number of characters when using both text and an image was calculated as follows: \[\frac{5}{8}*550~=~343.75\]. As three quarters of a character is of no use the maximum number of characters on the Samsung Galaxy SII screen is 343 characters. The result of using the same text as when displaying only text on the  Samsung Galaxy SII, only shorten down to 343 characters can be seen in Figure~\ref{glassTestTextLengthS2Columns}, with specific numbers in Table~\ref{tab:glassTestTextLengthS2ColumnsTable}.
 
 	\begin{figure}[H]%ht!]
 		\centering
@@ -93,7 +93,7 @@ For Samsung Galaxy SII the maximum number of characters when using both text and
    		 \qquad
 		\subfloat[The third slide.]{{\includegraphics[width=60mm]{images/textLengthTestImages/S2_Columns_3}}}
    		 \qquad
-		\caption{Samsung Galaxy SII text and image.}
+		\caption{The Samsung Galaxy SII text and image.}
 		\label{glassTestTextLengthS2Columns}
 	\end{figure}
 
@@ -110,7 +110,7 @@ For Samsung Galaxy SII the maximum number of characters when using both text and
 		\end{tabularx}
 	\end{table}
 
-The maximum number of characters when using both text and and image on Samsung Galaxy SIII was calculated the same way as for Samsung Galaxy SII, as follows: \[\frac{5}{8}*750~=~468.75\]. As three quarters of a character is of no use the maximum number of characters when displaying both text and an image is as such 468 characters. The result of using the same text as in Figure~\ref{glassTestTextLengthRaw}, only shorten down to 468 characters, in the Google Glass application can be seen in Figure~\ref{glassTestTextLengthS3Columns}. The application requires about three and a half card to be able to display all of the text. The exact number of characters and words on each card can be fount in Table~\ref{tab:glassTestTextLengthS3ColumnsTable}.
+The maximum number of characters when using both text and and image on the Samsung Galaxy SIII was calculated the same way as for the Samsung Galaxy SII, as follows: \[\frac{5}{8}*750~=~468.75\]. As three quarters of a character is of no use the maximum number of characters when displaying both text and an image is as such 468 characters. The result of using the same text as in Figure~\ref{glassTestTextLengthRaw}, only shorten down to 468 characters, in the Google Glass application can be seen in Figure~\ref{glassTestTextLengthS3Columns}. The application requires about three and a half card to be able to display all of the text. The exact number of characters and words on each card can be fount in Table~\ref{tab:glassTestTextLengthS3ColumnsTable}.
 
 	\begin{figure}[H]%ht!]
 		\centering
@@ -122,7 +122,7 @@ The maximum number of characters when using both text and and image on Samsung G
    		 \qquad
 		\subfloat[The fourth slide.]{{\includegraphics[width=60mm]{images/textLengthTestImages/S3_Columns_4}}}
    		 \qquad
-		\caption{Samsung Galaxy SIII text and image.}
+		\caption{The Samsung Galaxy SIII text and image.}
 		\label{glassTestTextLengthS3Columns}
 	\end{figure}
 
@@ -162,7 +162,7 @@ In Table~\ref{tab:distanceAverage} the average time for registering and decoding
 
 Table~\ref{tab:complexityAverage} shows the average time for each device to both register and decode a QR code of varying complexity. The distance to the QR codes was two decimeters, as the size of the QR code was optimised for a distance of two decimeters between the QR code and the device. As seen in Table~\ref{tab:complexityAverage} some of the results are infinite, meaning that the device was never able to register the QR code due to the high complexity of the QR code. The Samsung Galaxy SIII was able to both register and decode all three of the QR codes, The Samsung Galaxy SII was not able to decode the most complex QR code and Google Glass was only able to register the simplest QR code.
 
-One explanation as to why Google Glass was not able to register any QR code other than the simplest one would be that the Google Glass camera did not auto focus as well as both Samsung Galaxy SII and Samsung Galaxy SIII. As such the complexity of the QR code made it difficult to register the QR code. The difference can be seen in Figure~\ref{glassDemoQR}. Every single test run for each device can be found in Appendix~\ref{app:results}.
+One explanation as to why Google Glass was not able to register any QR code other than the simplest one would be that the Google Glass camera did not auto focus as well as both the Samsung Galaxy SII and the Samsung Galaxy SIII. As such the complexity of the QR code made it difficult to register the QR code. The difference can be seen in Figure~\ref{glassDemoQR}. Every single test run for each device can be found in Appendix~\ref{app:results}.
 
 	\begin{table}[H]%ht!]
     		\caption{Average time of registering a QR code with varying density.} \label{tab:complexityAverage}
