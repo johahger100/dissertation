@@ -297,6 +297,12 @@ Google (2015).
 \newblock \textit{Card Regions}.
 \newblock \url{https://developers.google.com/glass/design/style} [2015-02-16].
 
+\bibitem{glassAPI}
+Google (2015).
+\newblock \textit{GDK Quick Start}.
+\newblock \url{https://developers.google.com/glass/develop/gdk/quick-start}
+  [2015-05-22].
+
 \bibitem{glasswareFlowDesigner}
 Google (2015).
 \newblock \textit{Glassware Flow Designer}.
@@ -348,6 +354,12 @@ Google (2015).
 \newblock \textit{Tech spechs}.
 \newblock \url{https://support.google.com/glass/answer/3064128?hl=en}
   [2015-02-24].
+
+\bibitem{androidTextSize}
+Google (2015).
+\newblock \textit{Typography}.
+\newblock \url{http://developer.android.com/design/style/typography.html}
+  [2015-05-22].
 
 \bibitem{glassVoiceChecklist}
 Google (2015).
@@ -473,6 +485,12 @@ Wikipedia (2015).
 \newblock \textit{Head-Up Display}.
 \newblock \url{http://en.wikipedia.org/wiki/Head-up_display} [2015-02-23].
 
+\bibitem{ISBN}
+Wikipedia (2015).
+\newblock \textit{International Standard Book Number}.
+\newblock \url{http://en.wikipedia.org/wiki/International_Standard_Book_Number}
+  [2015-05-22].
+
 \bibitem{iphoneWiki}
 Wikipedia (2015).
 \newblock \textit{iPhone}.
@@ -498,6 +516,11 @@ Wikipedia (2015).
 Wikipedia (2015).
 \newblock \textit{Samsung Galaxy SIII}.
 \newblock \url{http://en.wikipedia.org/wiki/Samsung_Galaxy_S_III} [2015-03-25].
+
+\bibitem{singleton}
+Wikipedia (2015).
+\newblock \textit{Singleton Pattern}.
+\newblock \url{http://en.wikipedia.org/wiki/Singleton_pattern} [2015-05-22].
 
 \bibitem{virtualImageWiki}
 Wikipedia (2015).

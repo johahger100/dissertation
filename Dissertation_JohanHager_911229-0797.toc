@@ -2,7 +2,7 @@
 \contentsline {subsection}{\numberline {1.1}Discontinuance of the Explorer Program}{3}{subsection.1.1}
 \contentsline {subsection}{\numberline {1.2}Back-End}{3}{subsection.1.2}
 \contentsline {subsection}{\numberline {1.3}Expected Results}{4}{subsection.1.3}
-\contentsline {subsection}{\numberline {1.4}Project Results}{4}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.4}Project Results}{5}{subsection.1.4}
 \contentsline {subsection}{\numberline {1.5}Dissertation Layout}{5}{subsection.1.5}
 \contentsline {section}{\numberline {2}Background}{7}{section.2}
 \contentsline {subsection}{\numberline {2.1}What is Google Glass?}{8}{subsection.2.1}
@@ -21,51 +21,51 @@
 \contentsline {subsection}{\numberline {2.6}QR Code}{21}{subsection.2.6}
 \contentsline {subsubsection}{\numberline {2.6.1}Decoding}{22}{subsubsection.2.6.1}
 \contentsline {subsection}{\numberline {2.7}Information (and Ways of Presenting Information)}{30}{subsection.2.7}
-\contentsline {subsubsection}{\numberline {2.7.1}Text}{30}{subsubsection.2.7.1}
+\contentsline {subsubsection}{\numberline {2.7.1}Text}{31}{subsubsection.2.7.1}
 \contentsline {subsubsection}{\numberline {2.7.2}Images}{31}{subsubsection.2.7.2}
 \contentsline {subsubsection}{\numberline {2.7.3}Audio}{32}{subsubsection.2.7.3}
-\contentsline {subsubsection}{\numberline {2.7.4}Video}{32}{subsubsection.2.7.4}
-\contentsline {subsection}{\numberline {2.8}Summary}{33}{subsection.2.8}
+\contentsline {subsubsection}{\numberline {2.7.4}Video}{33}{subsubsection.2.7.4}
+\contentsline {subsection}{\numberline {2.8}Summary}{34}{subsection.2.8}
 \contentsline {section}{\numberline {3}Design}{37}{section.3}
 \contentsline {subsection}{\numberline {3.1}Glassware Flow Designer}{38}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Presenting Information on Google Glass}{40}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}Presenting Information on Smartphones}{43}{subsection.3.3}
 \contentsline {subsection}{\numberline {3.4}Test Cases}{45}{subsection.3.4}
 \contentsline {subsubsection}{\numberline {3.4.1}Text Length}{45}{subsubsection.3.4.1}
-\contentsline {subsubsection}{\numberline {3.4.2}Distance to the QR Code}{45}{subsubsection.3.4.2}
+\contentsline {subsubsection}{\numberline {3.4.2}Distance to the QR Code}{46}{subsubsection.3.4.2}
 \contentsline {subsubsection}{\numberline {3.4.3}Complexity of the QR Code}{46}{subsubsection.3.4.3}
-\contentsline {subsubsection}{\numberline {3.4.4}Display Time}{46}{subsubsection.3.4.4}
+\contentsline {subsubsection}{\numberline {3.4.4}Display Time}{47}{subsubsection.3.4.4}
 \contentsline {subsection}{\numberline {3.5}Test Units}{47}{subsection.3.5}
-\contentsline {subsection}{\numberline {3.6}Summary}{48}{subsection.3.6}
+\contentsline {subsection}{\numberline {3.6}Summary}{49}{subsection.3.6}
 \contentsline {section}{\numberline {4}Implementation}{51}{section.4}
 \contentsline {subsection}{\numberline {4.1}Android Studio}{62}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}API level}{62}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.2}API level}{63}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}Card Layout}{63}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Voice Commands}{65}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.4}Voice Commands}{66}{subsection.4.4}
 \contentsline {subsection}{\numberline {4.5}Test Cases}{69}{subsection.4.5}
-\contentsline {subsubsection}{\numberline {4.5.1}Text Length}{72}{subsubsection.4.5.1}
-\contentsline {subsubsection}{\numberline {4.5.2}Distance to the QR Code}{74}{subsubsection.4.5.2}
-\contentsline {subsubsection}{\numberline {4.5.3}Complexity of the QR Code}{74}{subsubsection.4.5.3}
-\contentsline {subsubsection}{\numberline {4.5.4}Display Time}{75}{subsubsection.4.5.4}
-\contentsline {subsection}{\numberline {4.6}Summary}{75}{subsection.4.6}
-\contentsline {section}{\numberline {5}Results}{79}{section.5}
-\contentsline {subsection}{\numberline {5.1}Demonstration Case}{79}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Text Length}{90}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Distance to the QR Code}{97}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Complexity of the QR Code}{97}{subsection.5.4}
-\contentsline {subsection}{\numberline {5.5}Display Time}{98}{subsection.5.5}
-\contentsline {subsection}{\numberline {5.6}Summary}{99}{subsection.5.6}
-\contentsline {section}{\numberline {6}Conclusions}{101}{section.6}
-\contentsline {subsection}{\numberline {6.1}Personal User Experience}{102}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Project Evaluation}{104}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Back-End Conclusions}{105}{subsection.6.3}
-\contentsline {subsection}{\numberline {6.4}Future Work}{106}{subsection.6.4}
-\contentsline {subsubsection}{\numberline {6.4.1}Official approval of Voice Commands}{106}{subsubsection.6.4.1}
-\contentsline {subsubsection}{\numberline {6.4.2}TextResultProcessor}{107}{subsubsection.6.4.2}
-\contentsline {subsubsection}{\numberline {6.4.3}A General Fragment}{107}{subsubsection.6.4.3}
-\contentsline {subsection}{\numberline {6.5}Concluding Remarks}{108}{subsection.6.5}
-\contentsline {section}{References}{109}{section*.72}
-\contentsline {section}{\numberline {A}Abbreviations}{117}{appendix.A}
-\contentsline {section}{\numberline {B}Results}{119}{appendix.B}
-\contentsline {section}{\numberline {C}Code}{129}{appendix.C}
-\contentsline {section}{\numberline {D}Project Specification (In Swedish)}{131}{appendix.D}
+\contentsline {subsubsection}{\numberline {4.5.1}Text Length}{73}{subsubsection.4.5.1}
+\contentsline {subsubsection}{\numberline {4.5.2}Distance to the QR Code}{75}{subsubsection.4.5.2}
+\contentsline {subsubsection}{\numberline {4.5.3}Complexity of the QR Code}{75}{subsubsection.4.5.3}
+\contentsline {subsubsection}{\numberline {4.5.4}Display Time}{76}{subsubsection.4.5.4}
+\contentsline {subsection}{\numberline {4.6}Summary}{76}{subsection.4.6}
+\contentsline {section}{\numberline {5}Results}{81}{section.5}
+\contentsline {subsection}{\numberline {5.1}Demonstration Case}{81}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Text Length}{92}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Distance to the QR Code}{99}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Complexity of the QR Code}{99}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}Display Time}{100}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.6}Summary}{101}{subsection.5.6}
+\contentsline {section}{\numberline {6}Conclusions}{103}{section.6}
+\contentsline {subsection}{\numberline {6.1}Personal User Experience}{104}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Project Evaluation}{106}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Back-End Conclusions}{107}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Future Work}{108}{subsection.6.4}
+\contentsline {subsubsection}{\numberline {6.4.1}Official Approval of Voice Commands}{108}{subsubsection.6.4.1}
+\contentsline {subsubsection}{\numberline {6.4.2}TextResultProcessor}{109}{subsubsection.6.4.2}
+\contentsline {subsubsection}{\numberline {6.4.3}A General Fragment}{109}{subsubsection.6.4.3}
+\contentsline {subsection}{\numberline {6.5}Concluding Remarks}{110}{subsection.6.5}
+\contentsline {section}{References}{111}{section*.72}
+\contentsline {section}{\numberline {A}Abbreviations}{119}{appendix.A}
+\contentsline {section}{\numberline {B}Results}{121}{appendix.B}
+\contentsline {section}{\numberline {C}Code}{131}{appendix.C}
+\contentsline {section}{\numberline {D}Project Specification (In Swedish)}{133}{appendix.D}
